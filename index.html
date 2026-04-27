@@ -390,28 +390,67 @@ async function sendMessage() {
 }
 
 // ---------- End-of-session pipeline ----------
+function parseDebriefMarkers(raw) {
+  const sections = [
+    "TOPIC_SLUG", "DRAFT_MD", "GAPS_UPDATE_MD",
+    "NEXT_SESSION_PLAN_MD", "PROGRESS_REPORT_MD"
+  ];
+  const result = {};
+  for (let i = 0; i < sections.length; i++) {
+    const startMarker = `===${sections[i]}===`;
+    const nextMarker = i + 1 < sections.length
+      ? `===${sections[i + 1]}===`
+      : `===END===`;
+    const startIdx = raw.indexOf(startMarker);
+    if (startIdx === -1) throw new Error(`Brak sekcji ${startMarker} w odpowiedzi`);
+    const contentStart = startIdx + startMarker.length;
+    const endIdx = raw.indexOf(nextMarker, contentStart);
+    const slice = endIdx === -1
+      ? raw.slice(contentStart)
+      : raw.slice(contentStart, endIdx);
+    result[sections[i].toLowerCase()] = slice.trim();
+  }
+  return result;
+}
+
 async function endSession() {
-  if (state.messages.length < 2) {
+  if (state.messages.filter(m => m.role !== "system").length < 2) {
     alert("Sesja jest za krótka — zacznij rozmowę.");
     return;
   }
   showDebrief({ loading: true });
   setStatus("Generuję podsumowanie...");
 
-  const conversationText = state.messages.map(m => `${m.role.toUpperCase()}:\n${m.content}`).join("\n\n");
+  const conversationText = state.messages
+    .filter(m => m.role !== "system")
+    .map(m => `${m.role.toUpperCase()}:\n${m.content}`)
+    .join("\n\n");
   const today = new Date().toISOString().slice(0, 10);
 
-  const debriefPrompt = `Sesja się skończyła. Wygeneruj surowy JSON (BEZ markdown code fence, BEZ wstępu) z czterema kluczami:
+  const debriefPrompt = `Sesja się skończyła. Wygeneruj 5 sekcji oddzielonych markerami w DOKŁADNIE takim formacie. Każdy marker w osobnej linii. NIE używaj JSON, NIE używaj code fences. Treść między markerami to zwykły markdown / tekst — możesz używać dowolnych znaków, w tym niemieckich cudzysłowów „".
 
-{
-  "topic_slug": "<krótki kebab-case po niemiecku, max 4 słowa, np. arztbesuch-symptome>",
-  "draft_md": "<pełen markdown draftu sesji: nagłówek '# ${today} — <tytuł>', sekcja '## Rozmowa' z transkryptem (User: / Tutor:), sekcja '## Kluczowe wzorce' z 2-3 punktami (poprawnie powtórzone LUB błędne wzorce), sekcja '## Słownictwo' z 3-7 nowymi/użytecznymi słówkami>",
-  "gaps_update_md": "<NOWA pełna treść GAPS.md po sesji. Zachowaj strukturę (Active Gaps / Watching / Closed / Session Log). Zasady: nowe wzorzec błędów → Watching; powtórzony z Watching → Active; nieobecny przez 2-3 sesje → Closed. Dopisz nowy wiersz w Session Log z dzisiejszą datą (${today})>",
-  "next_session_plan_md": "<krótki markdown z planem na następną sesję: temat + 3-5 punktów co poruszyć, oparte na top active gaps po tej sesji>",
-  "progress_report_md": "<2-4 zdania po polsku: ile gaps zamkniętych łącznie, jakie wzorce się powtarzają, ogólny trend>"
-}
+===TOPIC_SLUG===
+<krótki kebab-case po niemiecku, max 4 słowa, np. arztbesuch-symptome>
 
-AKTUALNA TREŚĆ GAPS.md (baza do gaps_update_md):
+===DRAFT_MD===
+<pełen markdown draftu sesji:
+- nagłówek "# ${today} — <tytuł po niemiecku>"
+- sekcja "## Rozmowa" z transkryptem (User: / Tutor:)
+- sekcja "## Kluczowe wzorce" z 2-3 punktami (powtórzone poprawnie LUB błędne wzorce)
+- sekcja "## Słownictwo" z 3-7 nowymi/użytecznymi słówkami i tłumaczeniem na polski>
+
+===GAPS_UPDATE_MD===
+<NOWA pełna treść GAPS.md po sesji. Zachowaj strukturę (Active Gaps / Watching / Closed / Session Log). Reguły: nowy wzorzec błędów → Watching; powtórzony z Watching → Active; nieobecny przez 2-3 sesje → Closed. Dopisz nowy wiersz w Session Log z datą ${today}>
+
+===NEXT_SESSION_PLAN_MD===
+<krótki markdown: temat następnej sesji + 3-5 punktów co poruszyć, oparte na top active gaps po tej sesji>
+
+===PROGRESS_REPORT_MD===
+<2-4 zdania po polsku: ile gaps zamkniętych łącznie, jakie wzorce się powtarzają, ogólny trend>
+
+===END===
+
+AKTUALNA TREŚĆ GAPS.md (baza do GAPS_UPDATE_MD):
 ${state.contextFiles["GAPS.md"].content}
 
 TRANSKRYPT SESJI:
@@ -420,29 +459,38 @@ ${conversationText}`;
   try {
     const raw = await claudeChat(
       [{ role: "user", content: debriefPrompt }],
-      "Du bist ein präziser JSON-Generator. Antworte NUR mit gültigem JSON, ohne Code-Fences oder Einleitung.",
-      { max_tokens: 6000 }
+      "Du bist ein präziser Generator. Antworte NUR mit den 5 markierten Sektionen im verlangten Format. Keine Einleitung, keine Code-Fences, keine zusätzlichen Kommentare.",
+      { max_tokens: 8000 }
     );
-    let parsed;
-    try {
-      parsed = JSON.parse(raw);
-    } catch (e) {
-      const match = raw.match(/\{[\s\S]*\}/);
-      if (!match) throw new Error("Claude nie zwrócił JSON-a:\n" + raw.slice(0, 500));
-      parsed = JSON.parse(match[0]);
-    }
+    state.lastDebriefRaw = raw;
+    const parsed = parseDebriefMarkers(raw);
     state.debrief = parsed;
     showDebrief(parsed);
     setStatus("Sprawdź podsumowanie poniżej");
   } catch (e) {
     console.error(e);
     setStatus("Błąd: " + e.message);
-    document.getElementById("debriefContent").innerHTML = `<p style="color:var(--danger)">Błąd: ${escapeHtml(e.message)}</p>`;
+    state.debrief = null;
+    const rawSnippet = (state.lastDebriefRaw || "").slice(0, 800);
+    document.getElementById("debriefContent").innerHTML = `
+      <p style="color:var(--danger)"><strong>Błąd:</strong> ${escapeHtml(e.message)}</p>
+      <button class="btn" id="retryDebrief">Spróbuj ponownie</button>
+      ${rawSnippet ? `<details style="margin-top:16px"><summary>Pokaż surową odpowiedź Claude'a</summary><pre>${escapeHtml(rawSnippet)}</pre></details>` : ""}
+    `;
+    const retryBtn = document.getElementById("retryDebrief");
+    if (retryBtn) retryBtn.addEventListener("click", endSession);
   }
 }
 
 async function commitDebrief() {
-  if (!state.debrief) return;
+  if (!state.debrief) {
+    alert("Brak podsumowania do zapisu. Spróbuj wygenerować je ponownie.");
+    return;
+  }
+  if (!document.getElementById("edit_draft")) {
+    alert("Najpierw wygeneruj podsumowanie (Spróbuj ponownie).");
+    return;
+  }
   setStatus("Zapisuję do GitHub...");
   const today = new Date().toISOString().slice(0, 10);
   try {
