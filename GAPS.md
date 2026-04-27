@@ -8,8 +8,8 @@
 
 ### 1. Kasus — Dativ after prepositions
 Consistent errors with dative prepositions (zu, in, mit, nach, bei, von, seit).
-- ❌ „zu mich" / „in letztes Semester" / **„mit Freunde"**
-- ✅ „zu mir" / „im letzten Semester" / **„mit Freunden"**
+- ❌ „zu mich" / „in letztes Semester" / „mit Freunde"
+- ✅ „zu mir" / „im letzten Semester" / „mit Freunden"
 
 ### 2. Nebensatz word order — verb goes to the END
 The biggest systematic gap. In subordinate clauses (weil, wenn, dass, obwohl...) the verb must be last.
@@ -29,6 +29,11 @@ Knows „hätte" in the if-clause but doesn't follow through with „würde" in 
 - ❌ „fühlt mich fremd an"
 - ✅ „fühlt sich fremd an"
 
+### 6. studieren vs. lernen
+Repeated use of „studieren" where „lernen" is required (vocabulary learning, exam preparation).
+- ❌ „ich studiere viel" (przed egzaminem)
+- ✅ „ich lerne viel" / „ich lerne für die Prüfung"
+
 ---
 
 ## Watching
@@ -36,7 +41,6 @@ Knows „hätte" in the if-clause but doesn't follow through with „würde" in 
 
 - **Partizip II of irregular verbs**: „gewissen" statt „gewusst"
 - **Noun gender**: „die Lehrer" statt „der Lehrer"
-- **studieren vs. lernen**: uses „studieren" for vocabulary/language learning
 - **Polish interference**: slips into Polish when German word is missing
 
 ---
@@ -55,4 +59,5 @@ Knows „hätte" in the if-clause but doesn't follow through with „würde" in 
 
 | Date | Topic | Gaps Targeted | New Gaps Found |
 |------|-------|---------------|----------------|
-| 2026-04-27 | Alltag nach der Uni | — | Kasus Dativ mit Präpositionen (mit + D) |
+| 2026-04-20 | Alltag nach der Uni | — | Kasus Dativ mit Präpositionen (mit + D); studieren vs. lernen (Watching) |
+| 2026-04-27 | Prüfungsstress und Studienalltag | studieren vs. lernen | studieren vs. lernen → Active (powtórzony wzorzec) |
