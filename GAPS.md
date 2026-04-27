@@ -1,0 +1,58 @@
+# Gap Tracker
+
+**How this works:** Updated at the end of every session. Active gaps are the target for the next session. A gap is closed only when it stops appearing across 2-3 sessions.
+
+---
+
+## Active Gaps
+
+### 1. Nebensatz word order — verb goes to the END
+The biggest systematic gap. In subordinate clauses (weil, wenn, dass, obwohl...) the verb must be last.
+- ❌ „wenn ich habe nicht gewissen, dass die Lehrer hat zu mich sprecht"
+- ✅ „wenn ich nicht gewusst habe, dass der Lehrer zu mir gesprochen hat"
+
+### 2. Kasus — Dativ after prepositions
+Consistent errors with dative prepositions (zu, in, mit, nach, bei, von, seit).
+- ❌ „zu mich" / „in letztes Semester"
+- ✅ „zu mir" / „im letzten Semester"
+
+### 3. Verb conjugation — ich-form
+- ❌ „wird ich" / „möchten" (for ich)
+- ✅ „werde ich" / „möchte"
+
+### 4. Konjunktiv II — main clause
+Knows „hätte" in the if-clause but doesn't follow through with „würde" in the main clause.
+- ❌ „wenn ich mehr Freizeit hätte, werde ich..."
+- ✅ „wenn ich mehr Freizeit hätte, würde ich..."
+
+### 5. Reflexive verbs
+- ❌ „fühlt mich fremd an"
+- ✅ „fühlt sich fremd an"
+
+---
+
+## Watching
+*(appeared once — not yet a confirmed pattern)*
+
+- **Partizip II of irregular verbs**: „gewissen" statt „gewusst"
+- **Noun gender**: „die Lehrer" statt „der Lehrer"
+- **studieren vs. lernen**: uses „studieren" for vocabulary/language learning
+- **Polish interference**: slips into Polish when German word is missing
+
+---
+
+## Closed
+*(mastered — not drilling)*
+
+- Perfekt formation (mostly correct)
+- „hätte" in Konjunktiv II if-clause
+- Basic main clause structure (SVO)
+- Medical vocabulary (Innere Medizin, Radiologie, Orthopädie)
+
+---
+
+## Session Log
+
+| Date | Topic | Gaps Targeted | New Gaps Found |
+|------|-------|---------------|----------------|
+| 2026-04-27 | Assessment conversation | — | Nebensatz, Dativ, Konjunktiv II, Reflexivverben, ich-Konjugation |

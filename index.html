@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Niemiec — Twój tutor niemieckiego</title>
+<style>
+  :root {
+    --bg: #0f1115;
+    --panel: #181b22;
+    --panel-2: #21252e;
+    --border: #2a2f3a;
+    --text: #e6e8ee;
+    --text-dim: #8a93a6;
+    --accent: #f5a623;
+    --user: #2f74ff;
+    --assistant: #21252e;
+    --danger: #ff5a5f;
+    --good: #46c98b;
+  }
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0; padding: 0; height: 100%;
+    background: var(--bg); color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+    font-size: 15px; line-height: 1.5;
+  }
+  #app { height: 100vh; display: flex; flex-direction: column; }
+  .screen { flex: 1; display: flex; flex-direction: column; min-height: 0; }
+  .hidden { display: none !important; }
+
+  /* Setup */
+  #setup {
+    align-items: center; justify-content: center; padding: 40px 20px;
+  }
+  #setup .card {
+    width: 100%; max-width: 480px; background: var(--panel);
+    border: 1px solid var(--border); border-radius: 16px; padding: 32px;
+  }
+  #setup h1 { margin: 0 0 4px; font-size: 28px; }
+  #setup .sub { color: var(--text-dim); margin-bottom: 24px; }
+  #setupForm label { display: block; margin: 16px 0 6px; font-size: 13px; color: var(--text-dim); }
+  #setupForm input {
+    width: 100%; padding: 10px 12px; border-radius: 8px;
+    background: var(--panel-2); border: 1px solid var(--border);
+    color: var(--text); font-size: 14px; font-family: inherit;
+  }
+  #setupForm input:focus { outline: none; border-color: var(--accent); }
+  #setupForm small { color: var(--text-dim); display: block; margin-top: 4px; font-size: 12px; }
+  .btn {
+    background: var(--accent); color: #0f1115; border: none; padding: 10px 18px;
+    border-radius: 8px; cursor: pointer; font-weight: 600; font-size: 14px;
+    transition: opacity 0.15s;
+  }
+  .btn:hover { opacity: 0.9; }
+  .btn.secondary { background: var(--panel-2); color: var(--text); border: 1px solid var(--border); }
+  .btn.danger { background: var(--danger); color: white; }
+  .btn-block { width: 100%; margin-top: 24px; padding: 12px; }
+
+  /* Chat */
+  #chat header {
+    padding: 12px 20px; border-bottom: 1px solid var(--border);
+    display: flex; align-items: center; gap: 12px; background: var(--panel);
+  }
+  #chat header h2 { margin: 0; font-size: 16px; }
+  #chat header .status { color: var(--text-dim); font-size: 13px; flex: 1; }
+  .icon-btn {
+    background: transparent; border: 1px solid var(--border); color: var(--text);
+    width: 36px; height: 36px; border-radius: 8px; cursor: pointer;
+    font-size: 16px; display: flex; align-items: center; justify-content: center;
+  }
+  .icon-btn:hover { background: var(--panel-2); }
+  .icon-btn.active { background: var(--accent); color: #0f1115; border-color: var(--accent); }
+
+  #messages {
+    flex: 1; overflow-y: auto; padding: 24px 20px; display: flex; flex-direction: column; gap: 12px;
+  }
+  .msg {
+    max-width: 720px; padding: 10px 14px; border-radius: 14px;
+    white-space: pre-wrap; word-wrap: break-word;
+  }
+  .msg.user {
+    background: var(--user); color: white; align-self: flex-end;
+    border-bottom-right-radius: 4px;
+  }
+  .msg.assistant {
+    background: var(--assistant); color: var(--text); align-self: flex-start;
+    border: 1px solid var(--border); border-bottom-left-radius: 4px;
+  }
+  .msg.system {
+    background: transparent; color: var(--text-dim); font-style: italic;
+    align-self: center; font-size: 13px;
+  }
+
+  #chat footer {
+    padding: 12px 20px; border-top: 1px solid var(--border);
+    display: flex; gap: 8px; align-items: flex-end; background: var(--panel);
+  }
+  #input {
+    flex: 1; resize: none; padding: 10px 12px; border-radius: 10px;
+    background: var(--panel-2); border: 1px solid var(--border); color: var(--text);
+    font-family: inherit; font-size: 15px; line-height: 1.4;
+    min-height: 44px; max-height: 200px;
+  }
+  #input:focus { outline: none; border-color: var(--accent); }
+
+  /* Modal */
+  .modal {
+    position: fixed; inset: 0; background: rgba(0,0,0,0.6);
+    display: flex; align-items: center; justify-content: center; padding: 20px; z-index: 100;
+  }
+  .modal-content {
+    background: var(--panel); border: 1px solid var(--border); border-radius: 16px;
+    padding: 24px; max-width: 900px; width: 100%; max-height: 90vh; overflow-y: auto;
+  }
+  .modal-content h2 { margin-top: 0; }
+  .modal-content h3 { margin-top: 24px; color: var(--accent); font-size: 14px; text-transform: uppercase; letter-spacing: 0.5px; }
+  .modal-content pre {
+    background: var(--panel-2); padding: 12px; border-radius: 8px;
+    white-space: pre-wrap; word-wrap: break-word; font-size: 13px;
+    border: 1px solid var(--border); max-height: 300px; overflow-y: auto;
+  }
+  .modal-content textarea {
+    width: 100%; min-height: 200px; padding: 12px;
+    background: var(--panel-2); border: 1px solid var(--border); border-radius: 8px;
+    color: var(--text); font-family: ui-monospace, monospace; font-size: 13px;
+    resize: vertical;
+  }
+  .actions { display: flex; gap: 8px; margin-top: 24px; justify-content: flex-end; }
+
+  details { margin-top: 12px; }
+  details summary { cursor: pointer; color: var(--text-dim); font-size: 13px; }
+
+  .pill { display: inline-block; padding: 2px 8px; border-radius: 999px; font-size: 11px; background: var(--panel-2); color: var(--text-dim); margin-left: 6px; }
+  .pill.good { background: rgba(70,201,139,0.15); color: var(--good); }
+  .pill.warn { background: rgba(245,166,35,0.15); color: var(--accent); }
+</style>
+</head>
+<body>
+<div id="app">
+
+  <!-- SETUP SCREEN -->
+  <div id="setup" class="screen">
+    <div class="card">
+      <h1>Niemiec</h1>
+      <div class="sub">Twój prywatny tutor niemieckiego — sesje, śledzenie luk i adaptacyjne lekcje.</div>
+      <form id="setupForm">
+        <label>GitHub Personal Access Token</label>
+        <input type="password" id="githubToken" autocomplete="off" required>
+        <small>Z uprawnieniem <code>repo</code>. <a href="https://github.com/settings/tokens/new" target="_blank" style="color: var(--accent)">Wygeneruj tutaj</a>. Trzymany lokalnie w przeglądarce.</small>
+
+        <label>Anthropic API Key</label>
+        <input type="password" id="anthropicKey" autocomplete="off" required>
+        <small><a href="https://console.anthropic.com/settings/keys" target="_blank" style="color: var(--accent)">console.anthropic.com</a> → Settings → API Keys</small>
+
+        <label>Repo (owner/name)</label>
+        <input type="text" id="repoName" value="kubabrzoska8-cmyk/niemiec" required>
+        <small>Repo z plikami CLAUDE.md, CONTEXT.md, GAPS.md i folderem drafts/</small>
+
+        <button class="btn btn-block" type="submit">Zacznij sesję →</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- CHAT SCREEN -->
+  <div id="chat" class="screen hidden">
+    <header>
+      <h2>Niemiec</h2>
+      <div class="status" id="status">Ładowanie...</div>
+      <button class="icon-btn" id="ttsToggle" title="Czytanie odpowiedzi na głos">🔇</button>
+      <button class="btn secondary" id="endSession">Zakończ sesję</button>
+      <button class="icon-btn" id="settings" title="Ustawienia / wyloguj">⚙️</button>
+    </header>
+    <main id="messages"></main>
+    <footer>
+      <button class="icon-btn" id="micBtn" title="Mów po niemiecku">🎤</button>
+      <textarea id="input" rows="1" placeholder="Schreib auf Deutsch... (Enter, by senden, Shift+Enter dla nowej linii)"></textarea>
+      <button class="btn" id="sendBtn">Wyślij</button>
+    </footer>
+  </div>
+
+  <!-- DEBRIEF MODAL -->
+  <div id="debrief" class="modal hidden">
+    <div class="modal-content">
+      <h2>Podsumowanie sesji</h2>
+      <div id="debriefContent"><p>Generuję podsumowanie...</p></div>
+      <div class="actions">
+        <button class="btn secondary" id="cancelDebrief">Anuluj</button>
+        <button class="btn" id="commitBtn">Zatwierdź i zapisz do GitHub</button>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<script>
+"use strict";
+
+const CLAUDE_MODEL = "claude-sonnet-4-5-20250929";
+
+const state = {
+  githubToken: "",
+  anthropicKey: "",
+  repo: "",
+  systemPrompt: "",
+  messages: [],
+  contextFiles: {},
+  ttsEnabled: false,
+  recognition: null,
+  debrief: null,
+  nextSessionHint: "",
+};
+
+// ---------- Storage ----------
+function loadCredentials() {
+  state.githubToken = localStorage.getItem("niemiec_github_token") || "";
+  state.anthropicKey = localStorage.getItem("niemiec_anthropic_key") || "";
+  state.repo = localStorage.getItem("niemiec_repo") || "";
+  state.nextSessionHint = localStorage.getItem("niemiec_next_session") || "";
+}
+function saveCredentials() {
+  localStorage.setItem("niemiec_github_token", state.githubToken);
+  localStorage.setItem("niemiec_anthropic_key", state.anthropicKey);
+  localStorage.setItem("niemiec_repo", state.repo);
+}
+
+// ---------- GitHub API ----------
+async function ghGet(path) {
+  const url = `https://api.github.com/repos/${state.repo}/contents/${encodeURIComponent(path).replace(/%2F/g, "/")}`;
+  const res = await fetch(url, {
+    headers: {
+      "Authorization": `Bearer ${state.githubToken}`,
+      "Accept": "application/vnd.github+json",
+    },
+  });
+  if (res.status === 404) return null;
+  if (!res.ok) throw new Error(`GitHub GET ${path}: ${res.status} ${await res.text()}`);
+  const data = await res.json();
+  if (Array.isArray(data)) return data;
+  // Decode base64 to UTF-8 properly
+  const binary = atob(data.content.replace(/\n/g, ""));
+  const bytes = Uint8Array.from(binary, c => c.charCodeAt(0));
+  const content = new TextDecoder("utf-8").decode(bytes);
+  return { content, sha: data.sha, path: data.path };
+}
+async function ghPut(path, content, message, sha = null) {
+  const url = `https://api.github.com/repos/${state.repo}/contents/${encodeURIComponent(path).replace(/%2F/g, "/")}`;
+  // Encode UTF-8 → bytes → base64
+  const bytes = new TextEncoder().encode(content);
+  let bin = "";
+  for (const b of bytes) bin += String.fromCharCode(b);
+  const encoded = btoa(bin);
+  const body = { message, content: encoded };
+  if (sha) body.sha = sha;
+  const res = await fetch(url, {
+    method: "PUT",
+    headers: {
+      "Authorization": `Bearer ${state.githubToken}`,
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify(body),
+  });
+  if (!res.ok) throw new Error(`GitHub PUT ${path}: ${res.status} ${await res.text()}`);
+  return res.json();
+}
+
+// ---------- Claude API ----------
+async function claudeChat(messages, system, options = {}) {
+  const res = await fetch("https://api.anthropic.com/v1/messages", {
+    method: "POST",
+    headers: {
+      "x-api-key": state.anthropicKey,
+      "anthropic-version": "2023-06-01",
+      "anthropic-dangerous-direct-browser-access": "true",
+      "content-type": "application/json",
+    },
+    body: JSON.stringify({
+      model: options.model || CLAUDE_MODEL,
+      max_tokens: options.max_tokens || 1024,
+      system,
+      messages,
+    }),
+  });
+  if (!res.ok) throw new Error(`Claude API: ${res.status} ${await res.text()}`);
+  const data = await res.json();
+  return data.content.map(c => c.text || "").join("");
+}
+
+// ---------- Session bootstrap ----------
+async function bootstrapSession() {
+  setStatus("Ładuję pliki z repo...");
+  try {
+    const [claudeMd, contextMd, gapsMd] = await Promise.all([
+      ghGet("CLAUDE.md").catch(() => null),
+      ghGet("CONTEXT.md").catch(() => null),
+      ghGet("GAPS.md").catch(() => null),
+    ]);
+    if (!gapsMd) throw new Error("Nie znaleziono GAPS.md w repo. Sprawdź nazwę repo i token.");
+    state.contextFiles = { "CLAUDE.md": claudeMd, "CONTEXT.md": contextMd, "GAPS.md": gapsMd };
+
+    setStatus("Ładuję ostatnie sesje...");
+    let recentDrafts = [];
+    try {
+      const drafts = await ghGet("drafts");
+      if (Array.isArray(drafts)) {
+        const mdFiles = drafts.filter(f => f.type === "file" && f.name.endsWith(".md"))
+                              .sort((a, b) => b.name.localeCompare(a.name));
+        for (let i = 0; i < Math.min(3, mdFiles.length); i++) {
+          const d = await ghGet(`drafts/${mdFiles[i].name}`);
+          if (d) recentDrafts.push({ name: mdFiles[i].name, content: d.content });
+        }
+      }
+    } catch (e) { console.warn("No drafts yet:", e); }
+
+    state.systemPrompt = buildSystemPrompt(claudeMd, contextMd, gapsMd, recentDrafts);
+
+    setStatus("Generuję plan sesji...");
+    const opener = state.nextSessionHint
+      ? `[SESSION_START] Plan z poprzedniego razu: ${state.nextSessionHint}\n\nBegrüße Jakub kurz auf Deutsch und steige direkt in das geplante Thema ein. Stelle eine konkrete Einstiegsfrage.`
+      : `[SESSION_START] Begrüße Jakub kurz und schlage ein Gesprächsthema vor, das auf seine Top 2-3 Active Gaps zielt. Stelle eine konkrete Einstiegsfrage.`;
+    const opening = await claudeChat(
+      [{ role: "user", content: opener }],
+      state.systemPrompt,
+      { max_tokens: 600 }
+    );
+    state.messages = []; // reset visible messages; opener wasn't a real user turn
+    state.messages.push({ role: "assistant", content: opening });
+    renderMessages();
+    if (state.ttsEnabled) speak(opening);
+    setStatus("Gotowe — odpowiadaj po niemiecku");
+  } catch (e) {
+    console.error(e);
+    setStatus("Błąd: " + e.message);
+    addSystemNote("⚠ " + e.message);
+  }
+}
+
+function buildSystemPrompt(claudeMd, contextMd, gapsMd, recentDrafts) {
+  const draftsText = recentDrafts.map(d => `### ${d.name}\n${d.content.slice(0, 1500)}`).join("\n\n");
+  return `Du bist ein deutscher Sprachtutor für Jakub, einen polnischen Medizinstudenten, der konversationelle Flüssigkeit und deutsche Medizinprüfungen anstrebt.
+
+REGELN:
+- Sprich nur Deutsch (Polnisch nur, wenn Jakub explizit nach Übersetzung fragt).
+- Korrigiere Fehler durch RECASTING: wiederhole Jakubs Aussage richtig im nächsten Satz, ohne ihn zu unterbrechen oder zu lecturen.
+- Konzentriere dich auf seine TOP ACTIVE GAPS (siehe GAPS.md). Adressiere nicht jeden Fehler — wähle Muster, nicht Einzelfälle.
+- Vermische medizinisches Vokabular natürlich, wenn es passt (Innere Medizin, Radiologie, Orthopädie sind seine Stärken).
+- Stelle immer eine Folgefrage, halte das Gespräch lebendig.
+- Passe die Schwierigkeit an: wenn Jakub flüssig antwortet, mach es härter; wenn er kämpft, vereinfache.
+- Halte Antworten kurz (2-4 Sätze normalerweise) — es ist ein Gespräch, kein Vortrag.
+
+VERMEIDE:
+- Lange Grammatikerklärungen.
+- Jeden einzelnen Fehler markieren.
+- Phrasebook- oder Lehrbuchstil.
+- Themen wiederholen, in denen Jakub bereits gut ist.
+
+— PROJECT INSTRUCTIONS (CLAUDE.md) —
+${claudeMd?.content || "(brak)"}
+
+— SESSION RULES (CONTEXT.md) —
+${contextMd?.content || "(brak)"}
+
+— ACTIVE GAPS (GAPS.md) —
+${gapsMd?.content || "(brak)"}
+
+${draftsText ? `— RECENT SESSIONS (last ${recentDrafts.length}) —\n${draftsText}` : ""}`;
+}
+
+// ---------- Chat ----------
+async function sendMessage() {
+  const input = document.getElementById("input");
+  const text = input.value.trim();
+  if (!text) return;
+  input.value = "";
+  autosizeInput();
+  state.messages.push({ role: "user", content: text });
+  renderMessages();
+  setStatus("Claude pisze...");
+  try {
+    const reply = await claudeChat(state.messages, state.systemPrompt, { max_tokens: 800 });
+    state.messages.push({ role: "assistant", content: reply });
+    renderMessages();
+    if (state.ttsEnabled) speak(reply);
+    setStatus("");
+  } catch (e) {
+    console.error(e);
+    setStatus("Błąd: " + e.message);
+    addSystemNote("⚠ " + e.message);
+  }
+}
+
+// ---------- End-of-session pipeline ----------
+async function endSession() {
+  if (state.messages.length < 2) {
+    alert("Sesja jest za krótka — zacznij rozmowę.");
+    return;
+  }
+  showDebrief({ loading: true });
+  setStatus("Generuję podsumowanie...");
+
+  const conversationText = state.messages.map(m => `${m.role.toUpperCase()}:\n${m.content}`).join("\n\n");
+  const today = new Date().toISOString().slice(0, 10);
+
+  const debriefPrompt = `Sesja się skończyła. Wygeneruj surowy JSON (BEZ markdown code fence, BEZ wstępu) z czterema kluczami:
+
+{
+  "topic_slug": "<krótki kebab-case po niemiecku, max 4 słowa, np. arztbesuch-symptome>",
+  "draft_md": "<pełen markdown draftu sesji: nagłówek '# ${today} — <tytuł>', sekcja '## Rozmowa' z transkryptem (User: / Tutor:), sekcja '## Kluczowe wzorce' z 2-3 punktami (poprawnie powtórzone LUB błędne wzorce), sekcja '## Słownictwo' z 3-7 nowymi/użytecznymi słówkami>",
+  "gaps_update_md": "<NOWA pełna treść GAPS.md po sesji. Zachowaj strukturę (Active Gaps / Watching / Closed / Session Log). Zasady: nowe wzorzec błędów → Watching; powtórzony z Watching → Active; nieobecny przez 2-3 sesje → Closed. Dopisz nowy wiersz w Session Log z dzisiejszą datą (${today})>",
+  "next_session_plan_md": "<krótki markdown z planem na następną sesję: temat + 3-5 punktów co poruszyć, oparte na top active gaps po tej sesji>",
+  "progress_report_md": "<2-4 zdania po polsku: ile gaps zamkniętych łącznie, jakie wzorce się powtarzają, ogólny trend>"
+}
+
+AKTUALNA TREŚĆ GAPS.md (baza do gaps_update_md):
+${state.contextFiles["GAPS.md"].content}
+
+TRANSKRYPT SESJI:
+${conversationText}`;
+
+  try {
+    const raw = await claudeChat(
+      [{ role: "user", content: debriefPrompt }],
+      "Du bist ein präziser JSON-Generator. Antworte NUR mit gültigem JSON, ohne Code-Fences oder Einleitung.",
+      { max_tokens: 6000 }
+    );
+    let parsed;
+    try {
+      parsed = JSON.parse(raw);
+    } catch (e) {
+      const match = raw.match(/\{[\s\S]*\}/);
+      if (!match) throw new Error("Claude nie zwrócił JSON-a:\n" + raw.slice(0, 500));
+      parsed = JSON.parse(match[0]);
+    }
+    state.debrief = parsed;
+    showDebrief(parsed);
+    setStatus("Sprawdź podsumowanie poniżej");
+  } catch (e) {
+    console.error(e);
+    setStatus("Błąd: " + e.message);
+    document.getElementById("debriefContent").innerHTML = `<p style="color:var(--danger)">Błąd: ${escapeHtml(e.message)}</p>`;
+  }
+}
+
+async function commitDebrief() {
+  if (!state.debrief) return;
+  setStatus("Zapisuję do GitHub...");
+  const today = new Date().toISOString().slice(0, 10);
+  try {
+    // Pull edited values from textareas (user can tweak before commit)
+    const edited = {
+      draft_md: document.getElementById("edit_draft").value,
+      gaps_update_md: document.getElementById("edit_gaps").value,
+      next_session_plan_md: document.getElementById("edit_next").value,
+      topic_slug: state.debrief.topic_slug.replace(/[^a-z0-9-]/gi, "-").toLowerCase(),
+    };
+    const draftPath = `drafts/${today}_${edited.topic_slug}.md`;
+    await ghPut(draftPath, edited.draft_md, `Session draft: ${edited.topic_slug}`);
+    await ghPut("GAPS.md", edited.gaps_update_md, `Update gaps after ${today} session`, state.contextFiles["GAPS.md"].sha);
+    localStorage.setItem("niemiec_next_session", edited.next_session_plan_md);
+    state.nextSessionHint = edited.next_session_plan_md;
+    setStatus("Zapisane ✓");
+    hideDebrief();
+    addSystemNote(`✓ Sesja zapisana: ${draftPath}. GAPS.md zaktualizowane. Plan na następny raz wczytany.`);
+  } catch (e) {
+    console.error(e);
+    setStatus("Błąd zapisu: " + e.message);
+    alert("Błąd commitu: " + e.message);
+  }
+}
+
+// ---------- Speech ----------
+function setupSpeech() {
+  const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
+  if (SR) {
+    state.recognition = new SR();
+    state.recognition.lang = "de-DE";
+    state.recognition.continuous = false;
+    state.recognition.interimResults = false;
+    state.recognition.onresult = (e) => {
+      const text = e.results[0][0].transcript;
+      const input = document.getElementById("input");
+      input.value = (input.value ? input.value + " " : "") + text;
+      autosizeInput();
+    };
+    state.recognition.onerror = (e) => console.warn("Speech error:", e);
+    state.recognition.onend = () => {
+      document.getElementById("micBtn").classList.remove("active");
+    };
+  }
+}
+function startMic() {
+  if (!state.recognition) {
+    alert("Rozpoznawanie mowy niedostępne. Użyj Chrome / Edge / Safari.");
+    return;
+  }
+  try {
+    state.recognition.start();
+    document.getElementById("micBtn").classList.add("active");
+  } catch (e) { console.warn(e); }
+}
+function speak(text) {
+  if (!("speechSynthesis" in window)) return;
+  const clean = text.replace(/\*\*/g, "").replace(/[*_`]/g, "");
+  const utter = new SpeechSynthesisUtterance(clean);
+  utter.lang = "de-DE";
+  utter.rate = 0.95;
+  const voices = speechSynthesis.getVoices();
+  const deVoice = voices.find(v => v.lang.startsWith("de"));
+  if (deVoice) utter.voice = deVoice;
+  speechSynthesis.cancel();
+  speechSynthesis.speak(utter);
+}
+
+// ---------- UI ----------
+function setStatus(text) {
+  const el = document.getElementById("status");
+  if (el) el.textContent = text;
+}
+function renderMessages() {
+  const main = document.getElementById("messages");
+  main.innerHTML = "";
+  for (const m of state.messages) {
+    const div = document.createElement("div");
+    div.className = `msg ${m.role}`;
+    div.textContent = m.content;
+    main.appendChild(div);
+  }
+  main.scrollTop = main.scrollHeight;
+}
+function addSystemNote(text) {
+  state.messages.push({ role: "system", content: text });
+  renderMessages();
+}
+function showDebrief(parsed) {
+  const modal = document.getElementById("debrief");
+  modal.classList.remove("hidden");
+  const content = document.getElementById("debriefContent");
+  if (parsed.loading) {
+    content.innerHTML = "<p>Generuję podsumowanie...</p>";
+    return;
+  }
+  const today = new Date().toISOString().slice(0, 10);
+  const slug = (parsed.topic_slug || "session").replace(/[^a-z0-9-]/gi, "-").toLowerCase();
+  content.innerHTML = `
+    <p style="color:var(--text-dim);font-size:13px">Możesz edytować poniższe pola przed zapisem.</p>
+
+    <h3>Draft → drafts/${today}_${slug}.md</h3>
+    <textarea id="edit_draft">${escapeHtml(parsed.draft_md || "")}</textarea>
+
+    <h3>Aktualizacja GAPS.md (cała nowa zawartość)</h3>
+    <textarea id="edit_gaps">${escapeHtml(parsed.gaps_update_md || "")}</textarea>
+
+    <h3>Plan na następną sesję (zapisany lokalnie)</h3>
+    <textarea id="edit_next" style="min-height:120px">${escapeHtml(parsed.next_session_plan_md || "")}</textarea>
+
+    <h3>Postęp</h3>
+    <pre>${escapeHtml(parsed.progress_report_md || "")}</pre>
+  `;
+}
+function hideDebrief() {
+  document.getElementById("debrief").classList.add("hidden");
+}
+function escapeHtml(s) {
+  return (s || "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+}
+function showSetup() {
+  document.getElementById("setup").classList.remove("hidden");
+  document.getElementById("chat").classList.add("hidden");
+}
+function showChat() {
+  document.getElementById("setup").classList.add("hidden");
+  document.getElementById("chat").classList.remove("hidden");
+}
+function autosizeInput() {
+  const el = document.getElementById("input");
+  el.style.height = "auto";
+  el.style.height = Math.min(el.scrollHeight, 200) + "px";
+}
+
+// ---------- Event wiring ----------
+function bindEvents() {
+  document.getElementById("setupForm").addEventListener("submit", (e) => {
+    e.preventDefault();
+    state.githubToken = document.getElementById("githubToken").value.trim();
+    state.anthropicKey = document.getElementById("anthropicKey").value.trim();
+    state.repo = document.getElementById("repoName").value.trim();
+    if (!state.githubToken || !state.anthropicKey || !state.repo) return;
+    saveCredentials();
+    showChat();
+    bootstrapSession();
+  });
+  document.getElementById("sendBtn").addEventListener("click", sendMessage);
+  document.getElementById("input").addEventListener("keydown", (e) => {
+    if (e.key === "Enter" && !e.shiftKey) {
+      e.preventDefault();
+      sendMessage();
+    }
+  });
+  document.getElementById("input").addEventListener("input", autosizeInput);
+  document.getElementById("micBtn").addEventListener("click", startMic);
+  document.getElementById("ttsToggle").addEventListener("click", () => {
+    state.ttsEnabled = !state.ttsEnabled;
+    const b = document.getElementById("ttsToggle");
+    b.textContent = state.ttsEnabled ? "🔊" : "🔇";
+    b.classList.toggle("active", state.ttsEnabled);
+  });
+  document.getElementById("endSession").addEventListener("click", endSession);
+  document.getElementById("commitBtn").addEventListener("click", commitDebrief);
+  document.getElementById("cancelDebrief").addEventListener("click", hideDebrief);
+  document.getElementById("settings").addEventListener("click", () => {
+    if (confirm("Wyczyścić zapisane dane (token, klucz, repo) i wylogować?")) {
+      localStorage.clear();
+      location.reload();
+    }
+  });
+}
+
+// ---------- Boot ----------
+function init() {
+  loadCredentials();
+  bindEvents();
+  setupSpeech();
+  if (state.githubToken && state.anthropicKey && state.repo) {
+    document.getElementById("githubToken").value = state.githubToken;
+    document.getElementById("anthropicKey").value = state.anthropicKey;
+    document.getElementById("repoName").value = state.repo;
+    showChat();
+    bootstrapSession();
+  } else {
+    showSetup();
+  }
+}
+document.addEventListener("DOMContentLoaded", init);
+// Trigger voice list load on some browsers
+if ("speechSynthesis" in window) {
+  speechSynthesis.onvoiceschanged = () => {};
+}
+</script>
+</body>
+</html>
