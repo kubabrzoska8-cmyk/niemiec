@@ -6,15 +6,15 @@
 
 ## Active Gaps
 
-### 1. Nebensatz word order — verb goes to the END
+### 1. Kasus — Dativ after prepositions
+Consistent errors with dative prepositions (zu, in, mit, nach, bei, von, seit).
+- ❌ „zu mich" / „in letztes Semester" / **„mit Freunde"**
+- ✅ „zu mir" / „im letzten Semester" / **„mit Freunden"**
+
+### 2. Nebensatz word order — verb goes to the END
 The biggest systematic gap. In subordinate clauses (weil, wenn, dass, obwohl...) the verb must be last.
 - ❌ „wenn ich habe nicht gewissen, dass die Lehrer hat zu mich sprecht"
 - ✅ „wenn ich nicht gewusst habe, dass der Lehrer zu mir gesprochen hat"
-
-### 2. Kasus — Dativ after prepositions
-Consistent errors with dative prepositions (zu, in, mit, nach, bei, von, seit).
-- ❌ „zu mich" / „in letztes Semester"
-- ✅ „zu mir" / „im letzten Semester"
 
 ### 3. Verb conjugation — ich-form
 - ❌ „wird ich" / „möchten" (for ich)
@@ -55,4 +55,4 @@ Knows „hätte" in the if-clause but doesn't follow through with „würde" in 
 
 | Date | Topic | Gaps Targeted | New Gaps Found |
 |------|-------|---------------|----------------|
-| 2026-04-27 | Assessment conversation | — | Nebensatz, Dativ, Konjunktiv II, Reflexivverben, ich-Konjugation |
+| 2026-04-27 | Alltag nach der Uni | — | Kasus Dativ mit Präpositionen (mit + D) |
