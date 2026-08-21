@@ -229,11 +229,30 @@ ciekawszego, bierz to. **Zainteresowanie bije dopasowanie poziomu.**
 
 ## Po sesji — Claude uzupełnia
 
-- [ ] `/drafts/YYYY-MM-DD_sesja-05_rediagnostyka-po-przerwie.md` — transkrypt + pattern notes
-- [ ] `GAPS.md` — wynik **każdej** z sześciu sond; degradacje i awanse; weryfikacja `Closed`
-- [ ] `PROGRESS.md` — **pierwszy wskaźnik trafności w historii kursu**, osobno drill
+- [x] `/drafts/YYYY-MM-DD_sesja-05_rediagnostyka-po-przerwie.md` — transkrypt + pattern notes
+- [x] `GAPS.md` — wynik **każdej** z sześciu sond; degradacje i awanse; weryfikacja `Closed`
+- [x] `PROGRESS.md` — **pierwszy wskaźnik trafności w historii kursu**, osobno drill
       i wolna produkcja; decyzja o tempie bloku 1
-- [ ] `PROFILE.md` → Kalibracja — jeśli poziom po przerwie odbiega od kwietniowego, popraw go
-- [ ] `anki/wordlists/block-1.tsv` — nowe słowa z sesji, tag `sesja-05`
-- [ ] `python3 anki/build_deck.py && python3 anki/build_quizlet.py`
-- [ ] commit na `main`: `Sesja 05: rediagnostyka po przerwie`
+- [x] `PROFILE.md` → Kalibracja — jeśli poziom po przerwie odbiega od kwietniowego, popraw go
+- [x] `anki/wordlists/block-1.tsv` — nowe słowa z sesji, tag `sesja-05`
+- [x] `python3 anki/build_deck.py && python3 anki/build_quizlet.py`
+- [x] commit na `main`: `Sesja 05: rediagnostyka po przerwie`
+
+---
+
+## ✅ Wykonane 2026-08-21
+
+**Wynik:** drill **78 %** · wolna produkcja **32 %** · rozjazd **46 pkt**.
+Transkrypt: [`drafts/2026-08-21_sesja-05_rediagnostyka-po-przerwie.md`](../drafts/2026-08-21_sesja-05_rediagnostyka-po-przerwie.md)
+
+⚠️ **Dwie rzeczy poszły inaczej, niż zakładał ten plan:**
+
+1. **Sonda #5 (czasowniki zwrotne) nie została wykonana** — bloki 1–3 zajęły więcej czasu,
+   bo odpowiedzi Jakuba były dłuższe od zakładanych, a `Gespräch` jest nietykalny.
+   **Drugi z rzędu pusty pomiar tej luki.** Sesja 6 musi to nadrobić.
+2. **Blok 1 ujawnił zmianę kontekstu, której ten plan nie przewidywał** — Jakub ma codzienny
+   kontakt z niemieckim (mama dziewczyny jest Niemką). Patrz `PROGRESS.md` → Dziennik obserwacji.
+
+**Fiszki wydane inaczej niż w planie:** 5 z 10 zbudowano z **własnych błędnych zdań Jakuba
+z tej sesji**, zamiast z listy przygotowanej wcześniej. Sesja diagnostyczna dostarczyła
+lepszego materiału, niż dało się zaplanować.
