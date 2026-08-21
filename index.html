@@ -155,7 +155,7 @@
 
         <label>Repo (owner/name)</label>
         <input type="text" id="repoName" value="kubabrzoska8-cmyk/niemiec" required>
-        <small>Repo z plikami CLAUDE.md, CONTEXT.md, GAPS.md i folderem drafts/</small>
+        <small>Repo z plikami CLAUDE.md, CONTEXT.md, PROFILE.md, GAPS.md, PROGRESS.md oraz folderami plan/, lessons/, drafts/</small>
 
         <button class="btn btn-block" type="submit">Zacznij sesję →</button>
       </form>
@@ -196,7 +196,7 @@
 <script>
 "use strict";
 
-const CLAUDE_MODEL = "claude-sonnet-4-5-20250929";
+const CLAUDE_MODEL = "claude-sonnet-5";
 
 const state = {
   githubToken: "",
@@ -209,7 +209,31 @@ const state = {
   recognition: null,
   debrief: null,
   nextSessionHint: "",
+  sessionNo: null,      // numer dzisiejszej sesji, liczony z PROGRESS.md
+  lessonMd: null,       // lessons/session-NN.md, jeśli istnieje
 };
+
+// Blok programu, do którego należy dana sesja — decyduje o pliku wordlisty.
+function blockForSession(n) {
+  if (n <= 11) return 1;
+  if (n <= 17) return 2;
+  if (n <= 24) return 3;
+  return 4;
+}
+
+// Numer sesji = najwyższy numer w tabeli "Log sesji" w PROGRESS.md + 1.
+// Wiersze logu zaczynają się od "| 7 |" — wiersze bez numeru ("| — |") pomijamy.
+function nextSessionNumber(progressMd) {
+  if (!progressMd) return null;
+  let max = 0;
+  const re = /^\|\s*(\d{1,2})\s*\|/gm;
+  let m;
+  while ((m = re.exec(progressMd)) !== null) {
+    const n = parseInt(m[1], 10);
+    if (n > max) max = n;
+  }
+  return max > 0 ? max + 1 : null;
+}
 
 // ---------- Storage ----------
 function loadCredentials() {
@@ -290,13 +314,30 @@ async function claudeChat(messages, system, options = {}) {
 async function bootstrapSession() {
   setStatus("Ładuję pliki z repo...");
   try {
-    const [claudeMd, contextMd, gapsMd] = await Promise.all([
-      ghGet("CLAUDE.md").catch(() => null),
-      ghGet("CONTEXT.md").catch(() => null),
-      ghGet("GAPS.md").catch(() => null),
-    ]);
+    const [claudeMd, contextMd, gapsMd, profileMd, progressMd, planMd, missionsMd] =
+      await Promise.all([
+        ghGet("CLAUDE.md").catch(() => null),
+        ghGet("CONTEXT.md").catch(() => null),
+        ghGet("GAPS.md").catch(() => null),
+        ghGet("PROFILE.md").catch(() => null),
+        ghGet("PROGRESS.md").catch(() => null),
+        ghGet("PLAN.md").catch(() => null),
+        ghGet("plan/missions.md").catch(() => null),
+      ]);
     if (!gapsMd) throw new Error("Nie znaleziono GAPS.md w repo. Sprawdź nazwę repo i token.");
-    state.contextFiles = { "CLAUDE.md": claudeMd, "CONTEXT.md": contextMd, "GAPS.md": gapsMd };
+    state.contextFiles = {
+      "CLAUDE.md": claudeMd, "CONTEXT.md": contextMd, "GAPS.md": gapsMd,
+      "PROFILE.md": profileMd, "PROGRESS.md": progressMd,
+      "PLAN.md": planMd, "plan/missions.md": missionsMd,
+    };
+
+    // Numer sesji i materiał lekcji — bez tego appka nie wie, który dziś jest dzień kursu.
+    state.sessionNo = nextSessionNumber(progressMd?.content);
+    state.lessonMd = null;
+    if (state.sessionNo) {
+      const nn = String(state.sessionNo).padStart(2, "0");
+      state.lessonMd = await ghGet(`lessons/session-${nn}.md`).catch(() => null);
+    }
 
     setStatus("Ładuję ostatnie sesje...");
     let recentDrafts = [];
@@ -312,12 +353,19 @@ async function bootstrapSession() {
       }
     } catch (e) { console.warn("No drafts yet:", e); }
 
-    state.systemPrompt = buildSystemPrompt(claudeMd, contextMd, gapsMd, recentDrafts);
+    state.systemPrompt = buildSystemPrompt({
+      claudeMd, contextMd, gapsMd, profileMd, progressMd, missionsMd,
+      lessonMd: state.lessonMd, sessionNo: state.sessionNo, recentDrafts,
+    });
 
     setStatus("Generuję plan sesji...");
+    const sessionLine = state.sessionNo ? `Heutige Sitzung: Nr. ${state.sessionNo}.` : "";
+    const lessonLine = state.lessonMd
+      ? "Der Sitzungsplan liegt vor (siehe LEKTION). Folge ihm, beginne mit Block 1 (Meldunek z misji)."
+      : "Für diese Sitzung gibt es keine fertige Lektionsdatei — halte dich an das Blockgerüst aus CLAUDE.md und ziele auf die Top Active Gaps.";
     const opener = state.nextSessionHint
-      ? `[SESSION_START] Plan z poprzedniego razu: ${state.nextSessionHint}\n\nBegrüße Jakub kurz auf Deutsch und steige direkt in das geplante Thema ein. Stelle eine konkrete Einstiegsfrage.`
-      : `[SESSION_START] Begrüße Jakub kurz und schlage ein Gesprächsthema vor, das auf seine Top 2-3 Active Gaps zielt. Stelle eine konkrete Einstiegsfrage.`;
+      ? `[SESSION_START] ${sessionLine} ${lessonLine}\n\nPlan z poprzedniego razu: ${state.nextSessionHint}\n\nBegrüße Jakub kurz auf Deutsch und steige direkt in Block 1 ein: frag ihn nach seiner Mission.`
+      : `[SESSION_START] ${sessionLine} ${lessonLine}\n\nBegrüße Jakub kurz auf Deutsch und steige direkt in Block 1 ein: frag ihn nach seiner Mission aus der letzten Sitzung. Falls es keine gab, stelle eine Einstiegsfrage, die auf seine Top 2-3 Active Gaps zielt.`;
     const opening = await claudeChat(
       [{ role: "user", content: opener }],
       state.systemPrompt,
@@ -335,35 +383,77 @@ async function bootstrapSession() {
   }
 }
 
-function buildSystemPrompt(claudeMd, contextMd, gapsMd, recentDrafts) {
-  const draftsText = recentDrafts.map(d => `### ${d.name}\n${d.content.slice(0, 1500)}`).join("\n\n");
-  return `Du bist ein deutscher Sprachtutor für Jakub, einen polnischen Medizinstudenten, der konversationelle Flüssigkeit und deutsche Medizinprüfungen anstrebt.
+function buildSystemPrompt(ctx) {
+  const draftsText = (ctx.recentDrafts || [])
+    .map(d => `### ${d.name}\n${d.content.slice(0, 1500)}`).join("\n\n");
+
+  // PROGRESS.md bywa długi, a dla prowadzącego liczy się głównie sekcja
+  // "Ostatnia sesja" i tabela logu. Bierzemy początek pliku.
+  const progressText = (ctx.progressMd?.content || "").slice(0, 4000);
+
+  return `Du bist der Deutschtutor von Jakub — einem polnischen Medizinstudenten auf dem Weg von B1 nach B2.
+Du bist kein Assistent für Dateien. Du hältst eine Unterrichtsstunde.
+
+KONTEXT, DER ALLES ANDERE BESTIMMT:
+Jakub hat AUSSERHALB DIESER SITZUNG KEINEN KONTAKT MIT DEUTSCH. Er ist gerade in Rom (Praktikum,
+parallel ein Italienischkurs) und geht danach zurück zum Studium nach Polen. Deutsch kommt nicht
+von der Straße, nicht von Freunden, nicht von der Uni. Daraus folgt:
+- Der Block "Gespräch" ist der einzige Ort, an dem er überhaupt Deutsch spricht. Kürze ihn NIE.
+- Jede Sitzung endet mit einer Mission (Podcast, Text, Sprachaufnahme) — sonst hat er eine Woche
+  lang null Input. Die Mission ist Pflicht, kein Extra.
+- Vergessen zwischen den Sitzungen ist der Hauptgegner. 2 von 10 Karteikarten sind immer
+  älterer Stoff.
+
+ABLAUF DER SITZUNG (20 Min):
+1. Meldunek z misji (3) — was hat er gehört/gelesen, welchen Satz hat er nicht verstanden
+2. Aufwärmen (2) — 5 Fragen auf Deutsch, gezielt auf Active Gaps
+3. Regel (4) — EINE Grammatikregel, kurz, mit PL→DE-Kontrast
+4. Drill (4) — nur Produktion: PL→DE übersetzen, Sätze bauen. Keine Auswahlaufgaben
+5. Gespräch (7) — längster Block, unantastbar
+6. Karteikarten (3) — 10 Karten PL→DE: 5 aus heute, 3 aus Active Gaps, 2 aus früheren Sitzungen
++ Mission
 
 REGELN:
-- Sprich nur Deutsch (Polnisch nur, wenn Jakub explizit nach Übersetzung fragt).
-- Korrigiere Fehler durch RECASTING: wiederhole Jakubs Aussage richtig im nächsten Satz, ohne ihn zu unterbrechen oder zu lecturen.
-- Konzentriere dich auf seine TOP ACTIVE GAPS (siehe GAPS.md). Adressiere nicht jeden Fehler — wähle Muster, nicht Einzelfälle.
-- Vermische medizinisches Vokabular natürlich, wenn es passt (Innere Medizin, Radiologie, Orthopädie sind seine Stärken).
-- Stelle immer eine Folgefrage, halte das Gespräch lebendig.
-- Passe die Schwierigkeit an: wenn Jakub flüssig antwortet, mach es härter; wenn er kämpft, vereinfache.
-- Halte Antworten kurz (2-4 Sätze normalerweise) — es ist ein Gespräch, kein Vortrag.
+- Sprich Deutsch. Polnisch nur zum Erklären von Grammatik oder zum Retten der Situation.
+- Korrigiere durch RECASTING: wiederhole seine Aussage richtig im nächsten Satz, ohne Vortrag.
+- Höchstens 3 Fehlermuster pro Sitzung. Der Rest geht still ins Watching.
+- Wenn eine Lücke Active ist, MUSST du ihr eine Gelegenheit schaffen — nicht warten, bis sie
+  zufällig auftaucht. "Keine Daten" ist kein Fortschritt.
+- Achte auf Interferenz aus dem Italienischen: ausgelassenes Personalpronomen ("bin müde"),
+  Verb an zweiter Stelle im Nebensatz, italienische Wörter. Das ist ein MUSTER, kein Ausrutscher.
+- Kalibriere nach OBEN. Er bildet korrekte Nebensätze mit "weil" und "obwohl" — behandle ihn
+  nicht wie einen Anfänger. Sein Engpass ist die Flexion (Kasus, Endungen), nicht der Satzbau.
+- Rechtschreibung im Chat (Kleinschreibung, fehlende Umlaute) ist KEINE Lücke — nicht korrigieren.
+- Halte deine Antworten kurz (2-4 Sätze) — es ist ein Gespräch, kein Vortrag.
 
 VERMEIDE:
-- Lange Grammatikerklärungen.
-- Jeden einzelnen Fehler markieren.
-- Phrasebook- oder Lehrbuchstil.
-- Themen wiederholen, in denen Jakub bereits gut ist.
+- Lange Grammatikerklärungen vor der Praxis.
+- Hörtexte in der Sitzung abspielen — Input gehört in die Mission, nicht in die 20 Minuten.
+- Üben, was er schon kann (Nebensatz mit "weil" — sechs Mal korrekt am 2026-04-28).
+- Die Sitzung ohne Karteikarten und ohne Mission beenden.
 
-— PROJECT INSTRUCTIONS (CLAUDE.md) —
-${claudeMd?.content || "(brak)"}
+${ctx.sessionNo ? `— HEUTIGE SITZUNG: Nr. ${ctx.sessionNo} —` : ""}
 
-— SESSION RULES (CONTEXT.md) —
-${contextMd?.content || "(brak)"}
+${ctx.lessonMd ? `— LEKTION (lessons/session-${String(ctx.sessionNo).padStart(2, "0")}.md) —\n${ctx.lessonMd.content}` : ""}
 
-— ACTIVE GAPS (GAPS.md) —
-${gapsMd?.content || "(brak)"}
+— PROJEKTANWEISUNGEN (CLAUDE.md) —
+${ctx.claudeMd?.content || "(brak)"}
 
-${draftsText ? `— RECENT SESSIONS (last ${recentDrafts.length}) —\n${draftsText}` : ""}`;
+— SITZUNGSREGELN (CONTEXT.md) —
+${ctx.contextMd?.content || "(brak)"}
+
+— SCHÜLERPROFIL (PROFILE.md) —
+${ctx.profileMd?.content || "(brak)"}
+
+— LÜCKEN (GAPS.md) —
+${ctx.gapsMd?.content || "(brak)"}
+
+— FORTSCHRITT (PROGRESS.md, Anfang) —
+${progressText || "(brak)"}
+
+${ctx.missionsMd ? `— MISSIONEN (plan/missions.md) —\n${ctx.missionsMd.content}` : ""}
+
+${draftsText ? `— LETZTE SITZUNGEN (${ctx.recentDrafts.length}) —\n${draftsText}` : ""}`;
 }
 
 // ---------- Chat ----------
@@ -392,8 +482,8 @@ async function sendMessage() {
 // ---------- End-of-session pipeline ----------
 function parseDebriefMarkers(raw) {
   const sections = [
-    "TOPIC_SLUG", "DRAFT_MD", "GAPS_UPDATE_MD",
-    "NEXT_SESSION_PLAN_MD", "PROGRESS_REPORT_MD"
+    "TOPIC_SLUG", "DRAFT_MD", "GAPS_UPDATE_MD", "PROGRESS_UPDATE_MD",
+    "WORDLIST_TSV", "NEXT_SESSION_PLAN_MD", "PROGRESS_REPORT_MD"
   ];
   const result = {};
   for (let i = 0; i < sections.length; i++) {
@@ -427,20 +517,38 @@ async function endSession() {
     .join("\n\n");
   const today = new Date().toISOString().slice(0, 10);
 
-  const debriefPrompt = `Sesja się skończyła. Wygeneruj 5 sekcji oddzielonych markerami w DOKŁADNIE takim formacie. Każdy marker w osobnej linii. NIE używaj JSON, NIE używaj code fences. Treść między markerami to zwykły markdown / tekst — możesz używać dowolnych znaków, w tym niemieckich cudzysłowów „".
+  const sessionNo = state.sessionNo;
+  const nn = sessionNo ? String(sessionNo).padStart(2, "0") : "NN";
+
+  const debriefPrompt = `Sesja ${sessionNo || "?"} się skończyła. Wygeneruj 7 sekcji oddzielonych markerami w DOKŁADNIE takim formacie. Każdy marker w osobnej linii. NIE używaj JSON, NIE używaj code fences. Treść między markerami to zwykły markdown / tekst — możesz używać dowolnych znaków, w tym niemieckich cudzysłowów „".
 
 ===TOPIC_SLUG===
 <krótki kebab-case po niemiecku, max 4 słowa, np. arztbesuch-symptome>
 
 ===DRAFT_MD===
 <pełen markdown draftu sesji:
-- nagłówek "# ${today} — <tytuł po niemiecku>"
+- nagłówek "# Sesja ${nn} — ${today} — <tytuł po niemiecku>"
 - sekcja "## Rozmowa" z transkryptem (User: / Tutor:)
 - sekcja "## Kluczowe wzorce" z 2-3 punktami (powtórzone poprawnie LUB błędne wzorce)
 - sekcja "## Słownictwo" z 3-7 nowymi/użytecznymi słówkami i tłumaczeniem na polski>
 
 ===GAPS_UPDATE_MD===
-<NOWA pełna treść GAPS.md po sesji. Zachowaj strukturę (Active Gaps / Watching / Closed / Session Log). Reguły: nowy wzorzec błędów → Watching; powtórzony z Watching → Active; nieobecny przez 2-3 sesje → Closed. Dopisz nowy wiersz w Session Log z datą ${today}>
+<NOWA pełna treść GAPS.md po sesji. Zachowaj strukturę pliku (Kontekst / Active / Watching / Closed / Mocne strony) — NIE dopisuj tam tabeli logu, ona jest w PROGRESS.md. Reguły: nowy wzorzec błędów → Watching; wraca 3 sesje z rzędu → Active; nieobecny przez 3 sesje MIMO OKAZJI → Closed. Przy KAŻDEJ dotkniętej luce dopisz datowaną linijkę: "*Sesja ${nn} (${today}): …*". Jeśli luka nie dostała okazji, napisz to wprost — "brak okazji" to nie jest postęp>
+
+===PROGRESS_UPDATE_MD===
+<NOWA pełna treść PROGRESS.md po sesji. Zachowaj strukturę pliku. Trzy rzeczy obowiązkowo:
+1. sekcja "Ostatnia sesja" przepisana pod sesję ${nn}
+2. nowy wiersz w tabeli "Log sesji": | ${nn} | ${today} | <temat> | <trafność %> | <Anki> | <luki celowane> | <nowe luki> | <reakcja> |
+3. metryki: podaj trafność OSOBNO dla drillu i dla wolnej produkcji. Rozjazd > 30 punktów odnotuj wprost>
+
+===WORDLIST_TSV===
+<TYLKO nowe słowa z dzisiejszej sesji, w formacie TSV bez nagłówka, 7 kolumn rozdzielonych TABULATOREM:
+sesja<TAB>deutsch<TAB>polski<TAB>typ<TAB>beispiel_de<TAB>przyklad_pl<TAB>uwaga
+- kolumna sesja = ${sessionNo || "NN"}
+- rzeczowniki ZAWSZE z rodzajnikiem i liczbą mnogą: "die Prüfung, -en"
+- czasowniki mocne w trzech formach, sein-Verben oznaczone
+- typ: rzeczownik | czasownik | przymiotnik | przyslowek | zwrot | regula
+- jeśli nie było nowych słów, zostaw sekcję pustą>
 
 ===NEXT_SESSION_PLAN_MD===
 <krótki markdown: temat następnej sesji + 3-5 punktów co poruszyć, oparte na top active gaps po tej sesji>
@@ -453,14 +561,17 @@ async function endSession() {
 AKTUALNA TREŚĆ GAPS.md (baza do GAPS_UPDATE_MD):
 ${state.contextFiles["GAPS.md"].content}
 
+AKTUALNA TREŚĆ PROGRESS.md (baza do PROGRESS_UPDATE_MD):
+${state.contextFiles["PROGRESS.md"]?.content || "(brak pliku)"}
+
 TRANSKRYPT SESJI:
 ${conversationText}`;
 
   try {
     const raw = await claudeChat(
       [{ role: "user", content: debriefPrompt }],
-      "Du bist ein präziser Generator. Antworte NUR mit den 5 markierten Sektionen im verlangten Format. Keine Einleitung, keine Code-Fences, keine zusätzlichen Kommentare.",
-      { max_tokens: 8000 }
+      "Du bist ein präziser Generator. Antworte NUR mit den 7 markierten Sektionen im verlangten Format. Keine Einleitung, keine Code-Fences, keine zusätzlichen Kommentare.",
+      { max_tokens: 16000 }
     );
     state.lastDebriefRaw = raw;
     const parsed = parseDebriefMarkers(raw);
@@ -498,17 +609,51 @@ async function commitDebrief() {
     const edited = {
       draft_md: document.getElementById("edit_draft").value,
       gaps_update_md: document.getElementById("edit_gaps").value,
+      progress_update_md: document.getElementById("edit_progress").value,
+      wordlist_tsv: document.getElementById("edit_wordlist").value,
       next_session_plan_md: document.getElementById("edit_next").value,
       topic_slug: state.debrief.topic_slug.replace(/[^a-z0-9-]/gi, "-").toLowerCase(),
     };
-    const draftPath = `drafts/${today}_${edited.topic_slug}.md`;
-    await ghPut(draftPath, edited.draft_md, `Session draft: ${edited.topic_slug}`);
-    await ghPut("GAPS.md", edited.gaps_update_md, `Update gaps after ${today} session`, state.contextFiles["GAPS.md"].sha);
+    const nn = state.sessionNo ? String(state.sessionNo).padStart(2, "0") : "NN";
+    const saved = [];
+
+    const draftPath = `drafts/${today}_sesja-${nn}_${edited.topic_slug}.md`;
+    await ghPut(draftPath, edited.draft_md, `Sesja ${nn}: draft — ${edited.topic_slug}`);
+    saved.push(draftPath);
+
+    await ghPut("GAPS.md", edited.gaps_update_md,
+      `Sesja ${nn}: aktualizacja luk`, state.contextFiles["GAPS.md"].sha);
+    saved.push("GAPS.md");
+
+    // PROGRESS.md to pamięć kursu — bez niego następna sesja nie wie, który dziś jest numer.
+    const progressFile = state.contextFiles["PROGRESS.md"];
+    if (progressFile && edited.progress_update_md.trim()) {
+      await ghPut("PROGRESS.md", edited.progress_update_md,
+        `Sesja ${nn}: log i metryki`, progressFile.sha);
+      saved.push("PROGRESS.md");
+    }
+
+    // Nowe słówka dopisujemy na koniec właściwego bloku — TSV jest źródłem prawdy
+    // dla obu talii, więc nie nadpisujemy pliku, tylko go rozszerzamy.
+    const tsv = edited.wordlist_tsv.trim();
+    if (tsv) {
+      const blockPath = `anki/wordlists/block-${blockForSession(state.sessionNo || 5)}.tsv`;
+      const current = await ghGet(blockPath).catch(() => null);
+      if (current) {
+        const merged = current.content.replace(/\n*$/, "\n") + tsv + "\n";
+        await ghPut(blockPath, merged, `Sesja ${nn}: nowe słówka`, current.sha);
+        saved.push(blockPath);
+      }
+    }
+
     localStorage.setItem("niemiec_next_session", edited.next_session_plan_md);
     state.nextSessionHint = edited.next_session_plan_md;
     setStatus("Zapisane ✓");
     hideDebrief();
-    addSystemNote(`✓ Sesja zapisana: ${draftPath}. GAPS.md zaktualizowane. Plan na następny raz wczytany.`);
+    addSystemNote(
+      `✓ Sesja ${nn} zapisana: ${saved.join(", ")}.\n` +
+      `Przebuduj fiszki lokalnie: python3 anki/build_deck.py && python3 anki/build_quizlet.py`
+    );
   } catch (e) {
     console.error(e);
     setStatus("Błąd zapisu: " + e.message);
@@ -589,20 +734,33 @@ function showDebrief(parsed) {
   }
   const today = new Date().toISOString().slice(0, 10);
   const slug = (parsed.topic_slug || "session").replace(/[^a-z0-9-]/gi, "-").toLowerCase();
+  const nn = state.sessionNo ? String(state.sessionNo).padStart(2, "0") : "NN";
+  const blockNo = state.sessionNo ? blockForSession(state.sessionNo) : 1;
   content.innerHTML = `
     <p style="color:var(--text-dim);font-size:13px">Możesz edytować poniższe pola przed zapisem.</p>
 
-    <h3>Draft → drafts/${today}_${slug}.md</h3>
+    <h3>Draft → drafts/${today}_sesja-${nn}_${slug}.md</h3>
     <textarea id="edit_draft">${escapeHtml(parsed.draft_md || "")}</textarea>
 
     <h3>Aktualizacja GAPS.md (cała nowa zawartość)</h3>
     <textarea id="edit_gaps">${escapeHtml(parsed.gaps_update_md || "")}</textarea>
+
+    <h3>Aktualizacja PROGRESS.md (cała nowa zawartość)</h3>
+    <textarea id="edit_progress">${escapeHtml(parsed.progress_update_md || "")}</textarea>
+
+    <h3>Nowe słówka → anki/wordlists/block-${blockNo}.tsv <span style="font-weight:400;color:var(--text-dim)">(dopisywane na końcu)</span></h3>
+    <textarea id="edit_wordlist" style="min-height:120px">${escapeHtml(parsed.wordlist_tsv || "")}</textarea>
 
     <h3>Plan na następną sesję (zapisany lokalnie)</h3>
     <textarea id="edit_next" style="min-height:120px">${escapeHtml(parsed.next_session_plan_md || "")}</textarea>
 
     <h3>Postęp</h3>
     <pre>${escapeHtml(parsed.progress_report_md || "")}</pre>
+
+    <p style="color:var(--text-dim);font-size:13px;margin-top:12px">
+      Po zapisie przebuduj fiszki lokalnie:
+      <code>python3 anki/build_deck.py &amp;&amp; python3 anki/build_quizlet.py</code>
+    </p>
   `;
 }
 function hideDebrief() {

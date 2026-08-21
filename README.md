@@ -1,14 +1,28 @@
 # Niemiec
 
-Prywatny tutor niemieckiego dla Jakuba. Sesje rozmowy po niemiecku w UI à la ChatGPT, automatyczne śledzenie luk wiedzy w `GAPS.md`, planowanie kolejnych lekcji.
+Kurs niemieckiego dla Jakuba — **30 sesji, B1 → B2**, z wątkiem medycznym.
+Claude prowadzi lekcję jako korepetytor, śledzi luki w `GAPS.md` i zapisuje postęp w `PROGRESS.md`.
+
+> ❄️ **Ten kurs jest zbudowany na jednym założeniu: brak immersji.**
+> Jakub nie ma kontaktu z niemieckim poza sesją — sierpień spędza w Rzymie na praktykach,
+> potem wraca na studia do Polski. Dlatego lekcja musi zrobić dwie rzeczy, których nie zrobi
+> otoczenie: **dostarczyć input** (przez misje) i **wymusić produkcję** (przez blok `Gespräch`).
+> To odwrotność bliźniaczego repo z włoskim, gdzie input jest za darmo, bo Rzym jest za oknem.
 
 ## Co robi
 
-- **Rozmowa po niemiecku** z modelem Claude — recasting zamiast lecturing, krótkie odpowiedzi, follow-up questions.
-- **Wykrywanie luk** — po każdej sesji aktualizuje `GAPS.md` (Active / Watching / Closed + Session Log).
-- **Plan na następną sesję** — Claude proponuje temat i 3-5 punktów wycelowanych w aktualne luki.
-- **Mowa** — mikrofon (de-DE → tekst) i czytanie odpowiedzi na głos (Web Speech API w przeglądarce).
-- **Wszystko w GitHub** — drafty rozmów lądują w `drafts/`, zmiany `GAPS.md` to commity.
+- **Prowadzi lekcję według stałego szkieletu** — Meldunek → Aufwärmen → Regel → Drill →
+  Gespräch → Karteikarten + misja. Nie jest to swobodna rozmowa, tylko zajęcia.
+- **Rozmowa po niemiecku** — recasting zamiast wykładu, maks. 3 wzorce błędów na sesję.
+- **Wykrywanie luk** — po każdej sesji aktualizuje `GAPS.md` (Active / Watching / Closed).
+- **Mierzy krzywą uczenia** — `PROGRESS.md` trzyma trafność (osobno drill i wolna produkcja),
+  log sesji i metryki Anki. Wskaźnik decyduje o tempie następnej lekcji.
+- **Numeruje sesje, nie dni** — kurs nie jest codzienny, więc pominięta sesja nic nie psuje.
+- **Generuje fiszki do dwóch narzędzi** — Quizlet do wbicia słowa, Anki do utrzymania go.
+- **Przydziela misję** — podcast, tekst medyczny, nagranie własnego głosu. To jest cały
+  input tego kursu.
+- **Mowa** — mikrofon (de-DE → tekst) i czytanie odpowiedzi na głos (Web Speech API).
+- **Wszystko w GitHub** — drafty, `GAPS.md`, `PROGRESS.md` i listy słówek to commity.
 
 ## Pierwsze uruchomienie
 
@@ -33,24 +47,73 @@ Tokeny są zapisywane TYLKO w `localStorage` Twojej przeglądarki — nigdy nie 
 ├── index.html        ← aplikacja (GitHub Pages serwuje to)
 ├── .nojekyll         ← wyłącza Jekyll na Pages
 ├── README.md         ← ten plik
-├── CLAUDE.md         ← instrukcje projektu (czytane przez aplikację)
-├── CONTEXT.md        ← zasady sesji
-├── GAPS.md           ← live tracker luk (aplikacja tu pisze)
-└── drafts/           ← pełne transkrypty sesji (aplikacja tu pisze)
-    └── YYYY-MM-DD_topic-slug.md
+├── CLAUDE.md         ← plan pięter + protokół sesji (czytany przez aplikację)
+├── CONTEXT.md        ← zasady sesji: co jest dobre, czego unikać
+├── PROFILE.md        ← profil ucznia: poziom, cele, profil błędów, kalibracja
+├── PLAN.md           ← przegląd 30 sesji w jednej tabeli
+├── PROGRESS.md       ← ŻYWY dziennik: krzywa uczenia, log sesji (aplikacja tu pisze)
+├── GAPS.md           ← ŻYWY tracker luk (aplikacja tu pisze)
+├── plan/
+│   ├── missions.md   ← misje asynchroniczne — jedna na każdą sesję
+│   └── block-1..4.md ← program: Kasus → Satzbau → czasy i tryby → Fachsprache
+├── lessons/          ← materiał sesji: session-05.md, session-06.md, …
+├── grammar/          ← referencje gramatyczne pisane pod Polaka
+├── resources/        ← wyselekcjonowane źródła — TU MIESZKA INPUT
+├── anki/             ← źródło prawdy słówek (wordlists/*.tsv) + generatory
+├── quizlet/          ← talie quizowe generowane z tych samych TSV
+└── drafts/           ← transkrypty sesji (aplikacja tu pisze)
+    └── YYYY-MM-DD_sesja-NN_topic-slug.md
 ```
+
+*(Cztery pierwsze drafty pochodzą sprzed wprowadzenia struktury i mają starą nazwę
+`YYYY-MM-DD_topic.md`. Zostają jako zapis historyczny.)*
+
+## Program kursu
+
+| Blok | Sesje | Temat |
+|------|-------|-------|
+| — | 1–4 | *(przed strukturą — swobodne rozmowy)* |
+| **1** | 5–11 | Kasus i grupa rzeczownikowa |
+| **2** | 12–17 | Satzbau — zdanie złożone i szyk |
+| **3** | 18–24 | Czasy i tryby |
+| **4** | 25–30 | Fachsprache, płynność i test B2 |
+
+Kolejność jest **odwrócona względem typowego kursu B1** — przypadki idą przed szykiem zdania.
+Powód jest w danych: Jakub buduje poprawne zdania podrzędne, a przewraca się na końcówkach.
+Szczegóły w [`PLAN.md`](PLAN.md).
+
+## Fiszki
+
+Jedno źródło prawdy — `anki/wordlists/block-*.tsv` — dwa narzędzia:
+
+```bash
+pip3 install genanki
+python3 anki/build_deck.py     # → anki/niemiec-master.apkg   (Anki: utrzymanie)
+python3 anki/build_quizlet.py  # → quizlet/talia-*.txt        (Quizlet: wbicie)
+```
+
+Szczegóły: [`anki/README.md`](anki/README.md).
 
 ## Jak działa cykl sesji
 
-1. Otwierasz appkę → fetchuje `CLAUDE.md`, `CONTEXT.md`, `GAPS.md` + 3 ostatnie drafty z repo.
-2. Buduje system prompt → Claude rozpoczyna rozmowę po niemiecku, celując w top active gaps.
-3. Rozmawiasz (tekst lub mowa).
-4. Klikasz **Zakończ sesję** → Claude generuje:
-   - Draft sesji (transkrypt + 2-3 pattern notes + słownictwo)
-   - Nową treść `GAPS.md` (przesunięcia Active/Watching/Closed + Session Log)
+1. Otwierasz appkę → fetchuje `CLAUDE.md`, `CONTEXT.md`, `PROFILE.md`, `GAPS.md`,
+   `PROGRESS.md`, `PLAN.md`, `plan/missions.md` + 3 ostatnie drafty.
+2. **Liczy numer dzisiejszej sesji** z tabeli „Log sesji" w `PROGRESS.md` i dociąga
+   `lessons/session-NN.md`, jeśli taki plik istnieje.
+3. Buduje system prompt → Claude prowadzi lekcję według szkieletu, zaczynając od meldunku z misji.
+4. Rozmawiasz (tekst lub mowa).
+5. Klikasz **Zakończ sesję** → Claude generuje:
+   - Draft sesji (transkrypt + pattern notes + słownictwo)
+   - Nową treść `GAPS.md` (przesunięcia Active / Watching / Closed, datowane dopiski)
+   - Nową treść `PROGRESS.md` (wiersz w logu + trafność drill / wolna produkcja)
+   - Nowe słówka w formacie TSV (dopisywane do właściwego `anki/wordlists/block-N.tsv`)
    - Plan na następną sesję (zapisywany lokalnie, użyty przy następnym otwarciu)
-   - Krótki raport postępów
-5. Sprawdzasz, edytujesz jeśli trzeba, klikasz **Zatwierdź** → commit do GitHuba.
+6. Sprawdzasz, edytujesz jeśli trzeba, klikasz **Zatwierdź** → commit do GitHuba.
+7. Lokalnie przebudowujesz fiszki: `python3 anki/build_deck.py && python3 anki/build_quizlet.py`.
+
+> ⚠️ **Aplikacja czyta i zapisuje domyślną gałąź (`main`).** Postęp zostawiony na gałęzi
+> bocznej jest dla niej niewidoczny — następna sesja wystartuje na starym `GAPS.md`
+> i zaproponuje sesję, która już była.
 
 ## Bezpieczeństwo
 
@@ -61,12 +124,13 @@ Tokeny są zapisywane TYLKO w `localStorage` Twojej przeglądarki — nigdy nie 
 ## Lokalny dev
 
 ```bash
-cd /Users/jakubbrzoska/Niemiec
+cd <katalog repo>
 python3 -m http.server 8000
 # otwórz http://localhost:8000
 ```
 
 ## Limit rate / koszty
 
-- Claude Sonnet 4.5: ~$0.003 / 1k input + $0.015 / 1k output. Sesja ~5-15 groszy.
+- Claude Sonnet: ~$0.003 / 1k input + $0.015 / 1k output. Sesja ~10-25 groszy
+  (prompt jest większy niż wcześniej — dochodzi profil, plan i materiał lekcji).
 - GitHub API: 5000 req/h dla zalogowanego użytkownika — nie do wyczerpania.
