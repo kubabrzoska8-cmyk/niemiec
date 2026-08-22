@@ -41,9 +41,16 @@ niemiecku codziennie od dwóch tygodni.** Konsekwencje dla luk:
 
 ## Active
 
-> **Priorytet na sesję 6: #1 (zawężona), #2, #3.**
-> Sesja 5 zmieniła tę listę mocniej niż jakakolwiek wcześniejsza — trzy luki zeszły z Active,
-> a #1 została **przediagnozowana i zawężona**. Czytaj #1 uważnie: to już nie jest ta sama luka.
+> **Priorytet na sesję 6: #1 (w kontraście z Akkusativ), #3 (V2), #2.**
+> Sesja 5 zmieniła tę listę mocniej niż jakakolwiek wcześniejsza: **cztery luki zeszły
+> z Active** (Perfekt `haben`/`sein`, Konjunktiv II, `studieren`/`lernen`, zwrotne),
+> **dwie weszły** (V2 po wysuniętym elemencie, liczebnik + l.mn.), a #1 została
+> **przediagnozowana i zawężona**. Czytaj #1 uważnie — to już nie jest ta sama luka.
+>
+> 📊 **Dwa pomiary tej samej sesji, bardzo różne:**
+> **wolna produkcja 32 %** *(bloki 1 i 4, uwaga na treści)* → **post-test 6/6 na determinancie**
+> *(fiszki, 5 minut po wyjaśnieniu)*. Reguła wchodzi natychmiast i **nie zostaje**.
+> Sesja 6 ma pracować nad automatyzacją, nie nad tłumaczeniem.
 
 ### 1. Determinant w Dativ — `mein/dein/ihr` + rodzajnik 🔴 *(luka nr 1 kursu, ZAWĘŻONA 2026-08-21)*
 
@@ -69,7 +76,22 @@ wyłącznie na **słówku bezpośrednio przed rzeczownikiem**.
   `nach Apulien` · `bis 12`. **`mit dem Auto` i `bei meiner Freundin` pokazują, że forma
   jest w repertuarze — tylko niestabilna.**
 - *Sesja 3 (2026-04-28): `bei Rhein`. Sesja 4 (2026-04-29): trzy wystąpienia.*
-- **Plan:** sesja 6 **wąsko na tabeli `mein/dein/ihr` w Dativ**, dopiero potem sesje 7–9 (przyimki),
+- ✅ **POST-TEST sesji 5 (fiszki, po wyjaśnieniu): determinant 6/6.**
+  `seit zwei **Wochen**` · `von **meiner** Freundin` · `mit **meinen** Freunden` ·
+  `mit **meinen** Kollegen` · `nach **dem ganzen** Tag` · `**ins** Krankenhaus`
+  > 🔑 **`nach dem ganzen Tag` to dokładnie ta grupa, która 2026-04-29 wyszła jako
+  > `nach ganzen tag`** — dowód luki nr 1 od czterech miesięcy. Teraz poprawnie,
+  > z rodzajnikiem i końcówką przymiotnika.
+
+  ⚠️ **Ale to kontrolowana uwaga, nie automatyzm** — kontrast był podany 5 minut wcześniej.
+  Wartość diagnostyczna: **reguła jest przyswajalna natychmiast**. Praca polega na
+  automatyzacji, nie na tłumaczeniu. Prawdziwy pomiar: wolna produkcja na sesji 6.
+- ⚠️ **Nadkorekcja, post-test:** ❌ `nach dem Prüfung` → ✅ `**für die** Prüfung`.
+  Po wbiciu Dativu Jakub wstawił go tam, gdzie potrzebny Akkusativ — i zmienił znaczenie
+  zdania („po egzaminie" zamiast „do egzaminu"). **Sesja 6 musi kontrastować grupy
+  Dativ (`mit, von, nach, bei, seit, zu, aus`) z Akkusativ (`für, ohne, gegen, um, durch`),
+  a nie ćwiczyć sam Dativ.**
+- **Plan:** sesja 6 **wąsko na tabeli `mein/dein/ihr` w Dativ, ale w kontraście z Akkusativ**, dopiero potem sesje 7–9 (przyimki),
   sesja 11 (`Adjektivendungen`). Referencja:
   [`grammar/01-kasus-praepositionen.md`](grammar/01-kasus-praepositionen.md)
 
@@ -81,7 +103,24 @@ Po liczebniku rzeczownik zostaje w liczbie pojedynczej.
 - **Trzy wystąpienia tego samego błędu w jednej sesji** — wzorzec potwierdzony od razu.
 - **Plan:** sesja 6, 5 minut. Jedna reguła, natychmiastowy zysk.
 
-### 3. Rodzaj rzeczownika i końcówki przymiotnika 🔴 *(była #3, nadal Active)*
+### 3. Brak V2 po elemencie na pierwszym miejscu 🆕🔴 *(nowa, sesja 5 — dwa wystąpienia)*
+Kiedy zdanie zaczyna się od czegoś innego niż podmiot, Jakub **nie przestawia podmiotu za
+czasownik**.
+- ❌ `Am 10 Uhr **ich gehe** ins Krankenhaus` → ✅ `Um 10 Uhr **gehe ich** ins Krankenhaus`
+- ❌ `über das **ich habe** kein Angst` → ✅ `Davor **habe ich** keine Angst`
+- 🇮🇹 **Podejrzenie interferencji włoskiej — patrz Watching → 🇮🇹.** Włoski dopuszcza swobodny
+  szyk (*„alle dieci io vado"*), niemiecki nigdy. To **groźniejsza odmiana interferencji niż
+  leksykalna** (`Puglia`), bo dotyczy struktury, nie słowa.
+- ⚠️ **To NIE jest brak wiedzy.** W tej samej sesji Jakub użył V2 poprawnie cztery razy:
+  `Gestern Abend **war ich**…` · `dann **habe ich** Freizeit` · `Letztes Wochenende **bin ich**…` ·
+  `jeden Tag **habe ich** gelernt`. Reguła jest opanowana i **niestabilna pod obciążeniem** —
+  ucieka, gdy pierwszy element jest dłuższy albo gdy Jakub myśli o treści.
+- 🚨 **Uwaga metodyczna:** `Closed` zawiera pozycję „Podstawowy szyk zdania głównego (V2)".
+  Ta luka **jej nie unieważnia** — dotyczy wyłącznie inwersji po wysuniętym elemencie,
+  nie szyku podstawowego. **Nie cofaj Jakuba na V2 od zera.**
+- **Plan:** sesja 6, 3 minuty na kontraście. Trzecie wystąpienie → priorytet nr 1 bloku 2.
+
+### 4. Rodzaj rzeczownika i końcówki przymiotnika 🔴 *(nadal Active)*
 - ❌ `die größte unterschied` → ✅ `**der** größt**e** Unterschied` *(sesja 5)*
 - ❌ `ganzes Zeit` → ✅ `**die ganze** Zeit` *(sesja 5)*
 - ❌ `schöne Abendessen` → ✅ `**ein schönes** Abendessen` *(sesja 5)*
@@ -89,26 +128,33 @@ Po liczebniku rzeczownik zostaje w liczbie pojedynczej.
 - *Sesja 3–4: `meine Gehirn`, `das letztes mal`, `die Männliche Körper`.*
 - **Pięć sesji z rzędu z wystąpieniami.** Bezpośrednio sprzężona z #1 — to ta sama tabela
   widziana z drugiej strony.
+- ⚠️ **Post-test sesji 5:** ❌ `mit dem kalt**es** Bier` → ✅ `mit **einem kalten** Bier`.
+  **Rodzajnik w Dativ ✅ (`dem`), końcówka przymiotnika ❌.** To potwierdza rozdzielenie luk:
+  determinant Jakub już trafia, przymiotnik to **osobna, jeszcze nietknięta warstwa**.
+  Także ❌ `die größte unterschied` → ✅ `**der** größt**e** Unterschied` *(rodzaj męski)*.
 - **Plan:** sesje 10–11.
 
-### 4. `in`/`nach`/`um` — budynki i godziny ⬆️ *(awans z Watching „Przyimek przy instytucjach", 2026-08-21)*
+### 5. `in`/`nach`/`um`/`an` — budynki i godziny ⬆️ *(awans z Watching „Przyimek przy instytucjach", 2026-08-21)*
 - ❌ `in Krankenhaus` → ✅ `**im** Krankenhaus` *(Wo? → Dativ)*
 - ❌ `nach Krankenhaus gehen` → ✅ `**ins** Krankenhaus gehen` *(Wohin? → Akkusativ)*.
   `nach` wyłącznie przy miastach i krajach: `nach Rom`, `nach Apulien`
 - ❌ `am 10 Uhr` → ✅ `**um** 10 Uhr`
 - ❌ `am uni` → ✅ `an der Uni` *(sesja 4)*
+- ❌ `auf Uni` → ✅ `**an der** Uni` *(post-test sesji 5)* — **trzeci wariant tego samego błędu:
+  `am` → `auf` → nadal nie `an der`. Wyjaśnienie w trakcie sesji nie weszło.**
+- ✅ **`ins Krankenhaus` poprawnie w post-teście** — ta połowa reguły weszła od razu.
 - ⚠️ **Ale `im Praktikum` wyszło poprawnie w tej samej wypowiedzi.** Forma istnieje, jest niestabilna.
 - **Powód awansu:** dotyczy słów, których Jakub używa codziennie na praktykach
   (`im Krankenhaus`, `auf Station`, `in der Vorlesung`), a sesja 5 dała trzy wystąpienia.
 
-### 5. Czasowniki zwrotne ⚪ *(DRUGI raz z rzędu „brak danych" — patrz ostrzeżenie na górze pliku)*
-- ❌ `fühlt mich fremd an` · `wir haben aufgehalten` *(brak `uns`)*
-- ✅ `fühlt **sich** fremd an` · `wir haben **uns** aufgehalten`
-- *Sesja 4 (2026-04-29): `ich erhole mich` ✅ — jedna czysta sesja.*
-- *Sesja 5 (2026-08-21): **sonda wypadła z sesji z braku czasu. BRAK DANYCH.***
-- 🔴 **To jest drugi pusty pomiar z rzędu.** Trzeci oznacza lukę porzuconą, tylko wyglądającą
-  na monitorowaną. **Sesja 6 ma obowiązek stworzyć okazję** — fiszka #8 (`sich erholen`)
-  już to przygotowuje.
+### 6. ~~Czasowniki zwrotne~~ ✅ **ZMIERZONE W POST-TEŚCIE — schodzi do Watching**
+- *Sesja 4 (2026-04-29): `ich erhole **mich**` ✅ — pierwsza czysta sesja.*
+- *Sesja 5 (2026-08-21): sonda **wypadła z sesji** z braku czasu — groził trzeci pusty pomiar
+  z rzędu. **Post-test ją uratował:** `Ich **entspanne mich** mit dem kalten Bier` ✅,
+  i to bez podpowiedzi — fiszka proponowała `sich erholen`, a Jakub sięgnął po inny
+  czasownik zwrotny i też postawił zaimek.*
+- ✅ **Druga czysta sesja z rzędu → Watching.**
+- **Kontrola:** trzecia czysta sesja → `Closed`.
 
 ---
 
@@ -145,12 +191,18 @@ Po liczebniku rzeczownik zostaje w liczbie pojedynczej.
 Jakub prowadzi równolegle kurs włoskiego, mieszka w Rzymie, na praktykach mówi po włosku.
 - ✅ **Zaobserwowane, sesja 5:** ❌ `nach **Puglia**` → ✅ `nach **Apulien**`.
   Włoska nazwa własna wstawiona w niemieckie zdanie. **Pierwsze udokumentowane wystąpienie.**
-- ⚠️ **Kandydat, jedno wystąpienie:** ❌ `über das ich habe kein Angst` → ✅ `**Davor habe ich**
-  keine Angst` — brak V2 po elemencie na pierwszym miejscu. Włoski szyk jest swobodniejszy.
-  Jedno wystąpienie = jeszcze nie wzorzec. **Obserwować.**
+- 🚨 **DRUGIE wystąpienie, tym razem SKŁADNIOWE — awansowało do Active #3.**
+  ❌ `über das **ich habe** kein Angst` *(blok 1)* i ❌ `Am 10 Uhr **ich gehe**` *(post-test)*
+  → brak V2 po wysuniętym elemencie. Włoski dopuszcza *„alle dieci io vado"*, niemiecki nigdy.
+  **To groźniejsza odmiana niż `Puglia`:** nazwę własną poprawia się jednym słowem,
+  szyk trzeba przeautomatyzować.
+- ✅ **Postęp na leksyce:** w post-teście `Apuli**a**` zamiast `Puglia` — Jakub odszedł
+  od formy włoskiej, ale nie doszedł do niemieckiej `Apulien`. **Ruch we właściwą stronę.**
 - ⚪ **Nie zaobserwowane:** pominięty zaimek osobowy (`bin müde`) — Jakub konsekwentnie stawia
   `ich`. Kalka `ho 24 anni` — brak okazji.
-- **Status:** luka realna, nie hipotetyczna. Zostaje w Watching, nie usuwamy.
+- **Status:** 🔴 **luka realna i rosnąca.** W ciągu jednej sesji: leksyka + składnia.
+  Część składniowa poszła do **Active #3**; ta pozycja zostaje jako parasol i licznik.
+  **Nie usuwamy.** Kontrola przy każdej sesji — Jakub jest w Rzymie jeszcze kilka tygodni.
 
 ### 🇵🇱 Interferencja z polskiego — kalki składniowe
 - *Sesja 5:* ❌ `Ich habe ganze Zeit für die Studium **gegeben**` — kalka „dałem cały czas".
@@ -158,6 +210,20 @@ Jakub prowadzi równolegle kurs włoskiego, mieszka w Rzymie, na praktykach mów
 - *Sesja 5:* ❌ `Mein Tag **geht's** langsam` — zbędne `es`. ✅ `Mein Tag **vergeht** langsam`
 - **Reakcja przewidziana w `CLAUDE.md`:** podaj niemiecki odpowiednik i **od razu każ użyć go
   w zdaniu**. Samo podanie tłumaczenia nie zostawia śladu.
+
+### Zafosylizowane zwroty 🆕 *(sesja 5 — odkrycie post-testu)*
+Niektóre zdania Jakub odtwarza jako **gotowy blok**, nie buduje ich od nowa — więc nie zmieniają
+się mimo korekty i mimo upływu czasu.
+- ❌ *„Wir haben **über das letztes mal** gesprochen"* — napisane **identycznie, co do litery,
+  2026-04-29 i 2026-08-21.** Cztery miesiące, zero zmiany.
+  ✅ `Wir haben **letztes Mal darüber** gesprochen.`
+- **Mechanizm:** `über das` + `das letzte Mal` zlepione w jeden nierozbieralny kawałek.
+  Brakuje też konstrukcji `da(r)-` + przyimek: `dar**über**`, `da**mit**`, `da**für**`, `da**von**`
+  — dla rzeczy, nie dla osób.
+- **Jak to wykrywać:** porównuj nowe zdania z draftami sprzed miesięcy. Zwrot, który wraca
+  w **dokładnie** tej samej błędnej formie, nie jest błędem produkcji — jest zapamiętanym błędem.
+  Recasting go nie ruszy; trzeba go **rozebrać na części wprost**.
+- **Plan:** `da(r)-` + przyimek wchodzi jako temat do bloku 2. Do fiszek już weszło.
 
 ### Rekcja czasownika — przypadek dopełnienia 🆕 *(sesja 5)*
 - ❌ `Ich verstehe **dir**` → ✅ `Ich verstehe **dich**` *(verstehen + Akkusativ)*
@@ -173,6 +239,12 @@ Sięga po słowo bliskoznaczne zamiast trafnego. Nie jest to luka gramatyczna, a
 precyzję i będzie blokować na B2.
 - *Sesja 5:* `billig` *(tani w cenie)* zamiast `heruntergekommen` *(zapuszczony)* ·
   `siehst wie` zamiast `sieht **aus** wie` · `Schwiegermutter` zamiast `die Mutter meiner Freundin`
+- 📌 *Post-test sesji 5:* ❌ `mit meinen **Studiumjahr Kollegen**` → ✅ `mit meinen
+  **Kommilitonen**`. **`der Kommilitone, -n` jest w talii Anki od sesji 2** i Jakub po nie
+  nie sięgnął — zbudował kalkę z polskiego. **To jest argument za Quizletem:** słowo w talii,
+  którego nigdy nie przerobił aktywnie, nie istnieje w produkcji.
+- *Post-test:* ❌ `untergenommen` → ✅ `heruntergekommen` — długie słowo rozpadło się przy
+  pierwszym samodzielnym użyciu. **Normalne, nie luka.** Wymaga drugiego kontaktu, nie korekty.
 - **Reakcja:** dawaj trafne słowo od razu do fiszek. Trzy z sesji 5 już tam są.
 
 ### Ortografia czatu — **nie jest luką**

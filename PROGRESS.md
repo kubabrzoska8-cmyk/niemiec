@@ -14,12 +14,13 @@
 | **Trafność — drill** | **78 %** (7/9) 🟢 *strefa docelowa 70–85 %* |
 | **Trafność — wolna produkcja** | **32 %** (6/19 grup rzeczownikowych z przyimkiem) 🔴 |
 | **Rozjazd** | **46 pkt** → reguła zapamiętana, **nie zautomatyzowana** |
-| Następna sesja | **Sesja 6 — Kasus: determinant w Dativ** *(plan bez zmian — drill w strefie)* |
+| **Post-test** *(10 fiszek, po wyjaśnieniu)* | **4,5 / 10** ogółem — ale **determinant w Dativ 6/6** ✅ |
+| Następna sesja | **Sesja 6 — determinant w Dativ W KONTRAŚCIE z Akkusativ** + 3 min na V2 *(patrz nadkorekcja ↓)* |
 | 🚨 **Zmiana kontekstu** | **Immersja CZĘŚCIOWO ISTNIEJE.** Mama dziewczyny Jakuba jest Niemką — rozmawia z nią po niemiecku **codziennie od dwóch tygodni**. Patrz Dziennik obserwacji ↓ |
 | 📍 Gdzie jest Jakub | **Rzym** — praktyki w Policlinico Umberto I. Równolegle kurs włoskiego |
 | Tryb | 🧊 **Erhaltungsmodus** — 2–3 sesje / tydzień, 10 nowych słów na sesję |
 | 🇮🇹 Interferencja włoska | **POTWIERDZONA** — `Puglia` zamiast `Apulien`. Pierwsze udokumentowane wystąpienie |
-| 📦 Anki | **47 słów / 86 kart**. Quizlet: `talia-01_sesje-01-05.txt` (33 słowa). Retencja: **nadal niezmierzona** |
+| 📦 Anki | **52 słowa / 96 kart**. Quizlet: `talia-01_sesje-01-05.txt` (34 słowa). Retencja: **nadal niezmierzona** |
 
 ## ⚠️ Czego ten plik jeszcze nie wie
 
@@ -48,7 +49,7 @@ Strefa docelowa: **70–85 %**. Poza nią Claude koryguje tempo (patrz `CLAUDE.m
 | 3 | 2026-04-28 | Nebensätze und Dativ — Wochenende am Rhein | *n/d* | — | Nebensatz ✅✅ *(6 poprawnych z rzędu)* · Dativ ❌ | `haben`/`sein` w Perfekt → **Active**; Adjektivendungen → Watching; refleksywne → Active | — |
 | 4 | 2026-04-29 | Freizeit und Erholung nach der Uni | *n/d* | — | Perfekt `sein` *(brak okazji)* · refleksywne ✅ | Partizip II nieregularnych (Watching); `am uni` → `an der Uni` (Watching) | — |
 | — | — | ⏸️ **przerwa ~14 tyg. bez niemieckiego + 2 tyg. codziennej rozmowy** | — | — | — | — | — |
-| **5** | 2026-08-21 | 🔬 **Rediagnostyka po przerwie** | **drill 78 %** · **wolna 32 %** | 47 słów / 86 kart | #1 Kasus 🔴 32 % · #2 Perfekt ✅ **4/4** · #4 Konjunktiv II ✅ · #6 `lernen` ✅ · #3 Adjektiv 🔴 · #5 zwrotne ⚪ **brak danych (2. raz)** | 🆕 liczebnik → l.mn. (**Active**) · 🆕 `obwohl`≠`weil` (Watching) · 🆕 rekcja `verstehen+A` (Watching) · 🇮🇹 interferencja **potwierdzona** · ⬆️ `in`/`nach` przy budynkach → Active | **Tempo bez zmian** — drill w strefie. Blok 1 rusza sesją 6, ale **zawężony** do tabeli `mein/dein/ihr` w Dativ |
+| **5** | 2026-08-21 | 🔬 **Rediagnostyka po przerwie** | **drill 78 %** · **wolna 32 %** · **post-test: determinant 6/6** | 52 słowa / 96 kart | #1 Kasus 🔴 32 % · #2 Perfekt ✅ **4/4** · #4 Konjunktiv II ✅ · #6 `lernen` ✅ · #3 Adjektiv 🔴 · #5 zwrotne ✅ *(uratowane post-testem)* | 🆕 liczebnik → l.mn. (**Active**) · 🆕 `obwohl`≠`weil` (Watching) · 🆕 **brak V2 po wysuniętym elemencie (Active)** · 🆕 zafosylizowane zwroty (Watching) · 🆕 rekcja `verstehen+A` (Watching) · 🇮🇹 interferencja **potwierdzona** · ⬆️ `in`/`nach` przy budynkach → Active | **Tempo bez zmian** — drill w strefie. Blok 1 rusza sesją 6, ale **zawężony** do tabeli `mein/dein/ihr` w Dativ |
 
 ---
 
@@ -97,7 +98,7 @@ a nie ćwiczyć ją jeszcze raz na osobno.
 | Sesja | Nowe słowa | Talia łącznie | Retencja | Nowe karty/dzień |
 |-------|-----------|---------------|----------|------------------|
 | 1–4 *(rekonstrukcja)* | 37 | 37 | niezmierzona | 10 |
-| **5** | **10** | **47** *(86 kart)* | **niezmierzona** — Jakub jeszcze nie zaczął powtórek | 10 |
+| **5** | **15** *(10 z sesji + 5 z post-testu)* | **52** *(96 kart)* | **niezmierzona** — Jakub jeszcze nie zaczął powtórek | 10 |
 
 > **Skąd 37 słów bez ani jednej sesji z fiszkami:** zostały wyciągnięte z sekcji „Słownictwo"
 > czterech draftów z kwietnia. To materiał, który realnie padł na tamtych sesjach, więc jest
@@ -195,3 +196,45 @@ bo odpowiedzi były dłuższe niż zakładał plan lekcji, a `Gespräch` jest ni
 z rzędu pusty pomiar** tej luki. `GAPS.md` mówi wprost, że trzeci raz oznacza lukę porzuconą,
 tylko wyglądającą na monitorowaną — **sesja 6 ma obowiązek stworzyć okazję.** Fiszka nr 8
 (`Ich erhole mich mit einem kalten Bier`) to przygotowuje.
+
+### 2026-08-21 (sesja 5) — post-test fiszek: najlepsze dane całej sesji
+
+Jakub **wpisał wszystkie 10 fiszek na czacie** zamiast sprawdzić się z odpowiedziami. To dało
+pomiar, którego plan sesji nie przewidywał: **produkcję 5 minut po wyjaśnieniu reguły**, przy
+uwadze skierowanej na formę.
+
+**Wynik ogólny 4,5 / 10 jest mylący.** Rozbity na warstwy pokazuje trzy różne rzeczy:
+
+| Warstwa | Wynik | Wniosek |
+|---|---|---|
+| **Determinant w Dativ** *(cel sesji)* | ✅ **6/6** | Reguła wchodzi **natychmiast** po jednym wyjaśnieniu |
+| **Końcówka przymiotnika** | ❌ `mit dem kaltes Bier` | Osobna warstwa, jeszcze nietknięta — rodzajnik ✅, przymiotnik ❌ |
+| **Rzeczy wyjaśnione „przy okazji"** | ❌ `auf Uni`, ❌ `Am 10 Uhr` | Nie weszły. Jedna sesja = **jeden cel**, nie pięć |
+
+**Trzy odkrycia, których sesja nie dałaby bez tego post-testu:**
+
+**1. Nadkorekcja.** ❌ `nach dem Prüfung` zamiast `für die Prüfung`. Po godzinie o Dativie
+Jakub wstawił Dativ tam, gdzie potrzebny Akkusativ — i **zmienił znaczenie zdania**.
+To nie jest błąd, to skutek uboczny nauczania. **Sesja 6 musi uczyć kontrastu Dativ ↔ Akkusativ,
+nie samego Dativu**, inaczej wbiję mu drugą lukę własnymi rękami.
+
+**2. Brak V2 to wzorzec, nie wpadka.** ❌ `Am 10 Uhr **ich gehe**` — drugie wystąpienie w tej
+samej sesji (pierwsze: `über das ich habe kein Angst`). Awansowało do **Active #3**
+z podejrzeniem interferencji włoskiej. Uwaga: w tej samej sesji Jakub użył V2 poprawnie
+**cztery razy**, więc to niestabilność pod obciążeniem, nie brak reguły. **Nie cofać go na V2.**
+
+**3. Zafosylizowany zwrot.** ❌ *„Wir haben über das letztes mal gesprochen"* jest w drafcie
+z **2026-04-29 w identycznym brzmieniu, co do litery**. Cztery miesiące, zero zmiany —
+bo Jakub odtwarza to zdanie jako blok, nie buduje go. **Recasting takich zwrotów nie ruszy;
+trzeba je rozebrać wprost.** Nowa pozycja w `GAPS.md` → Watching, wraz z metodą wykrywania
+(porównywanie z draftami sprzed miesięcy).
+
+**Plus jedno o narzędziach:** na „kolegów z roku" Jakub zbudował kalkę `Studiumjahr Kollegen`,
+mimo że **`der Kommilitone, -n` jest w talii Anki od sesji 2**. Słowo leży w talii, której
+nigdy nie przerobił aktywnie — więc w produkcji nie istnieje. To najczystszy dotąd argument
+za kolejnością **Quizlet → Anki** opisaną w `CLAUDE.md`.
+
+> 📌 **Metodyczny wniosek na przyszłe sesje:** proponuj Jakubowi wpisywanie fiszek
+> na czacie za każdym razem. `CLAUDE.md` już to zaleca („to daje lepsze dane do `GAPS.md`
+> niż samoocena") — sesja 5 pokazała, o ile lepsze. Post-test dał trzy nowe wpisy do `GAPS.md`,
+> czyli więcej niż blok `Gespräch`.

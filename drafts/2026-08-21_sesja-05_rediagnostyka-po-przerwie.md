@@ -143,6 +143,73 @@ Skład: 5 z dzisiejszej sesji · 3 Active gaps · 2 ze starszego materiału.
 
 ---
 
+## 🧪 POST-TEST — Jakub wpisał wszystkie 10 fiszek na czacie
+
+**Nieplanowany, najcenniejszy pomiar sesji.** Produkcja 5 minut po wyjaśnieniu reguły.
+
+| # | Odpowiedź Jakuba | Ocena |
+|---|---|---|
+| 1 | `Ich spreche deutsch **seit zwei Wochen**` | ✅ |
+| 2 | `Ich habe mit Mutter **von meiner Freundin** gesprochen` | ⚠️ `meiner` ✅ / brak `der` przed `Mutter` |
+| 3 | `Ich bin **mit meinen Freunden** nach Apulia gefahren` | ✅ *(`Apulia` — ruch od `Puglia` ku `Apulien`)* |
+| 4 | `Am 10 Uhr **ich gehe** ins Krankenhaus` | ❌ **brak V2** + `am`→`um`; `ins Krankenhaus` ✅ |
+| 5 | `Die größte unterschied ist dass die Krankenhause untergenommen sind` | ❌ rodzaj, l.mn., słowo |
+| 6 | `Ich lerne **mit meinen** Studiumjahr Kollegen` | ✅ gramatycznie / ❌ leksykalnie (`Kommilitonen`) |
+| 7 | `**Nach dem ganzen Tag** auf Uni` | ⚠️ grupa ✅✅ / `auf Uni` ❌ |
+| 8 | `Ich **entspanne mich** mit dem kaltes Bier` | ⚠️ zwrotne ✅ + `dem` ✅ / przymiotnik ❌ |
+| 9 | `Ich muss viel **lernen** nach dem Prüfung` | ❌ nadkorekcja: `für die Prüfung` |
+| 10 | `Wir haben über das letztes mal gesprochen` | ❌ **identyczne ze zdaniem z 2026-04-29** |
+
+**Wynik: 4,5 / 10 — ale rozbicie na warstwy mówi coś zupełnie innego niż ta liczba.**
+
+### Warstwa 1 — cel sesji: ✅ 6/6
+
+`seit zwei **Wochen**` · `von **meiner** Freundin` · `mit **meinen** Freunden` ·
+`mit **meinen** Kollegen` · `nach **dem ganzen** Tag` · `**ins** Krankenhaus`
+
+> 🔑 `nach dem ganzen Tag` to **dokładnie ta grupa**, która 2026-04-29 wyszła jako
+> `nach ganzen tag am uni` i od czterech miesięcy stoi w `GAPS.md` jako dowód luki nr 1.
+> Teraz z rodzajnikiem **i** końcówką przymiotnika.
+
+**Wolna produkcja 32 % → post-test 6/6.** Reguła wchodzi natychmiast. Pytanie nie brzmi
+„czy zrozumie", tylko „czy zostanie" — i na to odpowie dopiero wolna produkcja sesji 6.
+
+### Warstwa 2 — co się przy okazji NIE nauczyło
+
+`auf Uni` *(trzeci wariant po `am uni`, `an der Uni` nadal nie)* · `Am 10 Uhr` · rodzaj
+`der Unterschied` · końcówka `kalten`. **Wszystkie te rzeczy wyjaśniłem dziś mimochodem,
+w komentarzu do innych błędów. Żadna nie weszła.** Weszło tylko to, co było celem sesji
+i dostało własny blok. → **Jedna sesja = jeden cel.**
+
+### Warstwa 3 — trzy odkrycia, których nie dałby żaden inny blok
+
+**1. 🚨 Nadkorekcja Dativu.** ❌ `nach dem Prüfung` → ✅ `für die Prüfung`.
+Po godzinie o Dativie Jakub wstawił go tam, gdzie potrzebny Akkusativ, i **zmienił znaczenie
+zdania** („po egzaminie" zamiast „do egzaminu"). To skutek uboczny mojego nauczania, nie jego
+błąd. **Sesja 6 uczy kontrastu Dativ ↔ Akkusativ, nie samego Dativu.**
+
+**2. 🚨 Brak V2 to wzorzec.** ❌ `Am 10 Uhr **ich gehe**` — drugie wystąpienie w sesji
+(pierwsze: `über das ich habe kein Angst`). → **Active #3**, z podejrzeniem interferencji
+włoskiej *(„alle dieci io vado")*. **Ale w tej samej sesji V2 wyszło poprawnie cztery razy**
+(`Gestern Abend war ich`, `dann habe ich`, `Letztes Wochenende bin ich`, `jeden Tag habe ich`)
+— więc to niestabilność pod obciążeniem, **nie brak reguły. Nie cofać go na V2 od zera.**
+
+**3. 🚨 Zafosylizowany zwrot.** Zdanie 10 jest w drafcie z 2026-04-29 **w identycznym
+brzmieniu, co do litery**. Cztery miesiące i cztery sesje bez zmiany — bo Jakub odtwarza je
+jako gotowy blok, a nie buduje od nowa. **Recasting takich zwrotów nie ruszy.**
+→ nowa pozycja w Watching + `da(r)-` + przyimek do fiszek i do bloku 2.
+
+**Plus o narzędziach:** `Studiumjahr Kollegen` — kalka, mimo że `der Kommilitone, -n` **jest
+w talii Anki od sesji 2**. Słowo, którego nigdy nie przerobił aktywnie, w produkcji nie istnieje.
+Najczystszy dotąd argument za kolejnością **Quizlet → Anki**.
+
+### Dopisane do talii po post-teście (5 pozycji, `sesja-05`)
+`darüber / damit / dafür` · `an der Uni` · `für + Akkusativ` *(reguła)* ·
+`Verb an zweiter Stelle` *(reguła)* · `sich entspannen`
+**Talia: 52 słowa / 96 kart.** Quizlet: `talia-01_sesje-01-05.txt` (34 słowa).
+
+---
+
 ## 🎯 Misja zadana
 
 **A — 🎧 Ohrwurm.** 10 min czegokolwiek po niemiecku. Przynieść 3 zdania zrozumiane w całości
@@ -156,10 +223,31 @@ Jedna komórka tabeli, przez tydzień, na żywym rozmówcy.
 
 ## Na sesję 6
 
-- **Blok 1 (`Kasus`) rusza normalnie** — drill 78 % nie uzasadnia sesji odbudowy.
-- **Zawęź cel:** nie „przypadki po przyimkach", tylko **tabela `mein/dein/ihr` w Dativ**.
-  Dane pokazują, że rzeczownik Jakub odmienia dobrze, a determinant nie.
-- **Wymuś okazję na lukę #5** *(zwrotne)* — drugi raz z rzędu „brak danych", a `GAPS.md`
-  wyraźnie zabrania traktowania tego jako pomiaru.
-- **Sprawdź `obwohl` vs `weil`** — jedno zadanie, nowa Watching.
-- Zapytaj o misję B: czy udało się świadomie kontrolować końcówkę w żywej rozmowie.
+**Cel jeden, wąski: `mein/dein/ihr` w Dativ — ale W KONTRAŚCIE z Akkusativ.**
+Post-test pokazał, że sam Dativ wchodzi w 5 minut, a wbity bez kontrastu **produkuje
+nadkorekcję** (`nach dem Prüfung`). Dwie listy obok siebie:
+`mit · von · nach · bei · seit · zu · aus` → **Dativ** · `für · ohne · gegen · um · durch` → **Akkusativ**.
+
+**Kolejność:**
+1. **Sprawdź, czy determinant został** — 3 zdania w wolnej produkcji, bez uprzedzenia.
+   Post-test dał 6/6 przy skupionej uwadze; **to jest właściwy pomiar, nie tamten.**
+2. **Kontrast Dativ ↔ Akkusativ** — blok główny.
+3. **V2 po wysuniętym elemencie** *(Active #3, nowa)* — 3 minuty, na kontraście.
+   `Ich gehe um 10 Uhr…` / `Um 10 Uhr **gehe ich**…`. **Nie tłumacz V2 od zera** — on to umie,
+   tylko mu ucieka.
+4. **Rozbierz zdanie 10** wprost — `über das` → `darüber`. Zafosylizowane, recasting nie zadziała.
+5. **`obwohl` vs `weil`** — jedno zadanie *(Watching, sesja 5)*.
+
+**Czego NIE robić:**
+- Nie wprowadzać końcówek przymiotnika — to blok 10–11 i osobna warstwa. Post-test pokazał,
+  że rodzajnik i przymiotnik idą osobno; mieszanie ich teraz cofnie determinant.
+- Nie wyjaśniać rzeczy „przy okazji". Warstwa 2 post-testu: **nic wyjaśnione mimochodem
+  nie weszło.**
+- Nie skracać `Gespräch` — na sesji 5 przez to wypadła sonda #5.
+
+**Do zapytania na wejściu:**
+- Misja A: 3 zdania zrozumiane + **1 niezrozumiane** *(warunek zaliczenia)*.
+- Misja B: czy udało się świadomie kontrolować końcówkę w rozmowie z mamą dziewczyny.
+  **To pytanie mierzy przenoszenie uwagi z czatu na żywą rozmowę** — czyli dokładnie to,
+  czego rozjazd 46 punktów się domaga.
+- Czy ruszył Quizlet *(`talia-01_sesje-01-05`)* — i czy `Kommilitone` już jest w repertuarze.
