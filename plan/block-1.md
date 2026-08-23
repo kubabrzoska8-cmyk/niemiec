@@ -21,17 +21,31 @@ Na koniec bloku `mit einem kalten Bier` ma wychodzić bez zastanowienia.
 - **⚠️ Uwaga:** 16 tygodni przerwy. Jeśli szyk zdania podrzędnego się nie odtworzy, blok 1
   zostaje przesunięty, a blok 2 wchodzi pierwszy. Plan ma ustąpić danym
 
-## Sesja 6 — Cztery przypadki: mapa systemu
-📄 Referencja: [`grammar/01-kasus-praepositionen.md`](../grammar/01-kasus-praepositionen.md)
+## Sesja 6 — Dativ czy Akkusativ? Dwie listy, jedno pytanie
+📄 Pełna lekcja: [`lessons/session-06.md`](../lessons/session-06.md) ·
+referencja: [`grammar/01-kasus-praepositionen.md`](../grammar/01-kasus-praepositionen.md)
 
-- **Gramatyka:** `Nominativ / Akkusativ / Dativ / Genitiv` — pytania kontrolne `wer? wen? wem? wessen?`
-- **Narzędzie dnia:** **pytanie kontrolne przed odmianą.** Zanim wybierzesz końcówkę, zadaj
-  zdaniu pytanie. To jeden nawyk, który zamyka połowę luki #1
-- **Słownictwo:** uczelnia i dzień codzienny *(rzeczowniki z rodzajnikiem i liczbą mnogą)*
+> ⚠️ **Przepisane po sesji 5.** Pierwotny plan („cztery przypadki jako mapa systemu")
+> był oparty na założeniu, że Jakub nie zna systemu. Post-test sesji 5 pokazał odwrotnie:
+> determinant **6/6** pięć minut po wyjaśnieniu, przy **32 %** w wolnej produkcji.
+> Problem nie jest w wiedzy, tylko w automatyzacji — więc wykład został ścięty,
+> a drill przestawiony na zdania o czymś innym.
+
+- **Gramatyka:** dwie zamknięte listy przyimków — `mit·nach·bei·seit·von·zu·aus` (**D**)
+  kontra `für·um·durch·gegen·ohne` (**A**) — plus **jedna komórka tabeli**:
+  żeński Dativ `der / einer / meiner`
+- **Narzędzie dnia:** po przyimku **nie zadajesz pytania kontrolnego**. Przypadek nie wynika
+  z sensu, tylko z przyimka. Sensu tu nie ma — jest lista
+- **🚨 Kontrast obowiązkowy, nie opcjonalny:** sesja ucząca samego Dativu produkuje nadkorekcję.
+  Dowód: po sesji 5 padło ❌ `nach dem Prüfung` zamiast `für die Prüfung` — zmienił się
+  nie przypadek, tylko **znaczenie zdania**
+- **Dokładki:** 60 s na liczebnik → l.mn. (`zwei Woch**en**`, luka #2) · 3 min na V2 po
+  wysuniętym elemencie w ćwiczeniu „wieża" (luka #3, 🇮🇹) · **wymuszona okazja na czasowniki
+  zwrotne** — trzeci pusty pomiar z rzędu oznaczałby lukę porzuconą
+- **Słownictwo:** przyimki wchodzą do talii **razem z przypadkiem**, jak rzeczownik z rodzajnikiem
 - **🎁 Przewaga:** polski **ma** przypadki. Nie uczysz się nowej idei, tylko innego rozkładu
-- **⚠️ Pułapka:** rozkład **nie pokrywa się** z polskim. `pomagać komuś` = celownik w obu
-  językach, ale `fragen` rządzi biernikiem (`ich frage **dich**`), a polskie „pytać kogoś"
-  też biernikiem — i właśnie dlatego mylące jest to, gdzie się rozjeżdżają, nie gdzie zgadzają
+- **⚠️ Pułapka:** rozkład **nie pokrywa się** z polskim, a przy przyimku nie pokrywa się z niczym.
+  `für` bierze Akkusativ nie dlatego, że coś na kimś działa — tylko dlatego, że to `für`
 
 ## Sesja 7 — Przyimki z Dativem
 - **Gramatyka:** `mit, nach, bei, seit, von, zu, aus` *(+ `außer`, `gegenüber`)*
