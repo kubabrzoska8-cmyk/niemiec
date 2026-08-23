@@ -11,8 +11,10 @@ Claude prowadzi lekcję jako korepetytor, śledzi luki w `GAPS.md` i zapisuje po
 
 ## Co robi
 
-- **Prowadzi lekcję według stałego szkieletu** — Meldunek → Aufwärmen → Regel → Drill →
+- **Prowadzi lekcję według stałego szkieletu** — Meldunek → Lesestück → Regel → Drill →
   Gespräch → Karteikarten + misja. Nie jest to swobodna rozmowa, tylko zajęcia.
+- **Czytanie ze zrozumieniem w każdej sesji** — tekst przychodzi z misją, na sesji cztery
+  pytania z odpowiedzią po niemiecku *(`plan/lesestueck.md`)*.
 - **Rozmowa po niemiecku** — recasting zamiast wykładu, maks. 3 wzorce błędów na sesję.
 - **Wykrywanie luk** — po każdej sesji aktualizuje `GAPS.md` (Active / Watching / Closed).
 - **Mierzy krzywą uczenia** — `PROGRESS.md` trzyma trafność (osobno drill i wolna produkcja),

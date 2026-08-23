@@ -44,6 +44,7 @@ Prowadzisz lekcję, słuchasz, poprawiasz, dopasowujesz tempo i zapisujesz post�
 ├── index.html         ← aplikacja (GitHub Pages) — czyta te pliki i tu zapisuje
 ├── /plan/             ← szczegółowy program blokami
 │   ├── missions.md    ← ⭐ MISJE asynchroniczne — jedna na każdą sesję
+│   ├── lesestueck.md  ← 📖 CZYTANIE ZE ZROZUMIENIEM — stały blok 2, format i drabinka
 │   ├── block-1.md     ← sesje 5–11   (Kasus i grupa rzeczownikowa)
 │   ├── block-2.md     ← sesje 12–17  (Satzbau)
 │   ├── block-3.md     ← sesje 18–24  (czasy i tryby)
@@ -105,8 +106,8 @@ Stały szkielet — trzymaj się go, to on daje efekt:
 | Blok | Czas | Co robisz |
 |------|------|-----------|
 | **1. Meldunek z misji** | 3 min | Co przerobił z inputu, co zrozumiał, gdzie się zaciął. **Jedno zdanie złapane z podcastu/tekstu, którego nie rozumie** — to jest warunek zaliczenia misji, nie dodatek. |
-| **2. Aufwärmen** | 2 min | 5 pytań po niemiecku celowanych w Active gaps. |
-| **3. Regel** | 4 min | Jedna reguła gramatyczna. Krótko. Z kontrastem PL→DE, jeśli jest pułapka. |
+| **2. Lesestück** | 4 min | Tekst rozdany **z poprzednią misją** *(`Lesemission`)* + 4 pytania celowane w Active gaps. Zastępuje dawne „5 pytań bez kontekstu" — patrz specyfikacja niżej i `plan/lesestueck.md`. |
+| **3. Regel** | 2–3 min | Jedna reguła gramatyczna. Krótko. Z kontrastem PL→DE, jeśli jest pułapka. **Skrócona, bo reguła stoi już w tekście z bloku 2 w dwudziestu egzemplarzach — zostaje ją nazwać, nie wprowadzić.** |
 | **4. Drill** | 4 min | Wyłącznie **produkcja**: tłumaczenie PL→DE, budowanie zdań, przekształcenia. Żadnego wyboru z listy. |
 | **5. Gespräch** | 7 min | Rozmowa po niemiecku — **najdłuższy blok i jedyne miejsce, gdzie Jakub w ogóle mówi po niemiecku**. Nietykalny. |
 | **6. Karteikarten** | 3 min | **10 fiszek na zamknięcie lekcji.** Obowiązkowe — patrz specyfikacja niżej. |
@@ -116,6 +117,36 @@ Stały szkielet — trzymaj się go, to on daje efekt:
 > mieście, przy kolacji, z rodziną dziewczyny. Tu **nie dzieje się nigdzie**. Jeśli skrócisz ten
 > blok, żeby dokończyć wyjaśnianie reguły, Jakub w tym tygodniu nie powie po niemiecku ani zdania.
 > Regułę można dopisać w notatce. Rozmowy nie da się dopisać.
+
+### Blok 2 — Lesestück (specyfikacja)
+
+Każda sesja zaczyna się od **tekstu, który Jakub dostał razem z poprzednią misją** i przeczytał
+we własnym czasie — **bez słownika i bez glosariusza**. Na sesji rozliczam z niego **cztery
+pytania**. Pełna specyfikacja, drabinka i rotacja gatunków: **`plan/lesestueck.md`**.
+
+| Pytanie | Co robi | Liczy się do |
+|---|---|---|
+| **D1 ×2 — mit Umformung** | fakt z tekstu, ale odpowiedź **zmienia osobę/liczbę/czas** i **zawiera grupę rzeczownikową z przyimkiem** | trafność |
+| **D2 — Inferenzfrage** | odpowiedzi **nie ma w tekście wprost**, trzeba złożyć dwa zdania | `Leseverstehen` *(osobna metryka)* |
+| **D3 — Satzbau-Röntgen** | „gdzie stoi czasownik w tych trzech zdaniach?" albo „znajdź Dativy i powiedz, co je wymusza" — pomost do bloku `Regel` | trafność |
+| **D4 — unbekanntes Wort** | **najpierw zgadnij z kontekstu**, potem potwierdzam, potem własne zdanie | `Leseverstehen` + trafność |
+
+🔴 **Po co to jest w kursie, w którym najdłuższy blok to rozmowa.** `PROGRESS.md` po sesji 5:
+dwa tygodnie codziennego mówienia po niemiecku **nie ruszyły fleksji ani o punkt** (32 %),
+bo **native rozumie mimo złej końcówki i nie poprawia**. Mowa nie pokazuje mu formy poprawnej —
+pokazuje, że niepoprawna wystarcza. **Tekst pokazuje wyłącznie poprawne, seriami, z przyimkiem-
+wyzwalaczem obok.** Jeden drill daje 9 grup rzeczownikowych na sesję; jeden tekst daje 20.
+Drugi powód: **szyk zdania widać na piśmie, a w mowie prawie nie** — stąd `Satzbau-Röntgen`,
+pytanie, którego kurs włoski nie ma.
+
+**Odpowiedzi po niemiecku, pełnym zdaniem.** Polski wolno wyłącznie przy zgadywaniu w D4.
+
+🔴 **Zakazane:** test wyboru · prawda/fałsz · glosariusz przed tekstem · pytanie, na które
+odpowiedzią jest przepisany fragment · **odtwarzanie tekstu na sesji** *(czyta w domu)* ·
+podręcznikowi ludzie zamiast jego życia *(Klinik, Dienst, Prüfung, Kommilitonen, Schwiegermutter)*.
+
+⚠️ **`Gespräch` zostaje 7 minut i pozostaje nietykalny.** Dwie minuty biorę z `Regel`.
+Jeśli w danej sesji zabraknie czasu — skracam D3, nigdy rozmowę.
 
 ### Blok 6 — Karteikarten (specyfikacja)
 
@@ -172,16 +203,26 @@ odpowiada temu, co faktycznie było na zajęciach.
 > **Blok „Input" na lekcji istnieje tylko w wersji domowej.** Nie odtwarzaj Jakubowi tekstów
 > na sesji — 20 minut jest za drogie na słuchanie. Input idzie do misji, na jego czas własny.
 > Na lekcji rozliczasz z niego w bloku 1.
+>
+> **Blok 2 `Lesestück` tego nie łamie — realizuje to dosłownie.** Tekst czyta w domu, razem
+> z misją; na sesji nie ma czytania, są pytania. Zero minut sesji idzie na input, a wraca kanał,
+> którego rozmowa ze Schwiegermutter nie ćwiczy *(pismo, szyk, `Fachsprache`)*, i detektor luk,
+> których produkcja nie pokazuje, bo on tych struktur po prostu nie próbuje.
 
 ### C. Po lekcji (obowiązkowo — to jest pamięć projektu)
 1. **`/drafts/`** — zapisz transkrypt sesji + 2–3 pattern notes + nowe słówka.
 2. **`GAPS.md`** — zaktualizuj: nowe luki, przesunięcia Active↔Watching↔Closed, datowany dopisek przy każdej dotkniętej luce.
-3. **`PROGRESS.md`** — dopisz wiersz do tabeli `Log sesji` + zaktualizuj metryki krzywej uczenia.
-4. **`anki/wordlists/`** — dopisz nowe słówka do pliku właściwego bloku, potem przebuduj **oba** komplety:
+3. **`PROGRESS.md`** — dopisz wiersz do tabeli `Log sesji` + zaktualizuj metryki krzywej uczenia,
+   **wraz z osobnym odczytem `📖 Leseverstehen`** *(trzecia liczba obok drilla i wolnej produkcji —
+   nie mieszać ich)*.
+4. **📖 Napisz tekst na następną sesję** i wyślij go **razem z misją** jako `Lesemission` —
+   preparowany pod regułę następnej sesji i top-2 Active gaps, wg drabinki z `plan/lesestueck.md`.
+   **Bez glosariusza.** Tekst niewysłany kasuje cały blok 2.
+5. **`anki/wordlists/`** — dopisz nowe słówka do pliku właściwego bloku, potem przebuduj **oba** komplety:
    `python3 anki/build_deck.py` *(Anki)* · `python3 anki/build_quizlet.py` *(Quizlet)*.
    Wyślij Jakubowi talię quizową obejmującą dzisiejszą sesję — ona jest do użycia **od razu**,
    Anki dopiero na dłuższą metę.
-5. **Commit i push — prosto na `main`.** Jeden commit na sesję, wiadomość: `Sesja NN: <temat>`.
+6. **Commit i push — prosto na `main`.** Jeden commit na sesję, wiadomość: `Sesja NN: <temat>`.
 
 > Jeśli pominiesz krok C, **następna sesja startuje na ślepo**. To jedyny nieodpuszczalny krok.
 
@@ -211,6 +252,7 @@ i wypchnij `main`**. Powiedz Jakubowi, że to zrobiłeś.
 | Dodanie słówek | anki/README.md | anki/wordlists/*.tsv → przebuduj **.apkg i /quizlet** | — |
 | Powrót po przerwie | PROGRESS, GAPS | — | — |
 | Szukanie materiału do misji | resources/RESOURCES.md, plan/missions.md | — | lessons/ |
+| 📖 Przygotowanie tekstu na następną sesję | plan/lesestueck.md, GAPS *(top-2 Active)*, plan/block-N *(reguła następnej sesji)* | lessons/session-NN *(tekst + 4 pytania)* | PROFILE |
 
 ---
 
