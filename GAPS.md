@@ -333,7 +333,10 @@ Wyjątek: gdy Umlaut zmienia formę gramatyczną (`fahre` / `fährt`) — wtedy 
 > — ta sama struktura wraca w dwóch kolejnych tekstach — **plus jedną fiszkę**. Do *Closed*
 > schodzi, gdy rozpozna ją w tekście bez pytania.
 
-*(pusta do sesji 6 — blok `Lesestück` startuje razem z nią)*
+*(pusta — blok `Lesestück` **startuje sesją 7**. Specyfikacja i pierwszy tekst weszły do repo
+2026-08-23 **w trakcie** sesji 6, więc Jakub nie mógł przeczytać tekstu przed nią; sesja 6
+poszła na bloku rezerwowym `2b Aufwärmen`, dokładnie tak, jak przewiduje `lessons/session-06.md`.
+Tekst „Nachricht von Ursula" został oddany jako `Lesemission` **do sesji 7**.)*
 
 ---
 

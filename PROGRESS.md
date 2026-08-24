@@ -20,6 +20,7 @@
 | Następna sesja | **Sesja 7 — grupa dopełniaczowa (`die Mutter meiner Freundin`) + granice reguł.** Przyimki z Dativem jako tło, nie temat |
 | 📍 Gdzie jest Jakub | **Rzym** — praktyki w Policlinico Umberto I *(tutor: prof. Candela)*. Równolegle kurs włoskiego |
 | Tryb | 🧊 **Erhaltungsmodus** — 2–3 sesje / tydzień |
+| 📖 Lesestück | **Startuje sesją 7.** Specyfikacja weszła do repo w trakcie sesji 6 — Jakub nie miał tekstu przed lekcją, więc poszedł blok rezerwowy `2b Aufwärmen`. Tekst „Nachricht von Ursula" oddany jako `Lesemission` |
 | 🇮🇹 Interferencja włoska | 🟡 **obniżona z 🔴** — zero wtrętów leksykalnych, część składniowa (V2) prawie zamknięta |
 | 📦 Anki | **65 słów / 120 kart**. Quizlet: `talia-01_sesje-01-06.txt` (39 słów). Retencja: **nadal niezmierzona** |
 
