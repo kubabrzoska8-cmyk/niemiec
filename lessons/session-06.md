@@ -50,7 +50,28 @@ zmierzyć, co robi codzienna rozmowa**, a `PROGRESS.md` ma tę niewiadomą wpisa
 
 ---
 
-## Blok 2 — Aufwärmen (2 min)
+## Blok 2 — 📖 Lesestück (4 min) *(nowy stały blok, od tej sesji)*
+
+**Tekst: `plan/lesestueck.md` → „Przykład kompletny — Sesja 6" *(Nachricht von Ursula)*.**
+Jakub czyta go **przed sesją, bez słownika**. Cztery pytania — D1a, D1b, D2, D3, D4 — są tam
+razem z tekstem.
+
+> ⚠️ **Wyjątek jednorazowy:** ten tekst nie wyszedł z poprzednią misją, bo blok powstał po
+> sesji 5. Wysłać go **osobno, przed sesją 6**. Od sesji 7 tekst zawsze wychodzi razem z misją,
+> na końcu poprzedniej sesji — inaczej blok 2 nie ma z czego wystartować.
+
+**Dlaczego to wchodzi akurat tu, a nie w bardziej „gramatycznej" sesji:** D3 *(Satzbau-Röntgen)*
+daje trzy zdania z wysuniętym okolicznikiem i czasownikiem na drugim miejscu — czyli **Active #3
+pokazaną od strony poprawnej, zanim zacznę jej wymagać w produkcji**. A w tym samym tekście
+stoją cztery Dativy i cztery Akkusativy obok siebie, więc **kontrola nadkorekcji z sesji 5
+jest wbudowana w materiał**, bez ani jednego zdania wyjaśnienia.
+
+**Jeśli nie przeczytał** — 90 sekund na sesji, tekst ma 96 słów. Wtedy zamiast D1/D2 wchodzi
+pięć pytań `Aufwärmen` poniżej. **Nie kasuj bloku i nie skracaj `Gespräch`.**
+
+---
+
+## Blok 2b — Aufwärmen (rezerwa, jeśli tekst nieprzeczytany)
 
 Pięć pytań po niemiecku, pełnym zdaniem. **Wszystkie pięć zawiera pułapkę na aktualne Active.**
 

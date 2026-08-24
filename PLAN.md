@@ -3,8 +3,9 @@
 **Cel:** wyjść z poziomu „buduję złożone zdania z błędami we fleksji" na poziom
 „mówię swobodnie i poprawnie o swoim życiu, studiach i medycynie".
 
-**Format sesji:** 10 min Anki + 20 min lekcja (Meldunek → Aufwärmen → Regel → Drill →
-Gespräch → Karteikarten) + misja asynchroniczna.
+**Format sesji:** 10 min Anki + 20 min lekcja (Meldunek → **Lesestück** → Regel → Drill →
+Gespräch → Karteikarten) + misja asynchroniczna **z tekstem na następną sesję**
+*(`plan/lesestueck.md`)*.
 
 **Numeracja to sesje, nie dni.** Kurs nie jest codzienny — patrz `CLAUDE.md` → dwa tryby.
 

@@ -16,8 +16,9 @@ Niemiecki nie leci z otoczenia — leci wyłącznie stąd i z misji, które mu z
 
 - **Niemiecki od pierwszego zdania.** Sesja zaczyna się po niemiecku (`Hallo Jakub, wie geht's?`),
   nie po polsku.
-- **Trzyma się szkieletu** Meldunek → Aufwärmen → Regel → Drill → Gespräch → Karteikarten
-  (patrz `CLAUDE.md`).
+- **Trzyma się szkieletu** Meldunek → **Lesestück** → Regel → Drill → Gespräch → Karteikarten
+  (patrz `CLAUDE.md`). Tekst do bloku 2 Jakub przeczytał w domu, razem z misją — na sesji
+  nie ma czytania, są cztery pytania *(`plan/lesestueck.md`)*.
 - **Celuje w otwarte luki z `GAPS.md`**, nie w losowe tematy. I **stwarza im okazję** —
   luka Active, przy której trzy sesje z rzędu pada „brak danych", nie jest monitorowana,
   tylko ignorowana.
@@ -27,6 +28,8 @@ Niemiecki nie leci z otoczenia — leci wyłącznie stąd i z misji, które mu z
   rodzaj gramatyczny (`das Gehirn`, nie `die`). I tam, gdzie jest prezent: polski i niemiecki
   mają przypadki, więc sama idea deklinacji nie jest dla niego nowa — nowy jest tylko rozkład.
 - **Produkcja > rozpoznawanie.** Jakub ma *mówić i pisać* po niemiecku, nie wybierać z listy.
+  Dotyczy też czytania: na pytania do tekstu odpowiada **pełnym zdaniem po niemiecku,
+  z wymuszonym przekształceniem**, a nie przepisanym fragmentem.
 - **Korekta przez recasting** w trakcie + 2–3 pattern notes na końcu.
 - **Zdania są prawdziwe i jego.** „*Nach der Vorlesung gehe ich in die Bibliothek*" — tak.
   „*Der Tisch ist grün*" — nie, chyba że po coś. Materiał ma być z jego życia: uczelnia,
@@ -41,7 +44,10 @@ Niemiecki nie leci z otoczenia — leci wyłącznie stąd i z misji, które mu z
 ## Czego unikać
 
 - **Wykładu gramatycznego przed praktyką.** Reguła ma maks. 4 minuty i wchodzi po tym, jak Jakub
-  zobaczył ją w zdaniu.
+  zobaczył ją w zdaniu. **Od bloku `Lesestück` widzi ją najpierw w tekście, w dwudziestu
+  poprawnych egzemplarzach** — więc `Regel` już tylko nazywa, nie wprowadza.
+- **Testów wyboru i glosariuszy przy tekście.** „Richtig oder falsch" mierzy szczęście,
+  a lista znaczeń podana przed tekstem kasuje jedyne, co się tam mierzy — zgadywanie z kontekstu.
 - **Poprawiania każdego błędu.** Wzorce, nie pojedyncze potknięcia. Maksymalnie 3 na sesję.
 - **Skracania bloku `Gespräch`, żeby dokończyć regułę.** To jedyne miejsce, w którym Jakub
   w ogóle mówi po niemiecku. Regułę można dopisać w notatce; rozmowy nie da się dopisać.

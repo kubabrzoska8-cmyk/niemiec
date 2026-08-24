@@ -320,6 +320,23 @@ Wyjątek: gdy Umlaut zmienia formę gramatyczną (`fahre` / `fährt`) — wtedy 
 - **Problem wygląda na rozwiązany** — prawdopodobnie zasługa codziennych
   rozmów z mamą dziewczyny. Jedna sesja czysta z trzech.
 
+## 👁️ Luki rozumienia *(z bloku Lesestück — osobna kategoria, osobna reakcja)*
+
+> **Po co osobna sekcja.** Tu trafiają luki, których **produkcja nigdy nie pokaże**, bo Jakub
+> tych struktur po prostu nie próbuje — a w strukturze, której się unika, nie da się zrobić
+> błędu. `Konjunktiv II`, `Passiv`, `Genitiv`, `zu`-Infinitiv, rozdzielny przedrostek na końcu
+> długiego zdania: wszystko to leci na niego z maili, ulotek i wiadomości od Schwiegermutter,
+> i **nie pojawi się w żadnym ćwiczeniu produkcyjnym jeszcze przez wiele tygodni**.
+>
+> 🔴 **Reakcja jest inna niż przy lukach produkcyjnych: bez drilla.** Drill na strukturze,
+> której jeszcze nie produkuje, jest przedwczesny. Luka rozumienia dostaje **zalanie ekspozycją**
+> — ta sama struktura wraca w dwóch kolejnych tekstach — **plus jedną fiszkę**. Do *Closed*
+> schodzi, gdy rozpozna ją w tekście bez pytania.
+
+*(pusta do sesji 6 — blok `Lesestück` startuje razem z nią)*
+
+---
+
 ## Closed
 
 *(opanowane — nie drążymy)*

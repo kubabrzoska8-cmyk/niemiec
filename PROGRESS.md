@@ -50,6 +50,14 @@
 Wskaźnik trafności = % zadań produkcyjnych zrobionych poprawnie **za pierwszym razem**.
 Strefa docelowa: **70–85 %**. Poza nią Claude koryguje tempo (patrz `CLAUDE.md` → Zasady adaptacji).
 
+📖 **Od sesji 6 dochodzi trzecia, osobna liczba: `Leseverstehen`** *(blok 2 `Lesestück`, patrz
+`plan/lesestueck.md`)*. Liczę ją **oddzielnie od obu trafności**, bo mierzy inny kanał —
+i akurat w tym kursie to kanał krytyczny: sesja 5 pokazała, że dwa tygodnie **mówionej**
+immersji nie ruszyły fleksji, bo native rozumie mimo końcówki i nie poprawia. Do reguły
+„< 50 % → sesja powtórkowa" liczy się **wyłącznie trafność produkcyjna**. Rozumienie ma własny
+próg: **< 60 % dwie sesje z rzędu → łatwiejszy tekst**, **> 90 % dwie sesje → tekst w górę
+o szczebel**. Zapis w wierszu sesji: `📖 Leseverstehen 2/3 · Nachricht`.
+
 | Sesja | Data | Temat | Trafność | Anki | Luki celowane | Nowe luki | Reakcja |
 |-------|------|-------|----------|------|---------------|-----------|---------|
 | 1 | 2026-04-20 | Alltag nach der Uni | *n/d* | — | — | Dativ po `mit` (Active #1); `studieren`/`lernen` (Watching) | — |
