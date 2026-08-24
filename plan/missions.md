@@ -27,7 +27,7 @@ Meldunek jest ważniejszy od samego wykonania. To z niego biorę dane do `GAPS.m
 
 | Typ | Co robisz | Po co | Czas |
 |-----|-----------|-------|------|
-| 🎧 **Ohrwurm** | 10 min podcastu / wideo. Wypisz **3 zdania, które zrozumiałeś w całości** i **1, którego nie** | Jedyny regularny input słuchowy w tym kursie | 10–15 min |
+| 🎧 **Ohrwurm** | 10 min podcastu / wideo. Wypisz **3 zdania, które zrozumiałeś w całości** i **1, którego nie** | Input **formalny**: tempo studia, pełne zdania, składnia pisana. *(Od sesji 6 nie jest głównym kanałem inputu — tym jest codzienna rozmowa. Za to jest jedynym kanałem niemieckiego **poprawnego i wolnego**.)* ⚠️ **Nie rap, nie teledyski** — tempo i elizje robią z tego pomiar cierpliwości, nie języka | 10–15 min |
 | ✍️ **Schreibauftrag** | 5–8 zdań na zadany temat, z wymuszoną konstrukcją | Produkcja z czasem na myślenie — utrwala regułę | 10 min |
 | 🎤 **Sprachnachricht** | Nagraj **60 sekund monologu** na telefon. Odsłuchaj. Wyślij transkrypt | **Produkcja bez czasu na myślenie.** Jedyne ćwiczenie zbliżone do prawdziwej rozmowy | 10 min |
 | 🩺 **Fachtext** | Jeden akapit tekstu medycznego po niemiecku. Wypisz 5 słów i 1 zdanie do rozbioru | Wątek zawodowy + oswojenie z Nominalstil i stroną bierną | 15 min |
@@ -61,7 +61,7 @@ Cel: przestać się przewracać na końcówkach w środku poprawnie zbudowanego 
 |-------|-------|----------------------|----------------|
 | 5 | 🎧 **Ohrwurm — pierwszy po przerwie.** 10 min czegokolwiek po niemiecku | — | Masz 3 zrozumiałe zdania i 1 niezrozumiałe, zapisane |
 | 6 | 🎧 **Ohrwurm + polowanie na przypadki.** Wypisz 5 grup rzeczownikowych z nagrania | dowolne | Przy każdej grupie zgadłeś przypadek — trafność sprawdzimy razem |
-| 7 | ✍️ **Twój tydzień w 8 zdaniach**, każde z innym przyimkiem z Dativem | `mit, nach, bei, seit, von, zu, aus` | 8 zdań, 8 różnych przyimków, rodzajnik odmieniony |
+| 7 | 🎧 **WDR „Quarks", nie „cokolwiek"** — 10 min + 5 grup z przyimkiem, każda oznaczona `D`/`A` · ➕ 3 zdania z `weil` **na żywym rozmówcy**, czasownik świadomie na końcu | `die Mutter meiner Freundin` · szyk podrzędny | Masz 5 grup z typem **i** wiesz, ile z trzech `weil`-zdań udało się dokończyć poprawnie |
 | 8 | 🎤 **60 s: dla kogo i po co robisz to, co robisz** | `für, um, durch, gegen, ohne` | Nagranie ma min. 4 przyimki z Akkusativem |
 | 9 | 🎧 **Ohrwurm — `Wo?` czy `Wohin?`** Wypisz 5 zdań z `in / an / auf` i oznacz przypadek | Wechselpräpositionen | Przy 5 zdaniach masz odpowiedź `Wo?`/`Wohin?` |
 | 10 | ✍️ **Opisz swój pokój i drogę na uczelnię.** 10 zdań | rodzajniki + rodzaj | Przy każdym rzeczowniku rodzajnik napisany świadomie, nie z pamięci |

@@ -47,16 +47,31 @@ referencja: [`grammar/01-kasus-praepositionen.md`](../grammar/01-kasus-praeposit
 - **⚠️ Pułapka:** rozkład **nie pokrywa się** z polskim, a przy przyimku nie pokrywa się z niczym.
   `für` bierze Akkusativ nie dlatego, że coś na kimś działa — tylko dlatego, że to `für`
 
-## Sesja 7 — Przyimki z Dativem
-- **Gramatyka:** `mit, nach, bei, seit, von, zu, aus` *(+ `außer`, `gegenüber`)*
-- **Rym pamięciowy:** `mit-nach-bei-seit-von-zu-aus` — jednym ciągiem, jak numer telefonu
+## Sesja 7 — Grupa dopełniaczowa i granice reguł *(przecelowana po sesji 6)*
+
+> ⚠️ **Pierwotny temat — „przyimki z Dativem" — schodzi do tła.** Sesja 6 pokazała, że
+> Jakub zna obie listy przyimków *(sortowanie D/A bezbłędne, `mit/nach/seit/für/ohne`
+> trafione w Aufwärmen)*. Uczenie go listy byłoby ćwiczeniem tego, co umie. Realne wąskie
+> gardło to **szyk grupy dopełniaczowej** i **przeciek reguł**.
+
+- **Gramatyka:** posiadacz stoi **ZA** rzeczownikiem posiadanym — `die Mutter **meiner
+  Freundin**`, `das Haus **meiner Freundin**`. Kalka PL/EN stawia go przed *(3 wystąpienia, sesja 6)*
+- **Narzędzie dnia:** 🚨 **każda reguła podawana RAZEM Z GRANICĄ, w tej samej minucie.**
+  Nie „w Dativie przymiotnik ma `-en`", tylko „…a rodzajnik zostaje `dem`/`der`/`den`".
+  Fiszki na regułę dostają **parę kontrastową**, nigdy pojedynczą formę *(`GAPS.md` Active #1)*
+- **Przyimki z Dativem** — jako tło drillu, nie jako blok `Regel`. Rym `mit-nach-bei-seit-von-zu-aus`
+  do powtórzenia raz, na głos, i tyle
 - **Formy ściągnięte:** `zu dem → zum` · `zu der → zur` · `bei dem → beim` · `von dem → vom`
-  *(sesja 3: `bei Rhein` → `**beim** Rhein` — dokładnie ten brak)*
-- **Output:** 8 zdań o własnym tygodniu, każde z innym przyimkiem
+- **Zwrotne — trzy w drillu produkcyjnym**, nie w podstawieniu *(luka wróciła do Active
+  na sesji 6: 1/4)*
+- **Pomiar celowy:** gdzie jest **próg obciążenia dla szyku zdania podrzędnego**.
+  Sesja 6: ✅ przy 9 słowach, ❌ przy 19. Zadać zdanie w okolicach 14
+- **Blok 1 obowiązkowo:** 🔴 **zapytać wprost o retencję Anki.** Drugi raz z rzędu brak danych
+- **Output:** 8 zdań o własnym tygodniu, każde z inną grupą dopełniaczową albo przyimkiem
 - **⚠️ Pułapka:** `nach` = do (miasta, kraju bez rodzajnika) · `zu` = do (osoby, instytucji).
   `nach Rom`, ale `zu meiner Freundin`
-- **⚠️ Pułapka:** liczba mnoga w Dativie dostaje `-n`: `mit **Freunden**`, nie `mit Freunde`
-  *(luka #1, pierwsze udokumentowane wystąpienie)*
+- **⚠️ Pułapka:** liczba mnoga w Dativie dostaje `-n`: `mit **Freunden**`.
+  Sesja 6 pokazała odwrotny błąd: `mit **meiner** Kommilitonen` — determinant, nie rzeczownik
 
 ## Sesja 8 — Przyimki z Akkusativem
 - **Gramatyka:** `für, um, durch, gegen, ohne` *(+ `bis`, `entlang`)*
