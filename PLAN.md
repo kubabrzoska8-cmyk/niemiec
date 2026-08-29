@@ -46,8 +46,8 @@ Misje: [`plan/missions.md`](plan/missions.md) · Źródła inputu: [`resources/R
 | 3 | Nebensätze und Dativ — Wochenende am Rhein | `weil`, `obwohl` | Nebensatz, Dativ | *(przed strukturą)* |
 | 4 | Freizeit und Erholung | — | Perfekt `sein`, refleksywne | *(przed strukturą)* |
 | **5** | **🔬 Rediagnostyka po przerwie** | pomiar, bez nowego materiału | wszystkie Active | 🎧 Ohrwurm |
-| 6 | Vier Fälle — mapa systemu | Nominativ/Akkusativ/Dativ/Genitiv, pytania kontrolne | Kasus | 🎧 Ohrwurm |
-| 7 | Przyimki z Dativem | `mit, nach, bei, seit, von, zu, aus` | Kasus po przyimku | ✍️ Schreibauftrag |
+| 6 | Dativ czy Akkusativ? Dwie listy, jedno pytanie *(przepisana po sesji 5)* | dwie zamknięte listy przyimków + determinant w Dativ | determinant, V2, liczebnik → l.mn. | 🎧 Ohrwurm |
+| 7 | `Wessen?` — die Mutter meiner Freundin *(przecelowana po sesji 6)* | grupa dopełniaczowa + **granice reguł**; przyimki z Dativem jako tło | przeciek reguły, grupa dopełniaczowa, zwrotne | 🎧 Ohrwurm + `weil` na żywym rozmówcy |
 | 8 | Przyimki z Akkusativem | `für, um, durch, gegen, ohne` | Kasus po przyimku | 🎤 Sprachnachricht |
 | 9 | Wechselpräpositionen — Wo? vs. Wohin? | `in, an, auf, über, unter, vor, hinter, neben, zwischen` | Kasus po przyimku | 🎧 Ohrwurm |
 | 10 | Rodzaj i rodzajnik — jak zgadywać dobrze | reguły rodzaju, `der/die/das` po końcówce | Genus | ✍️ Schreibauftrag |

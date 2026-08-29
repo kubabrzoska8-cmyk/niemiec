@@ -47,7 +47,10 @@ referencja: [`grammar/01-kasus-praepositionen.md`](../grammar/01-kasus-praeposit
 - **⚠️ Pułapka:** rozkład **nie pokrywa się** z polskim, a przy przyimku nie pokrywa się z niczym.
   `für` bierze Akkusativ nie dlatego, że coś na kimś działa — tylko dlatego, że to `für`
 
-## Sesja 7 — Grupa dopełniaczowa i granice reguł *(przecelowana po sesji 6)*
+## Sesja 7 — `Wessen?` — die Mutter meiner Freundin *(przecelowana po sesji 6)*
+📄 Pełna lekcja: [`lessons/session-07.md`](../lessons/session-07.md) ·
+referencja: [`grammar/04-genitiv-und-besitz.md`](../grammar/04-genitiv-und-besitz.md) ·
+📖 tekst: `Nachricht von Ursula` *(oddany jako `Lesemission` po sesji 6)*
 
 > ⚠️ **Pierwotny temat — „przyimki z Dativem" — schodzi do tła.** Sesja 6 pokazała, że
 > Jakub zna obie listy przyimków *(sortowanie D/A bezbłędne, `mit/nach/seit/für/ohne`
@@ -74,6 +77,9 @@ referencja: [`grammar/01-kasus-praepositionen.md`](../grammar/01-kasus-praeposit
   Sesja 6 pokazała odwrotny błąd: `mit **meiner** Kommilitonen` — determinant, nie rzeczownik
 
 ## Sesja 8 — Przyimki z Akkusativem
+📄 Szkic + `Lesemission`: [`lessons/session-08.md`](../lessons/session-08.md) ·
+📖 tekst: `E-Mail vom Studiendekanat` *(gatunek `Offizieller Text`)*
+
 - **Gramatyka:** `für, um, durch, gegen, ohne` *(+ `bis`, `entlang`)*
 - **Rym pamięciowy:** `für-um-durch-gegen-ohne`
 - **Kontrast dnia:** jedno zdanie, dwa przyimki — `Ich lerne **mit** meinem Kommilitonen
