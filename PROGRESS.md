@@ -9,29 +9,33 @@
 
 | Pole | Wartość |
 |------|---------|
-| Ostatnia ukończona sesja | **Sesja 6** — `Dativ oder Akkusativ?` Dwie listy, jedno pytanie |
-| Data | 2026-08-23 |
-| **Trafność — Aufwärmen** *(pytania celowane)* | **80 %** (8/10) 🟢 *strefa docelowa 70–85 %* |
-| **Trafność — drill produkcyjny** *(🆕 nowy instrument)* | **50 %** (7/14) ⚠️ *nieporównywalne z sesją 5* |
-| **Trafność — wolna produkcja** | **33 %** (2/6 grup z przyimkiem) 🔴 *sesja 5: 32 %* |
-| **Rozjazd** Aufwärmen ↔ wolna | **47 pkt** *(sesja 5: 46)* → **bez ruchu** |
-| 🏆 **Wynik dnia** | **Luka „V2 po wysuniętym elemencie" zamknięta w JEDNĄ sesję** — drill 6/6, rozmowa 3/4. Dwa dni temu: 0/2 |
-| 🔴 **Odkrycie dnia** | **PRZECIEK REGUŁY** — nauczona reguła zajmuje sąsiednie pola *(4 wystąpienia)*. Nowa pozycja `GAPS.md` Active #1 |
-| Następna sesja | **Sesja 7 — grupa dopełniaczowa (`die Mutter meiner Freundin`) + granice reguł.** Przyimki z Dativem jako tło, nie temat |
-| 📍 Gdzie jest Jakub | **Rzym** — praktyki w Policlinico Umberto I *(tutor: prof. Candela)*. Równolegle kurs włoskiego |
+| Ostatnia ukończona sesja | **Sesja 7** — `Wessen?` — die Mutter meiner Freundin *(i granice reguł)* |
+| Data | 2026-08-29 |
+| **Trafność — pytanie celowane** *(stop-test na granicę)* | **75 %** (6/8) 🟢 *strefa docelowa 70–85 %* |
+| **Trafność — drill produkcyjny** | 🔴 **36 %** (5/14) *(sesja 6: 50 % — ale zdania miały dziś 4–5 celów, nie 2–3)* |
+| **Trafność — wolna produkcja** | **36 %** (4/11 grup) *(sesja 6: 33 %)* |
+| **Rozjazd** celowane ↔ wolna | **39 pkt** *(sesja 6: 47)* → ⬇️ **pierwszy ruch w historii kursu** |
+| 📖 **Leseverstehen** | **1/1** · `Nachricht` *(D2 ✅; D4 nie zadane — pomiar niepełny)* |
+| 🏆 **Wynik dnia** | **Próg obciążenia dla szyku podrzędnego NIE istnieje w drillu** — 4/4 aż do zdania 18-słowowego. Hipoteza „pada powyżej 12 słów" obalona: próg jest w **trybie uwagi**, nie w długości |
+| 🎯 **Temat dnia** | Grupa dopełniaczowa **3/6 w pierwszej sesji**, w tym **2/3 w wolnej produkcji**. Sesja 6: 0/3 |
+| 🔬 **Odkrycie dnia** | **Granica trzyma swoje pole, przeciek idzie w pole NIENAZWANE.** Trzy granice podane wprost utrzymały się; wyciek poszedł w sąsiedztwo, którego nie objąłem *(`die Prüfung **den** Studenten`)* |
+| 🆕 **Nowa luka** | **Klamra zdaniowa pęka w zdaniu głównym** — 2 wystąpienia *(`kann nicht erriner mich`, `haben kennengelernt in Rom`)* |
+| Następna sesja | **Sesja 8 — przyimki z Akkusativem.** 🔻 **Drill wraca do zasady „jedno zadanie = jeden cel"** — dzisiejsze 36 % to w połowie zaostrzony instrument |
+| 📍 Gdzie jest Jakub | **Rzym** — praktyki w Policlinico Umberto I. Równolegle kurs włoskiego |
 | Tryb | 🧊 **Erhaltungsmodus** — 2–3 sesje / tydzień |
-| 📖 Lesestück | **Startuje sesją 7.** Specyfikacja weszła do repo w trakcie sesji 6 — Jakub nie miał tekstu przed lekcją, więc poszedł blok rezerwowy `2b Aufwärmen`. Tekst „Nachricht von Ursula" oddany jako `Lesemission` |
-| 🇮🇹 Interferencja włoska | 🟡 **obniżona z 🔴** — zero wtrętów leksykalnych, część składniowa (V2) prawie zamknięta |
-| 📦 Anki | **65 słów / 120 kart**. Quizlet: `talia-01_sesje-01-06.txt` (39 słów). Retencja: **nadal niezmierzona** |
+| 🇮🇹 Interferencja włoska | 🟡 **zero wtrętów leksykalnych trzecią sesję z rzędu.** Za to pojawiła się 🇬🇧: `so ich schreibe` |
+| 📦 Anki | **77 słów / 143 karty** *(+12)*. Quizlet: `talia-01_sesje-01-07.txt` (45 słów). ✅ **Retencja ZMIERZONA:** przywoływalność **98 %**, mediana trudności **12 %** → limit **10 → 20** kart/dzień |
 
 ## ⚠️ Czego ten plik jeszcze nie wie
 
 1. ~~**Sesje 1–4 nie mają wskaźnika trafności.**~~ Nadal prawda, ale **licznik wystartował
    sesją 5**, a sesja 6 dodała trzeci punkt pomiarowy.
-2. **Retencja Anki nadal niezmierzona** — **drugi raz z rzędu.** Talia istnieje od 2026-08-21,
-   Jakub nie zameldował ani jednej powtórki. 🔴 **Sesja 7 ma o to zapytać wprost, w bloku 1.**
-   Jeśli padnie trzeci raz „nie zacząłem", to nie jest brak danych — to znaczy, że talia
-   nie weszła w nawyk i trzeba zmienić narzędzie, a nie czekać.
+2. ~~**Retencja Anki niezmierzona.**~~ ✅ **ZMIERZONA na sesji 7:** przywoływalność **98 %**,
+   mediana trudności **12 %** → limit podniesiony z 10 do 20 nowych kart dziennie.
+   📌 **Przyczyna dwóch pustych rubryk była techniczna, nie motywacyjna:** Jakub miał
+   zaimportowaną talię sprzed sesji 6 (52 notatki) i po prostu nie widział nowych fiszek.
+   ⚠️ **Zostaje do sprawdzenia:** „przywoływalność" to **prognoza** FSRS, nie pomiar.
+   Prawdziwa liczba stoi w kafelku „Naprawdę zapamiętane" — poprosić o nią na sesji 8.
 3. ~~**Poziom po przerwie jest nieznany.**~~ **Zmierzony na sesji 5**, potwierdzony na 6.
 4. ~~**Nie wiadomo, ile daje codzienna rozmowa z mamą dziewczyny.**~~ ✅ **ODPOWIEDZIANE
    na sesji 6**, i to samym Jakubem: *„jeden Tag spreche ich Deutsch … deswegen gibt es zu
@@ -40,11 +44,23 @@
    Daje: **leksykę, płynność, długość wypowiedzi**. Nie daje: **fleksji** (33 %).
 5. ~~**Luka „czasowniki zwrotne" ma DRUGI pusty pomiar.**~~ ✅ **Zmierzona na sesji 6 i wróciła
    do Active** — trzy braki na trzy okazje w wolnej produkcji, jedno trafienie przy pytaniu wprost.
-6. 🆕 **Nie wiadomo, czy „przeciek reguły" da się wyprzedzić.** Hipoteza sesji 7: reguła podana
-   **razem z granicą, w tej samej minucie**, nie wycieknie. Jeśli wycieknie mimo to,
-   trzeba zmienić sposób podawania reguł w całym kursie, nie tylko treść.
-7. 🆕 **Nie wiadomo, gdzie dokładnie jest próg obciążenia dla szyku zdania podrzędnego.**
-   Sesja 6: ✅ w zdaniu 9-słowowym, ❌ w 19-słowowym. Zmierzyć na sesji 7 celowo.
+6. ~~**Nie wiadomo, czy „przeciek reguły" da się wyprzedzić.**~~ ⚠️ **ODPOWIEDZIANE POŁOWICZNIE
+   na sesji 7 — i ta połowa jest instrukcją.** Trzy granice podane **wprost** utrzymały się
+   (`ohne Kaffee` ✅, `Ursulas Schwester` ✅, `von Ursula` ✅). Przeciek **nie zniknął** —
+   **przeniósł się do pola, którego nie nazwałem** (`die Prüfung **den** Studenten`, dwie minuty
+   po wyjaśnieniu Dativu). 🔑 **Nowa formuła: nie „reguła + granica", tylko „reguła + sąsiedztwo"**
+   — trzeba nazwać pole obok, nie tylko postawić płot wokół swojego.
+   ✅ Zadziałało raz na żywo: `des Arztes` **+ od razu** „ale `Student`/`Patient` biorą `-en`" →
+   Jakub użył `-en` odruchowo i poprawnie.
+7. ~~**Nie wiadomo, gdzie jest próg obciążenia dla szyku zdania podrzędnego.**~~
+   ✅ **ZMIERZONE na sesji 7 — i wynik obala pytanie.** Drabinka 8 → 18 słów: **4/4**,
+   czasownik doszedł na koniec za każdym razem, mimo błędów fleksyjnych w środku.
+   🔑 **Próg nie jest w długości zdania, tylko w trybie uwagi.** Konsekwencja: szyk podrzędny
+   **znika z drillu** (tam jest 4/4) i jest weryfikowany wyłącznie w `Gespräch`.
+8. 🆕 **Nie wiadomo, czy misja na żywym rozmówcy wejdzie tam, gdzie podcast nie wchodzi.**
+   Dwa puste meldunki 🎧 z rzędu (sesja 6: rap, sesja 7: nic), przy jednocześnie **przerobionej
+   w całości talii Anki**. Hipoteza: problem jest w kanale, nie w motywacji. Sesja 8 przenosi
+   ciężar misji na rozmowę ze Schwiegermutter i skraca słuchanie do 5 minut.
 
 ## Log sesji
 
@@ -68,6 +84,7 @@ o szczebel**. Zapis w wierszu sesji: `📖 Leseverstehen 2/3 · Nachricht`.
 | — | — | ⏸️ **przerwa ~14 tyg. bez niemieckiego + 2 tyg. codziennej rozmowy** | — | — | — | — | — |
 | **5** | 2026-08-21 | 🔬 **Rediagnostyka po przerwie** | **drill 78 %** · **wolna 32 %** · **post-test: determinant 6/6** | 52 słowa / 96 kart | #1 Kasus 🔴 32 % · #2 Perfekt ✅ **4/4** · #4 Konjunktiv II ✅ · #6 `lernen` ✅ · #3 Adjektiv 🔴 · #5 zwrotne ✅ *(uratowane post-testem)* | 🆕 liczebnik → l.mn. (**Active**) · 🆕 `obwohl`≠`weil` (Watching) · 🆕 **brak V2 po wysuniętym elemencie (Active)** · 🆕 zafosylizowane zwroty (Watching) · 🆕 rekcja `verstehen+A` (Watching) · 🇮🇹 interferencja **potwierdzona** · ⬆️ `in`/`nach` przy budynkach → Active | **Tempo bez zmian** — drill w strefie. Blok 1 rusza sesją 6, ale **zawężony** do tabeli `mein/dein/ihr` w Dativ |
 | **6** | 2026-08-23 | `Dativ oder Akkusativ?` — dwie listy, jedno pytanie | **Aufwärmen 80 %** · **drill produkcyjny 50 %** *(nowy instrument)* · **wolna 33 %** | 65 słów / 120 kart *(+14)* | #1 determinant: 6/6 celowane, **33 % w rozmowie** 🔴 · #3 **V2 6/6 + 3/4** ✅✅ · #2 liczebnik ⚠️ 2/3 · zwrotne 🔴 **1/4 → powrót do Active** · `obwohl` ✅ · Perfekt ✅ | 🆕🔴 **przeciek reguły (Active #1, mechanizm)** · 🆕🔴 grupa dopełniaczowa (Active #3) · 🆕 `als`/`wenn`/`wann` · 🆕 `als` vs `wie` · ⬇️ **szyk podrzędny ZSZEDŁ z `Closed`** (pada > 12 słów) · ⬇️ V2 → Watching | **Tempo bez zmian.** `Regel` skrócony w trakcie z 4 min do 90 s — Jakub zdał go w Aufwärmen. **Sesja 7 przecelowana**: grupa dopełniaczowa zamiast przyimków |
+| **7** | 2026-08-29 | `Wessen?` — die Mutter meiner Freundin *(i granice reguł)* | **celowane 75 %** *(6/8)* · **drill 36 %** *(5/14 — instrument zaostrzony)* · **wolna 36 %** *(4/11)* · 🗼 **szyk podrzędny 4/4 do 18 słów** · 📖 **Leseverstehen 1/1 · Nachricht** | 77 słów / 143 karty *(+12)* · ✅ **retencja 98 %** → 20 kart/dzień | #3 grupa dopełniaczowa **3/6, w tym 2/3 w rozmowie** ✅ *(sesja 6: 0/3)* · #4 zwrotne **2/2 w wolnej produkcji** ✅ · #1 przeciek: granice podane **utrzymały się**, wyciek przeniósł się w pole nienazwane ⚠️ · #2 determinant 🔴 bez ruchu · V2 po `deswegen` ✅ — **ostatnie wystąpienie zamknięte** | 🆕🔴 **klamra zdaniowa pęka w zdaniu głównym** *(2×)* · 🆕 🇬🇧 `so` zamiast `also` | 🔻 **Sesja 8 zwalnia: „jedno zadanie = jeden cel"** *(drill < 50 %)*. **Szyk podrzędny znika z drillu** — 4/4. Misje 🎧 → misje na żywym rozmówcy |
 
 ---
 
@@ -81,8 +98,9 @@ Trafność (%)
  85 │ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─  sufit strefy docelowej
  80 │  ●───●  pytanie celowane  (Aufwärmen / drill podstawieniowy)
  70 │ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─  podłoga strefy docelowej
- 50 │      ◐  drill produkcyjny (zdanie o czymś innym)   🆕 od S6
- 33 │  ○───○  wolna produkcja   (Gespräch)
+ 50 │      ◐╲ drill produkcyjny (zdanie o czymś innym)   🆕 od S6
+ 36 │       ╲◐ ← S7: instrument zaostrzony (4–5 celów/zdanie, nie 2–3)
+ 33 │  ○───○───○  wolna produkcja   (Gespräch)   32 → 33 → 36
   0 └────────────────────────────────────────
      S5   S6   S7   S8   S9  S10  S11 …
 ```
@@ -108,12 +126,36 @@ przeszła z 0/2 w rozmowie do **3/4**, a w drillu do 6/6. **Jedna sesja kontrast
 > Fleksja nie potrzebuje więcej wyjaśnień — potrzebuje **objętości produkcji pod obciążeniem**.
 > Dlatego od sesji 7 blok `Gespräch` rośnie kosztem `Regel`, a nie odwrotnie.
 
+### Odczyt sesji 7 — pierwszy ruch w rozjeździe
+
+| | Sesja 5 | Sesja 6 | Sesja 7 |
+|---|---|---|---|
+| pytanie celowane | 78 % | 80 % | **75 %** |
+| wolna produkcja | 32 % | 33 % | **36 %** |
+| **rozjazd** | 46 pkt | 47 pkt | **39 pkt** ⬇️ |
+
+🟢 **Rozjazd zmalał po raz pierwszy — o 8 punktów.** I zmalał z właściwej strony: wolna
+produkcja poszła w górę, a nie pytanie celowane w dół. Osiem punktów po jednej sesji to
+za mało, żeby ogłaszać trend, ale to **pierwszy ruch w liczbie, która stała w miejscu
+przez dwie sesje**.
+
+🟢 **A pod średnią siedzi coś ostrzejszego:** temat dnia — grupa dopełniaczowa — dał
+**2/3 w wolnej produkcji** w pierwszej sesji po wprowadzeniu *(sesja 6: 0/3)*, a zwrotne
+**2/2** *(sesja 6: 1/4)*. Czyli struktury **wprowadzone przez kontrast i granicę** wchodzą
+do rozmowy od razu. Nie wchodzi **determinant** — jedyna rzecz, którą przez trzy sesje
+podawałem jako tabelę.
+
+🔴 **Drill 36 % — i nie zasłaniam tego instrumentem.** Zdania miały dziś 4–5 celów każde
+zamiast 2–3, więc liczba nie jest porównywalna z 50 % z sesji 6 — ale zejście poniżej progu
+50 % uruchamia regułę z `CLAUDE.md` i sesja 8 zwalnia: **jedno zadanie = jeden cel**.
+Piętrzenie czterech pułapek w jednym zdaniu mierzy pojemność uwagi, nie znajomość reguły.
+
 **Trzeci punkt pomiarowy — po co.** `Drill produkcyjny` (50 %) siedzi dokładnie pomiędzy
 pytaniem celowanym a rozmową i pokazuje, że spadek jest **liniowy wraz z obciążeniem uwagi**,
 a nie skokowy. To znaczy, że nie ma progu „albo umie, albo nie" — jest ciągła zależność
 od tego, ile uwagi zostaje na formę. Taką zależność da się przesuwać ćwiczeniem.
 
-### Dwie liczby, które warto rozdzielić### Dwie liczby, które warto rozdzielić
+### Dwie liczby, które warto rozdzielić
 
 Kurs włoskiego pokazał, że **jeden uśredniony procent ukrywa najważniejszą informację**.
 Dlatego od Sesji 5 mierz osobno:
@@ -136,6 +178,7 @@ a nie ćwiczyć ją jeszcze raz na osobno.
 | 1–4 *(rekonstrukcja)* | 37 | 37 | niezmierzona | 10 |
 | **5** | **15** *(10 z sesji + 5 z post-testu)* | **52** *(96 kart)* | **niezmierzona** — Jakub jeszcze nie zaczął powtórek | 10 |
 | **6** | **14** | **65** *(120 kart)* | 🔴 **niezmierzona — drugi raz z rzędu.** Zapytać wprost w bloku 1 sesji 7 | 10 |
+| **7** | **12** | **77** *(143 karty)* | ✅ **98 %** *(przywoływalność FSRS; mediana trudności 12 %)* | **20** ⬆️ |
 
 > **Skąd 37 słów bez ani jednej sesji z fiszkami:** zostały wyciągnięte z sekcji „Słownictwo"
 > czterech draftów z kwietnia. To materiał, który realnie padł na tamtych sesjach, więc jest

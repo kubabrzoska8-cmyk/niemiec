@@ -41,13 +41,14 @@ Nie tłumacz słowo po słowie. Nieznane słowa **zgaduj z kontekstu** — zgady
 > der Station; er spricht auch Englisch. Bitte melden Sie sich um 8 Uhr im Sekretariat des
 > Instituts, wenn Sie die Dokumente persönlich abgeben möchten.
 >
-> Wir freuen uns auf Ihre Unterlagen.
+> **Wir würden uns freuen, wenn Sie die Unterlagen schon vor dem Ende der Frist
+> einreichen könnten.** Bei Fragen könnten Sie sich auch direkt an das Sekretariat wenden.
 >
 > Mit freundlichen Grüßen
 > Andrea Kaufmann
 > Sekretariat der Medizinischen Fakultät
 
-*(163 słowa · ok. 6 % nieznanych — drabinka bloku 1, górna półka. Pierwszy tekst urzędowy
+*(≈185 słów · ok. 6 % nieznanych — drabinka bloku 1, górna półka. Pierwszy tekst urzędowy
 w kursie: `Anfrage`, `Bewerbung`, `Bescheinigung`, `Unterlagen`, `berücksichtigen`, `Frist`,
 `zuständig`, `abgeben`, `frühzeitig`, `erwähnen`.)*
 
@@ -102,6 +103,10 @@ w kursie: `Anfrage`, `Bewerbung`, `Bescheinigung`, `Unterlagen`, `berücksichtig
   blokiem, w którym ich wymagam.
 - **🇮🇹 przynęta:** `aus dem Krankenhaus in Rom`. Jeśli w odpowiedzi wróci włoska nazwa
   albo włoski szyk — do `GAPS.md`.
+- 🔴 **`würden … freuen` i `könnten` stoją tam celowo — to druga ekspozycja na `Konjunktiv II`**
+  po `Hättest du Lust?` z tekstu sesji 7. Zasada z `GAPS.md` → 👁️: **luka rozumienia
+  dostaje zalanie ekspozycją, nie drill.** Ta sama struktura w dwóch kolejnych tekstach,
+  bez ani jednego zdania wyjaśnienia. Na sesji 8 pytam tylko, **czy rozpoznał grzeczność**.
 - **`Innere Medizin`, `die Frist`, `die Bescheinigung`, `zuständig für`** to pierwsze słowa
   `Fachsprache`, jakie ten kurs podaje. Wchodzą przez czytanie, na długo przed produkcją —
   dokładnie po to ten blok istnieje.
