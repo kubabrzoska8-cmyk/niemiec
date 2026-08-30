@@ -167,3 +167,53 @@ sesji 6 (52 notatki) i nie widział nowych fiszek. Wysłany świeży `.apkg`.
 5. **Misje 🎧 tracą priorytet na rzecz misji na żywym rozmówcy.** Dwa puste meldunki z rzędu.
 6. **Wieża po polsku, nie po niemiecku** — poprawka zgłoszona przez Jakuba w trakcie sesji
    i słuszna: przepisywanie niemieckiego mierzy kopiowanie, nie produkcję. Zmienione natychmiast.
+
+---
+
+## 🔬 Post-test fiszek — najlepsze dane sesji *(9 z 10 wpisanych na czacie)*
+
+**Wynik ogólny: ~47 % (14/30 celów).** Rozbity na warstwy pokazuje coś, czego średnia nie pokaże.
+
+| Warstwa | Wynik | Wniosek |
+|---|---|---|
+| **Szyk grupy dopełniaczowej** *(cel sesji)* | 🏆 **5/5** | `meiner Freundin` ×3, `meiner Bruder`, `Ursulas Schwester` — **posiadacz stanął ZA za każdym razem**. Konstrukcja weszła w jedną sesję |
+| **Forma w grupie dopełniaczowej** | 🔴 **1/5** | `meiner Bruder`, `des Komissions`, `meines Uni`, `dieses Patientes` — kolejność ✅, końcówka ❌ |
+| **Klamra zdaniowa** *(luka odkryta 20 min wcześniej)* | ✅ **1/1** | `Ich kann … **erinnern**` — bezokolicznik doszedł na koniec. **Jedna korekta, natychmiast zastosowana** |
+| **Zwrotne** | ✅ **3/3** | `kleide ich mich um`, `erhole mich`, + V2 i przedrostek na końcu |
+| **Determinant po przyimku** | 🔴 **0/4** | `bei die Eltern`, `ohne der Kaffe`, `mit Mütter`, `nach der Dienst` |
+
+### 🔑 Odkrycie post-testu: **przeciek reguły ma paliwo — jest nim nieznajomość rodzaju**
+
+```
+die Kommission  →  ❌ des Komission_S_    (rodzaj żeński potraktowany jak męski)
+die Uni         →  ❌ mein_ES_ Uni        (jw.)
+die Mutter      →  ❌ mit Mütter          (brak determinanta w ogóle)
+```
+
+Reguła „męski Genitiv dokleja `-s`" **weszła i od razu rozlała się na rzeczowniki żeńskie** —
+ale **nie dlatego, że Jakub jej nie ogranicza**. Granicę dostał wprost *(„żeński ma tylko jeden
+znak: `meiner Freundin`")* i zastosował ją poprawnie **wszędzie tam, gdzie znał rodzaj**.
+Poległ dokładnie na dwóch słowach, **których rodzaju nie zna**.
+
+> 🔑 **To przeformułowuje Active #1.** Przeciek nie jest wyłącznie cechą uczenia się — ma
+> konkretne miejsce wejścia: **pole, w którym brakuje informacji.** Gdzie Jakub nie wie,
+> tam wstawia najświeższy wzorzec. Wniosek operacyjny: **luka „rodzaj rzeczownika" nie jest
+> osobną luką nr 5 na sesję 10 — jest paliwem luki nr 1 i musi wejść wcześniej.**
+> Reguła `-ung`, `-heit`, `-keit`, `-schaft`, `-ion` → **die** to sześćdziesiąt sekund
+> i naprawiłaby dziś dwa błędy z czterech. **Wchodzi do sesji 8 jako dokładka.**
+
+### Pozostałe z post-testu
+
+- 🚨 **`Die Urszulas Schwester wohn**en**`** — **czwarte wystąpienie zgodności podmiotu
+  z orzeczeniem** *(sesja 5: `wir war`, `wir habe`; sesja 6: `fängt ich`)*. `GAPS.md` mówił:
+  czwarte → **Active bez dyskusji**. Awansowane. Plus zbędne `die` przed imieniem własnym.
+- ❌ `Die **Decizion**` → `die **Entscheidung**` — **nowy typ interferencji: internacjonalizm
+  zbudowany z angielskiego/włoskiego** (`decision` / `decisione`). Słowo **było na tej sesji**
+  i weszło do talii godzinę wcześniej.
+- ❌ `ohne **der** Kaffe` — granica, która **utrzymała się w stop-teście 40 minut wcześniej**,
+  pękła w post-teście. **Ten sam profil co wszystko inne dzisiaj: trzyma pod uwagą, pada pod
+  obciążeniem.**
+- ❌ `in **Apullia**` — trzecia forma pośrednia *(`Puglia` → `Apulia` → `Apullia`)*.
+  Ruch zatrzymał się w pół drogi: Jakub odszedł od włoskiego, ale nie doszedł do `Apulien`.
+- ⏭️ **Fiszka 9 pominięta** — `letztes Mal darüber`, czyli **jedyny zwrot zafosylizowany,
+  który jeszcze nie pękł**. Pominięcie to nie jest pomiar. Zadać wprost na sesji 8.

@@ -8,7 +8,25 @@
 
 **Zaplanowany temat:** `für · um · durch · gegen · ohne` — druga zamknięta lista.
 **Zaplanowana pułapka dnia:** `ohne` bierze Akkusativ **bez rodzajnika** — czyli granica,
-na której przeciek z sesji 6 wyszedł najostrzej *(❌ `ohne die Kaffe`)*.
+na której przeciek wychodzi najostrzej *(❌ `ohne die Kaffe` sesja 6, ❌ `ohne der Kaffe`
+w post-teście sesji 7 — **mimo że w stop-teście 40 minut wcześniej trzymała**)*.
+
+### 🔴 Trzy rzeczy, które sesja 7 wpisała do tej lekcji na sztywno
+
+1. **Jedno zadanie = jeden cel.** Drill sesji 7 wyszedł **36 %**, bo zdania miały po 4–5
+   pułapek. To mierzy pojemność uwagi, nie regułę. **Żadnego piętrzenia.**
+2. **60-sekundowa dokładka: rodzaj po końcówce** — `-ung`, `-heit`, `-keit`, `-schaft`,
+   `-ion` → **die**. Przyspieszona z sesji 10, bo post-test sesji 7 pokazał, że **nieznajomość
+   rodzaju jest paliwem przecieku reguły**: `die Kommission` → ❌ `des Komissions`,
+   `die Uni` → ❌ `meines Uni`. Sześćdziesiąt sekund naprawia dwa błędy z czterech.
+3. **Bez zdań podrzędnych w drillu.** Drabinka 8 → 18 słów dała 4/4. Weryfikacja tylko
+   w `Gespräch`.
+
+**Do zadania w bloku 1, obowiązkowo:**
+- fiszka nr 9 z sesji 7 *(`letztes Mal darüber`)* — **pominięta w post-teście**, czyli
+  jedyny zwrot zafosylizowany, który nie ma pomiaru;
+- 📖 **D4 idzie pierwsze**, nie ostatnie — na sesji 7 wypadło z braku czasu;
+- `Hättest du Lust` / `würden … freuen` — **czy rozpoznaje grzeczność**, bez reguły.
 
 ---
 

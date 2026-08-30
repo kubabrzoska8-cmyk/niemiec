@@ -40,6 +40,8 @@ przebrać się	sich umziehen – zog sich um – hat sich umgezogen
 imię / nazwisko	der Name, -n / der Nachname, -n
 starszy lekarz, ordynator	der Oberarzt, Oberärzte
 rodzice	die Eltern (nur Pl.)
+decyzja	die Entscheidung, -en
+komisja	die Kommission, -en
 korepetycje	die Nachhilfe
 obchód lekarski	die Visite, -n
 przypominać sobie	sich erinnern (an + A)

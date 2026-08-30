@@ -93,6 +93,22 @@ w których nie obowiązuje.
 |---|---|
 | Genitiv ↔ Dativ przy tym samym rzeczowniku | ❌ `die Prüfung **den** Studenten` — **dwie minuty** po wyjaśnieniu, że Dativ = „komu" |
 
+#### 🔑 Post-test sesji 7: **przeciek ma paliwo — jest nim nieznajomość rodzaju**
+
+```
+die Kommission  →  ❌ des Komission_S_   die Uni  →  ❌ mein_ES_ Uni
+```
+
+Granicę „żeński ma tylko jeden znak: `meiner Freundin`" Jakub dostał wprost i **zastosował
+poprawnie wszędzie tam, gdzie znał rodzaj**. Poległ na dwóch słowach, **których rodzaju nie zna**
+— i tam wstawił najświeższy wzorzec.
+
+> 🚨 **To przeformułowuje całą pozycję.** Przeciek nie jest tylko cechą uczenia się — ma
+> **miejsce wejścia: pole, w którym brakuje informacji.** Konsekwencja: **luka „rodzaj
+> rzeczownika" (#5) przestaje być osobną luką na sesję 10 — jest paliwem luki #1.**
+> Reguła `-ung`/`-heit`/`-keit`/`-schaft`/`-ion` → **die** to 60 sekund i naprawiłaby dziś
+> dwa błędy z czterech. **Wchodzi do sesji 8 jako dokładka**, nie czeka do sesji 10.
+
 > 🔑 **Nowa formuła operacyjna: nie „reguła + granica", tylko „reguła + SĄSIEDZTWO".**
 > Granica trzyma pole, które nazwę. Przeciek nie znika — **przenosi się do najbliższego pola,
 > którego nie objąłem**. Trzeba więc nazywać nie płot wokół swojego pola, tylko **pole obok**:
@@ -132,6 +148,9 @@ w których nie obowiązuje.
 - 📌 **Pytanie, które to odsłoniło, zadał sam Jakub:** *„czemu `Dienst` nie dostaje żadnej
   końcówki, skoro to Dativ?"*. Odpowiedź *(przypadek niesie determinant, nie rzeczownik —
   odwrotnie niż po polsku)* była najlepszą minutą tej sesji.
+- 🔴 **Post-test sesji 7: determinant po przyimku 0/4** — `bei **die** Eltern`,
+  `ohne **der** Kaffe`, `mit ___ Mütter`, `nach **der** Dienst`. **`ohne` trzymało w stop-teście
+  40 minut wcześniej.** Ten sam profil, co wszystko inne: trzyma pod uwagą, pada pod obciążeniem.
 - **Plan:** sesje 8–9 bez osobnego bloku o tabeli. Determinant wchodzi **wyłącznie**
   jako element zdań o czymś innym, **po jednym na zdanie** *(sesja 7 pokazała, że cztery
   cele w jednym zdaniu mierzą pojemność uwagi, nie regułę)*. Referencja:
@@ -154,7 +173,11 @@ niż dwa elementy**. Oba wystąpienia sesji 7 miały po cztery.
 
 - ⚠️ **Nie mylić z luką składniową.** Jakub **zna** klamrę — używa jej poprawnie trzy razy
   na pięć okazji. To jest luka **obciążeniowa**, jak determinant.
+- ✅ **Post-test, 20 minut po korekcie:** `Ich kann … die Vorname dieses Patientes **erinnern**`
+  — **bezokolicznik doszedł na koniec.** Jedna korekta, natychmiast zastosowana. Zostaje brak
+  `mich an` *(rekcja — osobna pozycja)*.
 - **Plan:** sesja 8 — dwa zdania z modalnym w drillu, **z jednym celem każde**. Bez wykładu.
+  Jeśli wyjdzie 2/2, pozycja schodzi do Watching bez czekania na trzecią sesję.
 
 
 ### 4. Liczebnik + rzeczownik → liczba mnoga ⚠️ *(była #5 — niestabilna)*
@@ -180,7 +203,12 @@ niż dwa elementy**. Oba wystąpienia sesji 7 miały po cztery.
 - 🎁 **Podana skrócona reguła (sesja 6): „w Dativie przymiotnik ZAWSZE `-en`".**
   Zadziałała natychmiast (`nach den **langen** Dienst`) — i od razu wyciekła na rodzajnik
   (`**den**` zamiast `dem`). Patrz #1. **Idealna ilustracja mechanizmu przecieku.**
-- **Plan:** sesje 10–11 bez zmian.
+- 🚨 **Post-test sesji 7 zmienia priorytet tej pozycji:** `des Komission**s**`, `mein**es** Uni`
+  — **oba błędy wzięły się z nieznajomości rodzaju, nie z nieznajomości końcówki.**
+  Patrz #1 → „przeciek ma paliwo".
+- **Plan zmieniony:** reguła rodzaju po końcówce *(`-ung`/`-heit`/`-keit`/`-schaft`/`-ion` → `die`)*
+  **wchodzi jako 60-sekundowa dokładka do sesji 8**. Pełna sesja o rodzaju zostaje na 10,
+  końcówki przymiotnika na 11 — bez zmian.
 
 ### 6. `in`/`nach`/`um`/`an` — budynki i godziny ⚠️ *(była #7 — niestabilna, nie słaba)*
 
@@ -196,6 +224,20 @@ niż dwa elementy**. Oba wystąpienia sesji 7 miały po cztery.
 
 ---
 
+### 7. Zgodność podmiotu z orzeczeniem ⬆️⚠️ *(AWANS z Watching — czwarte wystąpienie, sesja 7)*
+
+- *Sesja 5:* ❌ `wir war` → ✅ `wir **waren**` · ❌ `wir habe` → ✅ `wir **haben**`
+- *Sesja 6:* ❌ `Heute **fängt ich** später an` → ✅ `Heute **fange ich**…`
+- *Sesja 7, post-test:* ❌ `Ursulas Schwester **wohnen** in München` → ✅ `wohn**t**`
+- 🔑 **Uwaga na diagnozę:** przy `fängt ich` inwersja była **poprawna** — czyli V2 zadziałało,
+  a osoba nie. Dwa mechanizmy w jednym słowie, zawiódł tylko drugi. **Nie diagnozować tego
+  jako błędu szyku.**
+- ⚠️ **Wszystkie cztery to pismo w pośpiechu na czacie** i żadne nie padło w mowie. Możliwe,
+  że to nie jest luka gramatyczna, tylko koszt klawiatury — jak brak Umlautów.
+- **Plan:** awans wymuszony regułą („czwarte → Active bez dyskusji"), ale **priorytet niski**.
+  Sesja 8: jedno pytanie z podmiotem w 3. os. l.poj. **wypowiedziane**, nie napisane.
+  Jeśli w mowie wyjdzie czysto — pozycja wraca do Watching jako artefakt czatu.
+
 ### ⬇️ Zeszło z Active na sesji 6
 
 | Luka | Wynik sesji 6 | Nowy status |
@@ -206,7 +248,7 @@ niż dwa elementy**. Oba wystąpienia sesji 7 miały po cztery.
 
 | Luka | Wynik sesji 7 | Nowy status |
 |---|---|---|
-| **Grupa dopełniaczowa** *(była #3)* | **3/6 w pierwszej sesji po wprowadzeniu**, w tym 🏆 **2/3 w wolnej produkcji**: `bei den Eltern **meiner Freundin**` ✅, `im Haus **meiner Freundin**` ✅, `des Oberarzt**es**` ✅ · ❌ `zur meiner Freundin Familien`, ❌ `an meiner Krankenhäuser Station` *(oba pod obciążeniem)* | → **Watching**. Sesja 6: **0/3**. Kontrola: sesja 8 i 9 w `Gespräch` |
+| **Grupa dopełniaczowa** *(była #3)* | 🏆 **Post-test: szyk 5/5** *(posiadacz ZA za każdym razem)*, ale **forma 1/5** *(`meiner Bruder`, `des Komissions`, `meines Uni`)* — **kolejność weszła w jedną sesję, końcówka nie**. W sesji: **3/6**, w tym 🏆 **2/3 w wolnej produkcji**: `bei den Eltern **meiner Freundin**` ✅, `im Haus **meiner Freundin**` ✅, `des Oberarzt**es**` ✅ · ❌ `zur meiner Freundin Familien`, ❌ `an meiner Krankenhäuser Station` *(oba pod obciążeniem)* | → **Watching**. Sesja 6: **0/3**. Kontrola: sesja 8 i 9 w `Gespräch` |
 | **Czasowniki zwrotne** *(była #4)* | 🏆 **2/2 w wolnej produkcji** — `treffe ich **mich**`, `bereite ich **mich** … vor` *(sesja 6: 1/4)* · ❌ tylko rekcja: `erinnern` bez `an` | → **Watching**. Brakuje już nie zaimka, tylko **przyimka rekcyjnego** — to idzie do „Rekcja czasownika" |
 
 ## Watching
@@ -288,6 +330,14 @@ Jakub prowadzi równolegle kurs włoskiego, mieszka w Rzymie, na praktykach mów
   szyk trzeba przeautomatyzować.
 - ✅ **Postęp na leksyce:** w post-teście `Apuli**a**` zamiast `Puglia` — Jakub odszedł
   od formy włoskiej, ale nie doszedł do niemieckiej `Apulien`. **Ruch we właściwą stronę.**
+- ⏸️ **Sesja 7, post-test: `Apull**ia**` — trzecia forma pośrednia i ruch STANĄŁ.**
+  `Puglia` *(sesja 5)* → `Apulia` *(sesja 5, post-test)* → `Apullia` *(sesja 7)*.
+  Trzy podejścia, żadne niemieckie. **Fiszka jest w talii od sesji 5 i nie wystarcza** —
+  słowo wymaga użycia, nie rozpoznania. Do Quizletu, do trybu produkcyjnego.
+- 🆕 **Nowy typ, sesja 7: internacjonalizm zbudowany od zera.** ❌ `die **Decizion**`
+  → ✅ `die **Entscheidung**` — konstrukcja z angielskiego `decision` / włoskiego `decisione`.
+  To nie jest wtręt gotowego słowa, tylko **próba zgadnięcia niemieckiego słowa przez
+  romański rdzeń**. Groźniejsze niż `Puglia`, bo brzmi wiarygodnie.
 - ⚪ **Nie zaobserwowane:** pominięty zaimek osobowy (`bin müde`) — Jakub konsekwentnie stawia
   `ich`. Kalka `ho 24 anni` — brak okazji.
 - ✅ **Sesja 6 — część składniowa niemal zamknięta.** V2: **6/6 w drillu, 3/4 w rozmowie**.
@@ -348,14 +398,6 @@ się mimo korekty i mimo upływu czasu.
   — fiszka `sich vorbereiten (auf + A)` jest w talii **od sesji 5**.
 - **Trzecie wystąpienie osiągnięte → kandydat do Active na sesji 8.** Do fiszek wchodzą
   **czasowniki razem z przyimkiem i przypadkiem**, jak rzeczownik z rodzajnikiem.
-
-### Zgodność podmiotu z orzeczeniem ⚠️ *(TRZECIE wystąpienie — kandydat do Active)*
-- *Sesja 5, dwa wystąpienia:* ❌ `wir war` → ✅ `wir **waren**` · ❌ `wir habe` → ✅ `wir **haben**`
-- *Sesja 6:* ❌ `Heute **fängt ich** später an` → ✅ `Heute **fange ich**…`
-- 🔑 **Uwaga na diagnozę:** inwersja jest **poprawna** (`fängt ich`, nie `ich fängt`) — czyli
-  V2 zadziałało, a osoba nie. To dwa różne mechanizmy w jednym słowie i tylko drugi zawiódł.
-- Trzecie wystąpienie osiągnięte, ale wszystkie trzy to **pismo w pośpiechu na czacie**.
-  Kontrola: sesja 7. Czwarte wystąpienie → Active bez dyskusji.
 
 ### Leksyka — słowo „prawie właściwe"
 Sięga po słowo bliskoznaczne zamiast trafnego. Nie jest to luka gramatyczna, ale ogranicza

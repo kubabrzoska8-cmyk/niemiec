@@ -19,12 +19,15 @@
 | 🏆 **Wynik dnia** | **Próg obciążenia dla szyku podrzędnego NIE istnieje w drillu** — 4/4 aż do zdania 18-słowowego. Hipoteza „pada powyżej 12 słów" obalona: próg jest w **trybie uwagi**, nie w długości |
 | 🎯 **Temat dnia** | Grupa dopełniaczowa **3/6 w pierwszej sesji**, w tym **2/3 w wolnej produkcji**. Sesja 6: 0/3 |
 | 🔬 **Odkrycie dnia** | **Granica trzyma swoje pole, przeciek idzie w pole NIENAZWANE.** Trzy granice podane wprost utrzymały się; wyciek poszedł w sąsiedztwo, którego nie objąłem *(`die Prüfung **den** Studenten`)* |
-| 🆕 **Nowa luka** | **Klamra zdaniowa pęka w zdaniu głównym** — 2 wystąpienia *(`kann nicht erriner mich`, `haben kennengelernt in Rom`)* |
+| 🆕 **Nowa luka** | **Klamra zdaniowa pęka w zdaniu głównym** — 2 wystąpienia *(`kann nicht erriner mich`, `haben kennengelernt in Rom`)*. ✅ **Poprawiona w post-teście 20 min później** |
+| 🔬 **Post-test fiszek** | **47 %** (14/30) · 🏆 **szyk grupy dopełniaczowej 5/5** · 🔴 **forma w niej 1/5** · ✅ zwrotne 3/3 · 🔴 **determinant po przyimku 0/4** |
+| 🔑 **Odkrycie post-testu** | **Przeciek reguły ma paliwo: nieznajomość rodzaju.** `die Kommission` → `des Komissions`, `die Uni` → `meines Uni` — granicę zastosował wszędzie, gdzie znał rodzaj. **Reguła rodzaju po końcówce wchodzi do sesji 8, nie czeka do 10** |
+| ⬆️ **Awans** | **Zgodność podmiotu z orzeczeniem → Active #7** *(czwarte wystąpienie: `Ursulas Schwester wohnen`)*, ale priorytet niski — wszystkie cztery to pismo na czacie |
 | Następna sesja | **Sesja 8 — przyimki z Akkusativem.** 🔻 **Drill wraca do zasady „jedno zadanie = jeden cel"** — dzisiejsze 36 % to w połowie zaostrzony instrument |
 | 📍 Gdzie jest Jakub | **Rzym** — praktyki w Policlinico Umberto I. Równolegle kurs włoskiego |
 | Tryb | 🧊 **Erhaltungsmodus** — 2–3 sesje / tydzień |
 | 🇮🇹 Interferencja włoska | 🟡 **zero wtrętów leksykalnych trzecią sesję z rzędu.** Za to pojawiła się 🇬🇧: `so ich schreibe` |
-| 📦 Anki | **77 słów / 143 karty** *(+12)*. Quizlet: `talia-01_sesje-01-07.txt` (45 słów). ✅ **Retencja ZMIERZONA:** przywoływalność **98 %**, mediana trudności **12 %** → limit **10 → 20** kart/dzień |
+| 📦 Anki | **80 słów / 149 kart** *(+15)*. Quizlet: `talia-01_sesje-01-07.txt` (47 słów). ✅ **Retencja ZMIERZONA:** przywoływalność **98 %**, mediana trudności **12 %** → limit **10 → 20** kart/dzień |
 
 ## ⚠️ Czego ten plik jeszcze nie wie
 
@@ -84,7 +87,7 @@ o szczebel**. Zapis w wierszu sesji: `📖 Leseverstehen 2/3 · Nachricht`.
 | — | — | ⏸️ **przerwa ~14 tyg. bez niemieckiego + 2 tyg. codziennej rozmowy** | — | — | — | — | — |
 | **5** | 2026-08-21 | 🔬 **Rediagnostyka po przerwie** | **drill 78 %** · **wolna 32 %** · **post-test: determinant 6/6** | 52 słowa / 96 kart | #1 Kasus 🔴 32 % · #2 Perfekt ✅ **4/4** · #4 Konjunktiv II ✅ · #6 `lernen` ✅ · #3 Adjektiv 🔴 · #5 zwrotne ✅ *(uratowane post-testem)* | 🆕 liczebnik → l.mn. (**Active**) · 🆕 `obwohl`≠`weil` (Watching) · 🆕 **brak V2 po wysuniętym elemencie (Active)** · 🆕 zafosylizowane zwroty (Watching) · 🆕 rekcja `verstehen+A` (Watching) · 🇮🇹 interferencja **potwierdzona** · ⬆️ `in`/`nach` przy budynkach → Active | **Tempo bez zmian** — drill w strefie. Blok 1 rusza sesją 6, ale **zawężony** do tabeli `mein/dein/ihr` w Dativ |
 | **6** | 2026-08-23 | `Dativ oder Akkusativ?` — dwie listy, jedno pytanie | **Aufwärmen 80 %** · **drill produkcyjny 50 %** *(nowy instrument)* · **wolna 33 %** | 65 słów / 120 kart *(+14)* | #1 determinant: 6/6 celowane, **33 % w rozmowie** 🔴 · #3 **V2 6/6 + 3/4** ✅✅ · #2 liczebnik ⚠️ 2/3 · zwrotne 🔴 **1/4 → powrót do Active** · `obwohl` ✅ · Perfekt ✅ | 🆕🔴 **przeciek reguły (Active #1, mechanizm)** · 🆕🔴 grupa dopełniaczowa (Active #3) · 🆕 `als`/`wenn`/`wann` · 🆕 `als` vs `wie` · ⬇️ **szyk podrzędny ZSZEDŁ z `Closed`** (pada > 12 słów) · ⬇️ V2 → Watching | **Tempo bez zmian.** `Regel` skrócony w trakcie z 4 min do 90 s — Jakub zdał go w Aufwärmen. **Sesja 7 przecelowana**: grupa dopełniaczowa zamiast przyimków |
-| **7** | 2026-08-29 | `Wessen?` — die Mutter meiner Freundin *(i granice reguł)* | **celowane 75 %** *(6/8)* · **drill 36 %** *(5/14 — instrument zaostrzony)* · **wolna 36 %** *(4/11)* · 🗼 **szyk podrzędny 4/4 do 18 słów** · 📖 **Leseverstehen 1/1 · Nachricht** | 77 słów / 143 karty *(+12)* · ✅ **retencja 98 %** → 20 kart/dzień | #3 grupa dopełniaczowa **3/6, w tym 2/3 w rozmowie** ✅ *(sesja 6: 0/3)* · #4 zwrotne **2/2 w wolnej produkcji** ✅ · #1 przeciek: granice podane **utrzymały się**, wyciek przeniósł się w pole nienazwane ⚠️ · #2 determinant 🔴 bez ruchu · V2 po `deswegen` ✅ — **ostatnie wystąpienie zamknięte** | 🆕🔴 **klamra zdaniowa pęka w zdaniu głównym** *(2×)* · 🆕 🇬🇧 `so` zamiast `also` | 🔻 **Sesja 8 zwalnia: „jedno zadanie = jeden cel"** *(drill < 50 %)*. **Szyk podrzędny znika z drillu** — 4/4. Misje 🎧 → misje na żywym rozmówcy |
+| **7** | 2026-08-29 | `Wessen?` — die Mutter meiner Freundin *(i granice reguł)* | **celowane 75 %** *(6/8)* · **drill 36 %** *(5/14 — instrument zaostrzony)* · **wolna 36 %** *(4/11)* · 🗼 **szyk podrzędny 4/4 do 18 słów** · 📖 **Leseverstehen 1/1 · Nachricht** | 80 słów / 149 kart *(+15)* · ✅ **retencja 98 %** → 20 kart/dzień | #3 grupa dopełniaczowa **3/6, w tym 2/3 w rozmowie** ✅ *(sesja 6: 0/3)* · #4 zwrotne **2/2 w wolnej produkcji** ✅ · #1 przeciek: granice podane **utrzymały się**, wyciek przeniósł się w pole nienazwane ⚠️ · #2 determinant 🔴 bez ruchu · V2 po `deswegen` ✅ — **ostatnie wystąpienie zamknięte** | 🆕🔴 **klamra zdaniowa** *(2×, poprawiona w post-teście)* · 🆕 🇬🇧 `so` zamiast `also` · 🆕 🇮🇹🇬🇧 `die Decizion` *(internacjonalizm zbudowany od zera)* · ⬆️ zgodność podmiotu → **Active** *(4. wystąpienie)* | 🔻 **Sesja 8 zwalnia: „jedno zadanie = jeden cel"** *(drill < 50 %)*. **Szyk podrzędny znika z drillu** — 4/4. **Reguła rodzaju po końcówce przyspiesza z sesji 10 na 8** — jest paliwem luki #1. Misje 🎧 → misje na żywym rozmówcy |
 
 ---
 
@@ -178,7 +181,7 @@ a nie ćwiczyć ją jeszcze raz na osobno.
 | 1–4 *(rekonstrukcja)* | 37 | 37 | niezmierzona | 10 |
 | **5** | **15** *(10 z sesji + 5 z post-testu)* | **52** *(96 kart)* | **niezmierzona** — Jakub jeszcze nie zaczął powtórek | 10 |
 | **6** | **14** | **65** *(120 kart)* | 🔴 **niezmierzona — drugi raz z rzędu.** Zapytać wprost w bloku 1 sesji 7 | 10 |
-| **7** | **12** | **77** *(143 karty)* | ✅ **98 %** *(przywoływalność FSRS; mediana trudności 12 %)* | **20** ⬆️ |
+| **7** | **15** | **80** *(149 kart)* | ✅ **98 %** *(przywoływalność FSRS; mediana trudności 12 %)* | **20** ⬆️ |
 
 > **Skąd 37 słów bez ani jednej sesji z fiszkami:** zostały wyciągnięte z sekcji „Słownictwo"
 > czterech draftów z kwietnia. To materiał, który realnie padł na tamtych sesjach, więc jest
