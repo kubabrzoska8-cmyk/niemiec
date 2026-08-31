@@ -53,6 +53,25 @@ Meldunek jest ważniejszy od samego wykonania. To z niego biorę dane do `GAPS.m
 
 ---
 
+> 🔴 **ZMIANA Z 2026-08-31 (sesja 8): misje 🎧 wypadają z kursu do końca 🧊 Erhaltungsmodus.**
+> Trzy puste meldunki z rzędu *(sesja 6: rap, „niewiele zrozumiałem" · sesja 7: nieodsłuchane
+> · sesja 8: nieodsłuchane)* i prośba Jakuba wprost: *„ich kein Zeit haben […] bitte usuń
+> diese Teile z lekcji, vielleicht später wenn ich nach Polen zurück bin"*.
+>
+> **To nie jest brak dyscypliny — to dowód, że kanał nie mieści się w jego tygodniu.**
+> Podcast konkuruje o czas z kursem włoskiego i praktykami w Policlinico; rozmowa
+> ze Schwiegermutter dzieje się codziennie i nie kosztuje nic. **Misje przenoszą się
+> w całości na żywego rozmówcy.**
+>
+> ✅ **Wracają w 🔥 Vollmodus**, po powrocie na studia do Polski — wtedy będą miały gdzie wejść.
+> 📖 **`Lesemission` zostaje bez zmian** — czytanie mieści się w jego tygodniu, sesje 7 i 8
+> to potwierdziły *(`Leseverstehen` 1/1 i 2/3)*.
+>
+> 🔑 **Warunek zaliczenia przenosi się razem z kanałem:** „jedno zdanie, którego nie zrozumiałeś"
+> pochodzi teraz **od Schwiegermutter**, nie z nagrania. Sesja 6 pokazała, że z jednego takiego
+> zdania *(`die Dinge gegen Mücken … mit Feuerzeug`)* wypadła jedna reguła składniowa
+> i cztery słowa — **więcej niż z całej reszty misji.**
+
 ## Blok 1 — Kasus i grupa rzeczownikowa *(sesje 5–11)*
 
 Cel: przestać się przewracać na końcówkach w środku poprawnie zbudowanego zdania.
@@ -62,8 +81,8 @@ Cel: przestać się przewracać na końcówkach w środku poprawnie zbudowanego 
 | 5 | 🎧 **Ohrwurm — pierwszy po przerwie.** 10 min czegokolwiek po niemiecku | — | Masz 3 zrozumiałe zdania i 1 niezrozumiałe, zapisane |
 | 6 | 🎧 **Ohrwurm + polowanie na przypadki.** Wypisz 5 grup rzeczownikowych z nagrania | dowolne | Przy każdej grupie zgadłeś przypadek — trafność sprawdzimy razem |
 | 7 | 🎧 **WDR „Quarks", nie „cokolwiek"** — 10 min + 5 grup z przyimkiem, każda oznaczona `D`/`A` · ➕ 3 zdania z `weil` **na żywym rozmówcy**, czasownik świadomie na końcu | `die Mutter meiner Freundin` · szyk podrzędny | Masz 5 grup z typem **i** wiesz, ile z trzech `weil`-zdań udało się dokończyć poprawnie |
-| 8 | 🎤 **60 s: dla kogo i po co robisz to, co robisz** | `für, um, durch, gegen, ohne` | Nagranie ma min. 4 przyimki z Akkusativem |
-| 9 | 🎧 **Ohrwurm — `Wo?` czy `Wohin?`** Wypisz 5 zdań z `in / an / auf` i oznacz przypadek | Wechselpräpositionen | Przy 5 zdaniach masz odpowiedź `Wo?`/`Wohin?` |
+| 8 | 🗣️ **Live-Mission: cztery zdania z `für·um·durch·gegen·ohne`** w codziennej rozmowie ze Schwiegermutter · ➕ **jedno zdanie OD NIEJ, którego nie zrozumiałeś** | `ohne` bez rodzajnika | Wiesz, ile z czterech padło i czy po `ohne` wskoczył rodzajnik · masz zapisane jedno niezrozumiane zdanie |
+| 9 | 🗣️ **Live-Mission: `Wo?` czy `Wohin?`** — pięć zdań o tym, gdzie coś leży i dokąd je kładziesz, w rozmowie · ➕ jedno niezrozumiane zdanie od niej | Wechselpräpositionen | Przy 5 zdaniach potrafisz powiedzieć `Wo?` czy `Wohin?` |
 | 10 | ✍️ **Opisz swój pokój i drogę na uczelnię.** 10 zdań | rodzajniki + rodzaj | Przy każdym rzeczowniku rodzajnik napisany świadomie, nie z pamięci |
 | 11 | 🎯 🎤 **90 s: opis własnego dnia**, minimum 6 przymiotników w odmienionych grupach | `Adjektivendungen` | Nagranie bez przerwy dłuższej niż 3 sekundy |
 

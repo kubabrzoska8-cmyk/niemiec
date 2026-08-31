@@ -1,10 +1,17 @@
-# Sesja 8 — Przyimki z Akkusativem *(szkic — pełna lekcja po sesji 7)*
+# Sesja 8 — `für · um · durch · gegen · ohne` *(przeprowadzona 2026-08-31)*
 
-> 🚧 **Ten plik jest na razie niekompletny i tak ma być.** Powstał na końcu sesji 7, bo
-> `Lesemission` musi wyjść **razem z misją** — tekst niewysłany kasuje cały blok 2 następnej
-> sesji. Reszta lekcji *(Regel, Drill, Gespräch, Karteikarten)* zostanie dopisana po sesji 7,
-> kiedy będą znane jej wyniki: czy granica reguły zatrzymała przeciek i gdzie leży próg
-> obciążenia dla szyku podrzędnego.
+> ✅ **Sesja odbyta.** Transkrypt i pełna analiza:
+> [`drafts/2026-08-31_sesja-08_akkusativ-und-der-abstand.md`](../drafts/2026-08-31_sesja-08_akkusativ-und-der-abstand.md)
+>
+> 🔴 **PRZESTROGA — poniższy tekst NIE ZOSTAŁ WYSŁANY Jakubowi po sesji 7.** Leżał w tym pliku,
+> nie u niego. Blok 2 sesji 8 trzeba było ratować czytaniem **na sesji**, wbrew zasadzie
+> z `CLAUDE.md`, co zaniżyło wartość pomiaru `Leseverstehen`. **Napisanie tekstu nie jest
+> wykonaniem kroku C.4 — wysłanie jest.**
+>
+> **Wyniki:** celowane 83 % · **drill 100 %** *(1 cel/zdanie)* · **wolna produkcja 54 %**
+> *(sesja 7: 36 %)* · post-test 60 % · 📖 `Leseverstehen` **2/3**.
+> **Wynik dnia:** `ohne` bez rodzajnika — **drill 1/1 → `Gespräch` 0/3 → post-test 3/3**,
+> wszystko w jednym kwadransie. Najczystszy pomiar rozjazdu w historii kursu.
 
 **Zaplanowany temat:** `für · um · durch · gegen · ohne` — druga zamknięta lista.
 **Zaplanowana pułapka dnia:** `ohne` bierze Akkusativ **bez rodzajnika** — czyli granica,
@@ -131,3 +138,27 @@ w kursie: `Anfrage`, `Bewerbung`, `Bescheinigung`, `Unterlagen`, `berücksichtig
 
 </details>
 </details>
+
+---
+
+## ✅ Co faktycznie zostało poprowadzone
+
+| Blok | Treść | Wynik |
+|---|---|---|
+| **1. Meldunek** | misja 🎧 — trzeci pusty meldunek → **usunięta z kursu** · Anki „Naprawdę zapamiętane" **86,7 %** → limit 20 → **15** · fiszka 9 z sesji 7 | 🏆 **zwrot zafosylizowany pękł:** `Wir haben darüber letztes Mal gesprochen` |
+| **2. Lesestück** | D4 *(pierwsze)* → D2 → D1. **D3 nie zadane — brak czasu** | 📖 **2/3** ⚠️ pomiar osłabiony |
+| **3. Regel** | dwie zamknięte listy + **„w Akkusativie zmienia się tylko rodzaj męski"** + granica `ohne` *(ogólnie → goły rzeczownik · konkretnie → zaimek)* | — |
+| **+ dokładka 60 s** | rodzaj po końcówce: `-ung/-heit/-keit/-schaft/-ion` → **die** · `-er` → **der** · `-chen/-lein` → **das** | ✅ **5/6**, pułapka `Frist` rozpoznana |
+| **4. Drill** | 6 zdań PL→DE, **jeden cel każde** + 1 zdanie **wypowiedziane** *(sonda na zgodność podmiotu)* | 🏆 **7/7** |
+| **5. Gespräch** | *dla kogo i po co to robisz* · *bez czego nie przetrwałbyś dnia w Policlinico* | **54 %** · 🏆 klamra przez 5 elementów · 🔴 `ohne` 0/3 |
+| **6. Karteikarten** | 10 fiszek, wpisane na czacie *(9/10)* | **60 %** · 🏆 klamra 4/4 · 🏆 `sich erinnern an` 1/1 · 🔴 grupa dopełniaczowa 0/2 |
+| **+ Mission** | 🗣️ **Live-Mission** — pierwsza w całości na żywym rozmówcy | — |
+
+### 🔑 Trzy rzeczy, które ta sesja wpisała do sesji 9
+
+1. **Format „jeden cel na zdanie" zostaje** *(36 % → 100 %)* — **ale wraca jedno zdanie
+   z dwoma celami** jako stała sonda na obciążenie. Bez niej znika oś pomiaru.
+2. 🔴 **Struktura zamknięta w sesji N dostaje obowiązkowe zadanie w N+1 i N+3.**
+   Grupa dopełniaczowa: 5/5 → **0/2 w dwie doby bez zadania**. Fiszka nie wystarczyła.
+3. 🆕 **Przyimek rekcyjny ≠ rozdzielny przedrostek** — nowa luka Active, wchodzi do sesji 9
+   naturalnie, bo `an`/`auf` to te same słowa co Wechselpräpositionen.
