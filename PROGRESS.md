@@ -11,6 +11,7 @@
 |------|---------|
 | Ostatnia ukończona sesja | **Sesja 8** — `für · um · durch · gegen · ohne` *(i pomiar odstępu)* |
 | Data | 2026-08-31 |
+| 📅 **CEL TYGODNIA** *(31.08 – 06.09, sesje 8–10)* | **Grupa rzeczownikowa po przyimku ma wychodzić W ROZMOWIE, nie tylko w ćwiczeniu.** Warunek: w `Gespräch` sesji 10 padają **cztery poprawne grupy z rzędu**, bez podpowiedzi i bez zapowiedzi, że o to chodzi *(sesja 8: 7/13 = 54 %)* |
 | **Trafność — pytanie celowane** *(rodzaj po końcówce)* | **83 %** (5/6) 🟢 |
 | **Trafność — drill produkcyjny** | 🏆 **100 %** (7/7) ⚠️ *instrument rozbrojony: jeden cel na zdanie zamiast 4–5. **Nieporównywalne z 36 % z sesji 7***  |
 | **Trafność — wolna produkcja** | **54 %** (7/13) *(sesja 7: 36 %)* ⬆️ **jedyna liczba porównywalna z poprzednimi sesjami** |
@@ -29,6 +30,27 @@
 | 🇮🇹🇬🇧 Interferencja | 🇮🇹 **zero wtrętów czwartą sesję z rzędu.** 🇬🇧 **trzy dziś:** `I will`, `so` *(drugie wystąpienie)*, `all hate`. **Angielski wyparł włoski jako język interferencji** |
 | 📦 Anki | **96 słów / ~180 kart** *(+16)*. 🔻 **Limit 20 → 15.** „Naprawdę zapamiętane" = **86,7 %**, nie 98 % — tamto była **prognoza FSRS, nie pomiar** |
 | 🎧 Misje słuchowe | ❌ **Wypadają z kursu do końca 🧊 Erhaltungsmodus** — trzy puste meldunki i prośba Jakuba wprost. Wracają po powrocie do Polski |
+
+---
+
+## 📅 Cele tygodniowe
+
+> ⭐ **Wprowadzone 2026-08-31 na prośbę Jakuba** *(„postaraj się być bardziej jasny […] jaki
+> jest cel na dany tydzień nauki")*. **Cel tygodnia obejmuje 2–3 sesje, jest jednym zdaniem
+> i ma warunek, który da się rozliczyć liczbą.** Nie zmienia się w środku tygodnia.
+> Powtarzasz go **dosłownie** w bloku 0 każdej sesji tego tygodnia.
+>
+> **Jak formułować:** cel tygodnia dotyczy **wolnej produkcji**, nie znajomości reguły.
+> Reguły Jakub przyswaja w jedną sesję *(sesja 8: drill 7/7)* — tygodnia potrzebuje
+> **automatyzacja**. ❌ *„nauczyć się Wechselpräpositionen"* · ✅ *„`im`/`ins` mają
+> wychodzić w rozmowie"*.
+
+| Tydzień | Sesje | Cel | Warunek zaliczenia | Wynik |
+|---|---|---|---|---|
+| **31.08 – 06.09** | 8 · 9 · 10 | **Grupa rzeczownikowa po przyimku ma wychodzić w ROZMOWIE, nie tylko w ćwiczeniu** | W `Gespräch` sesji 10: **4 poprawne grupy z rzędu**, bez podpowiedzi i bez zapowiedzi | ⏳ *w toku* — sesja 8: **54 %** (7/13) |
+| *(wcześniejsze)* | 5 · 6 · 7 | *nie było celów tygodniowych* | — | — |
+
+---
 
 ## ⚠️ Czego ten plik jeszcze nie wie
 

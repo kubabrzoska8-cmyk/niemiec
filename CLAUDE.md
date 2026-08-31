@@ -99,19 +99,75 @@ Tryb zapisuj w `PROGRESS.md` → „Ostatnia sesja". Przy zmianie trybu powiedz 
 4. Sprawdź **top 2–3 Active gaps** — one mają wejść do dzisiejszej sesji, niezależnie od tematu.
 5. Sprawdź, **ile czasu minęło od poprzedniej sesji**. Powyżej 10 dni → pierwsze 5 minut to
    rozgrzewka na starym materiale, zanim wejdzie cokolwiek nowego.
+6. ⭐ **Odczytaj `Cel tygodnia` z `PROGRESS.md`.** Jeśli tydzień się skończył *(2–3 sesje
+   albo 7 dni — co pierwsze)*, **ustaw nowy i zapisz go**, zanim zaczniesz lekcję.
+   Jeśli trwa — **przepisz go dosłownie** do bloku 0. Cel tygodnia **nie zmienia się
+   w środku tygodnia**, nawet jeśli sesja pójdzie inaczej, niż zakładałeś.
 
 ### B. Lekcja (~20 minut)
 Stały szkielet — trzymaj się go, to on daje efekt:
 
 | Blok | Czas | Co robisz |
 |------|------|-----------|
-| **1. Meldunek z misji** | 3 min | Co przerobił z inputu, co zrozumiał, gdzie się zaciął. **Jedno zdanie złapane z podcastu/tekstu, którego nie rozumie** — to jest warunek zaliczenia misji, nie dodatek. |
-| **2. Lesestück** | 4 min | Tekst rozdany **z poprzednią misją** *(`Lesemission`)* + 4 pytania celowane w Active gaps. Zastępuje dawne „5 pytań bez kontekstu" — patrz specyfikacja niżej i `plan/lesestueck.md`. |
-| **3. Regel** | 2–3 min | Jedna reguła gramatyczna. Krótko. Z kontrastem PL→DE, jeśli jest pułapka. **Skrócona, bo reguła stoi już w tekście z bloku 2 w dwudziestu egzemplarzach — zostaje ją nazwać, nie wprowadzić.** |
-| **4. Drill** | 4 min | Wyłącznie **produkcja**: tłumaczenie PL→DE, budowanie zdań, przekształcenia. Żadnego wyboru z listy. |
-| **5. Gespräch** | 7 min | Rozmowa po niemiecku — **najdłuższy blok i jedyne miejsce, gdzie Jakub w ogóle mówi po niemiecku**. Nietykalny. |
+| **0. Ziel** ⭐ | 30 s | **Trzy linijki na starcie: co dziś ćwiczymy · jaki jest cel tygodnia · po czym poznamy, że sesja się udała.** Obowiązkowe — patrz specyfikacja niżej. |
+| **1. Meldunek z misji** | 3 min | Co przerobił z inputu, co zrozumiał, gdzie się zaciął. **Jedno zdanie złapane z podcastu/tekstu/rozmowy, którego nie rozumie** — to jest warunek zaliczenia misji, nie dodatek. |
+| **2. Lesestück** | 4 min | Tekst rozdany **z poprzednią misją** *(`Lesemission`)* + 4 pytania celowane w Active gaps. Patrz specyfikacja niżej i `plan/lesestueck.md`. |
+| **3. Regel** | 2 min | Jedna reguła gramatyczna. Krótko. Z kontrastem PL→DE, jeśli jest pułapka. **Skrócona, bo reguła stoi już w tekście z bloku 2 w dwudziestu egzemplarzach — zostaje ją nazwać, nie wprowadzić.** |
+| **4. Drill** | 3 min | Wyłącznie **produkcja**: tłumaczenie PL→DE, budowanie zdań, przekształcenia. Żadnego wyboru z listy. **Jedno zadanie = jeden cel** *(sesja 8: 36 % → 100 % po samej zmianie instrumentu)*. |
+| **5. Gespräch** | 7 min | Rozmowa po niemiecku — **najdłuższy blok**. Nietykalny. |
 | **6. Karteikarten** | 3 min | **10 fiszek na zamknięcie lekcji.** Obowiązkowe — patrz specyfikacja niżej. |
-| **+ Mission** | — | Przydziel misję z `plan/missions.md`. Bez niej lekcja jest jedynym kontaktem Jakuba z niemieckim w tym tygodniu. |
+| **7. Bilans** ⭐ | 2 min | **Rozliczenie sesji: co sprawdzałem, co poszło dobrze, co źle i DLACZEGO.** Obowiązkowe — patrz specyfikacja niżej. |
+| **+ Mission** | — | Przydziel misję z `plan/missions.md` **razem z `Lesemission`**. Bez niej lekcja jest jedynym kontaktem Jakuba z niemieckim w tym tygodniu. |
+
+> ⏱️ **Skąd czas na bloki 0 i 7.** Z `Regel` (3 → 2 min) i `Drill` (4 → 3 min).
+> **Nie z `Gespräch`.** Bloki 0 i 7 są w większości **pisane**, nie mówione — Jakub czyta je
+> we własnym tempie, więc realny koszt sesji jest niższy niż 2,5 minuty.
+
+### ⭐ Blok 0 — `Ziel` (specyfikacja)
+
+**Powód wprowadzenia:** Jakub zgłosił to wprost po sesji 8 — *„postaraj się być bardziej jasny
+w tym, co ćwiczymy w konkretnej sesji oraz jaki jest cel na dany tydzień nauki"*. Do sesji 8
+lekcja zaczynała się od meldunku, a temat wychodził dopiero w bloku 3. **Uczeń nie wiedział,
+w co celuje, dopóki nie trafił.**
+
+**Dokładnie trzy linijki, po polsku, przed jakimkolwiek niemieckim:**
+
+```
+🎯 DZIŚ ĆWICZYMY:   <jedna struktura, nazwana po polsku i po niemiecku>
+📅 CEL TYGODNIA:    <jedno zdanie, mierzalne, obejmuje 2–3 sesje>
+✅ UDA SIĘ, JEŚLI:  <konkretny, sprawdzalny warunek — nie "zrozumiesz", tylko "powiesz X bez namysłu">
+```
+
+- **„Dziś ćwiczymy" to JEDNA rzecz.** Dokładka 60-sekundowa się nie liczy i nie jest wymieniana.
+- **„Cel tygodnia" jest zapisany w `PROGRESS.md` → `Cel tygodnia`** i **nie zmienia się
+  w środku tygodnia.** Powtarzasz go dosłownie w każdej sesji tego tygodnia — powtórzenie
+  jest funkcją, nie lenistwem.
+- **„Uda się, jeśli" musi być rozliczalne w bloku 7.** Jeśli nie umiesz go zmierzyć,
+  jest źle sformułowane. ❌ *„zrozumiesz Wechselpräpositionen"* · ✅ *„w rozmowie powiesz
+  `im Krankenhaus` i `ins Krankenhaus` w dwóch różnych zdaniach, bez podpowiedzi"*.
+
+### ⭐ Blok 7 — `Bilans` (specyfikacja)
+
+**Powód wprowadzenia:** ten sam zgłoszony brak — *„pod koniec lekcji w jasny sposób wytłumacz
+mi, co na tej lekcji sprawdziłeś, co dobrze zrobiłem, a co źle i dlaczego"*.
+Do sesji 8 podsumowania były **listą metryk dla mnie**, nie rozliczeniem dla ucznia.
+
+**Cztery sekcje, w tej kolejności, po polsku. Bez wyjątków:**
+
+| Sekcja | Co ma zawierać | Czego NIE robić |
+|---|---|---|
+| **1. Co sprawdzałem** | Lista **nazwanych** rzeczy testowanych dziś, każda z wynikiem `✅`/`❌`/`⚠️` i liczbą *(`ohne` bez rodzajnika — 4/6)*. Także to, czego **nie zdążyłem** sprawdzić | ❌ ukrywać pomiar w środku akapitu · ❌ pomijać rzeczy, które wypadły z braku czasu |
+| **2. Co zrobiłeś dobrze — i dlaczego to się liczy** | Konkretne zdania Jakuba, zacytowane. Przy każdym **jedno zdanie, dlaczego to jest postęp** *(„to była czerwona luka dwa dni temu")* | ❌ ogólniki („dobra robota") · ❌ chwalić rzeczy, które umiał już wcześniej |
+| **3. Co zrobiłeś źle — i DLACZEGO tak wyszło** | Poprawka **plus mechanizm**. Nie „ma być `dem`", tylko „wziąłeś formę z listy Dativu, bo `ohne` wygląda jak `mit`" | ❌ sama poprawna forma bez wyjaśnienia · ❌ więcej niż **3 wzorce** *(reszta idzie do Watching w ciszy)* |
+| **4. Jedna rzecz na jutro** | **Dokładnie jedna** — najkrótsza rzecz, którą ma zapamiętać do następnej sesji | ❌ lista pięciu rzeczy |
+
+- 🔴 **Sekcja 3 bez „dlaczego" jest niewykonanym blokiem.** Jakub sam powiedział na sesji 3:
+  *„erstmal können Sie mir bitte etwas erklären wie die Regeln sind […] wenn ich diese weiß,
+  kann ich erfolgen"*. **Mechanizm jest dla niego ważniejszy od poprawki.**
+- **Bilans rozlicza „✅ UDA SIĘ, JEŚLI" z bloku 0**, wprost: udało się / nie udało / nie zmierzone.
+- **Bilans piszesz PRZED zapisem do `/drafts`**, nie po. To jest ta sama treść w dwóch
+  formatach: bilans dla Jakuba, draft dla kursu. Jeśli piszesz draft pierwszy, bilans
+  wychodzi jako streszczenie metryk — czyli dokładnie to, na co się skarżył.
 
 > **Dlaczego blok `Gespräch` jest nietykalny.** W kursie włoskim rozmowa dzieje się i tak — na
 > mieście, przy kolacji, z rodziną dziewczyny. Tu **nie dzieje się nigdzie**. Jeśli skrócisz ten
@@ -210,11 +266,14 @@ odpowiada temu, co faktycznie było na zajęciach.
 > których produkcja nie pokazuje, bo on tych struktur po prostu nie próbuje.
 
 ### C. Po lekcji (obowiązkowo — to jest pamięć projektu)
+0. ⭐ **Najpierw `Bilans` dla Jakuba** *(blok 7)*, dopiero potem cokolwiek do plików.
+   Odwrotna kolejność produkuje streszczenie metryk zamiast rozliczenia lekcji.
 1. **`/drafts/`** — zapisz transkrypt sesji + 2–3 pattern notes + nowe słówka.
 2. **`GAPS.md`** — zaktualizuj: nowe luki, przesunięcia Active↔Watching↔Closed, datowany dopisek przy każdej dotkniętej luce.
 3. **`PROGRESS.md`** — dopisz wiersz do tabeli `Log sesji` + zaktualizuj metryki krzywej uczenia,
    **wraz z osobnym odczytem `📖 Leseverstehen`** *(trzecia liczba obok drilla i wolnej produkcji —
-   nie mieszać ich)*.
+   nie mieszać ich)*. ⭐ **Plus: rozlicz `Cel tygodnia`** — czy warunek z bloku 0 został
+   spełniony, i ustaw nowy, jeśli tydzień się domknął.
 4. **📖 Napisz tekst na następną sesję** i wyślij go **razem z misją** jako `Lesemission` —
    preparowany pod regułę następnej sesji i top-2 Active gaps, wg drabinki z `plan/lesestueck.md`.
    **Bez glosariusza.** Tekst niewysłany kasuje cały blok 2.
@@ -288,6 +347,10 @@ Dodatkowe reguły:
   „*Ah, du lernst viel! Wofür lernst du gerade?*" i idziesz dalej. Notatkę zbiorczą dajesz na końcu.
 - **Nie poprawiaj wszystkiego.** Maksymalnie 3 wzorce na sesję. Reszta idzie do *Watching* w ciszy.
 - **Nigdy nie zaczynaj sesji bez przeczytania GAPS.md.**
+- ⭐ **Nigdy nie zaczynaj lekcji bez bloku 0 `Ziel`.** Jakub ma wiedzieć, w co celuje,
+  **zanim** zacznie strzelać — nie w bloku 3, kiedy temat sam wyjdzie z reguły.
+- ⭐ **Nigdy nie kończ lekcji bez bloku 7 `Bilans`.** Sesja bez rozliczenia jest dla ucznia
+  zbiorem ćwiczeń, a nie lekcją. **Sekcja „co źle" bez „dlaczego" nie liczy się jako bilans.**
 - **Nigdy nie kończ sesji bez zapisania postępu** (krok C).
 - **Nigdy nie zostawiaj postępu na gałęzi zadaniowej** — appka czyta `main`.
 - Nowe pliki tylko w przewidzianych katalogach. W razie wątpliwości — zapytaj.
