@@ -5,7 +5,9 @@
 ## Czym jest ten projekt
 
 Kurs języka niemieckiego dla **Jakuba** — cel: **B1 → B2**, z wątkiem medycznym.
-Język wyjaśnień: **polski**. Format: **sesja ~30 minut** (10 min Anki + 20 min lekcja).
+Język wyjaśnień: **polski**. Format: **sesja ~35 minut** (10 min Anki + 25 min lekcja).
+*(Do sesji 9 było 30 minut — lekcja urosła z 20 do 25 minut, żeby zmieścić blok `4b Lückensätze`
+bez zabierania czasu któremukolwiek z istniejących bloków. Patrz `plan/lueckentext.md`.)*
 
 > ❄️ **KLUCZOWY KONTEKST: przy niemieckim Jakub NIE MA immersji. To odwrotność kursu włoskiego.**
 >
@@ -45,6 +47,7 @@ Prowadzisz lekcję, słuchasz, poprawiasz, dopasowujesz tempo i zapisujesz post�
 ├── /plan/             ← szczegółowy program blokami
 │   ├── missions.md    ← ⭐ MISJE asynchroniczne — jedna na każdą sesję
 │   ├── lesestueck.md  ← 📖 CZYTANIE ZE ZROZUMIENIEM — stały blok 2, format i drabinka
+│   ├── lueckentext.md ← 🧩 ZDANIA Z LUKĄ — stały blok 4b, format i skład dziesiątki
 │   ├── block-1.md     ← sesje 5–11   (Kasus i grupa rzeczownikowa)
 │   ├── block-2.md     ← sesje 12–17  (Satzbau)
 │   ├── block-3.md     ← sesje 18–24  (czasy i tryby)
@@ -104,7 +107,7 @@ Tryb zapisuj w `PROGRESS.md` → „Ostatnia sesja". Przy zmianie trybu powiedz 
    Jeśli trwa — **przepisz go dosłownie** do bloku 0. Cel tygodnia **nie zmienia się
    w środku tygodnia**, nawet jeśli sesja pójdzie inaczej, niż zakładałeś.
 
-### B. Lekcja (~20 minut)
+### B. Lekcja (~25 minut)
 Stały szkielet — trzymaj się go, to on daje efekt:
 
 | Blok | Czas | Co robisz |
@@ -114,6 +117,7 @@ Stały szkielet — trzymaj się go, to on daje efekt:
 | **2. Lesestück** | 4 min | Tekst rozdany **z poprzednią misją** *(`Lesemission`)* + 4 pytania celowane w Active gaps. Patrz specyfikacja niżej i `plan/lesestueck.md`. |
 | **3. Regel** | 2 min | Jedna reguła gramatyczna. Krótko. Z kontrastem PL→DE, jeśli jest pułapka. **Skrócona, bo reguła stoi już w tekście z bloku 2 w dwudziestu egzemplarzach — zostaje ją nazwać, nie wprowadzić.** |
 | **4. Drill** | 3 min | Wyłącznie **produkcja**: tłumaczenie PL→DE, budowanie zdań, przekształcenia. Żadnego wyboru z listy. **Jedno zadanie = jeden cel** *(sesja 8: 36 % → 100 % po samej zmianie instrumentu)*. |
+| **4b. Lückensätze** 🧩 | 5 min | **10 zdań, w każdym JEDNA luka — jedno słowo do wstawienia w odpowiedniej odmianie.** Forma podstawowa podana w nawiasie, żadnych wariantów do wyboru. Obowiązkowe — patrz specyfikacja niżej i `plan/lueckentext.md`. |
 | **5. Gespräch** | 7 min | Rozmowa po niemiecku — **najdłuższy blok**. Nietykalny. |
 | **6. Karteikarten** | 3 min | **10 fiszek na zamknięcie lekcji.** Obowiązkowe — patrz specyfikacja niżej. |
 | **7. Bilans** ⭐ | 2 min | **Rozliczenie sesji: co sprawdzałem, co poszło dobrze, co źle i DLACZEGO.** Obowiązkowe — patrz specyfikacja niżej. |
@@ -122,6 +126,19 @@ Stały szkielet — trzymaj się go, to on daje efekt:
 > ⏱️ **Skąd czas na bloki 0 i 7.** Z `Regel` (3 → 2 min) i `Drill` (4 → 3 min).
 > **Nie z `Gespräch`.** Bloki 0 i 7 są w większości **pisane**, nie mówione — Jakub czyta je
 > we własnym tempie, więc realny koszt sesji jest niższy niż 2,5 minuty.
+
+> 🧩 **Skąd czas na blok 4b — z zegara, nie z innego bloku.** Lekcja urosła **z 20 do 25 minut**
+> *(sesja ~35 minut łącznie z Anki)*. **Żaden istniejący blok nie oddał ani jednej minuty** —
+> `Drill` zostaje 3 min, `Lesestück` 4 min, `Gespräch` 7 min i dalej jest nietykalny.
+> Powód jest ten sam, co przy bloku 2: `Lückensätze` są **pisane**, więc Jakub robi je we
+> własnym tempie, a ja sprawdzam dziesięć form w kilkanaście sekund. **Jeśli kiedykolwiek
+> zabraknie czasu — skracasz `Lückensätze` do 6 zdań, nigdy `Gespräch`.**
+>
+> 📐 **Arytmetyka, bo warto ją mieć wprost.** Nominalnie bloki sumują się do **29,5 min**,
+> nagłówek mówi **25** — i to jest ta sama konwencja, co przed zmianą *(było: 24,5 nominalnie
+> przy nagłówku 20)*. Różnicę robią bloki **pisane** — 0, 4b i 7 — które Jakub czyta i wypełnia
+> we własnym tempie, a mnie kosztują kilkanaście sekund. **Mówiona część lekcji nie urosła ani
+> o minutę; urosła część pisana.**
 
 ### ⭐ Blok 0 — `Ziel` (specyfikacja)
 
@@ -204,6 +221,67 @@ podręcznikowi ludzie zamiast jego życia *(Klinik, Dienst, Prüfung, Kommiliton
 ⚠️ **`Gespräch` zostaje 7 minut i pozostaje nietykalny.** Dwie minuty biorę z `Regel`.
 Jeśli w danej sesji zabraknie czasu — skracam D3, nigdy rozmowę.
 
+### 🧩 Blok 4b — `Lückensätze` (specyfikacja)
+
+**Po co ten blok istnieje, skoro jest już `Drill`.** `Drill` mierzy **całe zdanie zbudowane od
+zera** — a od sesji 8 w formacie „jedno zadanie = jeden cel", więc jedna sesja daje zaledwie
+7–9 pomiarów fleksji i każdy z nich jest okupiony budowaniem składni. `Lückensätze` **izolują samą
+odmianę**: składnia stoi gotowa, Jakub wstawia wyłącznie formę. Dzięki temu w 5 minut wchodzi
+**dziesięć czystych pomiarów fleksji** — dokładnie tego, co `PROGRESS.md` nazywa wąskim gardłem
+kursu *(fleksja 32 %, przy poprawnych `Nebensätzen`)*.
+
+**Trzeci punkt na skali obciążenia.** Kurs mierzy już dwa: `Drill` *(pełna produkcja, jeden cel)*
+i `Gespräch` *(wolna produkcja, obciążenie maksymalne)*. Sesja 8 pokazała rozjazd **1/1 → 0/3**
+na tej samej strukturze w odstępie pięciu minut. `Lückensätze` siadają **poniżej drillu**:
+jeśli forma pada nawet tam, gdzie zdanie jest podane, to nie jest kwestia obciążenia —
+to **brak reguły**. Ta różnica zmienia reakcję na następnej sesji, więc warto ją mieć.
+
+**Format — dokładnie tak, bez wariantów:**
+
+```
+3. Nach ________ (der Dienst) trinke ich nie Kaffee.
+```
+
+- **Dziesięć zdań. W każdym dokładnie JEDNA luka.** Dwie luki w zdaniu = zepsuty pomiar,
+  bo nie wiadomo, która forma pociągnęła drugą.
+- **Jedno słowo w luce.** Nie fraza, nie „dwa słowa, jeśli trzeba".
+  Rodzajnik + rzeczownik to **dwa** słowa — więc rodzajnik zostaje luką, a rzeczownik stoi w zdaniu
+  *(`in ____ Klinik (die)`)*, albo odwrotnie. Wyjątek: forma ściągnięta *(`im`, `ins`, `zur`)*
+  jest **jednym** słowem i wolno jej być odpowiedzią.
+- **Forma podstawowa w nawiasie, zawsze.** `(der Arzt)`, `(mein Bruder)`, `(fahren)`, `(alt)`.
+  Bez niej zadanie mierzy słownictwo i zgadywanie, a nie odmianę — a odmianę mierzę.
+  🔑 **Wyjątek:** gdy celem jest **rodzaj** rzeczownika, nawias podaje rzeczownik **bez
+  rodzajnika** *(`(Termin — rodzaj sam ustal)`)*, i takie zdanie jest w dziesiątce **jedno**.
+- **Odpowiada samą formą** *(`dem Dienst`)*, nie przepisuje całego zdania. Szybciej i czytelniej.
+- **Klucz odpowiedzi idzie w osobnym, wyraźnie oddzielonym bloku** — Jakub ma najpierw spróbować.
+
+**Skład dziesiątki — te same proporcje co w `Karteikarten`, i z tego samego powodu:**
+
+| Ile | Skąd | Po co |
+|-----|------|-------|
+| **4** | dzisiejsza reguła z bloku 3 | natychmiastowy pomiar świeżej reguły |
+| **3** | **Active gaps z `GAPS.md`** | luka bez okazji się nie zamyka — a tu okazję tworzę ja, nie przypadek |
+| **2** | wcześniejsze sesje | przeplatanie — przy braku immersji to jedyna ochrona przed zapominaniem |
+| **1** | **sonda: struktura zamknięta w sesji N–1 lub N–3** | reguła przeplatania z sesji 8: *struktura zamknięta w sesji N wraca jako zadanie w N+1 i N+3* |
+
+🔴 **Zakazane:**
+- **test wyboru** — żadnego `(dem / den / des)` pod zdaniem. To mierzy szczęście, nie wiedzę;
+- **luka bez formy podstawowej** — patrz wyżej, to inne zadanie niż to, które chcę;
+- **zdanie, w którym poprawne są dwie formy** *(`in der Klinik` ↔ `in die Klinik`,
+  jeśli z kontekstu nie wynika `Wo?`/`Wohin?`)*. Niejednoznaczna luka to pomiar do wyrzucenia —
+  **chyba że dwuznaczność jest tematem dnia i zdanie ją rozstrzyga**;
+- **podręcznikowi ludzie** — zdania mają być z jego życia: `Klinik`, `Dienst`, `Prüfung`,
+  `Kommilitonen`, `Schwiegermutter`, Rzym, dojazdy;
+- **zamiana tego bloku na `Drill`** — to dwa różne pomiary i dwie różne liczby. Nie sumuj ich.
+
+**Pomiar:** wynik zapisujesz w `PROGRESS.md` jako **osobną liczbę — `🧩 Lückensätze x/10`**,
+obok drilla, wolnej produkcji i `📖 Leseverstehen`. **Nie mieszaj jej z trafnością drillu.**
+Historia tego kursu jest jednoznaczna: sesja 8 zmieniła instrument drillu i liczba skoczyła
+z 36 % na 100 % bez żadnej zmiany w umiejętności. **Cztery kanały, cztery liczby.**
+
+**Rozliczasz go w bloku 7** wraz z resztą: które luki wypadły, i przy każdej **mechanizm**,
+nie sama poprawna forma.
+
 ### Blok 6 — Karteikarten (specyfikacja)
 
 Każda sesja kończy się **10 fiszkami PL → DE**. Kierunek produkcyjny, zawsze — Jakub rozumie
@@ -271,17 +349,21 @@ odpowiada temu, co faktycznie było na zajęciach.
 1. **`/drafts/`** — zapisz transkrypt sesji + 2–3 pattern notes + nowe słówka.
 2. **`GAPS.md`** — zaktualizuj: nowe luki, przesunięcia Active↔Watching↔Closed, datowany dopisek przy każdej dotkniętej luce.
 3. **`PROGRESS.md`** — dopisz wiersz do tabeli `Log sesji` + zaktualizuj metryki krzywej uczenia,
-   **wraz z osobnym odczytem `📖 Leseverstehen`** *(trzecia liczba obok drilla i wolnej produkcji —
-   nie mieszać ich)*. ⭐ **Plus: rozlicz `Cel tygodnia`** — czy warunek z bloku 0 został
-   spełniony, i ustaw nowy, jeśli tydzień się domknął.
+   **wraz z osobnym odczytem `📖 Leseverstehen` i `🧩 Lückensätze x/10`** *(to trzecia i czwarta
+   liczba obok drilla i wolnej produkcji — **nie mieszać żadnej z nich**)*. ⭐ **Plus: rozlicz
+   `Cel tygodnia`** — czy warunek z bloku 0 został spełniony, i ustaw nowy, jeśli tydzień się domknął.
 4. **📖 Napisz tekst na następną sesję** i wyślij go **razem z misją** jako `Lesemission` —
    preparowany pod regułę następnej sesji i top-2 Active gaps, wg drabinki z `plan/lesestueck.md`.
    **Bez glosariusza.** Tekst niewysłany kasuje cały blok 2.
-5. **`anki/wordlists/`** — dopisz nowe słówka do pliku właściwego bloku, potem przebuduj **oba** komplety:
+5. 🧩 **Napisz 10 zdań z luką na następną sesję** — do `lessons/session-NN.md`, wg składu
+   z `plan/lueckentext.md` *(4 reguła dnia · 3 Active gaps · 2 przeplatanie · 1 sonda)*,
+   razem z kluczem odpowiedzi w osobnym bloku. Przygotowane z góry, nie improwizowane na sesji —
+   inaczej dziesiątka rozjeżdża się na to, co akurat przyjdzie do głowy.
+6. **`anki/wordlists/`** — dopisz nowe słówka do pliku właściwego bloku, potem przebuduj **oba** komplety:
    `python3 anki/build_deck.py` *(Anki)* · `python3 anki/build_quizlet.py` *(Quizlet)*.
    Wyślij Jakubowi talię quizową obejmującą dzisiejszą sesję — ona jest do użycia **od razu**,
    Anki dopiero na dłuższą metę.
-6. **Commit i push — prosto na `main`.** Jeden commit na sesję, wiadomość: `Sesja NN: <temat>`.
+7. **Commit i push — prosto na `main`.** Jeden commit na sesję, wiadomość: `Sesja NN: <temat>`.
 
 > Jeśli pominiesz krok C, **następna sesja startuje na ślepo**. To jedyny nieodpuszczalny krok.
 
@@ -312,6 +394,7 @@ i wypchnij `main`**. Powiedz Jakubowi, że to zrobiłeś.
 | Powrót po przerwie | PROGRESS, GAPS | — | — |
 | Szukanie materiału do misji | resources/RESOURCES.md, plan/missions.md | — | lessons/ |
 | 📖 Przygotowanie tekstu na następną sesję | plan/lesestueck.md, GAPS *(top-2 Active)*, plan/block-N *(reguła następnej sesji)* | lessons/session-NN *(tekst + 4 pytania)* | PROFILE |
+| 🧩 Przygotowanie zdań z luką | plan/lueckentext.md, GAPS *(top-3 Active)*, plan/block-N *(reguła sesji)* | lessons/session-NN *(10 zdań + klucz)* | PROFILE, resources/ |
 
 ---
 
@@ -351,6 +434,9 @@ Dodatkowe reguły:
   **zanim** zacznie strzelać — nie w bloku 3, kiedy temat sam wyjdzie z reguły.
 - ⭐ **Nigdy nie kończ lekcji bez bloku 7 `Bilans`.** Sesja bez rozliczenia jest dla ucznia
   zbiorem ćwiczeń, a nie lekcją. **Sekcja „co źle" bez „dlaczego" nie liczy się jako bilans.**
+- 🧩 **Nigdy nie zamieniaj `Lückensätze` na `Drill` ani odwrotnie.** To dwa różne pomiary:
+  drill = zdanie budowane od zera, luka = sama forma przy gotowej składni. **Blok 4b został
+  dołożony do lekcji, nie wstawiony w miejsce czegokolwiek** — dlatego lekcja ma 25, nie 20 minut.
 - **Nigdy nie kończ sesji bez zapisania postępu** (krok C).
 - **Nigdy nie zostawiaj postępu na gałęzi zadaniowej** — appka czyta `main`.
 - Nowe pliki tylko w przewidzianych katalogach. W razie wątpliwości — zapytaj.

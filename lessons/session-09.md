@@ -10,7 +10,7 @@
 **Pytanie dnia:** `Wohin?` → **Akkusativ** *(ruch, zmiana miejsca)* · `Wo?` → **Dativ**
 *(położenie, bez zmiany miejsca)*.
 
-### 🔴 Cztery rzeczy, które sesja 8 wpisała do tej lekcji na sztywno
+### 🔴 Pięć rzeczy, które sesja 8 wpisała do tej lekcji na sztywno
 
 1. **Format drillu zostaje: „jedno zadanie = jeden cel".** 36 % → **100 %** po samej zmianie
    instrumentu. **ALE:** dokładam **jedno** zdanie z dwoma celami jako sondę na obciążenie —
@@ -25,6 +25,11 @@
    `Ich hänge das Bild **an die** Wand` *(przestrzeń — jest „dokąd")*.
 4. **Sonda na `ohne`.** Dziś: drill 1/1, `Gespräch` 0/3, post-test 3/3. **Jedno pytanie
    w `Gespräch` sesji 9, bez zapowiedzi** — czy trzyma po tygodniu, pod obciążeniem.
+
+5. 🧩 **Sesja 9 jest pierwszą z blokiem `4b Lückensätze`** — 10 zdań, 10 luk, jedno słowo
+   w odpowiedniej odmianie. **Lekcja ma od dziś 25 minut, nie 20** *(sesja ~35 min z Anki)*:
+   blok doszedł, nie zastąpił niczego. `Drill` zostaje 3 min, `Gespräch` **7 min i nietykalne**.
+   Gotowa dziesiątka z kluczem — na końcu tego pliku. Specyfikacja: `plan/lueckentext.md`.
 
 **Do zadania w bloku 1, obowiązkowo:**
 - 📦 Anki: **wyłącznie kafelek „Naprawdę zapamiętane"**, nie „przywoływalność";
@@ -142,3 +147,67 @@ Nowe: `die Packungsbeilage`, `die Einnahme`, `das Arzneimittel`, `die Rücksprac
 
 </details>
 </details>
+
+---
+
+## 🧩 Blok 4b — `Lückensätze` *(pierwsze wydanie nowego bloku)*
+
+> 🆕 **Blok wprowadzony przed sesją 9.** Dziesięć zdań, w każdym **jedna luka i jedno słowo
+> do wstawienia w odpowiedniej odmianie**. Forma podstawowa stoi w nawiasie.
+> **Lekcja urosła z 20 do 25 minut — ten blok nie zabrał czasu żadnemu innemu.**
+> Specyfikacja: `plan/lueckentext.md`.
+>
+> **Instrukcja dla Jakuba:** odpowiadasz **samą formą**, jedną linijką na zdanie
+> *(`1. dem`)*. Nie przepisuj całych zdań. Nie zaglądaj do klucza przed wysłaniem dziesiątki.
+
+**Skład:** 4 × reguła dnia *(`Wo?`/`Wohin?`)* · 3 × Active gaps *(#2 determinant/rodzaj,
+#3 grupa dopełniaczowa, #4 przyimek rekcyjny)* · 2 × przeplatanie *(sesje 6 i 8)* ·
+1 × sonda *(klamra zdaniowa — zamknięta na sesji 8, wraca zgodnie z regułą N+1)*.
+
+```
+1.  Jeden Morgen um halb acht gehe ich in ________ Klinik.            (die Klinik)
+2.  Während der Visite stehe ich meistens neben ________ Oberarzt.    (der Oberarzt)
+3.  Leg die Packung bitte nicht auf ________ Fensterbank!             (die Fensterbank)
+4.  Die Tablette darf nicht unter ________ Zunge liegen bleiben.      (die Zunge)
+5.  Ich habe ________ Termin beim Professor erst nächste Woche.       (Termin — rodzaj sam ustal)
+6.  Wie heißt der Nachname ________ Patienten aus Zimmer 4?           (dieser Patient)
+7.  Am Wochenende bereite ich mich auf ________ Prüfung vor.          (die Prüfung)
+8.  Ich fange keinen Dienst ohne ________ Kaffee an.                  (mein Kaffee)
+9.  Nach ________ langen Dienst schlafe ich sofort ein.               (der Dienst)
+10. An den Namen der Oberärztin kann ich mich leider nicht ________.  (sich erinnern)
+```
+
+<details>
+<summary><strong>🔒 Klucz — nie otwierać przed wysłaniem odpowiedzi</strong></summary>
+
+| # | Odpowiedź | Cel | Mechanizm — to idzie do bloku 7, nie sama forma |
+|---|---|---|---|
+| 1 | **die** | reguła dnia | `Wohin?` → Akkusativ. Ruch, zmiana miejsca. *(`in die Klinik`, nie `in der`)* |
+| 2 | **dem** | reguła dnia | `Wo?` → Dativ. `stehen` = położenie, nic się nie przemieszcza |
+| 3 | **die** | reguła dnia | `legen` + `Wohin?` → Akkusativ. **Zdanie stoi w `Lesemission` prawie dosłownie** |
+| 4 | **der** | reguła dnia | `liegen` + `Wo?` → Dativ. **Para do zdania 3: to samo miejsce, inny czasownik** |
+| 5 | **einen** | 🔴 #2 + #6 | `der Termin` *(nie `das`! — sesja 8: ❌ `das Termin`)* + Akkusativ po `haben`. **Jedyne miejsce, gdzie rodzaj trzeba znać, a nie odczytać z nawiasu** |
+| 6 | **dieses** | 🔴 #3 | Genitiv: `der Nachname **dieses** Patienten` — posiadacz **za** rzeczownikiem. Sesja 7: 5/5, sesja 8: **0/2** |
+| 7 | **die** | 🆕 #4 | `sich vorbereiten **auf** + Akkusativ` — **rekcja, nie przestrzeń.** Tu nie ma żadnego „dokąd", mimo że stoi `auf`. Kontrast do zdania 3 jest celowy |
+| 8 | **meinen** | przeplatanie *(sesja 8)* | `ohne` + Akkusativ, rodzaj męski → `meinen`. Sesja 8: drill 1/1, `Gespräch` **0/3** |
+| 9 | **dem** | przeplatanie *(sesja 6)* | `nach` + Dativ. Przymiotnik `langen` podany celowo — **mierzę wyłącznie determinant** *(sesja 6: ❌ `nach den langen Dienst`)* |
+| 10 | **erinnern** | sonda *(klamra)* | Bezokolicznik na **samym końcu**, po `nicht`. `sich erinnern **an**` — przyimek stoi już z przodu, więc `an` **nie doklejamy** do czasownika *(sesja 8: ❌ `anwenden`)* |
+
+**Co z tego czytam — dla prowadzącego:**
+
+- **Zdania 3 ↔ 4** to ta sama `Fensterbank`/`Zunge`-logika co w tekście: jeśli wyjdzie
+  3 ✅ / 4 ❌, luka jest w **czasowniku** *(`legen` ↔ `liegen`)*, a nie w przypadku.
+- **Zdania 3 ↔ 7** to test luki #4 w najczystszej postaci: **ten sam przyimek `auf`,
+  raz przestrzennie, raz rekcyjnie.** Oba Akkusativ, ale z dwóch zupełnie różnych powodów —
+  jeśli Jakub uzasadni 7 przez „bo dokąd", **ma dobrą formę z błędnej reguły i to idzie
+  do `GAPS.md`**, mimo ✅.
+- **Zdanie 5 jest jedynym z nawiasem bez rodzajnika** — bo celem jest właśnie rodzaj.
+  Reguła `-ung/-heit/-keit/-ion` → `die` tu **nie działa** i o to chodzi *(patrz #6 w `GAPS.md`)*.
+- 🔑 **Najważniejszy odczyt całego bloku:** która z tych dziesięciu form wyjdzie ✅ tutaj
+  i ❌ w `Gespräch` **tej samej sesji**. To jest zmierzony rozjazd uwagi — zapisz go
+  w `PROGRESS.md` wprost, nie uśredniaj z resztą.
+
+</details>
+
+**Zapis wyniku:** `🧩 Lückensätze x/10 · reguła dnia x/4 · Active gaps x/3 · przeplatanie x/2`
+— **osobna liczba w `PROGRESS.md`, nie mieszana z trafnością drillu.**

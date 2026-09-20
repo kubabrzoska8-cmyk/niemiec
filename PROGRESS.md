@@ -24,6 +24,7 @@
 | 🔴 **Cofnęło się** | **Grupa dopełniaczowa: szyk 5/5 → 0/2** *(`dieses Patienten Nachname`, `der Station Leiter`)*. Sesja 8 nie dała jej ani jednej okazji → **powrót do Active** |
 | 🆕 **Nowa luka** | **Przyimek rekcyjny czytany jako przedrostek** — `sich wenden an` → `anwenden` → `Ich wende an…`. Ten sam błąd co `erinnern … an` (sesja 7). **Reguła rozdzielnych przedrostków rozlała się na rekcję** |
 | ⬇️ **Zeszło z Active** | **Zgodność podmiotu z orzeczeniem** → Watching. **Wypowiedziane: ✅** *(`der Leiter arbeitet`)*, **pisane w pośpiechu: ❌** *(`der Leiter bin`, `ich kein Zeit haben`)*. Artefakt klawiatury, jak brak Umlautów |
+| 🧩 **Lückensätze** | *(blok wprowadzony przed sesją 9 — pierwszy pomiar dopiero będzie)*. Lekcja urosła z 20 do 25 minut, **żaden blok nie oddał ani minuty**; `Gespräch` zostaje 7 min |
 | Następna sesja | **Sesja 9 — Wechselpräpositionen** *(`Wo?` ↔ `Wohin?`)*. Nie przesuwać: dziś doszły `in Krankenhaus`, `in der Sekretariat`, `in die Sekretariat`, `nach Urlaub` |
 | 📍 Gdzie jest Jakub | **Rzym** — praktyki w Policlinico Umberto I. Równolegle kurs włoskiego |
 | Tryb | 🧊 **Erhaltungsmodus** — 2–3 sesje / tydzień |
@@ -115,6 +116,18 @@ immersji nie ruszyły fleksji, bo native rozumie mimo końcówki i nie poprawia.
 „< 50 % → sesja powtórkowa" liczy się **wyłącznie trafność produkcyjna**. Rozumienie ma własny
 próg: **< 60 % dwie sesje z rzędu → łatwiejszy tekst**, **> 90 % dwie sesje → tekst w górę
 o szczebel**. Zapis w wierszu sesji: `📖 Leseverstehen 2/3 · Nachricht`.
+
+🧩 **Od sesji 9 dochodzi czwarta, osobna liczba: `Lückensätze`** *(blok 4b, patrz
+`plan/lueckentext.md`)* — 10 zdań, w każdym jedna luka na jedno słowo w odpowiedniej odmianie.
+**Nie mieszać jej z trafnością drillu**, i to jest ostrzeżenie oparte na danych tego pliku:
+sesja 8 zmieniła sam format drillu *(4–5 celów → 1 cel na zdanie)* i liczba skoczyła z 36 % na
+100 % przy zerowej zmianie umiejętności. Cztery kanały, cztery liczby. `Lückensätze` mierzą
+**fleksję przy gotowej składni** — czyli obciążenie **niższe** niż w drillu, i to jest ich sens:
+forma, która pada nawet tam, gdzie zdanie jest podane, **nie jest kwestią obciążenia, tylko
+braku reguły**. Zapis w wierszu sesji:
+`🧩 Lückensätze 7/10 · reguła dnia 4/4 · Active gaps 1/3 · przeplatanie 2/2`.
+Do reguły „< 50 % → sesja powtórkowa" ta liczba **nie** wchodzi; ma własny próg:
+**≤ 5/10 → temat wraca do bloku `Regel` na następnej sesji, na kontraście.**
 
 | Sesja | Data | Temat | Trafność | Anki | Luki celowane | Nowe luki | Reakcja |
 |-------|------|-------|----------|------|---------------|-----------|---------|

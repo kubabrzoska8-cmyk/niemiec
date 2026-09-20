@@ -137,7 +137,7 @@ gdzie włoski i niemiecki się rozjeżdżają — `Apulien`, `Neapel`, `Mailand`
 - ❌ **Glosariusz przed tekstem** — zgadywanie z kontekstu **jest** ćwiczeniem.
 - ❌ **Pytanie, na które odpowiedzią jest przepisany fragment.** Każde D1 ma przekształcenie.
 - ❌ **Odpowiedzi po polsku** *(poza zgadywanką w D4)*.
-- ❌ **Odtwarzanie tekstu na sesji.** 20 minut jest za drogie na czytanie — czyta w domu,
+- ❌ **Odtwarzanie tekstu na sesji.** 25 minut jest za drogie na czytanie — czyta w domu,
   na sesji rozliczam. Zasada z `CLAUDE.md`, nadal obowiązuje.
 - ❌ **Podręcznikowi ludzie.** W tekście występuje jego życie: **Klinik, Praktikum, Dienst,
   Prüfung, Kommilitonen, Schwiegermutter in spe, Rom, Bielsko-Biała.**

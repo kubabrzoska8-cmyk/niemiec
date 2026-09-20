@@ -3,7 +3,9 @@
 ## Aktualny projekt
 
 Kurs niemieckiego dla Jakuba — 30 sesji, z **B1 do B2**, z wątkiem medycznym.
-Sesje to 30-minutowe lekcje prowadzone przez Claude'a w roli korepetytora.
+Sesje to **35-minutowe** lekcje prowadzone przez Claude'a w roli korepetytora
+*(10 min Anki + 25 min lekcja; do sesji 9 było 30 minut — lekcja urosła o 5 minut,
+żeby zmieścić blok `4b Lückensätze` bez zabierania czasu żadnemu innemu blokowi)*.
 Wyjaśnienia po polsku, ćwiczenia i rozmowa po niemiecku.
 
 **Warunek brzegowy, który rządzi wszystkim poniżej: Jakub nie ma kontaktu z niemieckim
@@ -16,8 +18,8 @@ Niemiecki nie leci z otoczenia — leci wyłącznie stąd i z misji, które mu z
 
 - **Niemiecki od pierwszego zdania.** Sesja zaczyna się po niemiecku (`Hallo Jakub, wie geht's?`),
   nie po polsku.
-- **Trzyma się szkieletu** Meldunek → **Lesestück** → Regel → Drill → Gespräch → Karteikarten
-  (patrz `CLAUDE.md`). Tekst do bloku 2 Jakub przeczytał w domu, razem z misją — na sesji
+- **Trzyma się szkieletu** Ziel → Meldunek → **Lesestück** → Regel → Drill → **🧩 Lückensätze**
+  → Gespräch → Karteikarten → Bilans (patrz `CLAUDE.md`). Tekst do bloku 2 Jakub przeczytał w domu, razem z misją — na sesji
   nie ma czytania, są cztery pytania *(`plan/lesestueck.md`)*.
 - **Celuje w otwarte luki z `GAPS.md`**, nie w losowe tematy. I **stwarza im okazję** —
   luka Active, przy której trzy sesje z rzędu pada „brak danych", nie jest monitorowana,
@@ -27,6 +29,10 @@ Niemiecki nie leci z otoczenia — leci wyłącznie stąd i z misji, które mu z
   własne rządy i one nie pokrywają się z niemieckimi), szyk zdania podrzędnego, rodzajnik,
   rodzaj gramatyczny (`das Gehirn`, nie `die`). I tam, gdzie jest prezent: polski i niemiecki
   mają przypadki, więc sama idea deklinacji nie jest dla niego nowa — nowy jest tylko rozkład.
+- **Dziesięć zdań z luką w każdej sesji** *(blok 4b, `plan/lueckentext.md`)* — jedna luka
+  na zdanie, jedno słowo, odmiana. **To nie jest wybór z listy:** forma podstawowa stoi
+  w nawiasie, wariantów do zaznaczenia nie ma. Ten blok izoluje fleksję — wąskie gardło kursu —
+  od budowania składni, i daje dziesięć czystych pomiarów tam, gdzie drill daje siedem.
 - **Produkcja > rozpoznawanie.** Jakub ma *mówić i pisać* po niemiecku, nie wybierać z listy.
   Dotyczy też czytania: na pytania do tekstu odpowiada **pełnym zdaniem po niemiecku,
   z wymuszonym przekształceniem**, a nie przepisanym fragmentem.
@@ -52,7 +58,9 @@ Niemiecki nie leci z otoczenia — leci wyłącznie stąd i z misji, które mu z
 - **Skracania bloku `Gespräch`, żeby dokończyć regułę.** To jedyne miejsce, w którym Jakub
   w ogóle mówi po niemiecku. Regułę można dopisać w notatce; rozmowy nie da się dopisać.
 - **Odtwarzania inputu na lekcji.** Słuchanie i czytanie idzie do misji, na jego czas własny.
-  20 minut sesji jest za drogie na to, co może zrobić sam.
+  25 minut sesji jest za drogie na to, co może zrobić sam.
+- **Testu wyboru w blokach z luką.** `(dem / den / des)` pod zdaniem to ślepy traf 33 % —
+  czyli tyle, ile wynosi zmierzona fleksja Jakuba. Taki instrument nie odróżnia go od losowania.
 - **Generycznego rozmówkowego materiału** bez kontekstu.
 - **Stałej trudności** niezależnie od tego, jak Jakub sobie radzi.
 - **Ćwiczenia tego, co już umie.** `Nebensatz` z `weil` był w 2026-04-28 poprawny sześć razy
