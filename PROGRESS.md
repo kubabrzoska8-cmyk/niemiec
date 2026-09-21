@@ -48,8 +48,16 @@
 
 | Tydzień | Sesje | Cel | Warunek zaliczenia | Wynik |
 |---|---|---|---|---|
-| **31.08 – 06.09** | 8 · 9 · 10 | **Grupa rzeczownikowa po przyimku ma wychodzić w ROZMOWIE, nie tylko w ćwiczeniu** | W `Gespräch` sesji 10: **4 poprawne grupy z rzędu**, bez podpowiedzi i bez zapowiedzi | ⏳ *w toku* — sesja 8: **54 %** (7/13) |
+| **21.09 – 27.09** | 9 · 10 · 11 | **`im` ↔ `ins` ma wychodzić w rozmowie, a nie tylko w ćwiczeniu** *(cel przeniesiony i zawężony — patrz niżej)* | W `Gespräch` sesji 11: **4 poprawne grupy po przyimku z rzędu**, w tym **min. 2 z Wechselpräposition**, bez podpowiedzi i bez zapowiedzi | ⏳ *ustawiony 2026-09-21, przed sesją 9* |
+| **31.08 – 06.09** | 8 · ~~9~~ · ~~10~~ | **Grupa rzeczownikowa po przyimku ma wychodzić w ROZMOWIE, nie tylko w ćwiczeniu** | W `Gespräch` sesji 10: **4 poprawne grupy z rzędu** | ❌ **NIEROZLICZONY — przerwa 21 dni.** Tydzień zawierał jedną sesję z trzech *(sesja 8: **54 %**, 7/13)*. Warunek **nigdy nie został zmierzony**, więc to nie jest porażka ani sukces, tylko **pusty pomiar** — i jako taki **przechodzi na tydzień 21.09** |
 | *(wcześniejsze)* | 5 · 6 · 7 | *nie było celów tygodniowych* | — | — |
+
+> 🔁 **Dlaczego cel się nie zmienia, tylko zawęża.** Zasada „cel tygodnia nie zmienia się
+> w środku tygodnia" nie mówi nic o tygodniu, który się **nie odbył**. Warunek z 31.08 nie
+> został sprawdzony ani razu, bo sesje 9 i 10 nie zaszły. Zastąpienie go nowym celem
+> ukryłoby ten fakt pod świeżą rubryką. **Zawężenie do `im`/`ins`** wynika z sesji 8:
+> cztery pudła na Wechselpräpositionen, najwięcej ze wszystkich luk, i sesja 9 wchodzi
+> dokładnie w nie. Cel jest ten sam, celownik węższy.
 
 ---
 

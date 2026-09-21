@@ -1,8 +1,12 @@
-# Sesja 9 — `Wo?` czy `Wohin?` — Wechselpräpositionen *(szkic — pełna lekcja po sesji 8)*
+# Sesja 9 — `Wo?` czy `Wohin?` — Wechselpräpositionen *(wersja po przerwie, 2026-09-21)*
 
 > 🚧 **Ten plik powstał na końcu sesji 8, bo `Lesemission` musi wyjść RAZEM z misją.**
 > Tekst niewysłany kasuje cały blok 2 — **na sesji 8 dokładnie to się stało** i tekst trzeba
 > było czytać na sesji, wbrew zasadzie z `CLAUDE.md`. Reszta lekcji dopisana po sesji 8.
+>
+> ⚠️ **Między napisaniem tego pliku a sesją minęły trzy tygodnie.** Wszystko poniżej zostało
+> zaplanowane na sesję za dwa dni po sesji 8. Co z tego zostaje, a co nie — patrz sekcja
+> **`ADAPTACJA PO PRZERWIE`** niżej. **Ona jest nadrzędna nad tym nagłówkiem.**
 
 **Temat:** dziewięć przyimków, przy których przypadek **wynika z sensu, a nie z listy** —
 `in · an · auf · über · unter · vor · hinter · neben · zwischen`.
@@ -31,11 +35,135 @@
    blok doszedł, nie zastąpił niczego. `Drill` zostaje 3 min, `Gespräch` **7 min i nietykalne**.
    Gotowa dziesiątka z kluczem — na końcu tego pliku. Specyfikacja: `plan/lueckentext.md`.
 
-**Do zadania w bloku 1, obowiązkowo:**
+**Do zadania w bloku 1 — wersja pierwotna** *(nieaktualna, patrz `ADAPTACJA` niżej)*:
 - 📦 Anki: **wyłącznie kafelek „Naprawdę zapamiętane"**, nie „przywoływalność";
-- meldunek z misji na żywym rozmówcy — **ile z czterech zdań z przyimkiem Akkusativu
-  faktycznie padło** i czy po `ohne` był rodzajnik;
-- **jedno zdanie od Schwiegermutter, którego nie zrozumiał** — warunek zaliczenia misji.
+- ~~meldunek z misji na żywym rozmówcy~~ · ~~zdanie od Schwiegermutter~~ — **misja 8 nie
+  została zrobiona; rozliczanie jej po trzech tygodniach to kara, nie pomiar.**
+
+---
+
+# ⚠️ ADAPTACJA PO PRZERWIE — dopisane 2026-09-21, w dniu sesji
+
+**Przerwa: 2026-08-31 → 2026-09-21 = 21 dni (dokładnie 3 tygodnie).**
+Jedyny kontakt z niemieckim w tym czasie, zgłoszony przez Jakuba: **cała talia Anki,
+przerobiona wczoraj, jednym ciągiem.** Nic poza tym — misja 8 nie została zrobiona,
+`Lesemission` (Beipackzettel) nie została przeczytana.
+
+### Decyzja 1 — temat NIE przesuwa się na rediagnostykę
+
+Reguła z `CLAUDE.md` brzmi „**dłużej** niż 3 tygodnie → rediagnostyka". To jest 21 dni,
+czyli dokładnie na granicy, a nie za nią. Trzy powody, żeby zostawić `Wechselpräpositionen`:
+
+1. **`GAPS.md` #7 mówi wprost: „sesja 9 — nie przesuwać".** Cztery wystąpienia w sesji 8,
+   najwięcej ze wszystkich luk.
+2. **Wczorajsza pełna talia Anki to nie jest zero.** Odtworzyła leksykę i formy. To, co
+   przerwa mogła zjeść, to **automatyzacja**, a ta nigdy nie była zbudowana *(wolna
+   produkcja 54 %)*. Rediagnostyka mierzyłaby więc rzecz, której wynik znam.
+3. 🔬 **Przerwa jest prezentem pomiarowym, nie stratą.** Otwarte pytanie nr 9 w `PROGRESS.md`
+   brzmi: *ile trwa struktura zamknięta w jednej sesji, jeśli następna nie da jej okazji?*
+   Sesja 8 dała punkt „dwie doby" *(grupa dopełniaczowa 5/5 → 0/2)*. **Dziś dostaję punkt
+   „trzy tygodnie" za darmo** — i to przy odświeżonej talii, czyli z kontrolą na leksykę.
+
+### Decyzja 2 — blok 2 `Lesestück` zamieniony na `Rediagnostyka` (ten jeden raz)
+
+Tekst poszedł z misją 8 i **nie został przeczytany**. Rozliczanie go dziś nie zmierzyłoby
+`Leseverstehen`, tylko to, czy Jakub pamięta tekst sprzed trzech tygodni.
+
+- 📖 **`Leseverstehen` w sesji 9: BRAK POMIARU.** Zapisać wprost, nie zgadywać liczby.
+- 📖 **Beipackzettel przechodzi w całości na sesję 10** jako jej `Lesemission` — jest
+  napisany pod `Wo?`/`Wohin?`, ale równie dobrze obsługuje temat sesji 10 *(rodzaj
+  i rodzajnik: `die Packungsbeilage`, `das Arzneimittel`, `der Hausmüll`, `der Ausschlag`)*.
+  **Nic się nie marnuje — przesuwa się o jedną sesję.**
+- Te 4 minuty realizują za to regułę A.5 z `CLAUDE.md`: *powyżej 10 dni przerwy pierwsze
+  minuty idą na stary materiał, zanim wejdzie cokolwiek nowego*.
+
+### Decyzja 3 — czego rediagnostyka NIE dotyka
+
+**Klamra zdaniowa nie wchodzi do rozgrzewki.** Jest sondą w `Lückensätze` #10 i to jest
+kontrola hipotezy o okresie półtrwania *(patrz `GAPS.md` #3)*. Zmierzenie jej w rozgrzewce
+i poprawienie pięć minut przed sondą **zniszczyłoby pomiar**. Mierzę ją raz, na końcu.
+
+---
+
+## 🔥 Blok 2′ — `Rediagnostyka po przerwie` *(4 min, zamiast `Lesestück`)*
+
+Sześć poleceń PL→DE, **jeden nazwany cel na polecenie** *(format sesji 8)*. Wszystko
+ze starego materiału — żadnej treści z dzisiejszej reguły.
+
+```
+R1. Jaki rodzajnik:  Untersuchung  ·  Sekretariat  ·  Möglichkeit ?
+R2. „Idę na dyżur bez kawy."
+R3. „kierownik oddziału"  (sama grupa, nie całe zdanie)
+R4. „Uczę się niemieckiego od trzech tygodni."
+R5. „W zeszłym tygodniu pojechałem do Rzymu."
+R6. „Czekam na wynik."
+```
+
+| # | Cel — co mierzę | Oczekiwane | Skąd |
+|---|---|---|---|
+| **R1** | rodzaj z końcówki + dopisane `-at` → `das` | `die` · **das** · `die` | sesja 8, dokładka 5/6. `Sekretariat` był błędem: ❌ `die Sekretariat` |
+| **R2** | `ohne` bez rodzajnika | `Ich gehe **ohne Kaffee** zum Dienst.` | sesja 8: drill 1/1 → `Gespräch` 0/3 → post-test 3/3. **Ile z tego przetrwało 3 tygodnie?** |
+| **R3** | 🔴 #3 szyk grupy dopełniaczowej | `der Leiter **der Station**` | **dokładnie to zdanie padło 0/2 na sesji 8** *(❌ `der Station Leiter`)*. Sesja 7: 5/5 |
+| **R4** | #5 liczebnik + l.mn. | `Ich lerne **seit drei Wochen** Deutsch.` | sesja 5 i 6: ❌ `durch zwei Woche`, ❌ `zwei Woche` |
+| **R5** | `sein` w Perfekt *(zamknięte na sesji 5: 4/4)* | `Letzte Woche **bin** ich nach Rom **gefahren**.` | kontrola najstarszej zamkniętej luki — **najdłuższy dystans w kursie** |
+| **R6** | 🆕 #4 przyimek rekcyjny ≠ przedrostek | `Ich **warte auf** das Ergebnis.` | sesja 8: ❌ `Ich wende an die Sekretariat`. **`warten auf` nie było jeszcze ćwiczone** |
+
+🔑 **Co z tego czytam:** R3 i R5 stoją na dwóch końcach skali dystansu — jedna struktura
+zamknięta **trzy tygodnie temu i od razu cofnięta**, druga zamknięta **miesiąc temu
+i nieruszana**. Jeśli R5 wyjdzie ✅, a R3 ❌, to okres półtrwania nie jest funkcją czasu,
+tylko **tego, czy struktura kiedykolwiek weszła w wolną produkcję**.
+
+---
+
+## Blok 4 — `Drill` *(3 min, 7 poleceń PL→DE)*
+
+Format sesji 8 zostaje: **jedno polecenie = jeden nazwany cel**. Ostatnie jest sondą
+dwucelową — inaczej tracę oś pomiaru, którą sesja 7 dawała za darmo.
+
+```
+1. „Kładę telefon na stół."                                     → cel: przypadek po „auf"
+2. „Telefon leży na stole."                                     → cel: przypadek po „auf"
+3. „Wieszam kitel do szafy."                                    → cel: przypadek po „in"
+4. „Kitel wisi w szafie."                                       → cel: forma ściągnięta
+5. „Myślę o mojej dziewczynie."                                 → cel: „an" bez ruchu
+6. „Nie znam nazwiska tej lekarki."                             → cel: szyk grupy dopełniaczowej
+7. 🔬 „Po dyżurze wkładam kitel do szafy i idę do domu."        → cele: DWA
+```
+
+| # | Wzorzec | Cel | Po co |
+|---|---|---|---|
+| 1 | `Ich lege das Handy auf **den** Tisch.` | `Wohin?` → Akkusativ | reguła dnia |
+| 2 | `Das Handy liegt auf **dem** Tisch.` | `Wo?` → Dativ | **para do 1: ten sam przyimek, ten sam mebel, inny czasownik** |
+| 3 | `Ich hänge den Kittel in **den** Schrank.` | `Wohin?` → Akkusativ | `hängen` jako czasownik ruchu |
+| 4 | `Der Kittel hängt **im** Schrank.` | `Wo?` → Dativ, forma ściągnięta | `im`, nie `in dem` — to jest forma, która ma wyjść w `Gespräch` |
+| 5 | `Ich denke **an meine** Freundin.` | 🆕 #4 rekcja ≠ przestrzeń | **Akkusativ bez żadnego „dokąd".** Jeśli uzasadni przez ruch — ✅ z błędnej reguły, do `GAPS.md` |
+| 6 | `Ich kenne **den Namen dieser Ärztin** nicht.` | 🔴 #3 obowiązkowe zadanie *(reguła N+1)* | sesja 8 nie dała tej strukturze ani jednej okazji i spadła 5/5 → 0/2 |
+| 7 | `Nach **dem** Dienst lege ich den Kittel in **den** Schrank und gehe nach Hause.` | sonda: `nach`+Dativ **i** `Wohin?`+Akkusativ | **trzecie, NIENAZWANE pole: V2 po wysuniętym `Nach dem Dienst`.** Sesja 8: pole nazwane 7/7, nienazwane 0/3 |
+
+---
+
+## Blok 6 — `Karteikarten` *(proporcje zmienione ten jeden raz)*
+
+Standard to **5 dziś · 3 Active gaps · 2 przeplatanie**. Po trzytygodniowej przerwie:
+**4 dziś · 3 Active gaps · 3 przeplatanie.** Powód: jedna fiszka mniej z nowego materiału
+nie zmieni niczego, a trzecia fiszka przeplatająca trafia dokładnie w to, co przerwa
+najbardziej naraziła. Wraca do 5/3/2 na sesji 10.
+
+## Blok 1 — `Meldunek`, wersja po przerwie *(3 min)*
+
+Misji 8 nie rozliczam. Zamiast niej **trzy pytania, z których każde zmienia dalsze decyzje**:
+
+| Pytanie | Co z niego wynika |
+|---|---|
+| 📦 **Ile pokazuje „Naprawdę zapamiętane" po wczorajszej talii?** | próg Anki *(< 80 % → 10 nowych kart, > 92 % → 20)*. Po przerwie **to jest najtwardsza liczba, jaką dziś dostanę** — jedyny pomiar zrobiony bez mojego udziału |
+| 📍 **Rzym czy Polska? Kurs włoskiego skończony?** | tryb 🧊 `Erhaltungsmodus` ↔ 🔥 `Vollmodus` · liczba nowych słów · typ misji. **Kurs włoski był 30-dniowy od 19.08 — powinien był się właśnie skończyć** |
+| 🗣️ **Czy rozmowy ze Schwiegermutter nadal się odbywają?** | cały `PROFILE.md` stoi na „częściowej immersji". Jeśli jej nie ma, wraca stan z sesji 1–4 i **misja przestaje być dodatkiem** |
+
+## Misja 9 — bez zmian, ale z jednym dopiskiem
+
+🗣️ `Live-Mission: Wo? czy Wohin?` z `plan/missions.md` zostaje. **Dopisek:** jeśli Jakub
+wrócił już do Polski, rozmówca-native znika i misja idzie w wersji pisanej *(5 zdań
+wysłanych jej na czacie)*. To jest do ustalenia w bloku 1, nie z góry.
 
 ---
 
