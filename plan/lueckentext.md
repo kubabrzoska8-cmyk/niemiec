@@ -93,6 +93,14 @@ Jakub odpowiada **samą formą**, jedną linijką na zdanie:
    sobie: `(der Termin)` w nawiasie kasuje dokładnie tę informację, którą chcę zmierzyć.
    **W jednej dziesiątce najwyżej jedno takie zdanie** — reszta ma mieć nawias pełny, żeby
    pomiar dotyczył przypadka, a nie pamięci do rodzajów.
+
+   ⚠️ **Wyjątek od wyjątku, dopisany po sesji 9 — obowiązuje, gdy RODZAJ jest regułą dnia.**
+   Limit „najwyżej jedno" chroni pomiar przypadka przed zamianą w pomiar słownictwa. Gdy
+   jednak tematem sesji jest sam rodzaj *(sesja 10)*, **to rodzaj JEST tym, co mierzę** —
+   i wtedy czwórka „reguła dnia" ma nawiasy bez rodzajnika, a limit dotyczy **wyłącznie
+   pozostałych sześciu zdań**. Powód jest empiryczny: sesja 9 pokazała, że reguła
+   `Wo?`/`Wohin?` daje **4/4 przy rodzaju podanym i 2/4 przy rodzaju do znalezienia** —
+   czyli nawias z rodzajnikiem kasuje dokładnie tę zmienną, która decyduje o wyniku.
 4. **Wyzwalacz musi stać w zdaniu.** Przyimek, czasownik rekcyjny, `Wo?`/`Wohin?` — coś,
    z czego przypadek **wynika**. Luka bez wyzwalacza jest losowaniem.
 5. **Jedna poprawna odpowiedź.** `Ich gehe in ____ Klinik` ma dwie *(`die` i `der`)* — chyba że

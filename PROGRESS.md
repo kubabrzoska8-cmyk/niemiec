@@ -9,28 +9,30 @@
 
 | Pole | Wartość |
 |------|---------|
-| Ostatnia ukończona sesja | **Sesja 8** — `für · um · durch · gegen · ohne` *(i pomiar odstępu)* |
-| Data | 2026-08-31 |
-| 📅 **CEL TYGODNIA** *(31.08 – 06.09, sesje 8–10)* | **Grupa rzeczownikowa po przyimku ma wychodzić W ROZMOWIE, nie tylko w ćwiczeniu.** Warunek: w `Gespräch` sesji 10 padają **cztery poprawne grupy z rzędu**, bez podpowiedzi i bez zapowiedzi, że o to chodzi *(sesja 8: 7/13 = 54 %)* |
-| **Trafność — pytanie celowane** *(rodzaj po końcówce)* | **83 %** (5/6) 🟢 |
-| **Trafność — drill produkcyjny** | 🏆 **100 %** (7/7) ⚠️ *instrument rozbrojony: jeden cel na zdanie zamiast 4–5. **Nieporównywalne z 36 % z sesji 7***  |
-| **Trafność — wolna produkcja** | **54 %** (7/13) *(sesja 7: 36 %)* ⬆️ **jedyna liczba porównywalna z poprzednimi sesjami** |
-| **Post-test fiszek** | **60 %** (6/10 celów) *(sesja 7: 47 %)* |
-| 📖 **Leseverstehen** | **2/3** · `Offizieller Text` ⚠️ *pomiar osłabiony — tekst czytany na sesji, nie w domu* |
-| 🏆 **Wynik dnia** | **Rozjazd zmierzony na jednej strukturze, w odstępie 5 minut.** `ohne` bez rodzajnika: **drill 1/1 → `Gespräch` 0/3**. Do dziś rozjazd liczyło się między różnymi zadaniami i można było go zrzucić na instrument. **Nie da się już** |
-| 🔬 **Odkrycie dnia** | **Przeciek reguły = alokacja uwagi, zmierzona ilościowo.** W tych samych 7 zdaniach: pole **nazwane** 7/7, pole **nienazwane** 0/3 *(`die Geschenk`, `meinen Brüder`, `in Krankenhaus`)* |
-| 🎯 **Temat dnia** | `ohne` bez rodzajnika — **pierwsze trafienie w historii kursu** *(sesja 6 ❌, sesja 7 ❌ ×2)*. Post-test **3/3** |
-| ✅ **Zamknięte w jedną sesję** | **Klamra zdaniowa 4/4** → Watching *(luka odkryta wczoraj)* · **rekcja `sich erinnern an` 1/1** — trzecia próba, pierwsze trafienie |
-| 🔴 **Cofnęło się** | **Grupa dopełniaczowa: szyk 5/5 → 0/2** *(`dieses Patienten Nachname`, `der Station Leiter`)*. Sesja 8 nie dała jej ani jednej okazji → **powrót do Active** |
-| 🆕 **Nowa luka** | **Przyimek rekcyjny czytany jako przedrostek** — `sich wenden an` → `anwenden` → `Ich wende an…`. Ten sam błąd co `erinnern … an` (sesja 7). **Reguła rozdzielnych przedrostków rozlała się na rekcję** |
-| ⬇️ **Zeszło z Active** | **Zgodność podmiotu z orzeczeniem** → Watching. **Wypowiedziane: ✅** *(`der Leiter arbeitet`)*, **pisane w pośpiechu: ❌** *(`der Leiter bin`, `ich kein Zeit haben`)*. Artefakt klawiatury, jak brak Umlautów |
-| 🧩 **Lückensätze** | *(blok wprowadzony przed sesją 9 — pierwszy pomiar dopiero będzie)*. Lekcja urosła z 20 do 25 minut, **żaden blok nie oddał ani minuty**; `Gespräch` zostaje 7 min |
-| Następna sesja | **Sesja 9 — Wechselpräpositionen** *(`Wo?` ↔ `Wohin?`)*. Nie przesuwać: dziś doszły `in Krankenhaus`, `in der Sekretariat`, `in die Sekretariat`, `nach Urlaub` |
-| 📍 Gdzie jest Jakub | **Rzym** — praktyki w Policlinico Umberto I. Równolegle kurs włoskiego |
-| Tryb | 🧊 **Erhaltungsmodus** — 2–3 sesje / tydzień |
-| 🇮🇹🇬🇧 Interferencja | 🇮🇹 **zero wtrętów czwartą sesję z rzędu.** 🇬🇧 **trzy dziś:** `I will`, `so` *(drugie wystąpienie)*, `all hate`. **Angielski wyparł włoski jako język interferencji** |
-| 📦 Anki | **96 słów / ~180 kart** *(+16)*. 🔻 **Limit 20 → 15.** „Naprawdę zapamiętane" = **86,7 %**, nie 98 % — tamto była **prognoza FSRS, nie pomiar** |
-| 🎧 Misje słuchowe | ❌ **Wypadają z kursu do końca 🧊 Erhaltungsmodus** — trzy puste meldunki i prośba Jakuba wprost. Wracają po powrocie do Polski |
+| Ostatnia ukończona sesja | **Sesja 9** — `Wechselpräpositionen: Wo? ↔ Wohin?` *(pierwsza po przerwie)* |
+| Data | 2026-09-21 · **przerwa od sesji 8: 21 dni** |
+| 📅 **CEL TYGODNIA** *(21.09 – 27.09, sesje 9–11)* | **`im` ↔ `ins` ma wychodzić w rozmowie, a nie tylko w ćwiczeniu.** Warunek: w `Gespräch` sesji 11 padają **4 poprawne grupy po przyimku z rzędu**, w tym min. 2 z Wechselpräposition, bez podpowiedzi |
+| 🔥 **Rediagnostyka po przerwie** | **58 %** (3,5/6) — blok jednorazowy zamiast `Lesestück` |
+| **Trafność — drill produkcyjny** | **62 %** (5/8 celów) ⚠️ *instrument trudniejszy niż na sesji 8: każdy cel wymaga decyzji `Wo?`/`Wohin?` **i** znajomości rodzaju. **Nieporównywalne ze 100 % z sesji 8*** |
+| 🧩 **Lückensätze** *(premiera bloku)* | **7/10** · reguła dnia **4/4** · Active gaps **1/3** · przeplatanie **1/2** · sonda **1/1** |
+| **Trafność — wolna produkcja** | 🏆 **65 %** (11/17) *(sesja 8: 54 %)* ⬆️ **największy skok w historii kursu — i po trzytygodniowej przerwie.** Jedyna liczba porównywalna między sesjami |
+| 📖 **Leseverstehen** | **BRAK POMIARU** — `Lesemission` z misji 8 nieprzeczytana; tekst *(Beipackzettel)* przechodzi w całości na sesję 10 |
+| 🏆 **Wynik dnia** | **Reguła dnia jest opanowana — luką jest rodzaj rzeczownika pod nią.** Trzy instrumenty, różniące się wyłącznie tym, czy rodzaj był podany: `Lückensätze` **4/4** → `Drill` **2/4** → `Gespräch` **0/1**. Oba pudła drillu to `der Schrank` odmieniony **bezbłędnie jako żeński** |
+| 🔬 **Odkrycie dnia** | **Pytanie nr 9 ma odpowiedź i jest inna, niż zakładała sesja 8.** Klamra: 21 dni **bez zadania** → ✅. `sein` w Perfekt: 31 dni → ✅. Grupa dopełniaczowa: 2 doby **mimo ćwiczeń** → ❌. **Zmienną nie jest czas ani liczba powtórek, tylko obecność struktury w jego codziennej mowie** |
+| 🚨 **Drugie odkrycie** | **Anki 94,3 % kontra produkcja 58 % na tych samych słowach.** Cztery pudła rediagnostyki mają w talii fiszkę z adnotacją **dokładnie o tym błędzie**. Przeciek zmierzony **między narzędziami**, nie wewnątrz zadania |
+| 🎯 **Temat dnia** | `Wo?`/`Wohin?` — **reguła weszła w jedną sesję** *(4/4 z uzasadnieniem „jest ruch", o które nie prosiłem)*. **Automatyzacja: zero** |
+| 🔴 **Cel dnia** | ❌ **NIE OSIĄGNIĘTY.** `im`/`ins` nie padły w rozmowie ani razu; w miejscu wymagającym `im` padło `in das Haus` — **to samo zdanie, które padło na sesji 7** |
+| ✅ **Przetrwało przerwę** | **`ohne Kaffee` bez rodzajnika** *(pierwsza struktura kursu, o której można powiedzieć, że weszła: s.6 ❌, s.7 ❌×2, s.8 ⚠️, s.9 ✅)* · **klamra zdaniowa** · **`sein` w Perfekt** · **`drei Wochen`** · 🆕 **`um etwa 12 Uhr`** *(s.5 i 6: ❌ `am 10 Uhr`)* |
+| ⬆️ **Awans** | **Rodzaj rzeczownika → operacyjne miejsce nr 1 w bloku 1.** Nie przez pogorszenie liczby, tylko przez rozstrzygający pomiar. **Sesja 10 przestaje być kolejnym tematem z listy** |
+| 🔬 **Luka zawężona** | **#4 rekcja: problem jest w DOBORZE przyimka, nie w odmianie.** Przyimek **podany** → ✅ natychmiast *(luka 7)*. Do dobrania samemu → ❌ zawsze `an` *(`warte … an`, `freue mich an`)*. **`an` jest wartością domyślną** |
+| ⬇️ **Zeszło z Active** | **Liczebnik + l.mn.** → Watching *(`drei Wochen` ✅ po 3 tygodniach)* |
+| ⚠️ **Sonda, która nie wypaliła** | `ohne` w `Gespräch` — **temat rozmowy nie stworzył okazji**, a pytanie zapasowe było **dosłownym powtórzeniem z sesji 8 i Jakub je rozpoznał**: *„denke ich auch nach dass du hast mir schon diese Frage gestellt"*. **Błąd prowadzącego: sonda musi zmieniać opakowanie, nie tylko odstęp** |
+| 🇮🇹🇬🇧 Interferencja | 🆕 🇮🇹 **po raz pierwszy STRUKTURALNA:** opuszczony podmiot *(`weil hier zu heiß ist`)* + czasownik na 2. miejscu w zdaniu z `dass`. **Oba objawy stoją na liście w `PROFILE.md` od kwietnia i dziś padły pierwszy raz.** 🇬🇧 `lunch` ×2. ⚠️ **Nie regres składni** — `weil … ist` w tej samej wiadomości ✅ |
+| 📦 Anki | **106 słów / 200 kart** *(+10)*. **Limit zostaje 15** mimo retencji **92,5 %** *(próg reguły to 92 %)* — okno pomiaru nie zawierało **ani jednego nowego wyrazu**, a wąskie gardło jest w **transferze**, nie w dopływie |
+| Następna sesja | **Sesja 10 — Rodzaj i rodzajnik.** Reguła musi objąć rzeczowniki **BEZ końcówki diagnostycznej** *(`Schrank`, `Termin`, `Dienst`, `Kittel`)* — końcówkowa z sesji 8 działa 5/6 i nie pomaga tam, gdzie końcówki nie ma. Sonda: `der Schrank` |
+| 📍 Gdzie jest Jakub | **Rzym — ostatnie ~10 dni.** Potem Polska. **Vollmodus od sesji 11–12** |
+| Tryb | 🧊 **Erhaltungsmodus** — bez zmian |
+| 🗣️ Immersja | **Rozmowy z mamą dziewczyny nadal codziennie** — założenie „częściowa immersja" z `PROFILE.md` obowiązuje |
 
 ---
 
@@ -48,7 +50,7 @@
 
 | Tydzień | Sesje | Cel | Warunek zaliczenia | Wynik |
 |---|---|---|---|---|
-| **21.09 – 27.09** | 9 · 10 · 11 | **`im` ↔ `ins` ma wychodzić w rozmowie, a nie tylko w ćwiczeniu** *(cel przeniesiony i zawężony — patrz niżej)* | W `Gespräch` sesji 11: **4 poprawne grupy po przyimku z rzędu**, w tym **min. 2 z Wechselpräposition**, bez podpowiedzi i bez zapowiedzi | ⏳ *ustawiony 2026-09-21, przed sesją 9* |
+| **21.09 – 27.09** | 9 · 10 · 11 | **`im` ↔ `ins` ma wychodzić w rozmowie, a nie tylko w ćwiczeniu** *(cel przeniesiony i zawężony — patrz niżej)* | W `Gespräch` sesji 11: **4 poprawne grupy po przyimku z rzędu**, w tym **min. 2 z Wechselpräposition**, bez podpowiedzi i bez zapowiedzi | ⏳ *w toku* — **sesja 9: ❌ ani jedno `im`/`ins` w rozmowie** *(w miejscu wymagającym `im` padło `in das Haus`)*, ale **wolna produkcja 65 %** — najwyżej w kursie |
 | **31.08 – 06.09** | 8 · ~~9~~ · ~~10~~ | **Grupa rzeczownikowa po przyimku ma wychodzić w ROZMOWIE, nie tylko w ćwiczeniu** | W `Gespräch` sesji 10: **4 poprawne grupy z rzędu** | ❌ **NIEROZLICZONY — przerwa 21 dni.** Tydzień zawierał jedną sesję z trzech *(sesja 8: **54 %**, 7/13)*. Warunek **nigdy nie został zmierzony**, więc to nie jest porażka ani sukces, tylko **pusty pomiar** — i jako taki **przechodzi na tydzień 21.09** |
 | *(wcześniejsze)* | 5 · 6 · 7 | *nie było celów tygodniowych* | — | — |
 
@@ -100,17 +102,50 @@
    vielleicht später wenn ich bin nach Polen zurück"*. **Przyjęte.** Misja 8 jest pierwszą
    w całości opartą na żywym rozmówcy — odpowiedź przyjdzie na sesji 9.
 
-9. 🆕 **Nie wiadomo, ile trwa struktura zamknięta w jednej sesji, jeśli następna nie da jej
+9. ~~**Nie wiadomo, ile trwa struktura zamknięta w jednej sesji, jeśli następna nie da jej
    okazji.** Sesja 8 dała pierwszy punkt pomiarowy i jest niepokojący: grupa dopełniaczowa
    **5/5 → 0/2 w dwie doby**. Kontrolą jest klamra zdaniowa (dziś 4/4): **jeśli na sesji 9,
    bez zadania, spadnie tak samo — to nie cecha tej jednej struktury, tylko okres półtrwania
-   wszystkiego, czego nie powtarzam.** Sesja 9 celowo nie ćwiczy klamry, żeby to zmierzyć.
+   wszystkiego, czego nie powtarzam.** Sesja 9 celowo nie ćwiczy klamry, żeby to zmierzyć.**~~
+   ✅ **ODPOWIEDZIANE na sesji 9 — i odpowiedź jest inna, niż zakładało pytanie.**
+   Przerwa 21 dni zamieniła kontrolę w mocny eksperyment:
+   ```
+   klamra zdaniowa    zamknięta s.8   ZERO ćwiczeń, 21 dni   →  ✅
+   sein w Perfekt     zamknięta s.5   ZERO ćwiczeń, 31 dni   →  ✅
+   grupa dopełniaczowa zamknięta s.7  fiszka + drill + luka  →  ❌  (szyk ✅ / forma ❌)
+   ```
+   🔑 **Hipoteza „okres półtrwania wszystkiego, czego nie powtarzam” — OBALONA.**
+   Zmienną nie jest czas ani liczba powtórek, tylko **obecność struktury w jego codziennej
+   mowie**. Klamry i Perfektu używa co dzień w rozmowie ze Schwiegermutter; `der Nachname
+   dieses Patienten` nie pada w kuchni nigdy.
+   ➡️ **Reguła „N+1 i N+3” zostaje, ale dla struktur spoza jego mowy jest za słaba.**
+   Dla nich następnym krokiem jest **misja, która wstawia strukturę do rozmowy**, nie trzecie
+   ćwiczenie. — *Jeden dowód więcej: grupa dopełniaczowa wyszła dziś **w rozmowie***
+   *(`das Haus meiner Freundin` ✅)*, *a padła w każdym ćwiczeniu.*
 
 10. 🆕 **Nie wiadomo, dlaczego interferencja przeskoczyła z włoskiego na angielski.**
    Cztery sesje bez ani jednego wtrętu 🇮🇹, a dziś trzy 🇬🇧 w jednej wiadomości
    *(`I will`, `so`, `all hate`)* plus dwa słowa zbudowane od zera z angielskiego
    *(`beantwortlich`, `Zükunftliche`)*. Hipoteza: włoski przeszedł do trybu produkcji
    i przestał być językiem „awaryjnym", a angielski nim został. **Obserwować, nie korygować.**
+
+11. 🆕 **Nie wiadomo, dlaczego materiał z Anki nie przechodzi do zdania.** Sesja 9 zmierzyła
+   różnicę po raz pierwszy i jest ona wielka: **talia 94,3 % → rediagnostyka 58 % na tych
+   samych słowach**, przy czym wszystkie cztery pudła mają fiszkę z adnotacją dokładnie o tym
+   błędzie. Dwie hipotezy, rozróżnialne eksperymentem:
+   **(a)** fiszka nazywa cel *(awers mówi, o co pyta)*, zdanie nie — czyli to ten sam mechanizm
+   co „pole nazwane / nienazwane" z sesji 8, tylko przeniesiony o poziom wyżej;
+   **(b)** kierunek PL→DE na fiszce jest prostszy niż produkcja, bo kontekst jest jednoznaczny.
+   ➡️ **Test na sesji 10–11:** wziąć **pięć słów z fiszek przerobionych tego samego dnia**
+   i zażądać ich w zdaniu o czymś innym. Jeśli padną tak samo, to (a) i fiszka potrzebuje
+   **kontrastu na awersie**, a nie kolejnej powtórki.
+
+12. 🆕 **Nie wiadomo, czy interferencja 🇮🇹 zniknie po powrocie do Polski.** Sesja 9 dała
+   **pierwsze strukturalne wystąpienia** *(opuszczony podmiot, czasownik na 2. miejscu po
+   `dass`)* — oba stoją na liście objawów w `PROFILE.md` od kwietnia i przez cztery sesje
+   nie padły ani razu. Jakub wraca za ~10 dni i włoski przestanie być językiem aktywnym.
+   ➡️ **Jeśli objawy osłabną — to była interferencja. Jeśli nie — to obciążenie jako takie
+   i etykieta „🇮🇹" jest błędna.** Pomiar na sesji 12–13, bez uprzedzania go.
 
 ## Log sesji
 
@@ -148,6 +183,8 @@ Do reguły „< 50 % → sesja powtórkowa" ta liczba **nie** wchodzi; ma własn
 | **6** | 2026-08-23 | `Dativ oder Akkusativ?` — dwie listy, jedno pytanie | **Aufwärmen 80 %** · **drill produkcyjny 50 %** *(nowy instrument)* · **wolna 33 %** | 65 słów / 120 kart *(+14)* | #1 determinant: 6/6 celowane, **33 % w rozmowie** 🔴 · #3 **V2 6/6 + 3/4** ✅✅ · #2 liczebnik ⚠️ 2/3 · zwrotne 🔴 **1/4 → powrót do Active** · `obwohl` ✅ · Perfekt ✅ | 🆕🔴 **przeciek reguły (Active #1, mechanizm)** · 🆕🔴 grupa dopełniaczowa (Active #3) · 🆕 `als`/`wenn`/`wann` · 🆕 `als` vs `wie` · ⬇️ **szyk podrzędny ZSZEDŁ z `Closed`** (pada > 12 słów) · ⬇️ V2 → Watching | **Tempo bez zmian.** `Regel` skrócony w trakcie z 4 min do 90 s — Jakub zdał go w Aufwärmen. **Sesja 7 przecelowana**: grupa dopełniaczowa zamiast przyimków |
 | **7** | 2026-08-29 | `Wessen?` — die Mutter meiner Freundin *(i granice reguł)* | **celowane 75 %** *(6/8)* · **drill 36 %** *(5/14 — instrument zaostrzony)* · **wolna 36 %** *(4/11)* · 🗼 **szyk podrzędny 4/4 do 18 słów** · 📖 **Leseverstehen 1/1 · Nachricht** | 80 słów / 149 kart *(+15)* · ✅ **retencja 98 %** → 20 kart/dzień | #3 grupa dopełniaczowa **3/6, w tym 2/3 w rozmowie** ✅ *(sesja 6: 0/3)* · #4 zwrotne **2/2 w wolnej produkcji** ✅ · #1 przeciek: granice podane **utrzymały się**, wyciek przeniósł się w pole nienazwane ⚠️ · #2 determinant 🔴 bez ruchu · V2 po `deswegen` ✅ — **ostatnie wystąpienie zamknięte** | 🆕🔴 **klamra zdaniowa** *(2×, poprawiona w post-teście)* · 🆕 🇬🇧 `so` zamiast `also` · 🆕 🇮🇹🇬🇧 `die Decizion` *(internacjonalizm zbudowany od zera)* · ⬆️ zgodność podmiotu → **Active** *(4. wystąpienie)* | 🔻 **Sesja 8 zwalnia: „jedno zadanie = jeden cel"** *(drill < 50 %)*. **Szyk podrzędny znika z drillu** — 4/4. **Reguła rodzaju po końcówce przyspiesza z sesji 10 na 8** — jest paliwem luki #1. Misje 🎧 → misje na żywym rozmówcy |
 | **8** | 2026-08-31 | `für · um · durch · gegen · ohne` *(i pomiar odstępu)* | **celowane 83 %** *(5/6)* · 🏆 **drill 100 %** *(7/7 — instrument rozbrojony do 1 celu/zdanie)* · **wolna 54 %** *(7/13 — sesja 7: 36 %)* · **post-test 60 %** *(6/10)* · 📖 **Leseverstehen 2/3 · Offizieller Text** | 96 słów / ~180 kart *(+16)* · 🔻 **retencja realna 86,7 %** → 15 kart/dzień | 🎯 `ohne` bez rodzajnika: **drill 1/1, post-test 3/3, `Gespräch` 0/3** · #3 klamra 🏆 **4/4 → Watching** · rekcja `erinnern an` ✅ **1/1, trzecia próba** · #2 determinant: **Akkusativ 3/3 ✅**, ale `die Geschenk`/`in Krankenhaus` ❌ · #5 rodzaj **5/6 celowane, 0/2 w produkcji** · #7 zgodność: **mowa ✅ / pismo ❌ → Watching** | 🆕🔴 **przyimek rekcyjny czytany jako przedrostek** *(`anwenden` ← `sich wenden an`)* · 🆕 brak `zu` przed bezokolicznikiem *(Watching)* · 🆕🇬🇧 `I will`, `all hate` — **trzy wtręty angielskie w jednej wiadomości** · ⬆️🔴 **grupa dopełniaczowa WRACA do Active** *(5/5 → 0/2)* | 🎧 **misje słuchowe usunięte z kursu** na prośbę Jakuba, do końca 🧊 · **format „jeden cel" zostaje**, ale sesja 9 dokłada 1 zdanie z dwoma celami jako sondę · 🆕 **reguła przeplatania: struktura zamknięta w sesji N wraca jako zadanie w N+1 i N+3**
+| — | — | ⏸️ **przerwa 21 dni** *(2026-08-31 → 2026-09-21)* — jedyny kontakt: **cała talia Anki**, przerobiona przed sesją | — | — | — | — | — |
+| **9** | 2026-09-21 | `Wo? ↔ Wohin?` — Wechselpräpositionen *(pierwsza po przerwie)* | 🔥 **rediagnostyka 58 %** *(3,5/6)* · **drill 62 %** *(5/8 — instrument trudniejszy: cel wymaga decyzji **i** rodzaju)* · 🧩 **Lückensätze 7/10** *(reguła dnia **4/4** · gaps 1/3 · przeplatanie 1/2 · sonda 1/1)* · 🏆 **wolna 65 %** *(11/17 — sesja 8: 54 %)* · 📖 **Leseverstehen: BRAK POMIARU** | 106 słów / 200 kart *(+10)* · **retencja 94,3 %** *(tydzień)* / 92,5 % *(miesiąc)* → **limit zostaje 15** | 🎯 `Wo?`/`Wohin?`: **4/4 przy rodzaju podanym, 2/4 przy rodzaju do znalezienia, 0/1 w rozmowie** · #3 grupa dopełniaczowa: **szyk ✅ w drillu i 🏆 w rozmowie**, **forma ❌** *(`diesen`)* · #4 rekcja: przyimek **podany** ✅ / **do dobrania** ❌×2 *(zawsze `an`)* · #5 liczebnik ✅ **→ Watching** · #6 rodzaj 🔴 `der Schrank`, `das Termin`, `der Sekretariat` · ✅ **klamra po 21 dniach bez zadania** · ✅ **`ohne Kaffee` po przerwie** · ✅ 🆕 `um etwa 12 Uhr` | 🆕 🇮🇹 **interferencja STRUKTURALNA** — opuszczony podmiot *(`weil hier zu heiß ist`)* + czasownik na 2. miejscu po `dass`. **Oba objawy z `PROFILE.md`, pierwsze wystąpienia** *(Watching)* · 🆕 **przeciek z FISZKI, nie z reguły** — `… Wochen lang` w miejscu `seit drei Wochen` · 🆕 `nach Poliklinik` *(4. wystąpienie wzorca)* | ⬆️ **RODZAJ RZECZOWNIKA awansuje na operacyjne miejsce nr 1** — sesja 10 to wąskie gardło bloku, nie kolejny temat · 🔻 **limit Anki zostaje 15 mimo przekroczenia progu 92 %** — wąskie gardło jest w transferze, nie w dopływie · 🆕 **struktury spoza jego codziennej mowy idą do MISJI, nie do trzeciego ćwiczenia** · ⚠️ **sonda nie może być dosłownym powtórzeniem pytania z poprzedniej sesji** — rozpoznał je |
 
 ---
 
@@ -249,12 +286,32 @@ a nie ćwiczyć ją jeszcze raz na osobno.
 | **6** | **14** | **65** *(120 kart)* | 🔴 **niezmierzona — drugi raz z rzędu.** Zapytać wprost w bloku 1 sesji 7 | 10 |
 | **7** | **15** | **80** *(149 kart)* | ✅ **98 %** *(przywoływalność FSRS; mediana trudności 12 %)* | **20** ⬆️ |
 | **8** | **16** | **96** *(~180 kart)* | 🔻 **86,7 %** — **„Naprawdę zapamiętane", nie prognoza.** Dzień z limitem 20: **80,0 %** | **15** 🔻 |
+| **9** | **10** | **106** *(200 kart)* | 🟢 **94,3 %** *(tydzien, n=105)* · **92,5 %** *(miesiac, n=253)* — pomiar „Naprawdę zapamiętane” | **15** ➡️ *(bez zmian — patrz niżej)* |
 
 > ⚠️ **Sesja 7 podała 98 % i to była zła liczba.** „Średnia przywoływalność" w Anki jest
 > **prognozą modelu FSRS**, a nie odsetkiem trafionych odpowiedzi. Realny pomiar stoi
 > w osobnym kafelku **„Naprawdę zapamiętane"** i wynosi **86,7 %** — czyli w paśmie
 > neutralnym (`< 80 %` → 10 kart · `> 92 %` → 20), w którym **limitu nie wolno było podnosić**.
 > 📌 **Od sesji 9 pytam wyłącznie o „Naprawdę zapamiętane".**
+
+> 🔻 **Sesja 9: retencja przekroczyła próg 92 % i limit mimo to ZOSTAJE 15.** Dwa powody,
+> oba mocniejsze niż sama reguła:
+> 1. **Okno pomiaru nie zawierało ani jednego nowego wyrazu.** Przez 21 dni Jakub wyłącznie
+>    powtarzał. Reguła progowa zakłada stały dopływ; bez niego 92,5 % mierzy łatwość materiału
+>    już opanowanego. **To jest dokładnie błąd sesji 7** *(podwyżka na prognozie)*, cofnięty
+>    na sesji 8 — i nie powtarzam go w innym przebraniu.
+> 2. 🚨 **Wąskie gardło nie jest w dopływie, tylko w transferze.** Talia przerobiona z wynikiem
+>    **94,3 %**, rediagnostyka na tych samych słowach pięć minut później: **58 %**. Wszystkie
+>    cztery pudła mają w talii fiszkę **z adnotacją dokładnie o tym błędzie**. Dorzucanie kart
+>    nie dotyka kanału, który zawodzi.
+>
+> **Warunek podwyżki do 20:** dwie sesje z **normalnym dopływem** *(10 nowych słów)*, po których
+> pomiar nadal stoi > 92 %. Do sprawdzenia na sesji 11.
+>
+> ⚠️ **Drobiazg techniczny, wart zapamiętania:** kafelki „Dzisiaj" i „Wczoraj" pokazywały
+> **0 kart** z przerwą ≥ 1 dzień, mimo że Jakub mówił „wczoraj przerobiłem całą talię".
+> Przerobił ją **kilka dni wcześniej** albo w trybie nauki z odstępami poniżej doby.
+> **Liczba 94,3 % pochodzi z okna tygodniowego** — i tylko jako taką wolno ją cytować.
 
 > **Skąd 37 słów bez ani jednej sesji z fiszkami:** zostały wyciągnięte z sekcji „Słownictwo"
 > czterech draftów z kwietnia. To materiał, który realnie padł na tamtych sesjach, więc jest

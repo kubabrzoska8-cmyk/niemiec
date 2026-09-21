@@ -41,6 +41,46 @@ niemiecku codziennie od dwóch tygodni.** Konsekwencje dla luk:
 
 ## Active
 
+> ## 🚨 Sesja 9 przestawia hierarchię tej listy — czytaj to, zanim zaplanujesz sesję 10
+>
+> **Priorytet na sesję 10: #6 RODZAJ RZECZOWNIKA *(awans na pozycję operacyjną nr 1)*,
+> #4 (przyimek rekcyjny — DOBÓR, nie odmiana), #3 (grupa dopełniaczowa — FORMA, nie szyk).**
+>
+> 🔑 **Powód awansu #6 — dowód rozstrzygający, trzy instrumenty w jednej sesji:**
+> ```
+> Lückensätze  (rodzaj PODANY w nawiasie)   →  reguła Wo?/Wohin?   4/4  = 100 %
+> Drill        (rodzaj trzeba znać)         →  ta sama reguła      2/4
+> Gespräch     (20 minut później)           →  "in das Haus"       0/1
+> ```
+> **Reguła dnia nie była luką. Luką był rodzaj rzeczownika pod nią.** `der Tisch` znał
+> i dał `den`/`dem` poprawnie; `der Schrank` potraktował jako żeński i dał `die`/`der` —
+> **czyli poprawny Akkusativ i poprawny Dativ na błędnym rodzaju.** Reguła zadziałała
+> bezbłędnie w obie strony, wynik i tak wyszedł czerwony.
+> ➡️ **Sesja 10 (`Rodzaj i rodzajnik`) przestaje być kolejnym tematem z listy.
+> Jest wąskim gardłem całego bloku 1 i tak ma być prowadzona.**
+>
+> 🔬 **Pytanie nr 9 z `PROGRESS.md` ma odpowiedź — i jest inna, niż zakładała sesja 8.**
+> Klamra zdaniowa: **3 tygodnie bez jednego zadania → ✅**. `sein` w Perfekt: **4 tygodnie → ✅**.
+> Grupa dopełniaczowa: **2 doby → ❌**, i dziś nadal ❌. **To nie jest okres półtrwania
+> wszystkiego, czego nie powtarzam.** Różnica: klamry i Perfektu Jakub używa codziennie
+> w rozmowie ze Schwiegermutter; `der Nachname dieses Patienten` nie pada w kuchni nigdy.
+> ➡️ **Struktury bez wstępu do jego mowy potrzebują MISJI, nie kolejnego ćwiczenia.**
+> Sesja 8 dała grupie dopełniaczowej fiszkę — nie starczyło. Sesja 9 dała jej drill i lukę —
+> **szyk ✅, forma ❌.** Następny krok nie jest trzecim ćwiczeniem.
+>
+> 🚨 **Anki 94,3 % kontra produkcja 58 % na tych samych słowach.** Jakub przerobił całą talię
+> dzień przed sesją. Cztery pudła z rozgrzewki mają w niej fiszki z ostrzeżeniem dokładnie
+> o tym błędzie *(`das Sekretariat`, `der Leiter der Station`, `nach dem … Dienst`,
+> `sich wenden an`)*. **Wąskie gardło nie jest w dopływie materiału, tylko w transferze
+> fiszka → zdanie.** Dlatego limit Anki zostaje 15 mimo przekroczenia progu 92 %.
+>
+> 📊 **Cztery pomiary sesji 9:** rediagnostyka **58 %** · drill **62 %** ·
+> 🧩 Lückensätze **7/10** · wolna produkcja 🏆 **65 %** *(32 → 33 → 36 → 54 → 65)*.
+> 📖 `Leseverstehen`: **brak pomiaru** — tekst nieprzeczytany, przechodzi na sesję 10.
+
+<details>
+<summary><em>Priorytety sesji 9 (historyczne) — rozwiń</em></summary>
+
 > **Priorytet na sesję 9: #2 (determinant — `Wo?`/`Wohin?`), #3 (grupa dopełniaczowa — POWRÓT), #4 (przyimek rekcyjny — NOWA).**
 > Sesja 8 zamknęła dwie luki, **cofnęła jedną** i otworzyła jedną nową.
 >
@@ -58,6 +98,8 @@ niemiecku codziennie od dwóch tygodni.** Konsekwencje dla luk:
 > przy zerowej różnicy materiału. **Rozjazd nie jest artefaktem instrumentu — jest luką.**
 > Konsekwencja: drill przestaje być narzędziem nauczania i staje się **pomiarem**.
 > Pracę wykonuje `Gespräch` i objętość produkcji, nie kolejne wyjaśnienie.
+
+</details>
 
 ### 1. PRZECIEK REGUŁY — nauczona reguła zajmuje sąsiednie pola 🆕🔴 *(nowa, sesja 6 — MECHANIZM, nie forma)*
 
@@ -146,14 +188,55 @@ Ten sam ruch co ❌ `erriner mich … an` w sesji 7. **Osobna pozycja: #4.**
   — mapował niemiecki Dativ na **polski narzędnik**. Wyjaśnione tabelą pytań
   (`wer/wen/wem/wessen` ↔ mianownik/biernik/celownik/dopełniacz). **Sprawdzić, czy weszło.**
 
+#### 🚨 Sesja 9 — przeciek zmierzony MIĘDZY NARZĘDZIAMI, nie wewnątrz zadania
+
+Jakub przerobił **całą talię Anki** dzień przed sesją: **„Naprawdę zapamiętane" 94,3 %**
+*(n = 105)*. Pięć minut później rediagnostyka na tym samym materiale: **58 %**.
+Wszystkie cztery pudła mają w talii fiszkę — **z adnotacją dokładnie o tym błędzie:**
+
+```
+das Sekretariat, -e     "DAS, nie 'die'. Końcówka -at -> najczęściej das"     → powiedział "der"
+der Leiter, -           "der Leiter DER STATION, nie 'der Station Leiter'"    → "nie pamiętam"
+der Dienst, -e          "nach + Dativ: nach DEM langEN Dienst"                → "nach der Dienst"
+sich wenden an + Akk    "'an' należy do RZECZOWNIKA, nie do czasownika"       → "warte … an"
+```
+
+🔑 **36 punktów różnicy na tym samym materiale.** Mechanizm jest ten sam co wewnątrz drillu
+sesji 8: **fiszka pyta o jedną rzecz i MÓWI, o którą. Zdanie nie mówi nic.** Pole nazwane
+trzyma, pole nienazwane pada — niezależnie od tego, czy „nazwanie" robi moje polecenie,
+czy awers fiszki.
+
+➡️ **Konsekwencja dla Anki:** limit nowych kart **zostaje 15**, mimo że retencja przekroczyła
+próg 92 % z reguły kursu. **Wąskie gardło nie jest w dopływie materiału, tylko w transferze
+fiszka → zdanie.** Dorzucanie kart nie dotyka kanału, który zawodzi.
+*(Drugi powód: te 92,5 % padło w oknie, w którym do talii nie wszedł ani jeden nowy wyraz —
+to wynik z samych powtórek. Dokładnie tak wyglądał błąd sesji 7, cofnięty na sesji 8.)*
+
+🆕 **Przeciek z fiszki, nie z reguły — nowy wariant, sesja 9.** Fiszka `… Wochen lang` weszła
+po sesji 6, żeby naprawić ❌ `durch zwei Woche`. Efekt: liczba mnoga ✅, ale zwrot pojawił się
+**w miejscu `seit drei Wochen`** *(R4: „uczę się **od** trzech tygodni" → `Ich lerne … drei
+Wochen lang`)*. **Gotowy zwrot na fiszce zajmuje sąsiednie pole tak samo jak reguła.**
+➡️ Fiszka-zwrot potrzebuje **kontrastu na awersie**, nie pojedynczego przykładu — dokładnie
+tak, jak `CLAUDE.md` wymaga tego przy fiszkach celujących w Active gap.
+
 ### 2. Determinant w grupie rzeczownikowej 🔴 *(była #1 — luka nr 1 kursu)*
 
-| Pomiar | Sesja 5 | Sesja 6 | Sesja 7 | Sesja 8 |
-|---|---|---|---|---|
-| **Pytanie celowane** | ✅ 6/6 | ✅ **6/6** | ⚠️ **6/8** | ✅ **5/6** *(rodzaj po końcówce)* |
-| **Zdanie PL→DE** *(drill produkcyjny)* | — | ⚠️ **50 %** (7/14) | 🔴 **36 %** (5/14 — 4–5 celów) | 🏆 **7/7** *(1 cel/zdanie)* |
-| **Wolna produkcja** | 🔴 32 % (6/19) | 🔴 **33 %** (2/6) | 🔴 **36 %** (4/11) | ⚠️ **54 %** (7/13) |
-| **Post-test fiszek** | ✅ 6/6 | — | 🔴 **0/4** | ✅ **3/3** *(Akkusativ)* |
+| Pomiar | Sesja 5 | Sesja 6 | Sesja 7 | Sesja 8 | **Sesja 9** |
+|---|---|---|---|---|---|
+| **Pytanie celowane** | ✅ 6/6 | ✅ **6/6** | ⚠️ **6/8** | ✅ **5/6** *(rodzaj po końcówce)* | ⚠️ **2/3** *(R1)* |
+| **Zdanie PL→DE** *(drill produkcyjny)* | — | ⚠️ **50 %** (7/14) | 🔴 **36 %** (5/14 — 4–5 celów) | 🏆 **7/7** *(1 cel/zdanie)* | ⚠️ **5/8** (62 %) |
+| 🧩 **Lückensätze** *(składnia gotowa)* | — | — | — | — | 🟢 **7/10** |
+| **Wolna produkcja** | 🔴 32 % (6/19) | 🔴 **33 %** (2/6) | 🔴 **36 %** (4/11) | ⚠️ **54 %** (7/13) | 🏆 **65 %** (11/17) |
+| **Post-test fiszek** | ✅ 6/6 | — | 🔴 **0/4** | ✅ **3/3** *(Akkusativ)* | *(zastąpiony rediagnostyką: **3,5/6**)* |
+
+- 🏆 **Sesja 9 — piąty pomiar z rzędu w górę w wolnej produkcji, i największy skok w kursie:**
+  `32 → 33 → 36 → 54 → **65 %**`. **Po trzytygodniowej przerwie**, na największej próbce
+  od sesji 5 *(17 grup)*.
+- 🔑 **Ale rozkład błędów przeniósł się.** Do sesji 8 pudła były w determinancie przy znanym
+  rzeczowniku. Dziś **cztery z sześciu pudeł to zły RODZAJ** *(`die/der Schrank`, `das Termin`,
+  `der Sekretariat`)* albo **brak determinanta w ogóle** *(`mit ___ Metro`, `nehme ich ___ Metro`
+  — piąte i szóste wystąpienie `mit Metro` od sesji 6)*.
+  ➡️ **Ta pozycja przestaje być samodzielną luką i staje się objawem #6.**
 
 - 🟢 **Sesja 8 — pierwszy realny ruch w wolnej produkcji: 36 % → 54 %.** W tym trzy formy,
   których nigdy wcześniej nie produkował swobodnie: `**diese deutsche** Erfahrung`
@@ -231,6 +314,29 @@ Dwie doby później wzór wrócił do stanu sprzed sesji 7.
   zadanie produkcyjne w drillu**. Referencja:
   [`grammar/04-genitiv-und-besitz.md`](grammar/04-genitiv-und-besitz.md)
 
+#### 🔬 Sesja 9 — luka rozcięta na pół, dokładnie tak jak na sesji 7
+
+| | Sesja 6 | Sesja 7 | Sesja 8 | **Sesja 9** |
+|---|---|---|---|---|
+| **Szyk** *(posiadacz z tyłu)* | 🔴 0/3 | 🏆 5/5 | 🔴 0/2 | ✅ **2/3** |
+| **Forma** *(końcówka `-s`/`-er`/`-es`)* | — | 🔴 1/5 | *(brak okazji)* | 🔴 **0/1** |
+
+- 🔴 **Rediagnostyka R3: „nie pamiętam".** `der Leiter der Station` — **dokładnie to zdanie,
+  które padło 0/2 na sesji 8**, i to przy fiszce w talii z jawnym ostrzeżeniem o szyku.
+  **Trzy tygodnie po zamknięciu: brak odtworzenia w ogóle.**
+- ✅ **Dwadzieścia minut później, w drillu: `die Nachname **der Ärztin`** — szyk odzyskany,
+  posiadacz za rzeczownikiem, forma Genitivu żeńskiego poprawna.
+- ✅ 🏆 **I to samo W ROZMOWIE, bez żadnego zadania: `das Haus **meiner Freundin`**.**
+  **Struktura, która padła w każdym dzisiejszym ćwiczeniu, wyszła w wolnej produkcji.**
+  Dokładne odwrócenie zwykłej relacji — patrz `PROGRESS.md`, to osobny wpis.
+- 🔴 **Forma: `Nachname **diesen** Patienten`** zamiast `dieses` — biernik zamiast dopełniacza,
+  **przy gotowej składni**. To jest ten sam rozjazd co na sesji 7: **kolejność weszła,
+  końcówka nie.** Dwie sesje, ten sam wzorzec, bez ruchu.
+- 🔑 **Wniosek planistyczny, ważniejszy od liczby:** ta struktura dostała już fiszkę *(sesja 8)*,
+  drill i zdanie z luką *(sesja 9)*. **Trzecie ćwiczenie nie jest następnym krokiem.**
+  Jedyne miejsce, w którym dziś wyszła sama, to rozmowa — więc **następny krok to misja,
+  która wymusza ją w rozmowie ze Schwiegermutter**, nie kolejne zadanie.
+
 ### 4. Przyimek rekcyjny czytany jako przedrostek 🆕🔴 *(nowa, sesja 8)*
 
 Czasowniki z rekcją przyimkową — `sich erinnern **an**`, `sich wenden **an**`,
@@ -259,6 +365,28 @@ przedrostków, prawdziwa i przydatna, **rozlała się na sąsiednie pole**.
   `Ich hänge das Bild **an die Wand**` *(przestrzeń — jest „dokąd", jest przypadek z sensu)*
   kontra `Ich denke **an dich**` *(rekcja — nie ma tu żadnego „gdzie", przypadek jest z listy)*.
 
+#### 🔬 Sesja 9 — luka ZAWĘŻONA i to jest realny postęp diagnostyczny
+
+**Luka nie jest w odmianie. Jest w DOBORZE przyimka — a `an` jest wartością domyślną.**
+
+| Przyimek | Wynik sesji 9 |
+|---|---|
+| **PODANY w zadaniu** *(luka 7: `sich vorbereiten **auf** ___ Prüfung`)* | ✅ **natychmiast, z poprawnym Akkusativem** |
+| **Do dobrania samemu** *(R6: „czekam na wynik")* | ❌ `Ich warte die Resultat **an**` |
+| **Do dobrania samemu** *(`Gespräch`: „cieszę się na polską pogodę")* | ❌ `Ich freue mich **an** … Wetter` |
+| **PRZESTRZENNY kontra rekcyjny** *(drill 5: „myślę o dziewczynie")* | ✅ `Ich denke **an meine** Freundin` |
+
+🔑 **Dwa ruchy, nie jeden — i tylko jeden z nich jest nadal otwarty:**
+1. **Odklejanie przyimka na koniec zdania** *(`warte … an`, jak `fange … an`)* — **nadal obecne**.
+2. **Wybór `an` zamiast `auf`** — **to jest sedno**. `an` jest pierwszym, co przychodzi,
+   niezależnie od czasownika.
+
+- ✅ **Drill 5 pokazuje, że kontrast przestrzeń ↔ rekcja został zrozumiany** — `an meine Freundin`
+  w Akkusativie **bez żadnego „dokąd"**, czyli przypadek wzięty z rekcji, nie z sensu.
+- **Plan na sesję 10:** fiszki podają **czasownik razem z przyimkiem jako jedną jednostkę**
+  i zestawiają **grupę `auf`** *(`warten`, `sich freuen`, `sich vorbereiten`)* z **grupą `an`**
+  *(`denken`, `sich erinnern`, `sich wenden`)*. Bez tego zestawienia `an` będzie wracać.
+
 ### 5. Liczebnik + rzeczownik → liczba mnoga ⚠️ *(była #4)*
 
 - ✅ **Dwa trafienia sesji 6:** `Ich bin in Rom **seit zwei Wochen**` · `**Seit zwei Wochen** lerne ich…`
@@ -271,6 +399,11 @@ przedrostków, prawdziwa i przydatna, **rozlała się na sąsiednie pole**.
   więc reguła l.mn. nie zadziałała — **poległ determinant, nie liczebnik**. Pomiar idzie
   do #2, nie tutaj.
 - **Plan:** fiszka `… Wochen lang` w talii. Kontrola na sesji 9, jednym pytaniem.
+- ✅ **Sesja 9, kontrola wykonana (R4): `Ich lerne … **drei Wochen** lang`** — liczba mnoga
+  poprawna, błąd `zwei Woche` / `durch zwei Woche` **nie wrócił po trzech tygodniach przerwy**.
+  ⚠️ Ale zwrot trafił w miejsce `seit drei Wochen` *(„od", nie „przez")* — **to nie jest
+  ta luka, tylko przeciek z fiszki, patrz #1.**
+- ➡️ **Pierwsza z trzech sesji bez wystąpienia mimo okazji. Przy dwóch kolejnych → `Closed`.**
 
 ### 6. Rodzaj rzeczownika i końcówki przymiotnika 🔴 *(była #5 — osiem sesji z rzędu)*
 
@@ -307,6 +440,35 @@ przestała być paliwem przecieku tam, gdzie końcówka mówi — i pozostała w
   `das Referat`, `das Zitat`)* i `-in` → `die`. Pełna sesja o rodzaju zostaje na 10,
   końcówki przymiotnika na 11 — bez zmian.
 
+#### 🚨 Sesja 9 — ta pozycja awansuje na operacyjne miejsce nr 1 w bloku 1
+
+**Nie dlatego, że pogorszyła się liczba. Dlatego, że zmierzyłem, co dokładnie trzyma.**
+
+| Instrument | Rodzaj | Reguła dnia `Wo?`/`Wohin?` |
+|---|---|---|
+| 🧩 `Lückensätze` | **podany w nawiasie** | 🏆 **4/4 = 100 %** |
+| `Drill` | trzeba znać | ⚠️ **2/4** |
+| `Gespräch` | trzeba znać | 🔴 **0/1** *(`in das Haus` zamiast `im Haus`)* |
+
+```
+der Tisch  (znany)     →  "auf DEN Tisch" ✅   "auf DEM Tisch" ✅
+der Schrank (nieznany) →  "in DIE Schrank" ❌  "in DER Schrank" ❌
+                           ↑ poprawny Akkusativ i poprawny Dativ — rodzaju ŻEŃSKIEGO
+```
+
+🔑 **To nie jest błąd reguły. To jest poprawna reguła zastosowana do błędnego rodzaju** —
+i dlatego żadna kolejna lekcja o przypadkach tego nie ruszy. Ta pozycja przestaje być
+„luką nr 6" i staje się **fundamentem, na którym stoją #2 i #7**.
+
+- ❌ **`der Sekretariat`** *(sesja 8: `die`, sesja 9: `der` — **rodzaj wędruje, nie ustala się**)*.
+  ⚠️ Fiszka `das Sekretariat` z adnotacją „`-at` → das" **była w talii przerobionej dzień
+  wcześniej**. Reguła `-at` **nigdy nie została mu podana na sesji** — to jest niewykonany
+  punkt planu z sesji 8, nie regres ucznia. **Podać na sesji 10 w pierwszej minucie.**
+- ❌ **`das Termin`** *(`der Termin`)* — identycznie jak na sesji 8, **trzy tygodnie bez ruchu**.
+- **Plan na sesję 10:** to jest temat sesji. Reguła musi objąć **rzeczowniki BEZ końcówki
+  diagnostycznej** *(`Schrank`, `Termin`, `Dienst`, `Kittel`)* — bo reguła końcówkowa
+  z sesji 8 działa 5/6 i nie pomaga ani razu tam, gdzie końcówki nie ma. Sonda: `der Schrank`.
+
 ### 7. `in`/`nach`/`um`/`an` — budynki i godziny 🔴 *(była #6 — TEMAT SESJI 9)*
 
 - ✅ **Sesja 6, Aufwärmen:** `**um** 10` · `**im** Krankenhaus` ×2 · `**ins** Krankenhaus`
@@ -327,6 +489,39 @@ przestała być paliwem przecieku tam, gdzie końcówka mówi — i pozostała w
   pytanie `Wo?`/`Wohin?` i dokładnie temat sesji 9.**
 - **Plan:** sesja 9 *(Wechselpräpositionen)* — **nie przesuwać.** Do tego czasu recasting
   bez wyjaśniania.
+
+#### 🎯 Sesja 9 — temat przerobiony. Reguła ✅, automatyzacja ❌, cel tygodnia otwarty
+
+| Instrument | Wynik |
+|---|---|
+| 🧩 `Lückensätze` 1–4 *(rodzaj podany)* | 🏆 **4/4**, przy zdaniu 3 dopisał uzasadnienie „jest ruch", o które nie prosiłem |
+| `Drill` 1–4 *(rodzaj do znalezienia)* | ⚠️ **2/4** — oba pudła to `der Schrank` potraktowany jako żeński |
+| `Drill` 7 *(sonda dwucelowa)* | 🔴 **❌** |
+| `Gespräch` | 🔴 **0/1** — ❌ `in das Haus` zamiast `**im** Haus` |
+
+🔬 **Sonda dwucelowa dała wynik, którego kurs dotąd nie miał:**
+```
+zdanie 3 (JEDEN cel)  →  "in DIE Schrank"   ← decyzja Wohin/Akkusativ:  ✅
+zdanie 7 (DWA cele)   →  "in DER Schrank"   ← decyzja Wohin/Akkusativ:  ❌
+```
+Ten sam czasownik, ta sama szafa, ten sam kierunek, cztery minuty odstępu.
+🚨 **Pod obciążeniem sypie się nie tylko forma — sypie się sama decyzja „ruch czy położenie".**
+Do sesji 9 kurs zakładał, że reguła zostaje dostępna, a wypada wyłącznie końcówka.
+**To założenie jest obalone i zmienia sens wszystkich wcześniejszych „rozjazdów".**
+
+🔴 **`in das Haus meiner Freundin` to DOKŁADNIE to samo zdanie, które padło na sesji 7**
+*(❌ `ins Haus meiner Freundin` zamiast `im Haus`)*. Trzy tygodnie i cała lekcja o tym później,
+**w mowie bez żadnej zmiany** — przy 4/4 na tej samej regule dwadzieścia minut wcześniej.
+
+✅ **Zamknięte w tej sesji:** `**um** etwa 12 Uhr` w wolnej produkcji *(sesje 5 i 6: ❌ `am 10 Uhr`)*
+· `nach Hause` ✅ · `**zur** Metro` ✅ *(forma ściągnięta, sam z siebie)*.
+❌ **Nowe w tej samej rodzinie:** `nach Poliklinik` → `**in die** Poliklinik` *(`nach` wyłącznie
+przy miastach, krajach i `nach Hause`)* — czwarte wystąpienie tego wzorca *(sesja 5 `nach
+Krankenhaus`, sesja 8 `nach Urlaub`)*.
+
+- **Plan:** pozycja **zostaje Active**, ale **nie dostaje osobnego bloku na sesji 10** —
+  reguła jest opanowana, brakuje rodzaju pod nią, a to jest temat sesji 10 *(patrz #6)*.
+  Kontrola: `im`/`ins` w `Gespräch` sesji 10 i 11 — to jest warunek **celu tygodnia**.
 
 ---
 
@@ -350,9 +545,61 @@ przestała być paliwem przecieku tam, gdzie końcówka mówi — i pozostała w
 | **Klamra zdaniowa** *(była #3 — odkryta sesję wcześniej)* | 🏆 **4/4 w post-teście:** `gehe … nicht`, `muss … **geben**`, `ist … **geendet**`, `kann … **erinnern**` · 🏆 **w `Gespräch`: `könnte ich nicht ohne … überstehen` — klamra przez PIĘĆ elementów** *(sesja 7 pękała przy czterech)* | → **Watching**, zgodnie z planem („2/2 → Watching bez czekania na trzecią sesję"). ⚠️ **Sesja 9 celowo NIE daje jej zadania** — to kontrola hipotezy o okresie półtrwania, patrz #3 |
 | **Zgodność podmiotu z orzeczeniem** *(była #7)* | ✅ **Wypowiedziane na głos przed zapisaniem: `Der Leiter arbeit**et**`** · ❌ **pisane w pośpiechu, ta sama sesja: `der Leiter **bin** … gefahren`, `weil ich kein Zeit **haben**`** *(piąte i szóste wystąpienie)* | → **Watching**. **Hipoteza „artefakt klawiatury" potwierdzona** — wszystkie sześć wystąpień to pismo, żadne mowa. Traktować jak brak Umlautów: **notować, nie drążyć** |
 
+### ⬇️ Zeszło z Active na sesji 9
+
+| Luka | Wynik sesji 9 | Nowy status |
+|---|---|---|
+| **#5 Liczebnik + rzeczownik → l.mn.** | ✅ `drei Wochen` po **trzech tygodniach przerwy**, bez podpowiedzi *(R4)*. Zwrot użyty w złej ramce *(`lang` zamiast `seit`)*, ale **to jest #1, nie ta luka** | → **Watching**. Pierwsza z trzech sesji bez wystąpienia mimo okazji |
+
+### ⬆️ Weszło na Active na sesji 9
+
+| Luka | Dowód | Uwaga |
+|---|---|---|
+| **#6 Rodzaj rzeczownika** — awans na **operacyjne miejsce nr 1** | reguła `Wo?`/`Wohin?` **4/4** przy rodzaju podanym, **2/4** przy rodzaju do znalezienia. Oba pudła: `der Schrank` jako żeński | **nie jest nową luką — jest przewartościowaniem starej.** To fundament pod #2 i #7 |
+
+### 📌 Kontrola hipotezy z sesji 8 — ROZSTRZYGNIĘTA
+
+| Struktura | Zamknięta | Ćwiczeń od tamtej pory | Dystans | Sesja 9 |
+|---|---|---|---|---|
+| **Klamra zdaniowa** | sesja 8 *(4/4)* | **zero** *(celowo)* | 21 dni | ✅ `…nicht **erinnern**` |
+| **`sein` w Perfekt** | sesja 5 *(4/4)* | **zero** | ~31 dni | ✅ `**bin** … **gefahren**` |
+| **Grupa dopełniaczowa** | sesja 7 *(szyk 5/5)* | fiszka *(s. 8)*, drill + luka *(s. 9)* | 23 dni | 🔴 szyk ✅ / forma ❌ |
+
+🔑 **Hipoteza „okres półtrwania wszystkiego, czego nie powtarzam" — OBALONA.** Dwie struktury
+przetrwały 3–4 tygodnie **bez jednego ćwiczenia**. Trzecia runęła w dwie doby **mimo ćwiczeń**.
+**Zmienną nie jest czas ani liczba powtórek — jest nią obecność struktury w jego codziennej
+mowie.** Klamra i Perfekt są w rozmowach ze Schwiegermutter. `Der Nachname dieses Patienten`
+nie jest i nie będzie.
+➡️ **Reguła planowania z sesji 8 („struktura zamknięta w N wraca jako zadanie w N+1 i N+3")
+zostaje, ale jest niewystarczająca dla struktur spoza jego mowy. Dla nich następnym krokiem
+jest MISJA, która je w tę mowę wstawia — nie trzecie ćwiczenie.**
+
 ---
 
 ## Watching
+
+### 🆕 🇮🇹 Interferencja włoska — po raz pierwszy STRUKTURALNA *(sesja 9)*
+
+Sesje 5–8 notowały „zero wtrętów 🇮🇹" i wniosek, że **angielski wyparł włoski** jako język
+interferencji. Sesja 9 pokazuje, że wyparł go **tylko na poziomie słów**. Strukturalnie
+włoski wrócił — dwoma objawami z listy w `PROFILE.md`, w jednej wiadomości:
+
+| Objaw | Zdanie Jakuba | Poprawnie | Pozycja na liście `PROFILE.md` |
+|---|---|---|---|
+| **opuszczony podmiot** | ❌ `weil hier zu heiß für mich ist` | `weil **es** hier zu heiß ist` | **nr 1** — *„po włosku podmiot się pomija"* |
+| **czasownik na 2. miejscu w zdaniu podrzędnym** | ❌ `dass du **hast** mir schon diese Frage gestellt` | `dass du mir … **gestellt hast**` | **nr 2** — *„włoski nie przesuwa czasownika"* |
+| 🇬🇧 wtręt leksykalny | `esse ich **lunch**` · `Nach dem **lunch**` | `das Mittagessen` | — |
+
+⚠️ **To NIE jest regres składni i nie wolno go tak zapisać.** W tej samej wiadomości
+`weil … **ist**` wyszło **poprawnie**, a szyk podrzędny ma w tym kursie 4/4 z sesji 7.
+Oba pudła padły w **długim, autoironicznym zdaniu pisanym szybko** — to jest interferencja
+pod obciążeniem, nie brak reguły.
+- **Reakcja:** notować, **nie robić z tego tematu lekcji**. Do fiszek wchodzą dwa zdania
+  kontrastowe *(`Ich denke, dass … gestellt hast` · `weil es hier zu heiß ist`)*, bez wykładu.
+- **Kontrola:** sesje 10–11, wyłącznie w `Gespräch`. Przy braku wystąpień → zostaje w Watching.
+- 🔮 **Przewidywanie:** po powrocie do Polski *(za ~10 dni)* włoski przestanie być aktywny
+  i ten objaw powinien osłabnąć. **Jeśli NIE osłabnie, hipoteza „interferencja" jest błędna
+  i chodzi o obciążenie jako takie.** To jest pomiar do zrobienia na sesji 12–13.
 
 ### 🟡 Nowe w Watching 2026-08-31 *(sesja 8)*
 
