@@ -21,6 +21,21 @@ nie `Prüfung`. To nie jest kosmetyka: luka nr 1 tego kursu to deklinacja
 grupy rzeczownikowej, a bez rodzaju nie da się wybrać ani końcówki
 rodzajnika, ani końcówki przymiotnika. Fiszka bez rodzajnika uczy słowa,
 którego i tak nie da się użyć w zdaniu.
+
+Karty zdaniowe (od 2026-09-27)
+------------------------------
+Sesja 9 zmierzyła: talia 94 %, te same słowa w zdaniu 58 %. Karta słówkowa
+mówi, o co pyta; zdanie nie mówi. Dlatego z każdego wiersza, który ma
+przykład PL i DE, powstaje osobna notatka „zdanie PL → DE": na awersie
+całe polskie zdanie, na rewersie niemieckie. Cel (rodzajnik, przypadek,
+szyk) nie jest nazwany — tak jak w rozmowie.
+
+To jest OSOBNY typ notatki z własnym ID. Stary typ i jego szablony zostają
+bez zmian, więc import nie rusza historii powtórek istniejących kart.
+
+Nowe karty DE → PL dla typów produkcyjnych przychodzą ZAWIESZONE —
+kurs mierzy produkcję, a rozpoznawanie Jakub ma na poziomie B1+/B2−.
+Istniejące karty DE → PL zawiesza się raz, ręcznie (anki/README.md).
 """
 
 import csv
@@ -144,6 +159,47 @@ MODEL = genanki.Model(
 )
 
 
+# Karta zdaniowa — osobny typ notatki. NIE łączyć z MODEL: zmiana szablonów
+# istniejącego typu to zmiana schematu, a ta przy imporcie grozi utratą historii.
+SENTENCE_MODEL_ID = 1712550432
+
+SENTENCE_FRONT = """
+<div class="polski">{{Zdanie}}</div>
+<div class="typ">całe zdanie po niemiecku</div>
+"""
+
+SENTENCE_BACK = """
+<div class="polski">{{Zdanie}}</div>
+<hr>
+<div class="beispiel satz">{{Satz}}</div>
+{{#Nota}}<div class="nota">{{Nota}}</div>{{/Nota}}
+<div class="hint">{{tts de_DE:Satz}}</div>
+"""
+
+SENTENCE_MODEL = genanki.Model(
+    SENTENCE_MODEL_ID,
+    "Deutsch PL — zdanie (PL→DE)",
+    fields=[
+        {"name": "Zdanie"},
+        {"name": "Satz"},
+        {"name": "Nota"},
+        {"name": "Wort"},
+    ],
+    templates=[
+        {"name": "Zdanie PL → DE", "qfmt": SENTENCE_FRONT, "afmt": SENTENCE_BACK},
+    ],
+    css=CSS + ".satz { font-size: 26px; font-style: normal; color: inherit; }\n",
+)
+
+
+class SentenceNote(genanki.Note):
+    """GUID ze zdania niemieckiego — to samo zdanie to ta sama karta."""
+
+    @property
+    def guid(self):
+        return genanki.guid_for("zdanie", self.fields[1])
+
+
 class StableNote(genanki.Note):
     """GUID liczony ze słowa niemieckiego + znaczenia.
 
@@ -169,8 +225,8 @@ def build():
     if not WORDLISTS.exists():
         sys.exit(f"Brak katalogu {WORDLISTS}")
 
-    decks, stats, seen = [], {}, set()
-    total_notes = total_cards = 0
+    decks, stats, seen, seen_sentences = [], {}, set(), set()
+    total_notes = total_cards = sentence_cards = suspended = 0
 
     for path in sorted(WORDLISTS.glob("block-*.tsv")):
         block = int(path.stem.split("-")[1])
@@ -190,8 +246,7 @@ def build():
             produkcja = "1" if typ in PRODUCTION_TYPES else ""
             session = row.get("sesja", "")
 
-            deck.add_note(
-                StableNote(
+            note = StableNote(
                     model=MODEL,
                     fields=[
                         word,
@@ -208,9 +263,33 @@ def build():
                         typ or "inne",
                     ],
                 )
-            )
+            if produkcja:
+                # ord 0 = "DE → PL". Dotyczy tylko kart NOWYCH w kolekcji;
+                # istniejące zawiesza się raz ręcznie (anki/README.md).
+                for card in note.cards:
+                    if card.ord == 0:
+                        card.suspend = True
+                        suspended += 1
+            deck.add_note(note)
             count += 1
             total_cards += 2 if produkcja else 1
+
+            satz = row.get("beispiel_de", "")
+            zdanie = row.get("przyklad_pl", "")
+            if satz and zdanie and satz not in seen_sentences:
+                seen_sentences.add(satz)
+                deck.add_note(
+                    SentenceNote(
+                        model=SENTENCE_MODEL,
+                        fields=[zdanie, satz, row.get("uwaga", ""), word],
+                        tags=[
+                            f"blok-{block}",
+                            f"sesja-{int(session):02d}" if session else "sesja-0",
+                            "zdanie",
+                        ],
+                    )
+                )
+                sentence_cards += 1
 
         decks.append(deck)
         stats[block] = count
@@ -221,10 +300,13 @@ def build():
     print(f"\n✅ Zbudowano: {OUTPUT.name}")
     for block, count in sorted(stats.items()):
         print(f"   {BLOCK_TITLES[block]:<40} {count:>4} słów")
-    print(f"   {'RAZEM':<40} {total_notes:>4} słów / {total_cards} kart")
-    NEW_PER_DAY = 10
+    print(f"   {'RAZEM':<40} {total_notes:>4} słów / {total_cards} kart słówkowych")
+    print(f"   {'+ karty zdaniowe PL → DE':<40} {sentence_cards:>4}")
+    print(f"   {'  w tym DE → PL zawieszone (nowe)':<40} {suspended:>4}")
+    total_cards += sentence_cards
+    NEW_PER_DAY = 15
     print(
-        f"\n   Przy {NEW_PER_DAY} nowych kartach dziennie (tryb Erhaltungsmodus) "
+        f"\n   Przy {NEW_PER_DAY} nowych kartach dziennie "
         f"wprowadzisz całość w ~{-(-total_cards // NEW_PER_DAY)} dni."
     )
 

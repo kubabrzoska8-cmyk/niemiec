@@ -17,11 +17,12 @@ anki/wordlists/block-N.tsv
 | | Do czego służy | Kiedy |
 |---|---|---|
 | **Quizlet** | **wbicie** nowego słowa — quiz, tryb Ucz się, dopasowywanie | zaraz po sesji, świeża porcja |
-| **Anki** | **utrzymanie** go przez miesiące — powtórki rozłożone w czasie | codziennie, cała talia |
+| **Anki** | **utrzymanie** go przez miesiące — powtórki rozłożone w czasie | **codziennie ~10 minut** |
 
-> **Przy braku immersji Anki nie jest dodatkiem, tylko jedynym mechanizmem, który utrzymuje
-> materiał między sesjami.** W kursie włoskim część słów odświeża miasto. Tutaj nic ich
-> nie odświeża — poza tą talią.
+> ⚠️ **Codziennie po trochu, nie cała talia jednym ciągiem przed sesją.** Ciąg zawyża wynik
+> („Naprawdę zapamiętane” 94 % w sesji 9) i marnuje odstępy, na których Anki w ogóle działa.
+> Rozmowy ze Schwiegermutter odświeżają słownictwo codzienne — medycznego i słów z luk nie
+> odświeża nic poza talią.
 
 ---
 
@@ -39,7 +40,7 @@ sesja	deutsch	polski	typ	beispiel_de	przyklad_pl	uwaga
 | `deutsch` | słowo. **Rzeczownik zawsze z rodzajnikiem i liczbą mnogą**: `die Prüfung, -en` |
 | `polski` | tłumaczenie |
 | `typ` | `rzeczownik` · `czasownik` · `przymiotnik` · `przyslowek` · `zwrot` · `regula` |
-| `beispiel_de` | całe zdanie po niemiecku — **z tego widać rząd czasownika i przypadek** |
+| `beispiel_de` | całe zdanie po niemiecku — **z niego powstaje karta zdaniowa**; zdanie z jego życia, cel nienazwany |
 | `przyklad_pl` | tłumaczenie zdania |
 | `uwaga` | pułapka, kontrast z polskim, numer luki z `GAPS.md` |
 
@@ -52,7 +53,7 @@ Fiszka bez rodzajnika uczy słowa, którego i tak nie da się użyć w zdaniu.
 
 **2. Czasownik mocny w trzech formach, `sein`-Verben oznaczone.**
 `sprechen – sprach – hat gesprochen` · `fahren – fuhr – **ist** gefahren`.
-Wybór posiłkowego to osobna luka (Active #2) i musi być widoczny na karcie.
+Wybór posiłkowego musi być widoczny na karcie.
 
 ---
 
@@ -65,23 +66,42 @@ python3 anki/build_quizlet.py  # → quizlet/talia-*.txt
 ```
 
 **Ponowny import `.apkg` jest bezpieczny.** GUID notatki liczy się ze słowa niemieckiego
-i tłumaczenia, więc Anki rozpoznaje istniejące karty i **aktualizuje je zamiast duplikować** —
+i tłumaczenia (karta zdaniowa — ze zdania niemieckiego), więc Anki rozpoznaje istniejące karty i **aktualizuje je zamiast duplikować** —
 cała historia powtórek zostaje.
 
 ---
 
 ## Jakie karty powstają
 
-| Typ słowa | DE → PL | PL → DE |
-|-----------|---------|---------|
-| rzeczownik, czasownik, zwrot, regula | ✅ | ✅ |
-| przymiotnik, przysłówek | ✅ | — |
+| Karta | Dla kogo | Status |
+|-------|----------|--------|
+| **PL → DE, słowo** | rzeczownik, czasownik, zwrot, regula | ✅ główna karta słówkowa — każe odtworzyć rodzajnik |
+| **PL → DE, całe zdanie** 🆕 | każdy wiersz z przykładem PL i DE | ✅ osobny typ notatki `Deutsch PL — zdanie (PL→DE)`, tag `zdanie` |
+| DE → PL | rzeczownik, czasownik, zwrot, regula | ⏸️ **zawieszona** — nowe przychodzą zawieszone |
+| DE → PL | przymiotnik, przysłówek | ✅ jedyna karta tych słów |
 
-**Rzeczownik ma kartę produkcyjną celowo** — inaczej nigdy nie odtwarzasz rodzajnika z pamięci,
-a to on jest wąskim gardłem. Karta PL → DE każe powiedzieć `die Prüfung`, nie rozpoznać.
+**Po co karta zdaniowa.** Sesja 9: talia 94 %, te same słowa w zdaniu 58 %. Karta słówkowa
+mówi, o co pyta — zdanie nie mówi, więc trzeba samemu zauważyć, że po `mit` idzie Dativ, a szafa
+jest rodzaju męskiego. Tego wymaga rozmowa i tego karta zdaniowa uczy.
 
-Karty mają `{{tts de_DE:Deutsch}}` — na telefonie AnkiDroid / AnkiMobile odczytają słowo na głos.
-Przy braku immersji to jedyny regularny kontakt ze słuchową stroną tych słów.
+**Po co zawieszać DE → PL.** Rozumienie Jakuba jest na B1+/B2−; kurs mierzy produkcję.
+Karta DE → PL zajmowała połowę powtórek i nie ćwiczyła niczego, czego brakuje.
+Zawieszenie jest odwracalne (Unsuspend).
+
+### Jednorazowo po imporcie — zawieś stare karty DE → PL
+
+Import nie zmienia statusu kart, które już masz. Raz, ręcznie:
+
+1. Anki → **Przeglądaj** (Browse).
+2. Wklej w wyszukiwarkę:
+   ```
+   "note:Deutsch PL (kurs B1→B2)" card:1 (tag:rzeczownik OR tag:czasownik OR tag:zwrot OR tag:regula)
+   ```
+3. Zaznacz wszystko (Ctrl/Cmd+A) → **Zawieś** (Ctrl/Cmd+J).
+
+Karty zdaniowe są nowe, więc wchodzą w limicie nowych kart dziennie (obecnie 15).
+
+Karty mają `{{tts de_DE:…}}` — AnkiDroid / AnkiMobile odczytają słowo i zdanie na głos.
 
 ---
 
