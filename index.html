@@ -211,6 +211,7 @@ const state = {
   nextSessionHint: "",
   sessionNo: null,      // numer dzisiejszej sesji, liczony z PROGRESS.md
   lessonMd: null,       // lessons/session-NN.md, jeśli istnieje
+  opener: "",           // ukryta pierwsza tura "user" (start sesji)
 };
 
 // Blok programu, do którego należy dana sesja — decyduje o pliku wordlisty.
@@ -222,13 +223,22 @@ function blockForSession(n) {
 }
 
 // Numer sesji = najwyższy numer w tabeli "Log sesji" w PROGRESS.md + 1.
-// Wiersze logu zaczynają się od "| 7 |" — wiersze bez numeru ("| — |") pomijamy.
+// Liczymy WYŁĄCZNIE w sekcji "## Log sesji" — inne tabele w pliku też mają wiersze
+// zaczynające się od numeru sesji (np. tabela interferencji), a do 2026-09 regex łapał
+// właśnie je, bo wiersze logu są pogrubione ("| **9** |") i nie pasowały do wzorca.
+// Wiersze bez numeru ("| — |") pomijamy.
 function nextSessionNumber(progressMd) {
   if (!progressMd) return null;
+  const start = progressMd.indexOf("## Log sesji");
+  let log = progressMd;
+  if (start !== -1) {
+    const end = progressMd.indexOf("\n## ", start + 1);
+    log = progressMd.slice(start, end === -1 ? undefined : end);
+  }
   let max = 0;
-  const re = /^\|\s*(\d{1,2})\s*\|/gm;
+  const re = /^\|\s*\**\s*(\d{1,2})\s*\**\s*\|/gm;
   let m;
-  while ((m = re.exec(progressMd)) !== null) {
+  while ((m = re.exec(log)) !== null) {
     const n = parseInt(m[1], 10);
     if (n > max) max = n;
   }
@@ -289,7 +299,14 @@ async function ghPut(path, content, message, sha = null) {
 }
 
 // ---------- Claude API ----------
+// System prompt sesji (~kilkanaście tys. tokenów plików kursu) jest identyczny w każdej
+// turze, więc idzie jako blok z cache_control — kolejne tury czytają go z cache zamiast
+// płacić za niego od nowa. TTL 1h, bo sesja trwa ~35 minut, a odpowiedź ucznia potrafi
+// zająć dłużej niż domyślne 5 minut.
 async function claudeChat(messages, system, options = {}) {
+  const systemBlocks = options.cache
+    ? [{ type: "text", text: system, cache_control: { type: "ephemeral", ttl: "1h" } }]
+    : system;
   const res = await fetch("https://api.anthropic.com/v1/messages", {
     method: "POST",
     headers: {
@@ -301,13 +318,18 @@ async function claudeChat(messages, system, options = {}) {
     body: JSON.stringify({
       model: options.model || CLAUDE_MODEL,
       max_tokens: options.max_tokens || 1024,
-      system,
-      messages,
+      system: systemBlocks,
+      // Notatki "system" z UI (błędy, potwierdzenia zapisu) nie są turami rozmowy —
+      // wysłane do API psułyby każde kolejne zapytanie.
+      messages: messages.filter(m => m.role === "user" || m.role === "assistant"),
     }),
   });
   if (!res.ok) throw new Error(`Claude API: ${res.status} ${await res.text()}`);
   const data = await res.json();
-  return data.content.map(c => c.text || "").join("");
+  if (options.requireComplete && data.stop_reason === "max_tokens") {
+    throw new Error("Odpowiedź ucięta na limicie tokenów — nic nie zapisuję. Spróbuj ponownie.");
+  }
+  return data.content.filter(c => c.type === "text").map(c => c.text).join("");
 }
 
 // ---------- Session bootstrap ----------
@@ -361,17 +383,20 @@ async function bootstrapSession() {
     setStatus("Generuję plan sesji...");
     const sessionLine = state.sessionNo ? `Heutige Sitzung: Nr. ${state.sessionNo}.` : "";
     const lessonLine = state.lessonMd
-      ? "Der Sitzungsplan liegt vor (siehe LEKTION). Folge ihm, beginne mit Block 1 (Meldunek z misji)."
+      ? "Der Sitzungsplan liegt vor (siehe LEKTION). Folge ihm, beginne mit Block 0 (Ziel)."
       : "Für diese Sitzung gibt es keine fertige Lektionsdatei — halte dich an das Blockgerüst aus CLAUDE.md und ziele auf die Top Active Gaps.";
     const opener = state.nextSessionHint
-      ? `[SESSION_START] ${sessionLine} ${lessonLine}\n\nPlan z poprzedniego razu: ${state.nextSessionHint}\n\nBegrüße Jakub kurz auf Deutsch und steige direkt in Block 1 ein: frag ihn nach seiner Mission.`
-      : `[SESSION_START] ${sessionLine} ${lessonLine}\n\nBegrüße Jakub kurz auf Deutsch und steige direkt in Block 1 ein: frag ihn nach seiner Mission aus der letzten Sitzung. Falls es keine gab, stelle eine Einstiegsfrage, die auf seine Top 2-3 Active Gaps zielt.`;
+      ? `[SESSION_START] ${sessionLine} ${lessonLine}\n\nPlan z poprzedniego razu: ${state.nextSessionHint}\n\nBegrüße Jakub kurz auf Deutsch, gib die drei Zeilen von Block 0 (Ziel, auf Polnisch) und frag dann nach seiner Mission (Block 1).`
+      : `[SESSION_START] ${sessionLine} ${lessonLine}\n\nBegrüße Jakub kurz auf Deutsch, gib die drei Zeilen von Block 0 (Ziel, auf Polnisch) und frag dann nach seiner Mission aus der letzten Sitzung (Block 1). Falls es keine gab, stelle eine Einstiegsfrage, die auf seine Top Active Gaps zielt.`;
     const opening = await claudeChat(
       [{ role: "user", content: opener }],
       state.systemPrompt,
-      { max_tokens: 600 }
+      { max_tokens: 4000, cache: true }
     );
-    state.messages = []; // reset visible messages; opener wasn't a real user turn
+    // Opener nie jest widoczną turą ucznia, ale zostaje jako pierwsza tura w API —
+    // rozmowa musi zaczynać się od "user", a stały początek pomaga cache.
+    state.opener = opener;
+    state.messages = [];
     state.messages.push({ role: "assistant", content: opening });
     renderMessages();
     if (state.ttsEnabled) speak(opening);
@@ -387,67 +412,20 @@ function buildSystemPrompt(ctx) {
   const draftsText = (ctx.recentDrafts || [])
     .map(d => `### ${d.name}\n${d.content.slice(0, 1500)}`).join("\n\n");
 
-  // PROGRESS.md bywa długi, a dla prowadzącego liczy się głównie sekcja
-  // "Ostatnia sesja" i tabela logu. Bierzemy początek pliku.
-  const progressText = (ctx.progressMd?.content || "").slice(0, 4000);
-
+  // Świadomie krótko: wszystko o kursie (szkielet lekcji, kontekst ucznia, zasady korekty)
+  // stoi w plikach repo i tylko tam. Do 2026-09 ten prompt miał własną, sztywno wpisaną
+  // kopię szkieletu i założenie "brak immersji", które rozjechało się z plikami po sesji 5.
   return `Du bist der Deutschtutor von Jakub — einem polnischen Medizinstudenten auf dem Weg von B1 nach B2.
 Du bist kein Assistent für Dateien. Du hältst eine Unterrichtsstunde.
 
-KONTEXT, DER ALLES ANDERE BESTIMMT:
-Jakub hat AUSSERHALB DIESER SITZUNG KEINEN KONTAKT MIT DEUTSCH. Er ist gerade in Rom (Praktikum,
-parallel ein Italienischkurs) und geht danach zurück zum Studium nach Polen. Deutsch kommt nicht
-von der Straße, nicht von Freunden, nicht von der Uni. Daraus folgt:
-- Der Block "Gespräch" ist der einzige Ort, an dem er überhaupt Deutsch spricht. Kürze ihn NIE.
-- Jede Sitzung endet mit einer Mission (Podcast, Text, Sprachaufnahme) — sonst hat er eine Woche
-  lang null Input. Die Mission ist Pflicht, kein Extra.
-- Vergessen zwischen den Sitzungen ist der Hauptgegner. 2 von 10 Karteikarten sind immer
-  älterer Stoff.
+Alles über den Kurs — Ablauf der Stunde, Kontext des Schülers, Korrekturregeln, Messung —
+steht in den Dateien unten. Maßgeblich sind CLAUDE.md (Protokoll) und PROFILE.md (Schüler).
+Wenn eine Lektionsdatei vorliegt, folge ihr.
 
-ABLAUF DER SITZUNG (25 Min):
-0. Ziel (30 Sek) — drei Zeilen auf Polnisch: was wir heute üben, das Wochenziel aus PROGRESS.md,
-   und die überprüfbare Bedingung "es ist gelungen, wenn …"
-1. Meldunek z misji (3) — was hat er gehört/gelesen, welchen Satz hat er nicht verstanden
-2. Lesestück (4) — Text aus der letzten Mission + 4 Fragen (D1 Umformung, D2 Inferenz,
-   D3 Satzbau-Röntgen, D4 unbekanntes Wort). Kein Vorlesen, keine Auswahlaufgaben
-3. Regel (2) — EINE Grammatikregel, kurz, mit PL→DE-Kontrast (steht schon im Text)
-4. Drill (3) — nur Produktion: PL→DE übersetzen, Sätze bauen. Keine Auswahlaufgaben
-4b. Lückensätze (5) — 10 Sätze, in JEDEM genau EINE Lücke: ein einziges Wort in der richtigen
-   Form. Die Grundform steht in Klammern: "Nach ____ (der Dienst) trinke ich nie Kaffee."
-   Er antwortet nur mit der Form ("dem"), der Lösungsschlüssel kommt getrennt danach.
-   Zusammensetzung: 4 Regel des Tages, 3 Active Gaps, 2 ältere Sitzungen, 1 Sonde.
-   NIEMALS Auswahlvarianten unter dem Satz, nie zwei Lücken in einem Satz, nie zwei mögliche
-   Antworten. Eigenes Ergebnis "🧩 Lückensätze x/10" — NICHT mit dem Drill-Wert vermischen.
-   Details: plan/lueckentext.md
-5. Gespräch (7) — längster Block, unantastbar
-6. Karteikarten (3) — 10 Karten PL→DE: 5 aus heute, 3 aus Active Gaps, 2 aus früheren Sitzungen
-7. Bilans (2) — auf Polnisch abrechnen: was ich geprüft habe (mit Zahlen), was gut war,
-   was falsch war UND WARUM (Mechanismus, nicht nur die richtige Form), eine Sache für morgen
-+ Mission
-
-WICHTIG ZUM ZEITBUDGET: Der Block 4b ist NEU und wurde HINZUGEFÜGT — die Stunde ist von 20 auf
-25 Minuten gewachsen. Er ersetzt keinen anderen Block. Wenn die Zeit knapp wird, kürzt du die
-Lückensätze auf 6 Sätze — niemals das Gespräch.
-
-REGELN:
-- Sprich Deutsch. Polnisch nur zum Erklären von Grammatik oder zum Retten der Situation.
-- Korrigiere durch RECASTING: wiederhole seine Aussage richtig im nächsten Satz, ohne Vortrag.
-- Höchstens 3 Fehlermuster pro Sitzung. Der Rest geht still ins Watching.
-- Wenn eine Lücke Active ist, MUSST du ihr eine Gelegenheit schaffen — nicht warten, bis sie
-  zufällig auftaucht. "Keine Daten" ist kein Fortschritt.
-- Achte auf Interferenz aus dem Italienischen: ausgelassenes Personalpronomen ("bin müde"),
-  Verb an zweiter Stelle im Nebensatz, italienische Wörter. Das ist ein MUSTER, kein Ausrutscher.
-- Kalibriere nach OBEN. Er bildet korrekte Nebensätze mit "weil" und "obwohl" — behandle ihn
-  nicht wie einen Anfänger. Sein Engpass ist die Flexion (Kasus, Endungen), nicht der Satzbau.
-- Rechtschreibung im Chat (Kleinschreibung, fehlende Umlaute) ist KEINE Lücke — nicht korrigieren.
-- Halte deine Antworten kurz (2-4 Sätze) — es ist ein Gespräch, kein Vortrag.
-
-VERMEIDE:
-- Lange Grammatikerklärungen vor der Praxis.
-- Hörtexte in der Sitzung abspielen — Input gehört in die Mission, nicht in die 25 Minuten.
-- Üben, was er schon kann (Nebensatz mit "weil" — sechs Mal korrekt am 2026-04-28).
-- Die Sitzung ohne Karteikarten und ohne Mission beenden.
-- Auswahlaufgaben jeder Art — auch in den Lückensätzen. Raten ist kein Messwert.
+Nur für diese App gilt zusätzlich:
+- Halte deine Antworten im Gespräch kurz (2–4 Sätze). Längere Blöcke (Lückensätze,
+  Karteikarten, Bilans) dürfen länger sein.
+- Dateien schreibst du hier nicht. Das passiert nach "Zakończ sesję" im Debrief.
 
 ${ctx.sessionNo ? `— HEUTIGE SITZUNG: Nr. ${ctx.sessionNo} —` : ""}
 
@@ -465,8 +443,8 @@ ${ctx.profileMd?.content || "(brak)"}
 — LÜCKEN (GAPS.md) —
 ${ctx.gapsMd?.content || "(brak)"}
 
-— FORTSCHRITT (PROGRESS.md, Anfang) —
-${progressText || "(brak)"}
+— FORTSCHRITT (PROGRESS.md) —
+${ctx.progressMd?.content || "(brak)"}
 
 ${ctx.missionsMd ? `— MISSIONEN (plan/missions.md) —\n${ctx.missionsMd.content}` : ""}
 
@@ -484,7 +462,12 @@ async function sendMessage() {
   renderMessages();
   setStatus("Claude pisze...");
   try {
-    const reply = await claudeChat(state.messages, state.systemPrompt, { max_tokens: 800 });
+    // 4000, bo model myśli przed odpowiedzią (adaptive thinking) i to też liczy się do limitu;
+    // krótkość odpowiedzi trzyma prompt, nie limit — przy 800 ucinało dziesiątkę luk i bilans.
+    const convo = state.opener
+      ? [{ role: "user", content: state.opener }, ...state.messages]
+      : state.messages;
+    const reply = await claudeChat(convo, state.systemPrompt, { max_tokens: 4000, cache: true });
     state.messages.push({ role: "assistant", content: reply });
     renderMessages();
     if (state.ttsEnabled) speak(reply);
@@ -543,20 +526,22 @@ async function endSession() {
 <krótki kebab-case po niemiecku, max 4 słowa, np. arztbesuch-symptome>
 
 ===DRAFT_MD===
-<pełen markdown draftu sesji:
-- nagłówek "# Sesja ${nn} — ${today} — <tytuł po niemiecku>"
-- sekcja "## Rozmowa" z transkryptem (User: / Tutor:)
-- sekcja "## Kluczowe wzorce" z 2-3 punktami (powtórzone poprawnie LUB błędne wzorce)
-- sekcja "## Słownictwo" z 3-7 nowymi/użytecznymi słówkami i tłumaczeniem na polski>
+<markdown draftu sesji — BEZ pełnego transkryptu (nie zmieści się w limicie):
+- nagłówek "# Sesja ${nn} — <temat>" + linia z datą ${today} i trybem
+- "## Bilans" — dokładnie ten bilans (blok 7), który Jakub dostał na koniec lekcji, cztery sekcje
+- "## Pomiary" — wolna produkcja x/15 (główna liczba) + pomiary pomocnicze osobno
+- "## Przebieg" — po blokach, z cytatami zdań Jakuba (poprawnych i błędnych)
+- "## Pattern notes" — 2–3 wzorce z mechanizmem
+- "## Słownictwo" — nowe słowa>
 
 ===GAPS_UPDATE_MD===
-<NOWA pełna treść GAPS.md po sesji. Zachowaj strukturę pliku (Kontekst / Active / Watching / Closed / Mocne strony) — NIE dopisuj tam tabeli logu, ona jest w PROGRESS.md. Reguły: nowy wzorzec błędów → Watching; wraca 3 sesje z rzędu → Active; nieobecny przez 3 sesje MIMO OKAZJI → Closed. Przy KAŻDEJ dotkniętej luce dopisz datowaną linijkę: "*Sesja ${nn} (${today}): …*". Jeśli luka nie dostała okazji, napisz to wprost — "brak okazji" to nie jest postęp>
+<NOWA pełna treść GAPS.md po sesji. Zachowaj strukturę pliku (Active — maks. 3 pozycje / Watching / Closed / Mocne strony). Format pozycji Active: reguła, tabelka ostatnich 3 pomiarów, "następny krok". Historia NIE rośnie w tym pliku — starsze pomiary wypadają z tabelki (są w draftach). Reguły: nowy wzorzec → Watching; wraca 3 sesje z rzędu → Active; nieobecny 3 sesje MIMO OKAZJI → Closed. Jeśli luka nie dostała okazji, napisz to wprost — "brak okazji" to nie jest postęp>
 
 ===PROGRESS_UPDATE_MD===
-<NOWA pełna treść PROGRESS.md po sesji. Zachowaj strukturę pliku. Trzy rzeczy obowiązkowo:
+<NOWA pełna treść PROGRESS.md po sesji. Zachowaj strukturę pliku. Obowiązkowo:
 1. sekcja "Ostatnia sesja" przepisana pod sesję ${nn}
-2. nowy wiersz w tabeli "Log sesji": | ${nn} | ${today} | <temat> | <trafność %> | <Anki> | <luki celowane> | <nowe luki> | <reakcja> |
-3. metryki: podaj trafność OSOBNO dla drillu i dla wolnej produkcji. Rozjazd > 30 punktów odnotuj wprost>
+2. nowy wiersz w tabeli "Log sesji": | ${nn} | ${today} | <temat> | <wolna produkcja x/15 = %> | <drill · 🧩 Lückensätze x/10 · 📖 Leseverstehen> | <Anki> | <decyzja> |
+3. rozliczenie "Cel cyklu" (spełniony / nie / nie zmierzony) i nowy cel, jeśli cykl 3 sesji się domknął>
 
 ===WORDLIST_TSV===
 <TYLKO nowe słowa z dzisiejszej sesji, w formacie TSV bez nagłówka, 7 kolumn rozdzielonych TABULATOREM:
@@ -588,7 +573,8 @@ ${conversationText}`;
     const raw = await claudeChat(
       [{ role: "user", content: debriefPrompt }],
       "Du bist ein präziser Generator. Antworte NUR mit den 7 markierten Sektionen im verlangten Format. Keine Einleitung, keine Code-Fences, keine zusätzlichen Kommentare.",
-      { max_tokens: 16000 }
+      // requireComplete: ucięta odpowiedź = ucięty GAPS.md w repo, więc wolimy błąd.
+      { max_tokens: 16000, requireComplete: true }
     );
     state.lastDebriefRaw = raw;
     const parsed = parseDebriefMarkers(raw);
