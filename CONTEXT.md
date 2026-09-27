@@ -1,87 +1,63 @@
-# Zasady sesji
+# Zasady sesji — co jest dobrą sesją, czego unikać
 
-## Aktualny projekt
+Kurs niemieckiego dla Jakuba — 30 sesji, **B1 → B2**, z wątkiem medycznym. Sesja **~35 minut**
+(10 min Anki + 25 min lekcji). Wyjaśnienia po polsku, ćwiczenia i rozmowa po niemiecku.
+Protokół: `CLAUDE.md`. Kontekst ucznia: `PROFILE.md`.
 
-Kurs niemieckiego dla Jakuba — 30 sesji, z **B1 do B2**, z wątkiem medycznym.
-Sesje to **35-minutowe** lekcje prowadzone przez Claude'a w roli korepetytora
-*(10 min Anki + 25 min lekcja; do sesji 9 było 30 minut — lekcja urosła o 5 minut,
-żeby zmieścić blok `4b Lückensätze` bez zabierania czasu żadnemu innemu blokowi)*.
-Wyjaśnienia po polsku, ćwiczenia i rozmowa po niemiecku.
-
-**Warunek brzegowy, który rządzi wszystkim poniżej: Jakub nie ma kontaktu z niemieckim
-poza tą sesją.** Miesiąc spędza w Rzymie na praktykach, potem wraca na studia do Polski.
-Niemiecki nie leci z otoczenia — leci wyłącznie stąd i z misji, które mu zadasz.
+**Warunek brzegowy:** Jakub rozmawia po niemiecku **codziennie** z mamą swojej dziewczyny —
+płynność i słownictwo codzienne przychodzą stamtąd. **Fleksja, tekst pisany i język medyczny
+nie przyjdą stamtąd nigdy.** Sesja jest od tego, czego rozmowa w kuchni nie zrobi.
 
 ---
 
 ## Jak wygląda dobra sesja
 
-- **Niemiecki od pierwszego zdania.** Sesja zaczyna się po niemiecku (`Hallo Jakub, wie geht's?`),
-  nie po polsku.
-- **Trzyma się szkieletu** Ziel → Meldunek → **Lesestück** → Regel → Drill → **🧩 Lückensätze**
-  → Gespräch → Karteikarten → Bilans (patrz `CLAUDE.md`). Tekst do bloku 2 Jakub przeczytał w domu, razem z misją — na sesji
-  nie ma czytania, są cztery pytania *(`plan/lesestueck.md`)*.
-- **Celuje w otwarte luki z `GAPS.md`**, nie w losowe tematy. I **stwarza im okazję** —
-  luka Active, przy której trzy sesje z rzędu pada „brak danych", nie jest monitorowana,
-  tylko ignorowana.
-- **Jedna reguła gramatyczna na sesję.** Nie trzy. Jedna, opanowana, użyta w zdaniach.
-- **Kontrast polsko-niemiecki tam, gdzie jest pułapka** — przypadek po przyimku (polski ma
-  własne rządy i one nie pokrywają się z niemieckimi), szyk zdania podrzędnego, rodzajnik,
-  rodzaj gramatyczny (`das Gehirn`, nie `die`). I tam, gdzie jest prezent: polski i niemiecki
-  mają przypadki, więc sama idea deklinacji nie jest dla niego nowa — nowy jest tylko rozkład.
-- **Dziesięć zdań z luką w każdej sesji** *(blok 4b, `plan/lueckentext.md`)* — jedna luka
-  na zdanie, jedno słowo, odmiana. **To nie jest wybór z listy:** forma podstawowa stoi
-  w nawiasie, wariantów do zaznaczenia nie ma. Ten blok izoluje fleksję — wąskie gardło kursu —
-  od budowania składni, i daje dziesięć czystych pomiarów tam, gdzie drill daje siedem.
-- **Produkcja > rozpoznawanie.** Jakub ma *mówić i pisać* po niemiecku, nie wybierać z listy.
-  Dotyczy też czytania: na pytania do tekstu odpowiada **pełnym zdaniem po niemiecku,
-  z wymuszonym przekształceniem**, a nie przepisanym fragmentem.
-- **Korekta przez recasting** w trakcie + 2–3 pattern notes na końcu.
-- **Zdania są prawdziwe i jego.** „*Nach der Vorlesung gehe ich in die Bibliothek*" — tak.
-  „*Der Tisch ist grün*" — nie, chyba że po coś. Materiał ma być z jego życia: uczelnia,
-  Kommilitonen, dyżury, egzaminy, Rzym, dojazdy.
-- **Wątek medyczny wpleciony, nie odklejony.** Słownictwo kliniczne wchodzi tam, gdzie pasuje
-  do tematu gramatycznego — nie jako osobna lista do wykucia.
-- **Kończy się misją.** Zawsze.
-- **Kończy się zapisem postępu** — draft, GAPS, PROGRESS, Anki. Zawsze.
+- **Niemiecki od pierwszego zdania** (`Hallo Jakub, wie geht's?`) — po trzech polskich linijkach bloku 0.
+- **Trzyma się szkieletu:** Ziel → Meldunek → Lesestück *(jeśli przeczytał)* → Regel + Drill →
+  🧩 Lückensätze → **Gespräch** → Karteikarten → Bilans + misja.
+- **Najwięcej czasu dostaje rozmowa** — ≥ 10 minut, rundy 3/2/1 tej samej historii, tempo bez
+  cyzelowania. Reguły Jakub przyswaja w jedną sesję; brakuje mu **formy pod obciążeniem treści**.
+- **Celuje w Active gaps z `GAPS.md` i stwarza im okazję.** „Brak okazji” to pusty pomiar.
+- **Jedna reguła na sesję, z sąsiedztwem** — pole obok, na którym nie obowiązuje. Bez tego reguła
+  u niego przecieka *(`ohne die Kaffe` po lekcji o rodzajnikach)*.
+- **Kontrast polsko-niemiecki tam, gdzie jest pułapka** — przypadek po przyimku, rodzaj
+  (`das Gehirn`, `der Schrank`), szyk. I tam, gdzie jest prezent: polski też ma przypadki.
+- **Produkcja > rozpoznawanie.** Mówi i pisze — nie wybiera z listy. Pytania do tekstu: pełnym
+  zdaniem, z przekształceniem.
+- **Korekta w dwóch trybach:** struktura dnia → **prompt** (`Wo oder wohin?`), niech poprawi sam;
+  reszta → recast albo cicha notatka. Maks. 3 wzorce w bilansie.
+- **Zdania są prawdziwe i jego:** uczelnia, Kommilitonen, dyżury, egzaminy, Rzym, dojazdy,
+  Schwiegermutter. „*Der Tisch ist grün*” — nie.
+- **Wątek medyczny wpleciony, nie odklejony.**
+- **Kończy się bilansem, misją i zapisem postępu.** Zawsze.
 
 ---
 
 ## Czego unikać
 
-- **Wykładu gramatycznego przed praktyką.** Reguła ma maks. 4 minuty i wchodzi po tym, jak Jakub
-  zobaczył ją w zdaniu. **Od bloku `Lesestück` widzi ją najpierw w tekście, w dwudziestu
-  poprawnych egzemplarzach** — więc `Regel` już tylko nazywa, nie wprowadza.
-- **Testów wyboru i glosariuszy przy tekście.** „Richtig oder falsch" mierzy szczęście,
-  a lista znaczeń podana przed tekstem kasuje jedyne, co się tam mierzy — zgadywanie z kontekstu.
-- **Poprawiania każdego błędu.** Wzorce, nie pojedyncze potknięcia. Maksymalnie 3 na sesję.
-- **Skracania bloku `Gespräch`, żeby dokończyć regułę.** To jedyne miejsce, w którym Jakub
-  w ogóle mówi po niemiecku. Regułę można dopisać w notatce; rozmowy nie da się dopisać.
-- **Odtwarzania inputu na lekcji.** Słuchanie i czytanie idzie do misji, na jego czas własny.
-  25 minut sesji jest za drogie na to, co może zrobić sam.
-- **Testu wyboru w blokach z luką.** `(dem / den / des)` pod zdaniem to ślepy traf 33 % —
-  czyli tyle, ile wynosi zmierzona fleksja Jakuba. Taki instrument nie odróżnia go od losowania.
-- **Generycznego rozmówkowego materiału** bez kontekstu.
-- **Stałej trudności** niezależnie od tego, jak Jakub sobie radzi.
-- **Ćwiczenia tego, co już umie.** `Nebensatz` z `weil` był w 2026-04-28 poprawny sześć razy
-  z rzędu. Nie drąż go — sprawdzaj go mimochodem, a czas przenieś na `dass`, `ob`, indirekte
-  Fragen i szyk przy dwóch dopełnieniach.
-- **Traktowania go jak początkującego.** Buduje złożone zdania podrzędne, próbuje Konjunktiv II
-  i zna słownictwo z interny i radiologii. Wąskim gardłem jest **poprawność w produkcji**,
-  nie zakres.
-- **Rozpoczynania sesji bez `GAPS.md`.**
-- **Zakończenia sesji bez commita.** Brak zapisu = utracony postęp.
-- **Przytłaczania listami słówek.** 10–15 nowych słów na sesję to sufit, nie cel — a w trybie
-  🧊 Erhaltungsmodus nawet 10 jest dużo, bo między sesjami nic ich nie powtarza poza Anki.
+- **Wykładu przed praktyką.** Reguła ≤ 90 sekund — resztę pokazuje tekst i drill.
+- **Mierzenia zamiast trenowania.** Bloki diagnostyczne są krótkie i pisane; czas mówiony idzie do rozmowy.
+- **Testów wyboru, prawda/fałsz i glosariuszy przed tekstem.** Przy trzech wariantach ślepy traf
+  daje 33 % — tyle, ile wynosiła zmierzona fleksja Jakuba w sierpniu.
+- **Czytania tekstu na sesji.** Nieprzeczytany tekst → blok 2 przepada, czas idzie do rozmowy.
+- **Poprawiania wszystkiego.** Wzorce, nie pojedyncze potknięcia.
+- **Skracania `Gespräch`**, żeby dokończyć regułę. Regułę można dopisać w notatce; rozmowy nie.
+- **Sondy powtórzonej dosłownie** — Jakub pamięta pytania z poprzednich sesji. Zmień opakowanie.
+- **Ćwiczenia tego, co już umie.** `Nebensatz` z `weil` — sprawdzaj mimochodem, nie drąż.
+- **Traktowania go jak początkującego.** Buduje zdania złożone, zna słownictwo z interny i radiologii.
+- **Przytłaczania słówkami.** 10 nowych na sesję w 🧊, 15 w 🔥 — to sufit, nie cel.
+- **Rozpoczynania sesji bez `GAPS.md`** i **kończenia bez commita na `main`.**
 
 ---
 
-## Czego pilnować szczególnie w tym kursie
+## Na co uważać szczególnie w tym kursie
 
 | Ryzyko | Objaw | Reakcja |
 |--------|-------|---------|
-| **Zapominanie między sesjami** | Materiał z poprzedniej sesji nie odtwarza się w `Aufwärmen` | Zwiększ udział przeplatania w fiszkach z 2 do 4; wróć do materiału zamiast iść dalej |
-| **Interferencja z włoskim** | Włoskie słowo w niemieckim zdaniu; pominięty zaimek osobowy; szyk `V2` w zdaniu podrzędnym | Notuj **osobno** jako wzorzec, nie jako pomyłkę. To przewidziany koszt uczenia się dwóch języków naraz |
-| **Ucieczka w pisanie** | Cała sesja odpisana na czacie, zero mówienia | Wymuś misję typu `Sprachnachricht` — nagranie 60 s |
-| **Unikanie zamiast błędu** | Jakub omija strukturę, której nie jest pewien, budując zdanie prostsze | Powiedz mu wprost: **zgaduj głośno**. Błąd zostawia ślad w `GAPS.md` i wraca jako drill. Ominięcie nie zostawia nic |
-| **Pytanie „czego się dziś uczymy"** | Padło już dwa razy (2026-04-28, 2026-04-29) | Odpowiadaj **jednym zdaniem** i wracaj do niemieckiego. Plan sesji jest w `lessons/`, nie w rozmowie |
+| **Przeciek reguły** | nowa reguła pojawia się tam, gdzie nie obowiązuje | nazwij pole obok w tej samej minucie; fiszki jako pary kontrastowe |
+| **Zapominanie struktur spoza jego mowy** | struktura zamknięta w sesji N pada w N+1 | zadanie w N+1 i N+3; potem **misja na żywym rozmówcy**, nie trzecie ćwiczenie |
+| **Interferencja 🇮🇹/🇬🇧** | opuszczony podmiot, V na 2. miejscu po `dass`, `so` zamiast `also`, słowa zbudowane od zera | notuj **osobno** jako wzorzec; `so` → `also` poprawiaj zawsze |
+| **Ucieczka w pisanie** | cała sesja odpisana, zero mówienia | runda 2 w `Gespräch` zawsze na głos; misja `Sprachnachricht` |
+| **Unikanie zamiast błędu** | omija strukturę, której nie jest pewien | powiedz wprost: **zgaduj głośno** — błąd zostawia ślad, ominięcie nie |
+| **Przerwa w kursie** | > 10 dni bez sesji | 5 min rozgrzewki; > 3 tygodnie → rediagnostyka zamiast tekstu |
+| **Wkuwanie talii przed sesją** | „przerobiłem całą talię wczoraj” | Anki 10 min dziennie; wynik z ciągu zawyża retencję |

@@ -35,24 +35,17 @@ przez czytanie **na długo przed** produkcją.
 
 ---
 
-## Koszt czasowy: +2 minuty, a blok `Gespräch` zostaje nietykalny
+## Koszt czasowy: 3 minuty — i tylko wtedy, gdy tekst jest przeczytany
 
-- **Tekst wychodzi z KOŃCA poprzedniej sesji, razem z misją** — jako `Lesemission`. Czyta go
-  między sesjami, na zimno, **bez słownika i bez glosariusza**. Zgadza się z zasadą z `CLAUDE.md`:
-  *„input idzie do misji, na jego czas własny; na lekcji rozliczasz z niego"*.
-- **Blok na sesji ZASTĘPUJE `Aufwärmen`.** Było: 5 pytań po niemiecku celowanych w Active gaps.
-  Jest: **4 pytania celowane w te same gapy, ale zawieszone na wspólnym tekście.**
-- **`Gespräch` zostaje 7 minut i pozostaje nietykalny.** Dwie minuty biorę z `Regel` — a mogę,
-  bo tekst wykonuje część roboty `Regel` za mnie: pokazuje regułę w dwudziestu egzemplarzach,
-  zanim ją nazwę.
+*(Aktualizacja 2026-09-27. Poprzednia wersja: 4 minuty, a nieprzeczytany tekst czytany na sesji.)*
 
-| Było | Jest |
-|------|------|
-| 2. Aufwärmen — 2 min, 5 pytań bez kontekstu | 2. **Lesestück — 4 min**, tekst z misji + 4 pytania |
-| 3. Regel — 4 min | 3. Regel — **2–3 min** *(reguła jest już w tekście — zostaje ją nazwać)* |
-
-> **Jeśli nie przeczytał** — 90 sekund na sesji, tekst ma 180 słów. **Nie kasuję bloku.**
-> Ale pięć pytań `Aufwärmen` zostaje w każdej lekcji jako rezerwa i wtedy wchodzi zamiast D1/D2.
+- **Tekst wychodzi z KOŃCA poprzedniej sesji, razem z misją** — jako `Lesemission`,
+  **wklejony w czat**, nie tylko zapisany w `lessons/`. Czyta go między sesjami, raz,
+  **bez słownika i bez glosariusza**.
+- **Na sesji: D4 → D1 → D2**, D3 tylko jeśli starczy czasu. 3 minuty.
+- **Jeśli nie przeczytał — blok przepada, a minuty idą do `Gespräch`.** Nie czytamy na sesji:
+  w sesji 8 tekst czytany na miejscu dał pomiar osłabiony i zjadł czas rozmowy.
+  Tekst przechodzi na następną sesję tylko wtedy, gdy nadal pasuje do jej tematu.
 
 ---
 
@@ -100,9 +93,9 @@ rozumieniem, nie za produkcją.
 
 | Blok | Długość | Nieznane słowa | Co dochodzi w tekście |
 |------|---------|----------------|------------------------|
-| **1** *(sesje 5–11 — Kasus)* | 120–180 słów | ≤ 6 % | proza użytkowa, wszystkie cztery przypadki w naturalnym otoczeniu, zdania podrzędne z `weil`/`dass` |
-| **2** *(Satzbau)* | 180–250 słów | ≤ 8 % | zdania wielokrotnie złożone, `Perfekt` ↔ `Präteritum`, rozdzielne przedrostki daleko od czasownika |
-| **3–4** *(fluency + Fachsprache)* | 250–350 słów | ≤ 10 % | `Passiv`, `Konjunktiv II`, `Genitiv`, rzeczowniki odczasownikowe, **fragmenty `Arztbrief` i `Befund`** |
+| **1** *(sesje 5–11 — Kasus)* | **100–150 słów** | ≤ 6 % | proza użytkowa, wszystkie cztery przypadki w naturalnym otoczeniu, zdania podrzędne z `weil`/`dass` |
+| **2** *(Satzbau)* | 150–200 słów | ≤ 8 % | zdania wielokrotnie złożone, `Perfekt` ↔ `Präteritum`, rozdzielne przedrostki daleko od czasownika |
+| **3–4** *(fluency + Fachsprache)* | 200–300 słów | ≤ 10 % | `Passiv`, `Konjunktiv II`, `Genitiv`, rzeczowniki odczasownikowe, **fragmenty `Arztbrief` i `Befund`** |
 
 | `Leseverstehen` | Reakcja |
 |---|---|

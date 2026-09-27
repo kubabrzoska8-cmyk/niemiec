@@ -1,12 +1,13 @@
-# Źródła — katalog operacyjny, nie ozdobny
+# Źródła — input do misji i tekstów
 
-> **W kursie włoskim ten plik byłby dodatkiem. Tutaj jest połową kursu.**
-> Jakub nie usłyszy niemieckiego w tramwaju ani przy kolacji. Jedyny input, jaki dostanie,
-> to ten, który sam odpali. Stąd ta lista i stąd obowiązkowa misja 🎧 co drugą sesję.
+> **Główny kanał inputu to codzienna rozmowa z mamą dziewczyny** *(`PROFILE.md`)*. Ta lista
+> daje to, czego rozmowa nie da: **niemiecki poprawny, pisany i medyczny**. Podcasty są
+> dodatkiem do misji, nie jej rdzeniem — do sesji 8 nie zmieściły się w tygodniu Jakuba
+> *(`plan/missions.md`)*. Teksty medyczne — tak, zwłaszcza jako `Lesemission`.
 
 ---
 
-## 🎧 Ohrwurm — słuchanie *(główne źródło inputu)*
+## 🎧 Ohrwurm — słuchanie *(dodatek do misji)*
 
 Cel: 10 minut, 2–3 razy w tygodniu. **Nie musi być zrozumiane w całości.**
 

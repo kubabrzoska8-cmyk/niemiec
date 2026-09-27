@@ -97,15 +97,20 @@ referencja: [`grammar/04-genitiv-und-besitz.md`](../grammar/04-genitiv-und-besit
 - **🇵🇱 Kontrast:** polski robi to samo („idę **do** biblioteki" ↔ „jestem **w** bibliotece"),
   ale zmienia przyimek, nie końcówkę. Niemiecki zostawia przyimek i zmienia przypadek
 
-## Sesja 10 — Rodzaj i rodzajnik: jak zgadywać dobrze
-- **Gramatyka:** reguły rodzaju po końcówce — `-ung, -heit, -keit, -schaft, -ion` → **die**;
-  `-chen, -lein, -ment, -um` → **das**; `-er, -ling, -ismus` → **der**
-- **Medyczne:** `das Herz`, `die Leber`, `der Magen`, `das Gehirn`, `die Niere`, `der Knochen`
-- **⚠️ Pułapka:** rodzaj **nie idzie za polskim**. `das Gehirn` *(pol. mózg — męski)*,
-  `die Butter` *(masło — nijakie)*, `der Tisch` *(stół — męski, akurat zgodnie)*.
-  Sesja 3: `meine Gehirn` — dokładnie ten mechanizm
-- **Nawyk:** ucz się rzeczowników **zawsze z rodzajnikiem i liczbą mnogą**.
-  Nigdy `Prüfung` — zawsze `die Prüfung, -en`
+## Sesja 10 — Rodzaj i rodzajnik: jak zgadywać dobrze *(wąskie gardło bloku — po sesji 9)*
+📄 Pełna lekcja: [`lessons/session-10.md`](../lessons/session-10.md)
+
+- **Dlaczego teraz jest to temat nr 1:** sesja 9 — reguła `Wo?`/`Wohin?` **4/4 przy rodzaju
+  podanym, 2/4 przy rodzaju do znalezienia**. `der Schrank` odmieniony bezbłędnie… jako żeński
+- **Reguła końcówkowa już jest** *(sesja 8, 5/6)*: `-ung, -heit, -keit, -schaft, -ion` → **die**.
+  Nie działa tam, gdzie końcówki nie ma — a tam leżą jego pudła: `Schrank`, `Termin`, `Dienst`
+- **Dziś: reguły prawdopodobieństwa dla rzeczowników „gołych”** — jednosylabowe najczęściej
+  `der` · `-el/-en/-er` najczęściej `der` · `-e` zwykle `die` · `-at`, `-um`, `-ment`, `-chen`,
+  `Ge-` → `das` — **plus lista wyjątków z jego życia** *(`der Termin`, `die Haut`, `das Glas`)*
+- **Nawyk:** rodzajnik mówiony **zawsze** z rzeczownikiem; przy niepewności — zgaduj regułą
+  i zapytaj Schwiegermutter *(misja 10)*
+- **⚠️ Pułapka:** rodzaj **nie idzie za polskim** — `das Gehirn` *(mózg)*, `die Butter`,
+  `der Schrank` *(szafa — po polsku żeńska: dokładnie tak ją odmienił)*
 
 ## Sesja 11 — Adjektivendungen: trzy tabele w jednej
 📄 Referencja: [`grammar/02-adjektivendungen.md`](../grammar/02-adjektivendungen.md)

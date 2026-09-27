@@ -38,29 +38,20 @@ w mowie końcówka przemyka i native jej nie poprawia. W luce **albo jest `dem`,
 
 ---
 
-## Koszt czasowy: +5 minut, i ani jeden blok nic nie oddaje
+## Koszt czasowy: 3 minuty, pisane
 
-**Lekcja urosła z 20 do 25 minut** *(sesja ~35 minut razem z Anki)*. To jedyna zmiana w budżecie.
+*(Aktualizacja 2026-09-27: blok wszedł w sesji 9 z budżetem 5 minut; po resecie ma 3 minuty,
+a `Gespräch` urósł do ≥ 10. Aktualny budżet całej lekcji: `CLAUDE.md` → B.)*
 
-| Blok | Przed | Po |
-|---|---|---|
-| 0. Ziel | 30 s | 30 s |
-| 1. Meldunek z misji | 3 min | 3 min |
-| 2. Lesestück | 4 min | 4 min |
-| 3. Regel | 2 min | 2 min |
-| 4. Drill | 3 min | 3 min |
-| 🧩 **4b. Lückensätze** | — | **5 min** |
-| 5. Gespräch | 7 min | **7 min — nietykalny** |
-| 6. Karteikarten | 3 min | 3 min |
-| 7. Bilans | 2 min | 2 min |
+Blok jest **pisany**: Jakub wypełnia dziesięć luk jedną wiadomością we własnym tempie,
+sprawdzenie dziesięciu form trwa kilkanaście sekund.
 
-> ⚠️ **`Gespräch` zostaje 7 minut.** Blok 4b nie powstał kosztem rozmowy i nigdy nie ma jej
-> zabrać ani minuty. **Jeśli sesja się przeciąga, skracasz dziesiątkę do sześciu zdań** —
-> pomiar robi się słabszy, ale zostaje. Rozmowy nie da się dopisać po sesji, luk owszem.
+> ⚠️ **Blok 4b nigdy nie zabiera czasu rozmowie.** Jeśli sesja się przeciąga, skracasz
+> dziesiątkę do sześciu zdań — pomiar słabnie, ale zostaje. Rozmowy nie da się dopisać po sesji.
 >
-> 💡 **Realny koszt jest niższy niż 5 minut**, bo blok jest **pisany**: Jakub wypełnia dziesięć
-> luk we własnym tempie jedną wiadomością, a sprawdzenie dziesięciu form zajmuje kilkanaście
-> sekund. To ta sama mechanika, którą kurs zaakceptował przy blokach 0 i 7.
+> 🔑 **Czego ten blok NIE trenuje:** formy pod obciążeniem. Składnia jest podana, rodzaj
+> zwykle też — to jest pomiar reguły, najniższy szczebel. Sesja 9: luki 4/4 → rozmowa 0/1
+> na tej samej regule. Wynik 10/10 tutaj **nie znaczy**, że forma wyjdzie w rozmowie.
 
 ---
 
@@ -116,7 +107,7 @@ Jakub odpowiada **samą formą**, jedną linijką na zdanie:
 |-----|------|-------|
 | **4** | dzisiejsza reguła z bloku 3 | świeża reguła, pomiar pięć minut po wyjaśnieniu |
 | **3** | **Active gaps z `GAPS.md`** *(top 3)* | „brak okazji" to pusty pomiar — tutaj okazję tworzę ja |
-| **2** | wcześniejsze sesje | przeplatanie; bez immersji to jedyna ochrona przed zapominaniem |
+| **2** | wcześniejsze sesje | przeplatanie — struktura spoza jego codziennej mowy bez powtórki wyparowuje |
 | **1** | **sonda** — struktura zamknięta w sesji N–1 albo N–3 | reguła z sesji 8: *co zamknięte w N, wraca w N+1 i N+3* |
 
 *(To celowo ten sam rozkład, co w `Karteikarten`. Dwa różne kanały, jeden zestaw priorytetów.)*

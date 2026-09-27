@@ -1,76 +1,52 @@
-# MISJE — kurs bez immersji
+# MISJE — między sesjami
 
-> **Zasada nadrzędna:** poza sesją niemiecki nie dzieje się sam. Misja **jest** kontaktem
-> z językiem, a nie dodatkiem do lekcji.
-
-W kursie włoskiego misja wysyła Cię do baru, bo Rzym jest za oknem. Tutaj za oknem nie ma nic —
-w sierpniu Rzym, potem polskie studia. Gdyby nie misje, Twój cały tygodniowy kontakt
-z niemieckim to byłoby 40–60 minut czatu. **To za mało, żeby cokolwiek się utrzymało.**
-
-Dlatego misje tutaj mają inne zadanie niż tam: **dostarczyć input i wymusić produkcję ustną**,
-czyli dwie rzeczy, których czat nie zrobi.
+> **Zasada nadrzędna:** misja ma się zmieścić w tym, co Jakub i tak robi. Codziennie rozmawia
+> po niemiecku z mamą swojej dziewczyny — **to jest główny kanał misji**. Sesja 9 pokazała,
+> dlaczego: przetrwa struktura, która weszła do jego codziennej mowy *(klamra, Perfekt:
+> 3–4 tygodnie bez ćwiczeń)*, a wyparowuje ta, która została w ćwiczeniach *(grupa
+> dopełniaczowa: dwie doby)*. Kontekst: `PROFILE.md`.
 
 ---
 
 ## Jak to działa
 
-1. **Na koniec sesji** dostajesz misję — 10–15 min w trybie 🧊, 20–30 min w trybie 🔥.
-2. **Między sesjami** ją wykonujesz. Nie musi być tego samego dnia.
-3. **Na początku następnej sesji** — meldunek w blokach 1: *co zrozumiałeś, gdzie się zaciąłeś,
-   jakie zdanie złapałeś*.
+1. **Na koniec sesji** Jakub dostaje misję i **tekst `Lesemission` wklejony w czat**
+   *(nie tylko zapisany w pliku — sesja 8 pokazała, że tekst w pliku nie dociera)*.
+2. **Między sesjami:** rdzeń misji to **2–3 minuty uwagi w rozmowie, którą i tak prowadzi**.
+3. **Na początku następnej sesji** — meldunek w bloku 1.
 
-Meldunek jest ważniejszy od samego wykonania. To z niego biorę dane do `GAPS.md`.
+### Rdzeń każdej misji — 🗣️ Live-Mission *(obowiązkowy)*
 
----
+- **Jedna struktura dnia wstawiona świadomie w rozmowę ze Schwiegermutter** — np. „pięć razy
+  powiedz, gdzie coś leży i dokąd to kładziesz”. Na meldunku: ile razy padło i czy poprawnie.
+- **Jedno zdanie OD NIEJ, którego nie zrozumiał** — zapisane w chwili niezrozumienia, choćby
+  fonetycznie. **Warunek zaliczenia misji.** Z jednego takiego zdania *(`die Dinge gegen Mücken
+  … mit Feuerzeug`, s6)* wypadła reguła i cztery słowa — więcej niż z całej reszty misji.
+- 📖 **`Lesemission`** — tekst na następną sesję, **100–150 słów**, czytany raz, bez słownika.
 
-## Pięć typów misji
+### Dodatek — tylko jeśli jest czas *(tabele niżej, kolumna „Misja”)*
 
 | Typ | Co robisz | Po co | Czas |
 |-----|-----------|-------|------|
-| 🎧 **Ohrwurm** | 10 min podcastu / wideo. Wypisz **3 zdania, które zrozumiałeś w całości** i **1, którego nie** | Input **formalny**: tempo studia, pełne zdania, składnia pisana. *(Od sesji 6 nie jest głównym kanałem inputu — tym jest codzienna rozmowa. Za to jest jedynym kanałem niemieckiego **poprawnego i wolnego**.)* ⚠️ **Nie rap, nie teledyski** — tempo i elizje robią z tego pomiar cierpliwości, nie języka | 10–15 min |
-| ✍️ **Schreibauftrag** | 5–8 zdań na zadany temat, z wymuszoną konstrukcją | Produkcja z czasem na myślenie — utrwala regułę | 10 min |
-| 🎤 **Sprachnachricht** | Nagraj **60 sekund monologu** na telefon. Odsłuchaj. Wyślij transkrypt | **Produkcja bez czasu na myślenie.** Jedyne ćwiczenie zbliżone do prawdziwej rozmowy | 10 min |
-| 🩺 **Fachtext** | Jeden akapit tekstu medycznego po niemiecku. Wypisz 5 słów i 1 zdanie do rozbioru | Wątek zawodowy + oswojenie z Nominalstil i stroną bierną | 15 min |
-| 🔁 **Wiederholung** | Przerób talię Quizlet z ostatnich 2 sesji | Bez tego materiał wyparuje między sesjami | 10 min |
+| ✍️ **Schreibauftrag** | 5–8 zdań na zadany temat, z wymuszoną konstrukcją | produkcja z czasem na myślenie | 10 min |
+| 🎤 **Sprachnachricht** | 60 s monologu na telefon, odsłuchaj, wyślij transkrypt | produkcja bez czasu na myślenie | 10 min |
+| 🩺 **Fachtext** | akapit tekstu medycznego, 5 słów + 1 zdanie do rozbioru | wątek zawodowy, Nominalstil, strona bierna | 15 min |
+| 🎧 **Ohrwurm** | 10 min podcastu, 3 zdania zrozumiane + 1 niezrozumiane | niemiecki poprawny i wolny | 10–15 min |
+| 🔁 **Wiederholung** | talia Quizlet z ostatnich 2 sesji | wbicie nowych słów | 10 min |
 
-Źródła do każdego typu: [`../resources/RESOURCES.md`](../resources/RESOURCES.md)
-
----
+> 🎧 **Podcasty są dodatkiem, nie rdzeniem.** Do sesji 8 trzy meldunki z rzędu były puste —
+> *„ich kein Zeit haben […] vielleicht später wenn ich nach Polen zurück bin”*. W 🔥 Vollmodus
+> wolno je proponować, ale misja jest zaliczona bez nich. Źródła: `resources/RESOURCES.md`.
 
 ## Reguły
 
-- **Misja zaliczona = wykonana, nie wykonana bezbłędnie.** Nagranie z trzema błędami jest
-  warte więcej niż nienagranie.
-- **🎤 nagrania odsłuchuj.** To niewygodne i to jest cały sens: słyszysz własne zacięcia,
-  których w czacie nie widać.
-- **🎧 zdanie niezrozumiane jest warunkiem zaliczenia**, nie dodatkiem. Zapisz je **w momencie
-  niezrozumienia**, choćby fonetycznie i błędnie. Z jednego takiego zapisu wypada zwykle
-  więcej reguł niż z całej lekcji.
-- **Nie tłumacz sobie wszystkiego.** Przy 🎧 i 🩺 celem jest wyłapać sens, nie przerobić tekst
-  słowo po słowie. Sprawdzaj maksymalnie 5 słów.
-- **Wolno wybrać własny materiał.** Jeśli trafisz na coś ciekawszego niż to, co proponuję —
-  bierz to. Zainteresowanie bije dopasowanie poziomu.
+- **Zaliczona = wykonana, nie bezbłędna.** Zdanie powiedziane z błędem jest warte więcej niż ominięte.
+- **Nie tłumacz sobie wszystkiego.** Przy tekście sprawdzaj maksymalnie 5 słów.
+- **Wolno wybrać własny materiał** — zainteresowanie bije dopasowanie poziomu.
+- **Struktura, która wyparowuje mimo ćwiczeń, idzie tutaj** — to jest miejsce, w którym ma
+  szansę wejść do jego mowy.
 
 ---
-
-> 🔴 **ZMIANA Z 2026-08-31 (sesja 8): misje 🎧 wypadają z kursu do końca 🧊 Erhaltungsmodus.**
-> Trzy puste meldunki z rzędu *(sesja 6: rap, „niewiele zrozumiałem" · sesja 7: nieodsłuchane
-> · sesja 8: nieodsłuchane)* i prośba Jakuba wprost: *„ich kein Zeit haben […] bitte usuń
-> diese Teile z lekcji, vielleicht später wenn ich nach Polen zurück bin"*.
->
-> **To nie jest brak dyscypliny — to dowód, że kanał nie mieści się w jego tygodniu.**
-> Podcast konkuruje o czas z kursem włoskiego i praktykami w Policlinico; rozmowa
-> ze Schwiegermutter dzieje się codziennie i nie kosztuje nic. **Misje przenoszą się
-> w całości na żywego rozmówcy.**
->
-> ✅ **Wracają w 🔥 Vollmodus**, po powrocie na studia do Polski — wtedy będą miały gdzie wejść.
-> 📖 **`Lesemission` zostaje bez zmian** — czytanie mieści się w jego tygodniu, sesje 7 i 8
-> to potwierdziły *(`Leseverstehen` 1/1 i 2/3)*.
->
-> 🔑 **Warunek zaliczenia przenosi się razem z kanałem:** „jedno zdanie, którego nie zrozumiałeś"
-> pochodzi teraz **od Schwiegermutter**, nie z nagrania. Sesja 6 pokazała, że z jednego takiego
-> zdania *(`die Dinge gegen Mücken … mit Feuerzeug`)* wypadła jedna reguła składniowa
-> i cztery słowa — **więcej niż z całej reszty misji.**
 
 ## Blok 1 — Kasus i grupa rzeczownikowa *(sesje 5–11)*
 
@@ -83,8 +59,8 @@ Cel: przestać się przewracać na końcówkach w środku poprawnie zbudowanego 
 | 7 | 🎧 **WDR „Quarks", nie „cokolwiek"** — 10 min + 5 grup z przyimkiem, każda oznaczona `D`/`A` · ➕ 3 zdania z `weil` **na żywym rozmówcy**, czasownik świadomie na końcu | `die Mutter meiner Freundin` · szyk podrzędny | Masz 5 grup z typem **i** wiesz, ile z trzech `weil`-zdań udało się dokończyć poprawnie |
 | 8 | 🗣️ **Live-Mission: cztery zdania z `für·um·durch·gegen·ohne`** w codziennej rozmowie ze Schwiegermutter · ➕ **jedno zdanie OD NIEJ, którego nie zrozumiałeś** | `ohne` bez rodzajnika | Wiesz, ile z czterech padło i czy po `ohne` wskoczył rodzajnik · masz zapisane jedno niezrozumiane zdanie |
 | 9 | 🗣️ **Live-Mission: `Wo?` czy `Wohin?`** — pięć zdań o tym, gdzie coś leży i dokąd je kładziesz, w rozmowie · ➕ jedno niezrozumiane zdanie od niej | Wechselpräpositionen | Przy 5 zdaniach potrafisz powiedzieć `Wo?` czy `Wohin?` |
-| 10 | ✍️ **Opisz swój pokój i drogę na uczelnię.** 10 zdań | rodzajniki + rodzaj | Przy każdym rzeczowniku rodzajnik napisany świadomie, nie z pamięci |
-| 11 | 🎯 🎤 **90 s: opis własnego dnia**, minimum 6 przymiotników w odmienionych grupach | `Adjektivendungen` | Nagranie bez przerwy dłuższej niż 3 sekundy |
+| 10 | 🗣️ **Live-Mission: rodzajnik na głos.** W rozmowie ze Schwiegermutter nazwij pięć rzeczy wokół siebie *(pokój, kuchnia, walizka)* **z rodzajnikiem**; przy jednej, której rodzaju nie jesteś pewien — zapytaj ją (`Heißt es der oder die …?`) · ➕ jedno niezrozumiane zdanie od niej · *dodatek:* ✍️ 5 zdań o swoim pokoju | rodzaj rzeczownika | Pięć rzeczy z rodzajnikiem + jedna sprawdzona u niej + jedno niezrozumiane zdanie |
+| 11 | 🗣️ **Live-Mission: przymiotnik w grupie** — trzy razy opowiedz jej coś z przymiotnikiem przed rzeczownikiem (`ein langer Dienst`, `mit dem neuen Kittel`) · ➕ jedno niezrozumiane zdanie · *dodatek:* 🎤 90 s o własnym dniu | `Adjektivendungen` | Trzy grupy powiedziane na głos + jedno niezrozumiane zdanie |
 
 ---
 
@@ -109,11 +85,11 @@ Cel: opowiadać o przeszłości i o rzeczach nierzeczywistych.
 
 | Sesja | Misja | Wymuszona konstrukcja | Zaliczone, gdy |
 |-------|-------|----------------------|----------------|
-| 18 | 🎧 **Ohrwurm — polowanie na `ist gefahren`.** Wypisz 6 form Perfekt i oznacz posiłkowy | `haben` vs. `sein` | Przy 6 formach zaznaczone, dlaczego `sein` |
+| 18 | ✍️ **Notatka z dyżuru w Präteritum** — 6 zdań, jak do `Arztbrief` · 🗣️ ta sama historia ustnie w Perfekt | Präteritum ↔ Perfekt | 6 zdań w Präteritum + ta sama historia opowiedziana |
 | 19 | ✍️ **Opowiedz weekend nad Renem** *(ten z sesji 3)* — teraz poprawnie | Partizip II mocnych | 8 zdań, min. 5 czasowników mocnych |
-| 20 | 🎧 **Ohrwurm — bajka albo opowiadanie.** Präteritum w narracji | `war, hatte, ging, kam` | Wypisz 10 form Präteritum i ich bezokoliczniki |
+| 20 | 🩺 **10 pytań do pacjenta** — napisz, potem zadaj trzy z nich Schwiegermutter jako „pacjentce” | forma `Sie`, pytania otwarte | 10 pytań, min. 4 otwarte (`Wie`, `Seit wann`, `Was`) |
 | 21 | ✍️ **Trzy rzeczy, które zrobiłeś PO tym, jak coś innego już się wydarzyło** | `nachdem` + Plusquamperfekt | 3 zdania, każde z dwoma czasami |
-| 22 | 🎯 🎤 **60 s: gdybyś nie studiował medycyny** | `Wenn ich…, würde ich…` | Min. 4 pełne warunki — **oba człony** |
+| 22 | 🎯 🎤 **60 s: poproś pacjenta o pięć rzeczy grzecznie** (`Könnten Sie…`, `Würden Sie bitte…`) + jeden pełny warunek | Konjunktiv II w rejestrze kliniki | 5 próśb w Konjunktiv II + 1 warunek z oboma członami |
 | 23 | 🩺 **Fachtext — opis badania.** Znajdź akapit ze stroną bierną | `wird…untersucht` | 5 zdań w stronie biernej, przepisane i przetłumaczone |
 | 24 | 🎯 🎤 **5 minut: najtrudniejszy dzień na studiach** | Perfekt + Präteritum + 1 Plusquamperfekt | Nagranie 5 min, wszystkie trzy czasy obecne |
 
@@ -125,7 +101,7 @@ Cel: mówić po niemiecku o tym, co i tak robisz po polsku.
 
 | Sesja | Misja | Wymuszona konstrukcja | Zaliczone, gdy |
 |-------|-------|----------------------|----------------|
-| 25 | 🩺 **Wywiad: napisz 15 pytań do pacjenta** | forma `Sie`, pytania otwarte | 15 pytań, min. 5 otwartych (`Wie`, `Seit wann`, `Was`) |
+| 25 | 🩺 **Pełny wywiad** — przeprowadź go z kimś na głos *(Schwiegermutter jako pacjentka)*, od skargi do wywiadu rodzinnego | struktura Anamnese | Wywiad bez przejścia na polski, wszystkie etapy |
 | 26 | 🩺 **Opisz 3 przypadki z praktyk** — objawy po niemiecku | `seit` + Dativ, `Schmerzen haben` | 3 opisy po 4 zdania |
 | 27 | 🩺 **Znajdź prawdziwy `Arztbrief`** i rozłóż jeden akapit | Nominalstil, Passiv | 10 słów wypisanych, 1 zdanie rozebrane na części |
 | 28 | 🎯 🎤 **`Fallvorstellung` — 2 min prezentacji przypadku** | struktura: Anamnese → Befund → Diagnose | Nagranie 2 min, struktura zachowana |
@@ -134,12 +110,8 @@ Cel: mówić po niemiecku o tym, co i tak robisz po polsku.
 
 ---
 
-## Awaryjne 5 minut
+## Awaryjne 2 minuty
 
-Zdarzy się tydzień, w którym misja nie wejdzie. Wtedy **minimum, które nadal się liczy**:
-
-1. **Jedno nagranie 60 s** o czymkolwiek, po niemiecku, bez przygotowania.
-2. **Jedna talia Quizlet** z ostatniej sesji.
-
-To zajmuje pięć minut i utrzymuje ciągłość. Zerowy tydzień kosztuje więcej, niż wygląda —
-przy braku immersji nic nie odświeża materiału poza tym, co sam zrobisz.
+Zdarzy się tydzień, w którym misja nie wejdzie. **Minimum, które nadal się liczy:**
+jedno zdanie od Schwiegermutter, którego nie zrozumiałeś — zapisane w telefonie.
+Rozmowy i tak się odbywają; brakuje tylko uwagi i zapisu.

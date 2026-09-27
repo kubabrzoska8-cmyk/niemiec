@@ -1,150 +1,119 @@
 # Profil ucznia
 
+> **Jedyne źródło prawdy o kontekście Jakuba.** Inne pliki linkują tutaj zamiast kopiować.
+> Wersja sprzed 2026-09-27 *(z sekcją historyczną „kurs bez immersji”)*:
+> [`archive/PROFILE_do-sesji-09.md`](archive/PROFILE_do-sesji-09.md).
+
 ## Podstawy
 
 | Pole | Wartość |
 |------|---------|
 | Imię | **Jakub** |
 | Język ojczysty (L1) | **polski** |
-| **Kontekst nauki** | 🔄 **CZĘŚCIOWA IMMERSJA** *(skorygowane 2026-08-21, sesja 5)* — praktyki w **Rzymie**, potem studia w **Polsce**. Niemiecki nie występuje w otoczeniu, **ale mama jego dziewczyny jest Niemką i Jakub rozmawia z nią codziennie**. Patrz sekcja ↓ |
+| Kontekst nauki | 🗣️ **Częściowa immersja** — patrz niżej |
 | Poziom — rozumienie | **B1+/B2−** — rozumie złożone wypowiedzi, dopytuje o pojedyncze słowa, nie o sens |
-| Poziom — produkcja | **B1** — buduje zdania złożone, ale z systematycznymi błędami fleksyjnymi. **To jest wąskie gardło** |
+| Poziom — produkcja | **B1** — buduje zdania złożone, gubi fleksję. **To jest wąskie gardło** |
 | Poziom docelowy (30 sesji) | **B2** — ogólny, z wątkiem medycznym |
-| Czas na sesję | **30 minut** (10 min Anki + 20 min lekcja) |
-| Częstotliwość | 🧊 2–3 / tydzień w Rzymie · 🔥 5–6 / tydzień po powrocie |
+| Czas na sesję | **~35 minut** (10 min Anki + 25 min lekcji) |
+| Częstotliwość | 🧊 2–3 / tydz. w Rzymie · 🔥 5–6 / tydz. po powrocie. **Realnie do sesji 9: ok. 1 / tydz.** |
 | Cele | **płynność w rozmowie** (priorytet) + niemieckie egzaminy medyczne |
-| Zawód | **student medycyny** |
-| Mocne strony leksykalne | interna, radiologia, ortopedia, układ ruchu |
-| Inne języki | polski (L1), angielski (swobodnie), **włoski (w toku — równoległy kurs 30-dniowy, A1→A2)** |
-| Narzędzia, których już używa | **Anki** — sam robi własne karty, ma nawyk („*meistens fange ich mit dem Anki an*") |
-| Start struktury kursu | Sesja 5 *(sesje 1–4 odbyły się przed jej wprowadzeniem)* |
+| Zawód | **student medycyny** — mocne działy: interna, radiologia, ortopedia |
+| Inne języki | polski (L1), angielski (swobodnie), **włoski** (równoległy kurs, A1→A2) |
+| Narzędzia | **Anki** — sam robi karty, ma nawyk |
+| Start struktury kursu | Sesja 5 *(sesje 1–4 przed jej wprowadzeniem)* |
 
 ---
 
-## 🚨 Korekta z 2026-08-21 (sesja 5) — przeczytaj przed sekcją niżej
+## Kontekst: częściowa immersja
 
-Wszystko poniżej zostało napisane **przed** sesją 5, przy założeniu, że Jakub nie ma żadnego
-kontaktu z niemieckim poza czatem. **To założenie jest częściowo nieprawdziwe.**
+**Mama dziewczyny Jakuba jest Niemką — rozmawia z nią po niemiecku codziennie** *(od sierpnia 2026;
+ujawnione na sesji 5)*. Do ok. **1.10.2026** Jakub jest w Rzymie na praktykach, potem wraca
+na studia do Polski. Poza tymi rozmowami niemiecki nie występuje w jego otoczeniu.
 
-> *„Ich spreche deutsch seit zwei Woche jeden Tag weil Mutter von meine Freundin deutsch ist"*
-> — Jakub, sesja 5
-
-**Mama jego dziewczyny jest Niemką. Codzienna rozmowa po niemiecku.** Co z tego wynika dla
-czterech punktów opisanych niżej:
-
-| Punkt niżej | Status po sesji 5 |
+| Co daje codzienna rozmowa | Czego nie daje |
 |---|---|
-| **1. Input trzeba dostarczyć** | ⚠️ **częściowo nieaktualne** — input mówiony jest codziennie. Ale input **czytany i specjalistyczny** (teksty medyczne, podcasty) nadal nie przyjdzie sam. `resources/` zostaje operacyjne. |
-| **2. Produkcja ustna nie wydarzy się sama** | ❌ **nieaktualne** — wydarza się codziennie. Blok `Gespräch` zostaje najdłuższy, ale przestaje być jedynym miejscem. **Misje `Sprachnachricht` można zastąpić misjami na żywym rozmówcy.** |
-| **3. Zapominanie jest głównym przeciwnikiem** | ⚠️ **osłabione** — ale Anki zostaje, bo rozmowa utrzymuje słownictwo codzienne, nie medyczne. |
-| **4. Dwa języki obce naraz** | ✅ **potwierdzone** — `Puglia` zamiast `Apulien`, sesja 5. |
+| płynność, długość wypowiedzi, słownictwo codzienne | **fleksji** — native rozumie mimo złej końcówki i nie poprawia *(sesja 5: 32 % po dwóch tygodniach rozmów)* |
+| utrwalenie struktur, których używa na co dzień *(klamra, Perfekt przetrwały 3–4 tygodnie bez ćwiczeń)* | struktur spoza kuchni — `der Nachname dieses Patienten` wyparował w dwie doby |
+| żywego rozmówcę do misji | tekstu pisanego, języka medycznego, poprawnych form seriami |
 
-> 🔑 **Najważniejsze odkrycie sesji 5:** dwa tygodnie codziennego mówienia po niemiecku
-> **nie poprawiły fleksji ani trochę** (32 % trafności w grupie rzeczownikowej). Poprawiły
-> płynność i długość wypowiedzi. Powód: **rozmówca-native rozumie mimo błędnej końcówki
-> i nie poprawia.** To jest dokładnie ta praca, której immersja nie wykona za kurs —
-> i dlatego oś programu (`Kasus` przed `Satzbau`) zostaje bez zmian.
+**Wnioski dla kursu:**
+- Sesja robi to, czego rozmowa nie zrobi: **forma** i **język medyczny**.
+- **Misje wstawiają strukturę dnia do rozmów ze Schwiegermutter** — tam ma szansę przetrwać.
+- Podcasty nie zmieściły się w jego tygodniu *(trzy puste meldunki, usunięte na jego prośbę)*.
+  Czytanie się mieści.
 
----
+### Interferencja — wzorzec, nie pomyłka
 
-## ⚠️ Sekcja historyczna: „kurs bez immersji" *(napisana 2026-08-21 rano, przed sesją 5)*
-
-W kursie włoskiego Jakub mieszka w Rzymie i ma native speakera pod ręką. **Tutaj nie ma nic.**
-Cztery konsekwencje, które przechodzą przez każdą decyzję w tym repo:
-
-**1. Input trzeba dostarczyć — nie jest za darmo.**
-Nie usłyszy niemieckiego w tramwaju ani przy kolacji. Jeśli sesja nie zada mu podcastu, tekstu
-albo nagrania, to przez najbliższy tydzień jego jedyny kontakt z niemieckim to 20 minut czatu.
-Dlatego `/resources/` jest w tym repo katalogiem operacyjnym, a nie ozdobnym, a **misja jest
-obowiązkowa**.
-
-**2. Produkcja ustna nie wydarzy się sama.**
-Czat kusi, żeby wszystko odpisać. Odpisywanie ćwiczy inny mechanizm niż mówienie — jest czas na
-przypomnienie sobie końcówki. Dlatego misje typu `Sprachnachricht` (nagraj 60 sekund) wracają
-regularnie, a blok `Gespräch` jest najdłuższy i nietykalny.
-
-**3. Zapominanie jest głównym przeciwnikiem, nie trudność materiału.**
-Przy 2–3 sesjach w tygodniu materiał z poprzedniego razu ma 3–4 dni na wyparowanie i nic go
-w międzyczasie nie odświeża. Stąd: **2 z 10 fiszek są zawsze ze starszego materiału**, a blok
-`Aufwärmen` sprawdza poprzednią sesję, zanim wejdzie cokolwiek nowego.
-
-**4. Uczy się dwóch języków obcych naraz — i to zostawia ślady.**
-`GAPS.md` kursu włoskiego notuje już „interferencję 🇩🇪". Ruch w drugą stronę też będzie i ma być
-liczony **jako osobny wzorzec**, nie jako przypadkowa pomyłka. Objawy do wyłapania:
-
-| Objaw | Skąd | Poprawnie po niemiecku |
-|-------|------|------------------------|
-| pominięty zaimek osobowy — *„bin müde"* | po włosku podmiot się pomija | **zawsze** `ich bin müde` |
-| czasownik na drugim miejscu w zdaniu podrzędnym | włoski nie przesuwa czasownika | `…, weil ich müde **bin**` |
-| włoskie słowo wstawione w niemieckie zdanie | dwa aktywne języki obce | — |
-| romańska konstrukcja „mieć N lat" | `ho 24 anni` | `ich **bin** 24 Jahre alt` |
+| Objaw | Skąd | Poprawnie |
+|-------|------|-----------|
+| pominięty podmiot — `weil hier zu heiß ist` *(s9)* | włoski pomija podmiot | `weil **es** hier zu heiß ist` |
+| czasownik na 2. miejscu w zdaniu podrzędnym — `dass du hast … gestellt` *(s9)* | włoski nie przesuwa czasownika | `dass du … gestellt **hast**` |
+| włoskie słowo — `Puglia` *(s5)* | dwa aktywne języki obce | `Apulien` |
+| angielskie słowo funkcyjne — `so` → brak V2 *(s7, s8)* | angielski jako język „awaryjny” | `also schreibe ich` |
+| słowo zbudowane od zera — `beantwortlich`, `Decizion` *(s7, s8)* | angielski/romański rdzeń | `zuständig`, `die Entscheidung` |
 
 ---
 
-## Profil błędów — co pokazały pierwsze cztery sesje
+## Profil błędów — stan po sesji 9
 
-Rozpiętość jest duża i **charakterystyczna dla samouka**: składnia zdania złożonego jest lepsza
-niż fleksja w obrębie grupy rzeczownikowej. Czyli — buduje poprawnie duże konstrukcje, a przewraca
-się na końcówkach.
+| Wymiar | Stan | Dowód |
+|--------|------|-------|
+| **Szyk zdania podrzędnego** | ✅ mocny | s3: 6/6 · s7: 4/4 do 18 słów |
+| **V2, klamra, Perfekt `haben`/`sein`** | ✅ | zamknięte w 1–2 sesje, przetrwały przerwę 21 dni |
+| **Konjunktiv II, oba człony** | ✅ | s5 · s8 spontanicznie |
+| **Reguły przypadków po przyimku** | ✅ przy uwadze na formie | s8 drill 7/7 · s9 luki 4/4 |
+| **Rodzaj rzeczownika** | 🔴 **fundament wąskiego gardła** | s9: poprawna reguła na złym rodzaju (`die Schrank`) |
+| **Determinant / fleksja w rozmowie** | 🟠 **65 %**, rośnie | 32 → 33 → 36 → 54 → 65 % *(s5–s9)* |
+| **Dobór przyimka rekcyjnego** | 🔴 | `an` jako domyślny: `warte … an`, `freue mich an` |
+| **Ortografia czatu** | nie jest luką | mała litera, brak Umlautów — wygoda klawiatury |
 
-| Wymiar | Poziom | Dowód z sesji |
-|--------|--------|---------------|
-| **Szyk zdania podrzędnego** | **dobry** | 2026-04-28: sześć poprawnych `Nebensätze` z rzędu (`weil`, `obwohl`), bez podpowiedzi |
-| **Zakres słownictwa** | **dobry** | Sam sięga po `erforschen`, `der Bewegungsapparat`, `faszinierend` |
-| **Deklinacja po przyimku** | 🔴 **słaby** | `in die nächsten Zukunft`, `mit einen kalten bier`, `nach ganzen tag am uni` — trzy błędy w jednej sesji |
-| **Rodzajniki i rodzaj** | 🔴 **słaby** | `meine Gehirn`, `das letztes mal`, `die Männliche Körper` |
-| **Wybór `haben`/`sein` w Perfekt** | 🔴 **słaby** | `ich habe reist`, `wir haben geblieben` |
-| **Formy Partizip II** | ⚠️ **niepewny** | `Gesprächen` zamiast `gesprochen`, `geschläft` zamiast `geschlafen` |
-| **Konjunktiv II — zdanie główne** | ⚠️ **niesprawdzony** | Zna `hätte` w warunku, nie dokłada `würde` w następniku |
-| **Ortografia** | ⚠️ | Rzeczowniki z małej litery, brak Umlautów. **Nie poprawiaj tego jako wzorca** — to zapis na czacie, nie brak wiedzy |
-
-**Aktualizacja po sesji 5 (2026-08-21) — pierwszy pomiar liczbowy:**
-
-| Wymiar | Kwiecień | Sesja 5 | Ruch |
-|---|---|---|---|
-| Szyk zdania podrzędnego | dobry | ✅ `weil` + `obwohl` + `dass` poprawnie | **utrzymany** |
-| Deklinacja po przyimku | 🔴 słaby | 🔴 **32 %** (6/19) | bez zmian — **wąskie gardło** |
-| Rodzajniki i rodzaj | 🔴 słaby | 🔴 `die größte unterschied`, `ganzes Zeit` | bez zmian |
-| `haben`/`sein` w Perfekt | 🔴 słaby | ✅ **4/4** | ⬆️ **naprawione** |
-| Formy Partizip II | ⚠️ niepewny | ✅ 7/7 (formy częste) | ⬆️ poprawa |
-| Konjunktiv II — zdanie główne | ⚠️ niesprawdzony | ✅ oba człony | ⬆️ **zmierzone, czyste** |
-| 🆕 Liczebnik + l.mn. | — | 🔴 3× `zwei Woche` | **nowa luka** |
-| 🆕 Rozwijanie wypowiedzi | ⚠️ (sesja 2) | ✅ 7 zdań z własnej inicjatywy | ⬆️ prawdopodobnie zasługa codziennych rozmów |
-
-> **Wniosek dla prowadzącego: nie zaczynaj od zdania. Zacznij od grupy rzeczownikowej.**
-> On umie zbudować `weil`-Satz. Nie umie w nim poprawnie odmienić `ein kaltes Bier`.
-> Dlatego blok 1 programu (sesje 5–11) to **Kasus i grupa rzeczownikowa**, a `Satzbau` czeka
-> do bloku 2 — mimo że w klasycznym kursie B1 byłoby odwrotnie.
+Szczegóły i pomiary: `GAPS.md`.
 
 ---
+
+## Jak się uczy — mechanizmy, które wpływają na każdą lukę
+
+Pięć rzeczy zmierzonych w sesjach 5–9. Każda ma konsekwencję dla prowadzenia.
+
+1. **Reguła wchodzi w jedną sesję i przecieka na pole obok.** `ohne die Kaffe`, `nach dem Hause`,
+   `nach den langen Dienst` *(reguła „przymiotnik `-en`” rozlana na rodzajnik pięć minut po podaniu)*.
+   ➡️ **Reguła zawsze z sąsiedztwem** — nazwij pole obok, na którym nie obowiązuje.
+   Paliwem przecieku jest **nieznany rodzaj**: w pustym polu wstawia najświeższy wzorzec.
+2. **Uwaga idzie tam, gdzie pokażesz palcem — i nigdzie indziej.** Pole nazwane w zadaniu 7/7,
+   pole nienazwane w tych samych zdaniach 0/3 *(s8)*. `ohne`: drill 1/1 → rozmowa 0/3 → post-test 3/3
+   w kwadrans. ➡️ Wiedza jest; brakuje **automatyzacji pod obciążeniem treści** — tę trenuje
+   `Gespräch`, nie kolejne wyjaśnienie.
+3. **Fiszka nie przechodzi sama do zdania.** Anki 94 % ↔ produkcja 58 % na tych samych słowach *(s9)*.
+   ➡️ Karty zdaniowe w talii; słowo podane raz w rozmowie nie wchodzi, musi przejść przez fiszkę.
+4. **Przetrwa to, co wchodzi do codziennej mowy.** ➡️ Struktura spoza jego rozmów idzie do misji.
+5. **Zwroty zafosylizowane nie reagują na recasting** *(4 miesiące bez zmiany)*, pękają po rozbiorze
+   wprost z pokazaniem draftu sprzed miesięcy *(dwa razy, po jednej sesji)*.
+   ➡️ Dla struktury dnia: prompt i samodzielna poprawka, nie recast.
 
 ## Jak z nim rozmawiać
 
-- **Chce znać regułę, zanim zacznie ćwiczyć.** Powiedział to wprost 2026-04-28:
-  *„erstmal können Sie mir bitte etwas erklären wie die Regeln sind […] wenn ich diese wissen,
-  kann ich erfolgen"*. Blok `Regel` jest u niego uzasadniony — ale trzyma się 4 minut.
-- **Mówi, kiedy jest za łatwo** — *„es ist ein bisschen langweilig gleiche Sätze wiederholen
-  und glaube ich zu einfach oder?"*. Traktuj to jako pomiar, nie narzekanie: znaczy, że drill
-  wyczerpał się szybciej, niż zakładałeś, i czas iść wyżej.
-- **Pyta o plan sesji.** Odpowiadaj jednym zdaniem i wracaj do niemieckiego.
-- **Ma poczucie humoru i chętnie odbija piłkę** (*„wir haben über das letztes mal gesprochen,
-  hast du vergessen"*). Rozmowa może być swobodna — to pomaga produkcji.
-- **Pisze bez Umlautów i z małej litery.** To wygoda klawiatury. Nie rób z tego luki.
+- **Chce znać regułę, zanim zacznie ćwiczyć** — *„erstmal können Sie mir bitte etwas erklären
+  wie die Regeln sind”*. Reguła krótko, z mechanizmem.
+- **Chce wiedzieć, w co celuje i co poszło źle** — sam poprosił o blok 0 i bilans *(s8)*.
+- **Mówi, kiedy jest za łatwo** — *„es ist ein bisschen langweilig gleiche Sätze wiederholen”*.
+  Traktuj to jako pomiar: kalibruj w górę.
+- **Poprawia metodę prowadzącego** — *„daj tę wieżę po polsku, bo takie przepisywanie nie ma sensu”*
+  *(s7, miał rację)*.
+- **Ma poczucie humoru** i chętnie odbija piłkę — rozmowa może być swobodna.
+- **Nie ma czasu na długie zadania domowe** — misja ma się mieścić w tym, co i tak robi.
 
 ---
 
 ## Kalibracja
 
-*(Ta sekcja jest aktualizowana, gdy zmienia się tempo lub trudność — patrz `CLAUDE.md`
-→ Zasady adaptacji.)*
-
 | Data | Zmiana | Powód |
 |------|--------|-------|
-| 2026-08-21 | **Struktura kursu wprowadzona.** Program 30 sesji, kolejność bloków odwrócona względem typowego B1: `Kasus` przed `Satzbau` | Profil błędów: składnia lepsza od fleksji |
-| 2026-08-21 | Tryb startowy: 🧊 **Erhaltungsmodus**, 10 nowych słów na sesję | Równoległy kurs włoskiego w Rzymie; niemiecki 2–3× / tydzień |
-| 2026-08-21 | **Sesja 5 = rediagnostyka**, nie kolejny temat | Przerwa 2026-04-29 → 2026-08-21 to ok. **16 tygodni** bez kontaktu z językiem |
-| 2026-08-21 *(po sesji 5)* | 🚨 **Kontekst skorygowany: częściowa immersja.** Mama dziewczyny jest Niemką, codzienna rozmowa po niemiecku od 2 tygodni | Ujawnione w bloku 1 sesji 5. Unieważnia część założeń projektowych — patrz `PROGRESS.md` → Dziennik obserwacji |
-| 2026-08-21 *(po sesji 5)* | **Tempo BEZ ZMIAN.** Blok 1 rusza sesją 6, bez sesji odbudowy | Drill **78 %** — środek strefy docelowej. `Closed` obroniło się 4,5/5, składnia przetrwała przerwę |
-| 2026-08-21 *(po sesji 5)* | **Cel bloku 1 ZAWĘŻONY** — nie „przypadki po przyimkach", tylko **tabela `mein/dein/ihr` w Dativ** | `mit meiner Freunden`: rzeczownik odmieniony **poprawnie** (`-n`), determinant błędnie. Luka jest o jedną komórkę tabeli, nie o cały system |
-| 2026-08-21 *(po sesji 5)* | **Drill izolowany wyczerpany jako narzędzie** — od sesji 6 reguła wchodzi do zdań o czymś innym | Rozjazd drill ↔ wolna produkcja = **46 pkt**, próg alarmowy to 30. Zna regułę, nie ma jej zautomatyzowanej |
-| 2026-08-21 *(po sesji 5)* | **Poziom produkcji potwierdzony jako B1**, rozumienie **B1+/B2−** — kwietniowa ocena aktualna | Pierwszy pomiar w historii kursu. Nie było regresu po przerwie |
+| 2026-08-21 | **Struktura kursu wprowadzona.** 30 sesji, `Kasus` przed `Satzbau` | Profil błędów: składnia lepsza od fleksji |
+| 2026-08-21 | 🧊 Erhaltungsmodus, 10 nowych słów na sesję | Równoległy kurs włoskiego w Rzymie |
+| 2026-08-21 | Sesja 5 = rediagnostyka | ~16 tygodni przerwy |
+| 2026-08-21 *(po s5)* | 🚨 **Kontekst: częściowa immersja** | Mama dziewczyny jest Niemką |
+| 2026-08-21 *(po s5)* | Tempo bez zmian; cel bloku 1 zawężony do determinanta w Dativ | Drill 78 %; `mit meiner Freunden` — rzeczownik ✅, determinant ❌ |
+| 2026-08-29 *(po s7)* | Drill: „jedno zadanie = jeden cel” | Drill 36 % przy 4–5 celach w zdaniu |
+| 2026-08-31 *(po s8)* | Misje słuchowe usunięte do końca 🧊; misje na żywym rozmówcy | Trzy puste meldunki i prośba Jakuba |
+| 2026-09-21 *(s9)* | Rodzaj rzeczownika → luka nr 1; limit Anki 15 | Reguła 4/4 przy rodzaju podanym, 2/4 bez |
+| **2026-09-27** | **Reset architektury:** `Gespräch` ≥ 10 min z rundami 3/2/1 i promptami; jedna liczba główna *(pierwsze 15 grup)*; cel cyklu 3 sesji zamiast tygodnia; maks. 3 Active; karty zdaniowe w Anki; historia do `archive/` | Analiza po sesji 9: kurs mierzył więcej, niż trenował; dokumenty sprzeczne z kontekstem od sesji 5 |

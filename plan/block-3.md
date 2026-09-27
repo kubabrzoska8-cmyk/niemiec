@@ -4,25 +4,27 @@
 warunek nierzeczywisty — oba człony, nie tylko `hätte`.
 **Anki:** podtalia `Blok 3 — Zeiten`.
 
-> **Dwie luki z kwietnia czekają dokładnie tutaj.** Active #2 (`haben`/`sein`) dostała
-> „brak danych" przez trzy sesje z rzędu, a Active #4 (Konjunktiv II) nie została sprawdzona
-> ani razu. Ten blok jest miejscem, w którym obie **muszą** dostać okazję — nie przy okazji,
-> tylko celowo.
+> **Rewizja 2026-09-27.** Blok był planowany pod dwie luki z kwietnia — `haben`/`sein` i warunek
+> Konjunktiv II. **Obie są zamknięte:** `haben`/`sein` 4/4 w sesji 5 i ✅ po 31 dniach bez ćwiczeń
+> w sesji 9; warunek w obu członach ✅ w sesji 5 i spontanicznie w sesji 8. Dlatego sesja 18
+> przejmuje Präteritum, zwolniona sesja 20 dostaje **Anamnese** (wątek medyczny wcześniej),
+> a sesja 22 uczy Konjunktivu w rejestrze kliniki. `haben`/`sein` zostaje jako 5-minutowa kontrola.
 
 ---
 
-## Sesja 18 — Perfekt: `haben` czy `sein` 🔴
+## Sesja 18 — Präteritum w narracji + kontrola `haben`/`sein` *(rewizja)*
 📄 Referencja: [`grammar/03-perfekt-haben-sein.md`](../grammar/03-perfekt-haben-sein.md)
 
-- **Reguła:** `sein` przy **ruchu z punktu A do B** i przy **zmianie stanu**. Reszta `haben`
-- **Lista `sein`:** `gehen, fahren, kommen, laufen, fliegen, reisen, bleiben, sein, werden,
-  aufstehen, einschlafen, aufwachen, sterben, passieren`
-- **⚠️ Dwa wyjątki, które psują regułę:** `bleiben` i `sein` **nie są ruchem**, a biorą `sein`.
-  Nauczyć jako parę, nie jako regułę
-- **⚠️ 🇵🇱 Pułapka:** polski nie ma tego rozróżnienia w ogóle — „byłem, pojechałem, zostałem"
-  to jeden mechanizm. Dlatego domyślnym wyborem Jakuba jest `haben` przy **wszystkim**
-- **Test:** czy czasownik odpowiada na `wohin?` → prawie na pewno `sein`
-- **Cel:** zamknąć Active #2 albo przynajmniej **zmierzyć ją po raz pierwszy**
+- **Gramatyka:** Präteritum jest czasem **pisanym i narracyjnym**; w mowie żyją tylko
+  `war, hatte, wurde` i modalne (`konnte, musste, wollte`)
+- **Reguła praktyczna:** mówisz o wczoraj → Perfekt. Piszesz historię albo `Arztbrief` → Präteritum
+- **⚠️ Nie ucz pełnych tabel Präteritum do produkcji.** Do rozpoznawania w tekście — tak.
+  Do mówienia wystarczy 8 czasowników
+- **Kontrola `haben`/`sein` — 5 minut, nie temat:** trzy pytania w `Gespräch` o ruchu i zmianie
+  stanu (`bin gefahren`, `bin geblieben`, `ist passiert`). Luka zamknięta w s5 — sprawdzamy tylko w rozmowie
+- **Uwaga o Futur I:** niemiecki wyraża przyszłość teraźniejszym — `Morgen fahre ich nach Berlin`.
+  Jedna uwaga, bez sesji
+- **Output:** wczorajszy dyżur opowiedziany ustnie (Perfekt) i napisany jako notatka (Präteritum)
 
 ## Sesja 19 — Partizip II czasowników mocnych
 - **Gramatyka:** grupowanie wzorcem samogłoskowym, nie alfabetycznie:
@@ -36,14 +38,14 @@ warunek nierzeczywisty — oba człony, nie tylko `hätte`.
   (`besucht`, `verstanden`)
 - **Output:** weekend nad Renem opowiedziany jeszcze raz — poprawnie
 
-## Sesja 20 — Präteritum: kiedy zamiast Perfekt
-- **Gramatyka:** Präteritum jest czasem **pisanym i narracyjnym**; w mowie żyją tylko
-  `war, hatte, wurde` i modalne (`konnte, musste, wollte`)
-- **Reguła praktyczna:** mówisz o wczoraj → Perfekt. Piszesz historię albo `Arztbrief` → Präteritum
-- **⚠️ Nie ucz się pełnych tabel Präteritum do produkcji.** Do rozpoznawania w tekście — tak.
-  Do mówienia wystarczy 8 czasowników
-- **Uwaga o Futur I:** niemiecki wyraża przyszłość teraźniejszym — `Morgen fahre ich nach Berlin`.
-  `werden + Infinitiv` służy raczej przypuszczeniu. Jedna uwaga, bez sesji
+## Sesja 20 — 🩺 Anamnese, część 1: pytania do pacjenta *(przesunięta z 25 — rewizja)*
+- **Po co tutaj:** cel kursu to egzaminy medyczne — język kliniki nie może czekać do ostatnich
+  sześciu sesji. Gramatyka jest gotowa: forma `Sie`, szyk pytania, pytania zależne *(sesja 13)*
+- **Zwroty:** `Was führt Sie zu mir?` · `Seit wann haben Sie diese Beschwerden?` ·
+  `Können Sie mir das genauer beschreiben?` · `Nehmen Sie regelmäßig Medikamente?`
+- **Kasus w tle:** `seit` + Dativ (`seit drei Tagen`), `Schmerzen **im** Bauch`
+- **⚠️ Rejestr:** pacjent mówi `Herzinfarkt`, nie `Myokardinfarkt` — umieć oba
+- **Output:** 10 pytań do pacjenta, pełnym zdaniem · część 2 *(pełny wywiad)*: sesja 25
 
 ## Sesja 21 — Plusquamperfekt i `nachdem`
 - **Gramatyka:** `hatte/war` + Partizip II — czynność wcześniejsza od innej przeszłej
@@ -53,15 +55,17 @@ warunek nierzeczywisty — oba człony, nie tylko `hätte`.
   Dlatego to jest konstrukcja **do zbudowania od zera**, nie do przetłumaczenia
 - **🔗 Łączy blok 2 z blokiem 3** — to zdanie podrzędne z następstwem czasów
 
-## Sesja 22 — Konjunktiv II: cały warunek 🔴
+## Sesja 22 — Konjunktiv II w rejestrze kliniki *(rewizja: warunek zamknięty w s5)*
 - **Gramatyka:** `hätte, wäre, würde + Infinitiv`, formy modalne `könnte, müsste, sollte`
 - **Reguła:** oba człony w trybie przypuszczającym. `Wenn ich Zeit **hätte**, **würde** ich
   mehr lesen`
-- **⚠️ Dokładnie ta luka:** Active #4 — `wenn ich mehr Freizeit hätte, **werde** ich…`.
-  Człon warunkowy poprawny, następnik w czasie przyszłym. **Klasyczny półkrok**
+- **Stan luki:** kwietniowe `wenn ich mehr Freizeit hätte, **werde** ich…` nie wróciło —
+  s5 ✅ oba człony, s8 ✅ spontanicznie `wäre`, `könnte`. **Warunek tylko jako kontrola w rozmowie**;
+  ciężar sesji idzie na grzeczność w klinice
 - **Skrót:** `würde + Infinitiv` działa prawie zawsze. Własnych form Konjunktiv II uczymy się
   tylko dla `haben, sein` i modalnych — reszta i tak brzmi archaicznie
-- **Grzeczność:** `Könnten Sie…?`, `Ich hätte gern…` — to ten sam tryb i codzienne użycie
+- **Grzeczność — trzon sesji:** `Könnten Sie sich bitte hinlegen?`, `Würden Sie bitte tief einatmen?`,
+  `Ich hätte gern Ihre Versichertenkarte` — tryb, którym mówi się do pacjenta
 - **Output:** 60 s „gdybyś nie studiował medycyny"
 
 ## Sesja 23 — Passiv

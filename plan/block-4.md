@@ -11,7 +11,7 @@ uczymy **niemieckiego opakowania** wiedzy, którą już masz.
 
 ---
 
-## Sesja 25 — Anamnese: wywiad z pacjentem
+## Sesja 25 — Anamnese, część 2: pełny wywiad *(część 1: sesja 20)*
 - **Struktura:** `Personalien → aktuelle Beschwerden → Vorerkrankungen → Medikamente →
   Allergien → Sozialanamnese → Familienanamnese`
 - **Gramatyka:** forma grzecznościowa `Sie`, pytania otwarte i zamknięte, pytania zależne
@@ -20,7 +20,7 @@ uczymy **niemieckiego opakowania** wiedzy, którą już masz.
   `Können Sie mir das genauer beschreiben?` · `Nehmen Sie regelmäßig Medikamente?`
 - **⚠️ Rejestr:** pacjent nie mówi `Myokardinfarkt`, tylko `Herzinfarkt`. Umieć **oba** —
   i wiedzieć, którego użyć do kogo. To jest osobna umiejętność, nie synonimy
-- **Output:** 15 pytań do pacjenta
+- **Output:** pełny wywiad odegrany w rozmowie — Claude jest pacjentem
 
 ## Sesja 26 — Symptome beschreiben
 - **Słownictwo:** `Schmerzen` *(stechend, drückend, brennend, dumpf)*, `Übelkeit`, `Schwindel`,
