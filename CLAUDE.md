@@ -79,6 +79,10 @@ Tryb zapisuj w `PROGRESS.md` → „Ostatnia sesja”. **Przy zmianie trybu powi
 
 ## A. Przed lekcją
 
+0. 🔴 **Sprawdź, czy pracujesz na aktualnych plikach:** `git log --oneline -3`
+   i porównaj z `origin/main` *(`git fetch origin main`)*. **Checkout w tyle → najpierw `git pull`,
+   potem lekcja.** Powód: sesja 10 poszła w całości ze **zarchiwizowanego** protokołu, bo kontener
+   sklonował repo sprzed resetu — i wysłała Jakubowi tekst wycofany na stałe. Wyłapał to on, nie ja.
 1. Przeczytaj `PROFILE.md`, `GAPS.md`, `PROGRESS.md` *(też → Egzamin)*, **`lessons/session-NN.md`**
    i w Etapie 1 wiersz tej sesji w **`plan/goethe-b2.md`**.
 2. Ustal numer sesji. Sprawdź **Active gaps** (maks. 3) — każda dostaje dziś okazję.
@@ -210,7 +214,11 @@ Bilans rozlicza wprost „✅ UDA SIĘ, JEŚLI” z bloku 0 — udało się / ni
 - **Struktura zamknięta w sesji N wraca jako zadanie w N+1 i N+3.** Jeśli nie wchodzi do jego
   codziennej mowy — następnym krokiem jest **misja na żywym rozmówcy**, nie trzecie ćwiczenie.
 - **Sonda nie powtarza dosłownie pytania z poprzedniej sesji** — Jakub je pamięta.
-- **Anki:** pytaj wyłącznie o kafelek **„Naprawdę zapamiętane”** *(nie prognozę FSRS)*.
+- **Anki: pytaj CO TRZECIĄ SESJĘ**, nie co sesję *(prośba Jakuba, 2026-09-28: „jaki jest sens
+  żebym ci codziennie wysyłał screena”)* — albo gdy zbliża się decyzja o limicie, i wtedy powiedz,
+  po co pytasz. Retencja nie zmienia się z dnia na dzień, a przy 2–3 sesjach/tydz. okno jednej
+  sesji nie zawiera dość powtórek, żeby liczba coś znaczyła. Pytaj wyłącznie o kafelek
+  **„Naprawdę zapamiętane”** *(nie prognozę FSRS)*.
   < 80 % → 10 nowych/dzień · > 92 % **przy normalnym dopływie nowych słów** → 20/dzień.
 
 ---

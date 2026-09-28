@@ -16,6 +16,12 @@
 
 ## T-11 · `Fachtext` · pod sesję 11 *(Adjektivendungen)* · status: ⏳ nieużyty
 
+> ⚪ **Zostaje nieużyty po 28.09.** Sesja 11 dostała inny tekst
+> *(`Neue Regeln für ausländische Medizinstudenten`, `Nachrichtenmeldung`)*, bo został napisany
+> i wysłany w trakcie sesji 10 — ta sesja szła z przestarzałego checkoutu i nie widziała banku.
+> **Ten tekst nadaje się dalej**: gatunek `Fachtext` wraca w rotacji, a `Magenspiegelung`
+> to materiał FSP. Kandydat na sesję 13 albo 14.
+
 **Po co:** końcówki przymiotnika we wszystkich trzech odmianach, w tekście, który lekarz
 naprawdę daje pacjentowi *(Aufklärung — materiał FSP)*. Ekspozycja na `ist … erlaubt` *(Zustandspassiv)* bez wyjaśniania.
 

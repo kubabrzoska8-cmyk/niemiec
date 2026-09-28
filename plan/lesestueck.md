@@ -225,5 +225,8 @@ Przed napisaniem nowego tekstu: sprawdź gatunek *(rotacja)* i to, czy temat nie
 | 7 | Nachricht von Ursula | Nachricht | ✅ *(przed s7)* |
 | 8 | E-Mail vom Studiendekanat | Offizieller Text | ⚠️ czytany na sesji — nie został wysłany |
 | 9 | Beipackzettel: Ibuprofen 400 mg | Fachtext | ❌ nigdy — **wysłany trzy razy, wycofany na stałe** |
-| 10 | Zurück im Hörsaal | Reportage | ⏳ wysłany 2026-09-28 |
+| 10 | ~~Zurück im Hörsaal~~ | Reportage | ⚪ **NIEUŻYTY** — sesja 10 poszła z przestarzałego checkoutu i tekst nigdy nie wyszedł. **Nadaje się do użycia**, temat „powrót z zagranicy” dalej aktualny |
+| 10 | Beipackzettel: Ibuprofen *(podany po raz czwarty)* | Fachtext | ❌ **Jakub rozpoznał go w trakcie sesji** — *„Czy ty mi już identycznego tekstu nie wysłałeś?”*. Wycofany, tym razem naprawdę |
+| 10 | **Merkblatt für Famulanten, Station 4B** *(napisany na sesji, zastępczy)* | Fachtext | ✅ przeczytany **na sesji**, nie w domu — 📖 pomiar osłabiony. Pełna treść: draft sesji 10 |
+| 11 | **Neue Regeln für ausländische Medizinstudenten** | Nachrichtenmeldung | ⏳ wysłany 2026-09-28 razem z misją 10 |
 

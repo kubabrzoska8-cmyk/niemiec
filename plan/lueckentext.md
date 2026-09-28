@@ -92,6 +92,30 @@ Jakub odpowiada **samą formą**, jedną linijką na zdanie:
    pozostałych sześciu zdań**. Powód jest empiryczny: sesja 9 pokazała, że reguła
    `Wo?`/`Wohin?` daje **4/4 przy rodzaju podanym i 2/4 przy rodzaju do znalezienia** —
    czyli nawias z rodzajnikiem kasuje dokładnie tę zmienną, która decyduje o wyniku.
+   🔴 **AUDYT NAWIASÓW — dopisany po sesji 10. Sprawdzaj KAŻDY nawias osobno przed wysłaniem.**
+   **Nawias nie może zawierać formy, która JEST odpowiedzią.** Brzmi oczywiście i dlatego
+   przeszło niezauważone:
+   ```
+   Die Wirkung ________ Arzneimittels ist schwächer.    (dieses Arzneimittel)
+                 ↑ odpowiedź: dieses          nawias podaje: dieses
+   ```
+   **Genitiv nijaki jest identyczny z Nominativem nijakim** — zadanie odpowiadało samo sobie.
+   Jakub zauważył to natychmiast: *„Dieses? Chyba mi podałeś odp"*. **Pomiar wyrzucony.**
+
+   **Gdzie to gryzie najczęściej** *(formy tożsame w różnych przypadkach)*:
+
+   | Nawias podaje | Jest identyczny z |
+   |---|---|
+   | `dieses / ein / mein / kein` **nijakie** | Nominativ **i** Akkusativ nijaki *(przy `dieses` też Genitiv)* |
+   | `die` **żeńskie** i **l.mn.** | Nominativ **i** Akkusativ |
+   | `der` **męskie** | Nominativ męski **i** Dativ/Genitiv żeński |
+   | bezokolicznik `(wohnen)` | 1. i 3. osoba liczby mnogiej |
+
+   ✅ **Test w jednym ruchu:** *czy słowo z nawiasu, przepisane bez zmiany, daje poprawną
+   odpowiedź?* Jeśli tak — **zmień przypadek albo rodzaj w zdaniu.**
+   Poprawnie zbudowane to samo zadanie *(sesja 11, luka 7)*: nawias `(ein unbekanntes Wort)`,
+   odpowiedź `eines unbekannten` — **forma z nawiasu jest inna niż odpowiedź**.
+
 4. **Wyzwalacz musi stać w zdaniu.** Przyimek, czasownik rekcyjny, `Wo?`/`Wohin?` — coś,
    z czego przypadek **wynika**. Luka bez wyzwalacza jest losowaniem.
 5. **Jedna poprawna odpowiedź.** `Ich gehe in ____ Klinik` ma dwie *(`die` i `der`)* — chyba że

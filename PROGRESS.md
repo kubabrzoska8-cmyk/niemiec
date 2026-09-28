@@ -10,17 +10,24 @@
 
 | Pole | Wartość |
 |------|---------|
-| Ostatnia ukończona sesja | **Sesja 9** — `Wo? ↔ Wohin?` *(pierwsza po 21 dniach przerwy)* · 2026-09-21 |
-| 🟢 Wolna produkcja | **11/17 = 65 %** *(sesja 8: 54 %)* |
-| Pomiary pomocnicze | rediagnostyka 3,5/6 · drill 5/8 · 🧩 Lückensätze **7/10** *(reguła dnia 4/4 · Active 1/3 · przeplatanie 1/2 · sonda 1/1)* · 📖 brak *(tekst nieprzeczytany)* |
-| Wynik dnia | **Reguła dnia jest opanowana — luką jest rodzaj rzeczownika pod nią.** Luki 4/4 *(rodzaj podany)* → drill 2/4 *(rodzaj do znalezienia)* → rozmowa 0/1 |
-| Cel dnia | ❌ `im`/`ins` nie padły w rozmowie; w miejscu `im` padło `in das Haus` *(to samo zdanie co w sesji 7)* |
-| Następna sesja | **Sesja 10 — rodzaj rzeczownika** · plan: [`lessons/session-10.md`](lessons/session-10.md) |
-| 📍 Gdzie jest Jakub | Rzym do ok. **1.10.2026**, potem studia w Polsce |
-| Tryb | 🧊 **Erhaltungsmodus** → 🔥 **Vollmodus od pierwszej sesji po powrocie** *(powiedzieć Jakubowi wprost)* — **min. 3 sesje / tydz. do egzaminu** |
-| 🎯 **Cel** | **Etap 1: Goethe-Zertifikat B2 do końca 2026** → Etap 2: Fachsprachprüfung *(decyzja Jakuba 2026-09-28; plan: `plan/goethe-b2.md`)* |
-| 🗣️ Immersja | rozmowy z mamą dziewczyny nadal codziennie |
-
+| Ostatnia ukończona sesja | **Sesja 10** — `Der, die oder das?` — rodzaj rzeczownika · 2026-09-28 |
+| 🟢 Wolna produkcja | **5/13 = 38 %** *(sesja 9: 65 %)* ⚠️ **NIEPORÓWNYWALNE — patrz niżej** |
+| Pomiary pomocnicze | rodzaj nazwany **4/8** · drill **5/8** · 🧩 Lückensätze **5/10** *(reguła dnia **1/4** · Active **2/2** · przeplatanie 1/2 · **sonda 0/1**)* · 📖 **2/3** *(pomiar osłabiony)* |
+| 🚨 **Sesja poszła ze STARYCH plików** | Kontener sklonował repo na commicie sprzed resetu z 27–28.09. Lekcja przebiegła wg **zarchiwizowanego** protokołu: `Gespräch` ~7 min zamiast ≥ 11, **bez rund z korektą**, bez „mówionego niemieckiego dnia”, fiszki bez post-testu, cel tygodniowy zamiast cyklu. **`Lesemission` poszła jako wycofany `Beipackzettel`** — Jakub go rozpoznał i tekst wymieniono na żywo. ➡️ **Dlatego 🟢 i 📖 są nieporównywalne.** Szczegóły: draft |
+| Wynik dnia | **Sesje 9 i 10 dokładnie się odwróciły.** s9: kierunek `Wo?/Wohin?` **4/4** przy rodzaju podanym, rodzaj ❌. s10: rodzaj ✅ *(`der Schrank` 4/4)*, kierunek **0/2** — **w tym w luce, gdzie rodzaj STAŁ W NAWIASIE**. ➡️ **Obie reguły umie. Obu naraz nie mieści** → nowa luka Active #3 |
+| Odkrycie dnia | **Błąd kierunku ma drugie źródło: `legen` ↔ `liegen`.** `alle Klamotten **im Koffer liegen**` — wybrał czasownik nieprzechodni, a przypadek poszedł za nim **poprawnie**. **To nie był błąd przypadka, tylko błąd czasownika, który go pociągnął.** Polski ma jeden czasownik tam, gdzie niemiecki ma cztery pary |
+| Cel dnia | ✅ **OSIĄGNIĘTY** — `in den Schrank` i `im Schrank`, rodzaj męski, dwa różne zdania, **w pierwszych trzech minutach, zanim cokolwiek wyjaśniłem** |
+| 🏆 Zaliczone | **sonda `der Schrank` 4/4** *(s9: żeński ×2)* · **`sich freuen auf` 2/2 — pierwszy poprawny dobór przyimka w kursie** · **`ins Sekretariat`** *(s8 `die`, s9 `der`)* · **`nach dem Dienst`** stabilne · **`meinen Bericht`** ✅ po dwóch ❌ tego samego dnia |
+| 📈 Ruch w celu cyklu | **`im` po raz pierwszy w kursie padło w wolnej rozmowie samo** — dwa razy, oba w miejscu `in den`. **Forma ściągnięta jest już odruchem; zostaje wybór** |
+| 🔻 Regres | **zaimek zwrotny 0/2** *(s7: 2/2)* — oba pudła w zdaniach, których cel był gdzie indziej ⇒ odczyt #3, nie osobna luka |
+| ⚠️ Błędy prowadzącego | cztery, **wszystkie wyłapane przez Jakuba**: ① pytanie o Anki dzień po pytaniu o Anki · ② stwierdziłem, że nie wysłałem tekstu — **wysłałem** · ③ recyklowany tekst *(drugi raz w dwóch sesjach)* · ④ luka 6 podawała odpowiedź w nawiasie. 🔑 **Wspólny mianownik: nie sprawdzam zapisów przed mówieniem** |
+| 📦 Anki | **nie pytałem — zasada zmieniona na prośbę Jakuba:** *„jaki jest sens żebym ci codziennie wysyłał screena”*. **Pytam co trzecią sesję** *(najbliżej: s12)* albo gdy zbliża się decyzja o limicie. Retencja nie zmienia się z dnia na dzień. **+15 słów: 121 słów / 230 kart** |
+| ⚪ Puste pomiary | misja 9 *(odpuszczona na prośbę Jakuba)* · Anki · zdanie od Schwiegermutter · luka 6 · klamra *(brak okazji)* |
+| Następna sesja | **Sesja 11 — `Adjektivendungen`** · plan: [`lessons/session-11.md`](lessons/session-11.md). 🔴 **`Regel` zaczyna się od `legen/liegen · stellen/stehen`, nie od przymiotnika** · 🔴 **luki 1–4 PODAJĄ rodzaj** *(patrz GAPS #3)* |
+| 📍 Gdzie jest Jakub | Rzym — powrót do Polski **~3.10**. **Sprawdzić na starcie s11, czy przenosiny ruszyły** |
+| Tryb | 🧊 **Erhaltungsmodus** → 🔥 **Vollmodus od pierwszej sesji po powrocie** — **min. 3 sesje / tydz. do egzaminu** *(powiedzieć wprost)* |
+| 🎯 Cel | **Etap 1: Goethe-Zertifikat B2 do końca 2026** → Etap 2: Fachsprachprüfung |
+| 🗣️ Immersja | rozmowy z mamą dziewczyny nadal codziennie · ⚠️ **dwie sesje z rzędu bez rozliczonej misji i bez zdania od Schwiegermutter** — jeśli misja 10 też nie wejdzie, **zmienić format** |
 ---
 
 ## 🎓 Egzamin — Goethe-Zertifikat B2
@@ -49,7 +56,7 @@
 
 | Cykl | Cel | Warunek zaliczenia | Wynik |
 |---|---|---|---|
-| **Sesje 10 · 11 · 12** | **Rodzajnik przestaje być zgadywanką — grupa rzeczownikowa w rozmowie ≥ 70 %** | W `Gespräch` sesji 12: **wolna produkcja ≥ 11/15**, zero błędów rodzaju przy rzeczownikach z lekcji 10, które padną *(`Koffer`, `Zimmer`, `Semester`, `Schreibtisch`, `Stundenplan`, `Straßenbahn`, `Bett`, `Termin`)*, i **min. 2 poprawne `im`/`ins`/`in der`/`in die`** bez podpowiedzi | ⏳ |
+| **Sesje 10 · 11 · 12** | **Rodzajnik przestaje być zgadywanką — grupa rzeczownikowa w rozmowie ≥ 70 %** | W `Gespräch` sesji 12: **wolna produkcja ≥ 11/15**, zero błędów rodzaju przy rzeczownikach z lekcji 10, które padną, i **min. 2 poprawne `im`/`ins`/`in der`/`in die`** bez podpowiedzi | ⏳ **po s10: 5/13 = 38 %.** Rodzaj przy rzeczownikach z lekcji: ✅ `Koffer` *(rodzaj ✅, przypadek ❌)*, ❌ `Termin`, ❌ `Zimmer` w D1b *(ale ✅ w drillu)*. `im`/`ins`: **2 wystąpienia, oba błędne — pierwsze w kursie w wolnej rozmowie**. ⚠️ Lista rzeczowników pochodziła z tekstu `Zurück im Hörsaal`, który **nie został użyty** *(stary checkout)* — na s11 i s12 liczą się rzeczowniki z tekstów faktycznie wysłanych |
 | 21.09 – 27.09 *(tydzień)* | `im` ↔ `ins` ma wychodzić w rozmowie | 4 poprawne grupy po przyimku z rzędu w sesji 11 | ⚪ **nierozliczony** — odbyła się 1 z 3 sesji *(s9: `im`/`ins` 0/1)*. Warunek `im`/`ins` przechodzi do cyklu 10–12 |
 | 31.08 – 06.09 *(tydzień)* | grupa po przyimku w rozmowie | 4 poprawne grupy z rzędu w sesji 10 | ⚪ **nierozliczony** — przerwa 21 dni |
 
@@ -75,6 +82,7 @@ Pomiary pomocnicze to diagnostyka — **nie porównuj ich między sesjami ani z 
 | **8** | 2026-08-31 | `für · um · durch · gegen · ohne` | **7/13 = 54 %** | drill 7/7 *(1 cel)* · post-test 6/10 · 📖 2/3 | 96 / ~180 | misje słuchowe usunięte; reguła N+1 / N+3 |
 | — | — | ⏸️ **przerwa 21 dni** — jedyny kontakt: talia Anki | — | — | — | — |
 | **9** | 2026-09-21 | `Wo? ↔ Wohin?` | **11/17 = 65 %** | rediagnostyka 3,5/6 · drill 5/8 · 🧩 7/10 · 📖 brak | 106 / 200 | rodzaj → Active #1; limit Anki zostaje 15 |
+| **10** | 2026-09-28 | `Der, die oder das?` — rodzaj rzeczownika | **5/13 = 38 %** ⚠️ *(stary protokół: rozmowa ~7 min bez rund, temat „pakowanie” = najgęstszy `Wohin?` w kursie — **nieporównywalne**)* | rodzaj nazwany 4/8 · drill 5/8 · 🧩 **5/10** *(reguła dnia **1/4** · Active 2/2 · przeplatanie 1/2 · sonda 0/1)* · 📖 2/3 *(osłabiony)* · 🏆 sonda `der Schrank` 4/4 | 121 / 230 *(+15)* · **nie pytałem** | 🚨 **sesja z przestarzałego checkoutu** — patrz „Ostatnia sesja” · 🆕 **Active #3: alokacja uwagi** *(dwie reguły naraz się nie mieszczą)* · ⬇️ **przyimek rekcyjny → Watching** *(`sich freuen auf` 2/2, pierwsze trafienie w kursie)* · 🔴 `legen/liegen` do `Regel` sesji 11 · 📦 **Anki: pytanie co trzecią sesję** *(prośba Jakuba)* |
 
 ---
 

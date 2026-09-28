@@ -14,3 +14,15 @@ szafa	der Schrank, Schränke
 termin, wizyta, umowione spotkanie	der Termin, -e
 klasc / lezec	legen – legte – hat gelegt / liegen – lag – hat gelegen
 cieszyc sie na cos	sich freuen auf + Akkusativ – freute sich – hat sich gefreut
+wejść (do pomieszczenia)	betreten – betrat – hat betreten
+identyfikator, plakietka	das Namensschild, -er
+referat, prezentacja	das Referat, -e
+pokoj, sala	das Zimmer, –
+korytarz	der Flur, -e
+walizka	der Koffer, –
+reka, dlon	die Hand, Hände
+ladowanie	die Landung, -en
+kłaść coś gdzieś	legen – legte – hat gelegt
+leżeć gdzieś	liegen – lag – hat gelegen
+stać gdzieś	stehen – stand – hat gestanden
+stawiać coś gdzieś	stellen – stellte – hat gestellt
