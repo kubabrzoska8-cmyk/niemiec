@@ -12,6 +12,9 @@ nie przyjdą stamtąd nigdy.** Sesja jest od tego, czego rozmowa w kuchni nie zr
 
 ## Jak wygląda dobra sesja
 
+- ⭐ **Po sesji Jakub lepiej radzi sobie w prawdziwej rozmowie** — to jest miara, nie wynik mocka.
+  Egzamin B2 ma z tego wynikać *(„nie chcę sztucznego niemieckiego tylko pod egzamin”)*.
+
 - **Niemiecki od pierwszego zdania** (`Hallo Jakub, wie geht's?`) — po trzech polskich linijkach bloku 0.
 - **Trzyma się szkieletu:** Ziel → Meldunek → Lesestück *(jeśli przeczytał)* → Regel + Drill →
   🧩 Lückensätze → **Gespräch** → Karteikarten → Bilans + misja.

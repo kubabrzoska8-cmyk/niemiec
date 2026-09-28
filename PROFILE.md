@@ -16,7 +16,7 @@
 | Poziom docelowy | **Etap 1: Goethe-Zertifikat B2 do końca 2026** · Etap 2: **Fachsprachprüfung** *(C1 zawodowy)* |
 | Czas na sesję | **~35 minut** (10 min Anki + 25 min lekcji) |
 | Częstotliwość | 🧊 2–3 / tydz. w Rzymie · 🔥 5–6 / tydz. po powrocie. **Realnie do sesji 9: ok. 1 / tydz.** |
-| Cele | **Goethe B2 jeszcze w 2026** *(warunek dopuszczenia do FSP)*, potem **Fachsprachprüfung** — potwierdzone przez Jakuba 2026-09-28 · płynność w rozmowie zostaje osią |
+| Cele | ⭐ **OŚ: prawdziwa komunikacja** — radzić sobie w codziennych rozmowach *(„nie chcę sztucznego niemieckiego tylko pod egzamin” — 28.09)* · kamienie milowe: **Goethe B2 jeszcze w 2026** *(warunek FSP)*, potem **Fachsprachprüfung** |
 | Zawód | **student medycyny** — mocne działy: interna, radiologia, ortopedia |
 | Inne języki | polski (L1), angielski (swobodnie), **włoski** (równoległy kurs, A1→A2) |
 | Narzędzia | **Anki** — sam robi karty, ma nawyk |
@@ -116,6 +116,7 @@ Pięć rzeczy zmierzonych w sesjach 5–9. Każda ma konsekwencję dla prowadzen
 | 2026-08-29 *(po s7)* | Drill: „jedno zadanie = jeden cel” | Drill 36 % przy 4–5 celach w zdaniu |
 | 2026-08-31 *(po s8)* | Misje słuchowe usunięte do końca 🧊; misje na żywym rozmówcy | Trzy puste meldunki i prośba Jakuba |
 | 2026-09-21 *(s9)* | Rodzaj rzeczownika → luka nr 1; limit Anki 15 | Reguła 4/4 przy rodzaju podanym, 2/4 bez |
+| **2026-09-28** | **Komunikacja jako oś, egzamin jako skutek:** trening egzaminacyjny ≤ ~20 % lekcji, mocki jako praca domowa, misje = prawdziwe wiadomości (też nieformalne), „mówiony niemiecki dnia” w każdej lekcji, pomiar strategii w rozmowie | Prośba Jakuba po przebudowie pod egzamin |
 | **2026-09-28** | **Cel: Goethe-Zertifikat B2 do końca 2026, potem FSP.** Plan przebudowany na dwa etapy; w Etapie 1 każdy blok lekcji ćwiczy moduł egzaminu; mocki w s12 i s23; min. 3 sesje / tydz. | Decyzja Jakuba; B2 jest warunkiem dopuszczenia do FSP |
 | **2026-09-28** | **Research → zmiany w protokole:** cel = Fachsprachprüfung *(do potwierdzenia)*; rundy w `Gespräch` z korektą po pierwszej i bez skracania czasu; korekta: prompt → reguła → forma; Konjunktiv I do dokumentacji; sesja 30 = mini-FSP. Podstawa: `plan/metodyka.md` | 4/3/2 bez korekty poprawia płynność, nie poprawność; FSP obowiązkowa też dla lekarzy z UE |
 | **2026-09-28** | **Nic nie wraca dosłownie** + strażnik `lessons/sprawdz_powtorki.py`; materiał idzie za jego życiem w Polsce, nie za Policlinico | Tekst o ibuprofenie wysłany trzy razy; lekcja 10 z resetu miała 29 zdań powtórzonych z sesji 9 |

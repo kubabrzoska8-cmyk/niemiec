@@ -1,5 +1,8 @@
 # PLAN — dwa etapy: Goethe-Zertifikat B2 → Fachsprachprüfung
 
+> ⭐ **Oś kursu: prawdziwa komunikacja w codziennych rozmowach.** Egzaminy to kamienie milowe,
+> które z niej wynikają — nie program *(Jakub, 2026-09-28; `plan/goethe-b2.md` → Zasada nadrzędna)*.
+>
 > **Przebudowany 2026-09-28** po decyzji Jakuba: najpierw **Goethe-Zertifikat B2 do końca 2026**,
 > potem **Fachsprachprüfung**. Poprzedni plan „30 sesji, test końcowy w sesji 30” jest w historii git
 > i w `archive/`.

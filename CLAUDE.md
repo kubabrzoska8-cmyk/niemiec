@@ -9,7 +9,12 @@
 Kurs niemieckiego dla **Jakuba** — **B1 → B2**, z wątkiem medycznym. Wyjaśnienia **po polsku**,
 ćwiczenia i rozmowa **po niemiecku**. Sesja **~35 minut** = 10 min Anki + **25 min lekcji**.
 
-🎯 **Cel — dwa etapy** *(decyzja Jakuba, 2026-09-28)*:
+⭐ **OŚ KURSU: prawdziwa komunikacja** — radzić sobie w codziennych rozmowach, ze Schwiegermutter,
+na uczelni, a potem w szpitalu. *„Nie chcę się uczyć sztucznego niemieckiego tylko pod egzamin”*
+*(Jakub, 2026-09-28)*. **Egzaminy są kamieniami milowymi, które z tego wynikają — nie programem.**
+Jeśli zadanie ma sens tylko na egzaminie, przerób je na coś, co ma sens w życiu.
+
+🎯 **Kamienie milowe** *(decyzja Jakuba, 2026-09-28)*:
 1. **Goethe-Zertifikat B2 do końca 2026** — Lesen, Hören, Schreiben, Sprechen *(60/100 każdy)*.
    Plan i harmonogram: **[`plan/goethe-b2.md`](plan/goethe-b2.md)** — czytaj przed każdą sesją Etapu 1.
 2. **Fachsprachprüfung** *(2027)* — wywiad z pacjentem · dokumentacja · przekazanie pacjenta
@@ -48,7 +53,7 @@ dopasowujesz tempo i zapisujesz postęp.
 │                    metodyka.md (badania), bank-tekstow.md (nowe teksty, każdy raz),
 │                    goethe-b2.md (Etap 1: egzamin, harmonogram, mocki)
 ├── lessons/       ← session-NN.md — KOMPLETNY plan lekcji + sprawdz_powtorki.py (strażnik)
-├── grammar/       ← referencje gramatyczne pod Polaka *(05-genus.md — rodzaj, wąskie gardło)*
+├── grammar/       ← referencje pod Polaka *(05-genus — rodzaj · 06-mowiony-niemiecki — jak prowadzić rozmowę)*
 ├── resources/     ← źródła inputu
 ├── anki/          ← wordlists/*.tsv (źródło prawdy) + generatory Anki i Quizlet
 ├── quizlet/       ← talie do quizu (generowane)
@@ -89,16 +94,18 @@ Tryb zapisuj w `PROGRESS.md` → „Ostatnia sesja”. **Przy zmianie trybu powi
 | **0. Ziel** ⭐ | 30 s · pisany | Trzy linijki po polsku — spec niżej |
 | **1. Meldunek** | 2 min | Misja na żywym rozmówcy: ile razy struktura padła w rozmowie + **jedno zdanie od Schwiegermutter, którego nie zrozumiał** *(warunek zaliczenia misji)* |
 | **2. Lesestück** 📖 | 3 min | **Tylko jeśli przeczytał.** D4 → D1 → D2 *(D3, jeśli starczy czasu)*. Nieprzeczytany → blok przepada, minuty idą do rozmowy, **a tekst nie wraca już nigdy**. **Nie czytamy na sesji.** Spec: `plan/lesestueck.md` |
-| **3. Regel + Drill** | 4 min | Reguła **+ sąsiedztwo** *(pole obok, na którym nie obowiązuje)*, ≤ 90 s, z kontrastem PL→DE. Potem 5–7 zdań PL→DE: **jeden cel na zdanie + jedno zdanie z dwoma celami** jako sonda. Zero wyboru z listy |
+| **3. Regel + Drill** | 4 min | Reguła **+ sąsiedztwo** *(pole obok, na którym nie obowiązuje)*, ≤ 90 s, z kontrastem PL→DE. Potem 5–7 zdań PL→DE: **jeden cel na zdanie + jedno zdanie z dwoma celami** jako sonda. Zero wyboru z listy. **+ 🗣️ mówiony niemiecki dnia** — jedna rzecz z `grammar/06-mowiony-niemiecki.md` *(jak ratować rozmowę, reagować, zgadzać się naturalnie)*, która **musi paść w bloku 5** |
 | **4b. Lückensätze** 🧩 | 3 min · pisany | 10 zdań, w każdym jedna luka na jedno słowo, forma podstawowa w nawiasie. Spec: `plan/lueckentext.md` |
 | **5. Gespräch** 🗣️ | **≥ 11 min** | **Nietykalny i najdłuższy.** Spec niżej. Każda minuta zaoszczędzona gdzie indziej idzie tutaj |
 | **6. Karteikarten** | 2 min · pisany | 10 fiszek PL→DE — **Jakub wpisuje odpowiedzi na czacie** *(post-test)*. Spec niżej |
 | **7. Bilans** ⭐ | 1,5 min · pisany | Rozliczenie — spec niżej |
 | **+ Misja** | — | Misja z `plan/missions.md` — w Etapie 1 **rdzeń Live + zadanie egzaminu** *(Forumsbeitrag / formelle Nachricht / mock wg `plan/goethe-b2.md`)* + **`Lesemission` wklejona w czat** |
 
-> 🎓 **Etap 1 — każdy blok ćwiczy moduł Goethe B2:** rundy w `Gespräch` = **Vortrag** *(wstęp ·
-> alternatywy · zalety/wady · opinia · zakończenie)*, rozmowa = **Diskussion** *(Claude ma inne zdanie)*,
-> misja = **Schreiben**, Lesestück = typy tekstów z **Lesen**. Tabela: `plan/goethe-b2.md`.
+> 🎓 **Etap 1 — życie najpierw, egzamin przy okazji:** rundy w `Gespräch` = opowiedzieć albo
+> przekonać o czymś **z jego życia** *(raz na kilka sesji w strukturze Vortragu)*, rozmowa = czasem
+> **prawdziwy spór** *(Diskussion)*, misja = **prawdziwe wiadomości** — formalne i nieformalne *(Schreiben)*,
+> Lesestück = teksty, które i tak czytałby *(Lesen)*. **Sam trening egzaminacyjny ≤ ok. 20 % czasu
+> lekcji**; mocki Lesen/Hören/Schreiben to praca domowa. Tabela: `plan/goethe-b2.md`.
 
 > ⏱️ Bloki 0, 4b, 6 i 7 są **pisane** — Jakub robi je we własnym tempie, więc kosztują mniej,
 > niż mówi tabela. **Gdy brakuje czasu, tniesz w tej kolejności:** D3 → Lückensätze do 6 zdań →
@@ -177,6 +184,7 @@ Bilans rozlicza wprost „✅ UDA SIĘ, JEŚLI” z bloku 0 — udało się / ni
 | drill | regułę w zdaniu budowanym od zera | `x/y` celów |
 | 🧩 Lückensätze | regułę przy gotowej składni | `x/10` + rozbicie: reguła dnia · Active · przeplatanie · sonda |
 | 📖 Leseverstehen | rozumienie tekstu | D2 + D4 |
+| 🗣️ Radzenie sobie w rozmowie | czy rozmowa idzie dalej, kiedy brakuje słowa | w bloku 5: **ile razy przeszedł na PL/EN** ↔ **ile razy użył strategii** *(`Wie sagt man …?`, `So was wie …`, `Ich meine …`)*. Cel: strategii więcej niż przełączeń |
 | 🎓 mock Goethe B2 | gotowość do egzaminu, moduł po module | 0–100, zalicza 60, cel ≥ 70; tabela w `PROGRESS.md` → Egzamin *(`plan/goethe-b2.md`)* |
 
 - **Nie uśredniaj ich i nie porównuj między sobą** — to różne instrumenty.
@@ -251,6 +259,9 @@ Powiedz Jakubowi, że to zrobiłeś.**
 - 🔁 **Nic nie wraca dosłownie** — tekst, pytanie, zdanie z drillu, luki czy fiszki. **Ta sama
   struktura, nowe zdanie.** Nieprzeczytany tekst przepada. Tekst o ibuprofenie Jakub dostał
   trzy razy, a sondę z sesji 8 rozpoznał w sesji 9 — pilnuje tego `lessons/sprawdz_powtorki.py`.
+- **Żadnych wyuczonych formułek do rozmowy.** Formuły egzaminacyjne *(`Einerseits … andererseits`,
+  `Zusammenfassend …`)* — tylko w prezentacji i w piśmie. W rozmowie tak, jak mówią ludzie:
+  `Also, ich finde …`, `Stimmt, aber …`, `Kommt drauf an.` *(`grammar/06-mowiony-niemiecki.md`)*.
 - **Zdania z jego AKTUALNEGO życia** *(gdzie jest — `PROFILE.md`)*: od października uczelnia
   w Polsce, pokój, dojazdy, egzaminy, Kommilitonen, Schwiegermutter. Rzym i Policlinico to już
   wspomnienie — nie rdzeń materiału.

@@ -51,14 +51,17 @@
 
 ## 🎓 Etap 1 — misje pod Goethe B2 *(od sesji 10)*
 
-**Misja = rdzeń Live + zadanie egzaminu.** Kolejność zadań: tabela w `plan/goethe-b2.md`.
+**Misja = rdzeń Live + prawdziwe zadanie, które przy okazji trenuje egzamin.** Kolejność: `plan/goethe-b2.md`.
+⭐ **Najpierw życie:** każda wiadomość ma prawdziwego adresata albo prawdziwą sprawę.
+Format egzaminu *(liczba słów, czas)* to rama — nie temat.
 
-| Zadanie | Format egzaminu | Czas | Jak oddaje |
+| Zadanie | Prawdziwe przykłady | Rama egzaminu | Jak oddaje |
 |---|---|---|---|
-| ✍️ **formelle Nachricht** | min. **100 słów**, sytuacja + 4 punkty *(problem, prośba, propozycja, przeprosiny)* | **25 min na zegarze** | wkleja w czat przed następną sesją albo na jej początku |
-| ✍️ **Forumsbeitrag** | min. **150 słów**: opinia · uzasadnienie · alternatywy · zalety/wady | **50 min** *(raz w tygodniu)* | jw. |
-| 🎤 **Vortrag** | ~4 min, wstęp · alternatywy · zalety/wady · opinia · zakończenie | 4 min + nagranie | transkrypt w czat |
-| 🎯 **mock modułu** | oryginalny Modellsatz, **na czas**, z kluczem | wg modułu | wynik 0–100 do `PROGRESS.md` → Egzamin |
+| ✍️ **mail formalny** | do Goethe-Institut, dziekanatu, niemieckiej kliniki o Famulaturę, właściciela mieszkania | min. 100 słów, **25 min** *(= Schreiben T2)* | wkleja w czat; **jeśli to możliwe — naprawdę wysyła** |
+| ✍️ **wpis z opinią** | komentarz w grupie, odpowiedź na artykuł, list do znajomego o czymś, co go wkurza albo cieszy | min. 150 słów, **50 min**, raz w tygodniu *(= Schreiben T1)* | jw. |
+| 💬 **wiadomość nieformalna** | WhatsApp do Schwiegermutter albo dziewczyny — **po niemiecku, z `du`, jak się naprawdę pisze** | bez ramy — egzamin tego nie sprawdza, **życie tak** | wysyła naprawdę; na sesji pokazuje, co odpisała |
+| 🎤 **opowieść / przekonywanie** | 4 min na głos o czymś z jego życia | struktura Vortragu raz na kilka razy | transkrypt w czat |
+| 🎯 **mock modułu** | — | oryginalny Modellsatz, **na czas**, z kluczem — **tylko 2× przed egzaminem + symulacje** | wynik 0–100 do `PROGRESS.md` → Egzamin |
 
 **Poprawa tekstu pisanego na sesji** *(max 2 min, w bloku 1)*: ocena orientacyjna wg kryteriów
 Goethe *(realizacja 4 punktów · spójność · słownictwo · struktury)* + **maks. 3 błędy z mechanizmem**

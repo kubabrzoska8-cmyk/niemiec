@@ -18,6 +18,11 @@
   Rundy z korektą *(sekcja 2)* to dokładnie to, czego wymaga Vortrag: przygotowana struktura
   wypowiedziana płynnie **i** poprawnie.
 - **Termin:** o miejscu decyduje kolejność zapisu i wpłaty — zapis w pierwszym tygodniu Etapu 1.
+- ⭐ **Ale oś kursu to komunikacja, nie egzamin** *(Jakub, 28.09)*. Egzamin B2 sprawdza to, co
+  i tak jest potrzebne w rozmowie: zrealizować zadanie, być spójnym, reagować na rozmówcę.
+  Dlatego trening samego formatu ogranicza się do ~20 % lekcji, a zadania mają prawdziwych adresatów.
+  Strategie podtrzymania rozmowy *(prośba o wyjaśnienie, opis słowa, którego brakuje)* to osobna,
+  uczona umiejętność — materiał: `grammar/06-mowiony-niemiecki.md`.
 
 Źródła: [Goethe — Prüfungsziele und Testbeschreibung B2](https://www.goethe.de/pro/relaunch/prf/de/Pruefungsziele_Testbeschreibung_B2.pdf) ·
 [Goethe — Modellsatz B2](https://www.goethe.de/pro/relaunch/prf/materialien/B2/b2_modellsatz_erwachsene.pdf) ·

@@ -17,10 +17,10 @@ i `Wo?`/`Wohin?` *(`GAPS.md` #1, #2)* nie ruszą się ani o punkt.
 **Pytanie dnia:** jak poznać rodzaj rzeczownika, którego nie ma w talii — i co robić,
 gdy reguły nie ma.
 
-🎓 **Pierwsza sesja Etapu 1 — Goethe-Zertifikat B2 do końca 2026** *(`plan/goethe-b2.md`)*.
-Rundy w bloku 5 są już **Vortragiem w strukturze egzaminu**, rozmowa — **Diskussion**, misja —
-**formelle Nachricht**. Powiedz to Jakubowi w bloku 0 jednym zdaniem, razem z warunkiem
-**min. 3 sesji tygodniowo do egzaminu**.
+⭐ **Oś: prawdziwa komunikacja** — egzamin Goethe B2 *(do końca 2026)* jest skutkiem, nie programem.
+Dziś: przekonujesz do czegoś **ze swojego życia** *(gdzie mieszkać w czasie studiów)*, prawdziwy spór,
+prawdziwy mail do Goethe-Institut — a przy okazji to jest szkic Vortragu, Diskussion i Schreiben.
+Powiedz to Jakubowi w bloku 0 jednym zdaniem, razem z warunkiem **min. 3 sesji tygodniowo**.
 
 > ⏱️ **Przed startem:** jeśli od sesji 9 (21.09) minęło **> 10 dni** — pierwsze 5 minut to
 > rozgrzewka: zdania 8–10 z `Lückensätze` na start. Jeśli Jakub jest już w Polsce —
@@ -161,6 +161,20 @@ Kiedy nie wiesz — **nie tłumacz rodzaju z polskiego, strzelaj regułą**:
 - `der Termin` — żadnej reguły, pamięć;
 - **rodzaj to dopiero pierwszy krok** — potem przypadek z przyimka albo z `Wo?`/`Wohin?`.
 
+### 🗣️ Mówiony niemiecki dnia — kiedy brakuje słowa *(30 s)*
+
+Do tej pory w takiej chwili wpadało angielskie `lunch`, `so`, `I will` albo słowo zbudowane od zera
+*(`beantwortlich`)*. Dziś trzy zwroty, które trzymają rozmowę po niemiecku:
+
+```
+Wie sagt man … auf Deutsch?
+Das ist so was wie …
+Ich meine … / Moment, ich sag's anders.
+```
+
+**Warunek:** w bloku 5 każdy z nich pada co najmniej raz, zamiast słowa po angielsku.
+Więcej: [`grammar/06-mowiony-niemiecki.md`](../grammar/06-mowiony-niemiecki.md) → 1.
+
 ### Drill — PL → DE, jeden cel na zdanie *(zdanie 7: dwa cele)*
 
 🔬 **Test otwartego pytania nr 1** *(`PROGRESS.md`)*: zdania 5 i 7 używają słów, które Jakub ma
@@ -248,8 +262,10 @@ Struktura egzaminu: **wstęp** · **dwie alternatywy** · **zalety i wady** z oc
 doświadczenie** *(Rzym → Polska)* i **opinia** · **zakończenie**. Temat typowy dla B2 i z jego
 życia; wymusza rodzaj *(`das Wohnheim`, `das Zimmer`, `die WG`, `die Miete`, `der Schreibtisch`,
 `die Straßenbahn`, `das Semester`)* i `Wo?/Wohin?` *(`im Wohnheim wohnen` ↔ `ins Wohnheim ziehen`)*.
-📋 **Redemittel na kartce:** `Ich möchte über … sprechen.` · `Einerseits … andererseits …` ·
-`Ein großer Vorteil ist, dass …` · `Meiner Meinung nach …` · `Zusammenfassend kann man sagen, …`
+📋 **Na kartce — jak się naprawdę mówi, a przy okazji struktura prezentacji:**
+`Also, es geht um die Frage, …` · `Ein großer Vorteil ist, dass …` · `Der Nachteil ist halt, …` ·
+`Ich finde …, weil …` · `Bei mir war das so: …` · `Also, für mich ist klar: …`
+*(Na egzaminie te same zwroty są w porządku — nie trzeba wkuwać „Zusammenfassend kann man sagen”.)*
 
 1. **Runda 1** *(~3 min, pisana)* — swobodnie. **Z niej liczysz pomiar główny.**
 2. **Korekta** *(~1 min)* — wybierz 2–3 grupy z błędnym rodzajem albo `Wo?/Wohin?`:
@@ -267,7 +283,8 @@ z pierwszej wersji *(`plan/metodyka.md` → 2)*. Poprawność daje korekta przed
 
 **Najpierw 2–3 min `Diskussion` *(Sprechen, Teil 2)*:** teza *„Im ersten Studienjahr sollte man im
 Wohnheim wohnen.”* — Claude jest **przeciw**, Jakub broni. Claude dopytuje i nie ustępuje od razu.
-Redemittel: `Da bin ich anderer Meinung, weil …` · `Das stimmt, aber …` · `Was meinst du genau mit …?`
+Mów tak, jak mówią ludzie *(`grammar/06` → 4)*: `Ich sehe das anders, weil …` · `Stimmt, aber …` ·
+`Kommt drauf an.` · `Was meinst du genau mit …?` · reakcje: `Echt?` · `Ach so.` · `Na ja …`
 
 Potem pytania:
 
@@ -334,6 +351,8 @@ Wcześniejsze sesje
 - dobór `auf`/`an`: luka 6 · pierwsze pytanie w rozmowie
 - transfer fiszka → zdanie: drill 5, 7
 - `ohne` w nowym opakowaniu *(rozmowa)*
+- 🗣️ **Radzenie sobie w rozmowie** *(blok 5)*: przełączenia na PL/EN `x` ↔ użyte strategie `y`
+  *(`Wie sagt man …?`, `So was wie …`, `Ich meine …`)* — cel: `y > x`
 - 🎓 **Vortrag — struktura egzaminu** w rundzie 3: wstęp · alternatywy · zalety/wady · opinia · zakończenie `x/5`
 - 🎓 **Diskussion** — czy bronił stanowiska i reagował na kontrargument *(✅/⚠️/❌ + cytat)*
 - 🟢 wolna produkcja `x/15`
