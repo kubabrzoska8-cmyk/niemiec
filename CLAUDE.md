@@ -39,7 +39,7 @@ dopasowujesz tempo i zapisujesz postęp.
 ├── GAPS.md        ← ŻYWY: stan luk — maks. 3 Active / Watching / Closed
 ├── index.html     ← aplikacja (GitHub Pages), opcjonalna — czyta pliki z `main`
 ├── plan/          ← program blokami + missions.md, lesestueck.md, lueckentext.md
-├── lessons/       ← session-NN.md — KOMPLETNY plan lekcji
+├── lessons/       ← session-NN.md — KOMPLETNY plan lekcji + sprawdz_powtorki.py (strażnik)
 ├── grammar/       ← referencje gramatyczne pod Polaka
 ├── resources/     ← źródła inputu
 ├── anki/          ← wordlists/*.tsv (źródło prawdy) + generatory Anki i Quizlet
@@ -79,7 +79,7 @@ Tryb zapisuj w `PROGRESS.md` → „Ostatnia sesja”. **Przy zmianie trybu powi
 |------|------|-----------|
 | **0. Ziel** ⭐ | 30 s · pisany | Trzy linijki po polsku — spec niżej |
 | **1. Meldunek** | 2 min | Misja na żywym rozmówcy: ile razy struktura padła w rozmowie + **jedno zdanie od Schwiegermutter, którego nie zrozumiał** *(warunek zaliczenia misji)* |
-| **2. Lesestück** 📖 | 3 min | **Tylko jeśli przeczytał.** D4 → D1 → D2 *(D3, jeśli starczy czasu)*. Nieprzeczytany → blok przepada, minuty idą do rozmowy. **Nie czytamy na sesji.** Spec: `plan/lesestueck.md` |
+| **2. Lesestück** 📖 | 3 min | **Tylko jeśli przeczytał.** D4 → D1 → D2 *(D3, jeśli starczy czasu)*. Nieprzeczytany → blok przepada, minuty idą do rozmowy, **a tekst nie wraca już nigdy**. **Nie czytamy na sesji.** Spec: `plan/lesestueck.md` |
 | **3. Regel + Drill** | 4 min | Reguła **+ sąsiedztwo** *(pole obok, na którym nie obowiązuje)*, ≤ 90 s, z kontrastem PL→DE. Potem 5–7 zdań PL→DE: **jeden cel na zdanie + jedno zdanie z dwoma celami** jako sonda. Zero wyboru z listy |
 | **4b. Lückensätze** 🧩 | 3 min · pisany | 10 zdań, w każdym jedna luka na jedno słowo, forma podstawowa w nawiasie. Spec: `plan/lueckentext.md` |
 | **5. Gespräch** 🗣️ | **≥ 10 min** | **Nietykalny i najdłuższy.** Spec niżej. Każda minuta zaoszczędzona gdzie indziej idzie tutaj |
@@ -194,6 +194,8 @@ Bilans rozlicza wprost „✅ UDA SIĘ, JEŚLI” z bloku 0 — udało się / ni
 4. **`lessons/session-NN+1.md` — KOMPLETNY:** Ziel · Lesemission *(tekst + 4 pytania)* ·
    Regel · Drill · 10 Lückensätze z kluczem · temat rund 3/2/1 i pytania do rozmowy ·
    10 fiszek · misja. Specyfikacje: `plan/lesestueck.md`, `plan/lueckentext.md`, `plan/missions.md`.
+   **Potem `python3 lessons/sprawdz_powtorki.py` — musi dać ✅.** Dopiero wtedy tekst i misja
+   idą do Jakuba. Tekst dopisz do rejestru w `plan/lesestueck.md`.
 5. **`anki/wordlists/block-N.tsv`** — nowe słowa z numerem sesji, **z przykładowym zdaniem
    PL i DE** *(z nich powstaje karta zdaniowa)*; potem `python3 anki/build_deck.py`
    i `python3 anki/build_quizlet.py`.
@@ -217,7 +219,12 @@ Powiedz Jakubowi, że to zrobiłeś.**
 - **Zero testów wyboru**, prawda/fałsz i glosariuszy przed tekstem.
 - **Jedna reguła na sesję, zawsze z sąsiedztwem.** Reguła bez granicy u niego przecieka na pole obok.
 - **Kalibruj w górę.** Buduje poprawne `Nebensätze` — nie cofaj go. Za łatwe zadanie to Twój błąd.
-- **Zdania z jego życia:** Klinik, Dienst, Prüfung, Kommilitonen, Schwiegermutter, Rzym, dojazdy.
+- 🔁 **Nic nie wraca dosłownie** — tekst, pytanie, zdanie z drillu, luki czy fiszki. **Ta sama
+  struktura, nowe zdanie.** Nieprzeczytany tekst przepada. Tekst o ibuprofenie Jakub dostał
+  trzy razy, a sondę z sesji 8 rozpoznał w sesji 9 — pilnuje tego `lessons/sprawdz_powtorki.py`.
+- **Zdania z jego AKTUALNEGO życia** *(gdzie jest — `PROFILE.md`)*: od października uczelnia
+  w Polsce, pokój, dojazdy, egzaminy, Kommilitonen, Schwiegermutter. Rzym i Policlinico to już
+  wspomnienie — nie rdzeń materiału.
 - **Pisze po polsku, bo nie zna słowa** → podaj niemieckie i **od razu każ użyć go w zdaniu**.
 - **Ortografia czatu** (mała litera, brak Umlautu) **nie jest luką** — chyba że zmienia formę.
 - Nowe pliki tylko w katalogach z listy wyżej. W razie wątpliwości — zapytaj.

@@ -10,8 +10,9 @@
 
 ## Jak to działa
 
-1. **Na koniec sesji** Jakub dostaje misję i **tekst `Lesemission` wklejony w czat**
-   *(nie tylko zapisany w pliku — sesja 8 pokazała, że tekst w pliku nie dociera)*.
+1. **Na koniec sesji** Jakub dostaje misję i **NOWY tekst `Lesemission` wklejony w czat**
+   *(nie tylko zapisany w pliku — sesja 8 pokazała, że tekst w pliku nie dociera;
+   i nigdy ten sam drugi raz — `lessons/sprawdz_powtorki.py`)*.
 2. **Między sesjami:** rdzeń misji to **2–3 minuty uwagi w rozmowie, którą i tak prowadzi**.
 3. **Na początku następnej sesji** — meldunek w bloku 1.
 

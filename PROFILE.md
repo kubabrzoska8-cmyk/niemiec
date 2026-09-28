@@ -116,4 +116,5 @@ Pięć rzeczy zmierzonych w sesjach 5–9. Każda ma konsekwencję dla prowadzen
 | 2026-08-29 *(po s7)* | Drill: „jedno zadanie = jeden cel” | Drill 36 % przy 4–5 celach w zdaniu |
 | 2026-08-31 *(po s8)* | Misje słuchowe usunięte do końca 🧊; misje na żywym rozmówcy | Trzy puste meldunki i prośba Jakuba |
 | 2026-09-21 *(s9)* | Rodzaj rzeczownika → luka nr 1; limit Anki 15 | Reguła 4/4 przy rodzaju podanym, 2/4 bez |
+| **2026-09-28** | **Nic nie wraca dosłownie** + strażnik `lessons/sprawdz_powtorki.py`; materiał idzie za jego życiem w Polsce, nie za Policlinico | Tekst o ibuprofenie wysłany trzy razy; lekcja 10 z resetu miała 29 zdań powtórzonych z sesji 9 |
 | **2026-09-27** | **Reset architektury:** `Gespräch` ≥ 10 min z rundami 3/2/1 i promptami; jedna liczba główna *(pierwsze 15 grup)*; cel cyklu 3 sesji zamiast tygodnia; maks. 3 Active; karty zdaniowe w Anki; historia do `archive/` | Analiza po sesji 9: kurs mierzył więcej, niż trenował; dokumenty sprzeczne z kontekstem od sesji 5 |

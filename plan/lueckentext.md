@@ -100,6 +100,8 @@ Jakub odpowiada **samą formą**, jedną linijką na zdanie:
    jest najlepszym zadaniem, jakie można zbudować — ale wtedy rozstrzyga **kontekst w zdaniu**,
    nie domysł.
 6. **Klucz odpowiedzi w osobnym, wyraźnie oddzielonym bloku** — Jakub próbuje najpierw sam.
+7. **Każde zdanie nowe.** Sonda i przeplatanie wracają do **struktury**, nie do zdania —
+   `python3 lessons/sprawdz_powtorki.py` wyłapie zdanie podobne do tego z wcześniejszej lekcji.
 
 ### Skład dziesiątki
 

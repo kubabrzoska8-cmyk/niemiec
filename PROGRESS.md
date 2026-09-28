@@ -30,7 +30,7 @@
 
 | Cykl | Cel | Warunek zaliczenia | Wynik |
 |---|---|---|---|
-| **Sesje 10 · 11 · 12** | **Rodzajnik przestaje być zgadywanką — grupa rzeczownikowa w rozmowie ≥ 70 %** | W `Gespräch` sesji 12: **wolna produkcja ≥ 11/15**, zero błędów rodzaju przy rzeczownikach z listy sesji 10, które padną *(`Schrank`, `Termin`, `Sekretariat`, `Dienst`, `Kittel`, `Metro`)*, i **min. 2 poprawne `im`/`ins`/`in der`/`in die`** bez podpowiedzi | ⏳ |
+| **Sesje 10 · 11 · 12** | **Rodzajnik przestaje być zgadywanką — grupa rzeczownikowa w rozmowie ≥ 70 %** | W `Gespräch` sesji 12: **wolna produkcja ≥ 11/15**, zero błędów rodzaju przy rzeczownikach z lekcji 10, które padną *(`Koffer`, `Zimmer`, `Semester`, `Schreibtisch`, `Stundenplan`, `Straßenbahn`, `Bett`, `Termin`)*, i **min. 2 poprawne `im`/`ins`/`in der`/`in die`** bez podpowiedzi | ⏳ |
 | 21.09 – 27.09 *(tydzień)* | `im` ↔ `ins` ma wychodzić w rozmowie | 4 poprawne grupy po przyimku z rzędu w sesji 11 | ⚪ **nierozliczony** — odbyła się 1 z 3 sesji *(s9: `im`/`ins` 0/1)*. Warunek `im`/`ins` przechodzi do cyklu 10–12 |
 | 31.08 – 06.09 *(tydzień)* | grupa po przyimku w rozmowie | 4 poprawne grupy z rzędu w sesji 10 | ⚪ **nierozliczony** — przerwa 21 dni |
 

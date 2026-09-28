@@ -45,7 +45,10 @@ przez czytanie **na długo przed** produkcją.
 - **Na sesji: D4 → D1 → D2**, D3 tylko jeśli starczy czasu. 3 minuty.
 - **Jeśli nie przeczytał — blok przepada, a minuty idą do `Gespräch`.** Nie czytamy na sesji:
   w sesji 8 tekst czytany na miejscu dał pomiar osłabiony i zjadł czas rozmowy.
-  Tekst przechodzi na następną sesję tylko wtedy, gdy nadal pasuje do jej tematu.
+  **Tekst nigdy nie wraca** — ani na następną sesję, ani później. Każda sesja dostaje nowy.
+  *(Ulotkę ibuprofenu Jakub dostał trzy razy: po sesji 8, po sesji 9 i przy resecie 27.09.)*
+- **Przed wysłaniem:** `python3 lessons/sprawdz_powtorki.py NN` musi dać ✅, a tekst trafia
+  do rejestru niżej.
 
 ---
 
@@ -210,3 +213,17 @@ im Dativ und sag, welches Wort den Dativ erzwingt.`
   wymuszam zwrotne w produkcji. Trzeci pusty pomiar tej luki byłby jej porzuceniem.
 
 </details>
+
+---
+
+## 📚 Rejestr tekstów — każdy tylko raz
+
+Przed napisaniem nowego tekstu: sprawdź gatunek *(rotacja)* i to, czy temat nie był już użyty.
+
+| Sesja | Tytuł | Gatunek | Przeczytany? |
+|---|---|---|---|
+| 7 | Nachricht von Ursula | Nachricht | ✅ *(przed s7)* |
+| 8 | E-Mail vom Studiendekanat | Offizieller Text | ⚠️ czytany na sesji — nie został wysłany |
+| 9 | Beipackzettel: Ibuprofen 400 mg | Fachtext | ❌ nigdy — **wysłany trzy razy, wycofany na stałe** |
+| 10 | Zurück im Hörsaal | Reportage | ⏳ wysłany 2026-09-28 |
+

@@ -93,9 +93,9 @@ luka 5 w sesji 10 mierzy dobór *(`freuen … auf`)*.
 
 | Luka | Stan | Reakcja |
 |---|---|---|
-| Rozdzielny przedrostek ↔ przyimek rekcyjny w czytaniu | s8: czytał `sich an … wenden` jako `anwenden` | tekst s10 ma oba obok siebie (`anwenden` / `sich an Ihren Arzt wenden`) |
+| Rozdzielny przedrostek ↔ przyimek rekcyjny w czytaniu | s8: czytał `sich an … wenden` jako `anwenden` | tekst s10: `sich gewöhnen an`, `sich freuen auf`, `denken an` w trzech kolejnych zdaniach — przyimek należy do czasownika |
 | Wnioskowanie „kategoria → ja” | s7 ✅ *(osoba)* · s8 ❌ *(kategoria)* | D2 w s10 wymaga podstawienia pod kategorię — rozstrzyga hipotezę |
-| `Passiv` w tekście | ekspozycja od s10 | bez wyjaśniania do bloku 3 |
+| `Passiv` w tekście | ekspozycja w najbliższym tekście medycznym *(tekst s10 to reportaż — bez Passivu)* | bez wyjaśniania do bloku 3 |
 
 ---
 
