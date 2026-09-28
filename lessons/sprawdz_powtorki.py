@@ -5,6 +5,8 @@ Strażnik powtórek: czy lekcja nie daje Jakubowi czegoś, co już dostał.
 Użycie:
     python3 lessons/sprawdz_powtorki.py            # sprawdza najnowszą lekcję
     python3 lessons/sprawdz_powtorki.py 11         # sprawdza lessons/session-11.md
+    python3 lessons/sprawdz_powtorki.py plan/bank-tekstow.md
+                                                   # dowolny plik względem WSZYSTKICH lekcji
 
 Porównuje każde niemieckie zdanie z lekcji (tekst Lesemission, pytania, drill,
 luki, fiszki, pytania do rozmowy) ze zdaniami ze WSZYSTKICH wcześniejszych
@@ -86,10 +88,14 @@ def main():
     lekcje = sorted((p for p in HERE.glob("session-*.md") if numer(p)), key=numer)
     if not lekcje:
         sys.exit("Brak plików lessons/session-*.md")
-    cel_nr = int(sys.argv[1]) if len(sys.argv) > 1 else numer(lekcje[-1])
-    cel = HERE / f"session-{cel_nr:02d}.md"
+    arg = sys.argv[1] if len(sys.argv) > 1 else str(numer(lekcje[-1]))
+    if arg.isdigit():
+        cel_nr = int(arg)
+        cel = HERE / f"session-{cel_nr:02d}.md"
+    else:                                   # dowolny plik — porównaj ze wszystkim
+        cel, cel_nr = pathlib.Path(arg), 10**6
     if not cel.exists():
-        sys.exit(f"Brak pliku {cel.name}")
+        sys.exit(f"Brak pliku {cel}")
 
     wczesniejsze = []
     for p in lekcje:

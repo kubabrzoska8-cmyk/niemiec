@@ -7,6 +7,24 @@
 
 ---
 
+## ✅ Zweryfikowane 2026-09-28 — od tego zaczynać
+
+| Źródło | Poziom | Co daje | Dlaczego tu |
+|--------|--------|---------|-------------|
+| **[DW — Langsam gesprochene Nachrichten](https://podcasts.apple.com/ch/podcast/langsam-gesprochene-nachrichten-audios-dw-deutsch-lernen/id282930329)** | **B2–C1** | codzienne wiadomości (pon.–sob.), wolno czytane, **z pełnym tekstem** | aktywne w 2026; tekst + audio = gotowy materiał na `Lesemission`, zawsze świeży — **nie ma jak się powtórzyć** |
+| **[DW — Top-Thema mit Vokabeln](https://podcasts.apple.com/us/podcast/top-thema-mit-vokabeln-audios-dw-deutsch-lernen/id282932005)** | B1+ | co tydzień jeden reportaż z tekstem i słowniczkiem | łatwiejszy niż B2 — na dni zmęczenia, nie jako główny tekst |
+| **[Fachsprache im Fokus — Der FSP-Podcast](https://open.spotify.com/show/4wuuSY9lNvnJWVM25DhX8C)** | B2–C1, medyczny | komunikacja w szpitalu, rozmowa z pacjentem, Arztbrief | **wprost pod Fachsprachprüfung** — cel kursu *(`plan/metodyka.md`)* |
+| **[Deutsch-Training — Medizin](https://deutschtraining.org/deutschkurs-online/deutsch-fuer-aerzte-mediziner/fachsprache-medizin)** | B2–C1, medyczny | odcinki z transkryptem i słownictwem, przygotowanie do FSP | transkrypt = można czytać zamiast słuchać |
+| **[telc — Übungstest FSP Medizin (PDF)](https://telc.hu/wp-content/uploads/2023/01/telc_deutsch_b2-c1_medizin_fachsprachpruefung_uebungstest_1.pdf)** | C1 | oficjalny test próbny: Anamnese, dokumentacja, Fallvorstellung | wzór dla bloku 4 i sesji 30 |
+| **[Arztbrief schreiben für die FSP](https://fachsprachemedizin.de/arztbrief-schreiben/)** | C1 | budowa listu lekarskiego, Konjunktiv I dla relacji pacjenta | wzór dla sesji 27 |
+
+> 🔑 **Jak z tego korzystać w kursie:** teksty z DW **nie zastępują** tekstu pisanego pod lukę
+> *(ten musi mieć strukturę dnia 20 razy)*, ale są **zapasem**: jeśli po sesji nie ma czasu na
+> nowy tekst, Lesemission = jeden dzisiejszy odcinek `Langsam gesprochene Nachrichten` + 3 pytania.
+> **Nigdy stary tekst.**
+
+---
+
 ## 🎧 Ohrwurm — słuchanie *(dodatek do misji)*
 
 Cel: 10 minut, 2–3 razy w tygodniu. **Nie musi być zrozumiane w całości.**
