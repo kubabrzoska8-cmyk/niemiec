@@ -17,8 +17,27 @@
 | Cel dnia | ❌ `im`/`ins` nie padły w rozmowie; w miejscu `im` padło `in das Haus` *(to samo zdanie co w sesji 7)* |
 | Następna sesja | **Sesja 10 — rodzaj rzeczownika** · plan: [`lessons/session-10.md`](lessons/session-10.md) |
 | 📍 Gdzie jest Jakub | Rzym do ok. **1.10.2026**, potem studia w Polsce |
-| Tryb | 🧊 **Erhaltungsmodus** → 🔥 **Vollmodus od pierwszej sesji po powrocie** *(powiedzieć Jakubowi wprost)* |
+| Tryb | 🧊 **Erhaltungsmodus** → 🔥 **Vollmodus od pierwszej sesji po powrocie** *(powiedzieć Jakubowi wprost)* — **min. 3 sesje / tydz. do egzaminu** |
+| 🎯 **Cel** | **Etap 1: Goethe-Zertifikat B2 do końca 2026** → Etap 2: Fachsprachprüfung *(decyzja Jakuba 2026-09-28; plan: `plan/goethe-b2.md`)* |
 | 🗣️ Immersja | rozmowy z mamą dziewczyny nadal codziennie |
+
+---
+
+## 🎓 Egzamin — Goethe-Zertifikat B2
+
+| Pole | Wartość |
+|---|---|
+| Termin | ⏳ **do ustalenia — zapis w tym tygodniu** *(o miejscu decyduje kolejność zapisu i wpłaty; kontakty: `plan/goethe-b2.md`)* |
+| Miejsce | ⏳ |
+| Moduły | wszystkie cztery: Lesen · Hören · Schreiben · Sprechen *(zalicza 60/100 każdy; cel ≥ 70)* |
+| Sesje do egzaminu | wg harmonogramu `plan/goethe-b2.md` *(s10–29 przy 3 sesjach / tydz.)* |
+
+**Gotowość — wyniki mocków** *(0–100; Sprechen i Schreiben — ocena orientacyjna Claude'a wg kryteriów Goethe)*:
+
+| Mock | Data | Lesen | Hören | Schreiben | Sprechen | Decyzja |
+|---|---|---|---|---|---|---|
+| #1 diagnostyczny *(s11–12)* | ⏳ | | | | | |
+| #2 *(s23)* | ⏳ | | | | | |
 
 ---
 
@@ -90,7 +109,7 @@ Stąd sesja 10.
 | 2 | **Czy misja na żywym rozmówcy wstawia strukturę do jego mowy?** | meldunek z misji 9 + liczba `im`/`ins` w rozmowie | s10 |
 | 3 | **Czy 🇮🇹 strukturalna interferencja zniknie po powrocie do Polski?** Jeśli nie — to obciążenie, nie interferencja | obserwacja w `Gespräch`, bez zapowiedzi | s12–13 |
 | 4 | **Czy wnioskowanie w tekście pada na kategoriach?** *(s7 ✅ osoba, s8 ❌ kategoria)* | D2 w s10 wymaga podstawienia pod kategorię | s10 |
-| 5 | **Który egzamin i kiedy?** Research wskazuje Fachsprachprüfung *(też dla lekarzy z UE; B2 ogólne jako warunek)* — ale to trzeba potwierdzić z Jakubem | jedno pytanie w bloku 1 | s10 |
+| 5 | ~~Który egzamin i kiedy?~~ ✅ **Goethe B2 do końca 2026, potem FSP** *(Jakub, 28.09)*. Otwarte: **termin i miejsce** | zapis na egzamin — misja 10 | ten tydzień |
 
 ---
 

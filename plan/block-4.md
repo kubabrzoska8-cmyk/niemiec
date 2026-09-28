@@ -1,5 +1,9 @@
 # Blok 4 — Fachsprache, płynność i test *(sesje 25–30)*
 
+> 🔁 **Od 2026-09-28 ten blok to Etap 2 — Fachsprachprüfung, po zdanym Goethe B2.**
+> Sesje 25–30 tego pliku = F1–F6 w `PLAN.md`. Treść zostaje aktualna.
+
+
 **Cel bloku:** mówić po niemiecku o tym, co i tak robisz po polsku. Nie uczymy medycyny —
 uczymy **niemieckiego opakowania** wiedzy, którą już masz.
 **Anki:** podtalia `Blok 4 — Fachsprache`.

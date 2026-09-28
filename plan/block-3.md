@@ -1,5 +1,10 @@
 # Blok 3 — Czasy i tryby *(sesje 18–24)*
 
+> 🔁 **Od 2026-09-28 numery sesji w tym pliku są nieaktualne.** Kolejność i numery ustala
+> [`plan/goethe-b2.md`](goethe-b2.md) *(Etap 1 — Goethe B2)*. **Opisy tematów zostają aktualne** —
+> bierz je stąd, kiedy dany temat wypada w harmonogramie.
+
+
 **Cel bloku:** opowiadać o przeszłości bez wpadek na czasowniku posiłkowym i zbudować pełny
 warunek nierzeczywisty — oba człony, nie tylko `hätte`.
 **Anki:** podtalia `Blok 3 — Zeiten`.

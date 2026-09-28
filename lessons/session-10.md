@@ -17,6 +17,11 @@ i `Wo?`/`Wohin?` *(`GAPS.md` #1, #2)* nie ruszą się ani o punkt.
 **Pytanie dnia:** jak poznać rodzaj rzeczownika, którego nie ma w talii — i co robić,
 gdy reguły nie ma.
 
+🎓 **Pierwsza sesja Etapu 1 — Goethe-Zertifikat B2 do końca 2026** *(`plan/goethe-b2.md`)*.
+Rundy w bloku 5 są już **Vortragiem w strukturze egzaminu**, rozmowa — **Diskussion**, misja —
+**formelle Nachricht**. Powiedz to Jakubowi w bloku 0 jednym zdaniem, razem z warunkiem
+**min. 3 sesji tygodniowo do egzaminu**.
+
 > ⏱️ **Przed startem:** jeśli od sesji 9 (21.09) minęło **> 10 dni** — pierwsze 5 minut to
 > rozgrzewka: zdania 8–10 z `Lückensätze` na start. Jeśli Jakub jest już w Polsce —
 > **ogłoś wprost 🔥 Vollmodus** *(15 nowych słów na sesję, misje 15–20 min)*.
@@ -31,8 +36,8 @@ gdy reguły nie ma.
                     w rozmowie ≥ 70 %: w Gespräch sesji 12 min. 11/15, zero błędów rodzaju
                     przy rzeczownikach z lekcji 10 i min. 2× poprawne im/ins/in der/in die
                     bez podpowiedzi
-✅ UDA SIĘ, JEŚLI:  w rundzie 3 rozmowy (1 minuta, bez poprawiania) każda grupa z Koffer,
-                    Zimmer, Schreibtisch, Straßenbahn i Semester ma poprawny rodzajnik —
+✅ UDA SIĘ, JEŚLI:  w rundzie 3 (Vortrag, 1 minuta, bez poprawiania) każda grupa z Zimmer,
+                    Wohnheim, Schreibtisch, Straßenbahn i Semester ma poprawny rodzajnik —
                     min. 3 takie grupy
 ```
 
@@ -45,9 +50,8 @@ gdy reguły nie ma.
 - 🗣️ **Misja 9:** ile z pięciu zdań `Wo?`/`Wohin?` padło w rozmowie ze Schwiegermutter
   i czy przy każdym umiesz powiedzieć `W` czy `H`?
 - **Jedno zdanie od niej, którego nie zrozumiałeś** — rozbierz je i do talii.
-- 🎯 **Jedno pytanie o cel:** *„Do jakiego egzaminu się przygotowujesz i kiedy?”* — research wskazuje
-  **Fachsprachprüfung** *(obowiązkowa też dla lekarzy z UE, warunek: B2 ogólne — `plan/metodyka.md` → 1)*.
-  Odpowiedź wpisz do `PROFILE.md` → Cele; od niej zależy tempo bloku 4.
+- 🎓 **Egzamin:** czy jest już **termin i zapis** na Goethe B2? *(Cel potwierdzony 28.09: B2 do końca
+  2026, potem FSP.)* Termin → `PROGRESS.md` → Egzamin. Brak zapisu → to jest misja 10, dziś.
 - 📦 **Anki:** tylko kafelek **„Naprawdę zapamiętane”** · czy nowa talia (z kartami zdaniowymi)
   jest zaimportowana i stare karty DE → PL zawieszone *(`anki/README.md`)* · **10 minut dziennie,
   nie cała talia przed sesją.**
@@ -238,11 +242,14 @@ i wraca na sesji 11 w bloku 3.
 
 ### Ta sama historia trzy razy — z korektą po pierwszej rundzie *(ok. 8 min)*
 
-**Temat:** *„Zurück in Polen — dein Zimmer und deine erste Woche an der Uni.”*
-Co przywiozłeś i gdzie to teraz jest, jak wygląda pokój, jak dojeżdżasz, co Cię czeka
-w pierwszym tygodniu. Temat wymusza rodzaj *(`der Koffer`, `das Zimmer`, `der Schreibtisch`,
-`das Regal`, `die Straßenbahn`, `das Semester`)* i `Wo?/Wohin?`.
-*(Jeśli jest jeszcze w Rzymie: „Du packst gerade — was kommt wohin?”)*
+**Temat — Vortrag jak na Goethe B2 *(Sprechen, Teil 1)*:**
+*„Wohnen im Studium: Wohnheim, WG oder bei den Eltern?”*
+Struktura egzaminu: **wstęp** · **dwie alternatywy** · **zalety i wady** z oceną · **własne
+doświadczenie** *(Rzym → Polska)* i **opinia** · **zakończenie**. Temat typowy dla B2 i z jego
+życia; wymusza rodzaj *(`das Wohnheim`, `das Zimmer`, `die WG`, `die Miete`, `der Schreibtisch`,
+`die Straßenbahn`, `das Semester`)* i `Wo?/Wohin?` *(`im Wohnheim wohnen` ↔ `ins Wohnheim ziehen`)*.
+📋 **Redemittel na kartce:** `Ich möchte über … sprechen.` · `Einerseits … andererseits …` ·
+`Ein großer Vorteil ist, dass …` · `Meiner Meinung nach …` · `Zusammenfassend kann man sagen, …`
 
 1. **Runda 1** *(~3 min, pisana)* — swobodnie. **Z niej liczysz pomiar główny.**
 2. **Korekta** *(~1 min)* — wybierz 2–3 grupy z błędnym rodzajem albo `Wo?/Wohin?`:
@@ -257,6 +264,12 @@ w pierwszym tygodniu. Temat wymusza rodzaj *(`der Koffer`, `das Zimmer`, `der Sc
 z pierwszej wersji *(`plan/metodyka.md` → 2)*. Poprawność daje korekta przed rundą 2.
 
 ### Rozmowa — reszta czasu
+
+**Najpierw 2–3 min `Diskussion` *(Sprechen, Teil 2)*:** teza *„Im ersten Studienjahr sollte man im
+Wohnheim wohnen.”* — Claude jest **przeciw**, Jakub broni. Claude dopytuje i nie ustępuje od razu.
+Redemittel: `Da bin ich anderer Meinung, weil …` · `Das stimmt, aber …` · `Was meinst du genau mit …?`
+
+Potem pytania:
 
 - *„Worauf freust du dich im neuen Semester — und woran musst du dich erst wieder gewöhnen?”*
   *(`auf` ↔ `an` w jednym pytaniu — `GAPS.md` #3)*
@@ -321,6 +334,8 @@ Wcześniejsze sesje
 - dobór `auf`/`an`: luka 6 · pierwsze pytanie w rozmowie
 - transfer fiszka → zdanie: drill 5, 7
 - `ohne` w nowym opakowaniu *(rozmowa)*
+- 🎓 **Vortrag — struktura egzaminu** w rundzie 3: wstęp · alternatywy · zalety/wady · opinia · zakończenie `x/5`
+- 🎓 **Diskussion** — czy bronił stanowiska i reagował na kontrargument *(✅/⚠️/❌ + cytat)*
 - 🟢 wolna produkcja `x/15`
 - czego nie zdążyłem
 
@@ -331,11 +346,16 @@ Wcześniejsze sesje
 
 ## Misja 10 *(wklej w czat razem z NOWYM tekstem na sesję 11)*
 
+🎓 **Najważniejsze: zapis na egzamin Goethe B2.** ✍️ **formelle Nachricht #1 — naprawdę wysłana:**
+mail do Goethe-Institut *(Kraków: egzaminy-krakow@goethe.de · Warszawa: pruefungen-warschau@goethe.de
+albo centrum w Twoim mieście)*, **ok. 100 słów, 25 minut na zegarze**, cztery punkty:
+① który termin B2 w listopadzie/grudniu · ② do kiedy zapisy · ③ cena za cztery moduły ·
+④ co przynieść na egzamin. Wklej go też w czat — poprawimy go na sesji 11 wg kryteriów Goethe.
+
 🗣️ **Live-Mission — rodzajnik na głos.** Przy rozpakowywaniu (albo pakowaniu) nazwij w rozmowie
 ze Schwiegermutter **pięć rzeczy z rodzajnikiem**. Przy jednej, której rodzaju nie jesteś pewien —
 **zapytaj ją**: *„Heißt es der oder die …?”*
 ➕ **Jedno zdanie od niej, którego nie zrozumiałeś** — zapisane od razu.
-*Dodatek, jeśli jest czas:* ✍️ 5 zdań o swoim pokoju w Polsce, każdy rzeczownik z rodzajnikiem.
 
 📖 **Lesemission na sesję 11 — tekst `T-11` z `plan/bank-tekstow.md`** *(„Die Magenspiegelung”,
 `Fachtext`, `Adjektivendungen` w trzech odmianach — gotowy, nieużyty)*. Po sesji: pytania D1–D4

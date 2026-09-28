@@ -1,5 +1,10 @@
 # Blok 2 — Satzbau *(sesje 12–17)*
 
+> 🔁 **Od 2026-09-28 numery sesji w tym pliku są nieaktualne.** Kolejność i numery ustala
+> [`plan/goethe-b2.md`](goethe-b2.md) *(Etap 1 — Goethe B2)*. **Opisy tematów zostają aktualne** —
+> bierz je stąd, kiedy dany temat wypada w harmonogramie.
+
+
 **Cel bloku:** rozszerzyć zdanie złożone z dwóch spójników, które już umiesz (`weil`, `obwohl`),
 na cały zestaw — i uporządkować szyk w zdaniu głównym.
 **Anki:** podtalia `Blok 2 — Satzbau`.

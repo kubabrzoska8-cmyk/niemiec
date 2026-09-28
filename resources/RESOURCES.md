@@ -7,6 +7,17 @@
 
 ---
 
+## 🎓 Goethe-Zertifikat B2 — materiały oficjalne *(Etap 1)*
+
+| Źródło | Do czego |
+|--------|----------|
+| **[Modellsatz B2 dla dorosłych (PDF)](https://www.goethe.de/pro/relaunch/prf/materialien/B2/b2_modellsatz_erwachsene.pdf)** | **mock #1 i #2** — Lesen i Hören z kluczem, Schreiben i Sprechen z zadaniami |
+| **[Übungssatz online — Sprechen](https://bfu.goethe.de/b2_mod_2MX6/sprechen.php)** · **[Schreiben](https://bfu.goethe.de/b2_mod_2MX6/schreiben.php)** | przykładowe zadania w wersji online |
+| **[Prüfungsziele und Testbeschreibung B2 (PDF)](https://www.goethe.de/pro/relaunch/prf/de/Pruefungsziele_Testbeschreibung_B2.pdf)** | co dokładnie jest oceniane w każdym module |
+| **Goethe-Institut [Kraków](https://www.goethe.de/ins/pl/de/sta/kra/prf/gzb2.cfm) · [Warszawa](https://www.goethe.de/ins/pl/de/sta/war/prf/gzb2.cfm)** | terminy i zapisy — kontakty w `plan/goethe-b2.md` |
+
+---
+
 ## ✅ Zweryfikowane 2026-09-28 — od tego zaczynać
 
 | Źródło | Poziom | Co daje | Dlaczego tu |

@@ -49,6 +49,30 @@
 
 ---
 
+## 🎓 Etap 1 — misje pod Goethe B2 *(od sesji 10)*
+
+**Misja = rdzeń Live + zadanie egzaminu.** Kolejność zadań: tabela w `plan/goethe-b2.md`.
+
+| Zadanie | Format egzaminu | Czas | Jak oddaje |
+|---|---|---|---|
+| ✍️ **formelle Nachricht** | min. **100 słów**, sytuacja + 4 punkty *(problem, prośba, propozycja, przeprosiny)* | **25 min na zegarze** | wkleja w czat przed następną sesją albo na jej początku |
+| ✍️ **Forumsbeitrag** | min. **150 słów**: opinia · uzasadnienie · alternatywy · zalety/wady | **50 min** *(raz w tygodniu)* | jw. |
+| 🎤 **Vortrag** | ~4 min, wstęp · alternatywy · zalety/wady · opinia · zakończenie | 4 min + nagranie | transkrypt w czat |
+| 🎯 **mock modułu** | oryginalny Modellsatz, **na czas**, z kluczem | wg modułu | wynik 0–100 do `PROGRESS.md` → Egzamin |
+
+**Poprawa tekstu pisanego na sesji** *(max 2 min, w bloku 1)*: ocena orientacyjna wg kryteriów
+Goethe *(realizacja 4 punktów · spójność · słownictwo · struktury)* + **maks. 3 błędy z mechanizmem**
+*(„`die Termin` — rodzaj z polskiego; `der Termin` bez reguły, pamięć”)*. Poprawiony tekst
+**nie wraca** jako zadanie — następne jest nowe *(zasada „nic nie wraca”)*.
+
+> Tematy zadań: z jego życia *(uczelnia, akademik, praktyki, dojazdy)* **i** typowe dla B2
+> *(praca, media, zdrowie, środowisko, edukacja)* — na egzaminie temat jest losowy, więc zakres ma być szeroki.
+
+---
+
+> 🔁 **Tabele niżej — blok 1 to historia sesji 5–11; tabele bloków 2–4 mają nieaktualną numerację**
+> *(od 2026-09-28 kolejność ustala `plan/goethe-b2.md`)*. Pomysły na misje z nich wolno brać.
+
 ## Blok 1 — Kasus i grupa rzeczownikowa *(sesje 5–11)*
 
 Cel: przestać się przewracać na końcówkach w środku poprawnie zbudowanego zdania.
@@ -60,7 +84,7 @@ Cel: przestać się przewracać na końcówkach w środku poprawnie zbudowanego 
 | 7 | 🎧 **WDR „Quarks", nie „cokolwiek"** — 10 min + 5 grup z przyimkiem, każda oznaczona `D`/`A` · ➕ 3 zdania z `weil` **na żywym rozmówcy**, czasownik świadomie na końcu | `die Mutter meiner Freundin` · szyk podrzędny | Masz 5 grup z typem **i** wiesz, ile z trzech `weil`-zdań udało się dokończyć poprawnie |
 | 8 | 🗣️ **Live-Mission: cztery zdania z `für·um·durch·gegen·ohne`** w codziennej rozmowie ze Schwiegermutter · ➕ **jedno zdanie OD NIEJ, którego nie zrozumiałeś** | `ohne` bez rodzajnika | Wiesz, ile z czterech padło i czy po `ohne` wskoczył rodzajnik · masz zapisane jedno niezrozumiane zdanie |
 | 9 | 🗣️ **Live-Mission: `Wo?` czy `Wohin?`** — pięć zdań o tym, gdzie coś leży i dokąd je kładziesz, w rozmowie · ➕ jedno niezrozumiane zdanie od niej | Wechselpräpositionen | Przy 5 zdaniach potrafisz powiedzieć `Wo?` czy `Wohin?` |
-| 10 | 🗣️ **Live-Mission: rodzajnik na głos.** W rozmowie ze Schwiegermutter nazwij pięć rzeczy wokół siebie *(pokój, kuchnia, walizka)* **z rodzajnikiem**; przy jednej, której rodzaju nie jesteś pewien — zapytaj ją (`Heißt es der oder die …?`) · ➕ jedno niezrozumiane zdanie od niej · *dodatek:* ✍️ 5 zdań o swoim pokoju | rodzaj rzeczownika | Pięć rzeczy z rodzajnikiem + jedna sprawdzona u niej + jedno niezrozumiane zdanie |
+| 10 | ✍️ **formelle Nachricht #1 — naprawdę wysłana:** mail do Goethe-Institut *(termin B2, zapisy, cena, co przynieść)*, ~100 słów, 25 min · **zapis na egzamin** · ➕ 🗣️ **Live-Mission: rodzajnik na głos.** W rozmowie ze Schwiegermutter nazwij pięć rzeczy wokół siebie *(pokój, kuchnia, walizka)* **z rodzajnikiem**; przy jednej, której rodzaju nie jesteś pewien — zapytaj ją (`Heißt es der oder die …?`) · ➕ jedno niezrozumiane zdanie od niej · *dodatek:* ✍️ 5 zdań o swoim pokoju | rodzaj rzeczownika | Pięć rzeczy z rodzajnikiem + jedna sprawdzona u niej + jedno niezrozumiane zdanie |
 | 11 | 🗣️ **Live-Mission: przymiotnik w grupie** — trzy razy opowiedz jej coś z przymiotnikiem przed rzeczownikiem (`ein langer Dienst`, `mit dem neuen Kittel`) · ➕ jedno niezrozumiane zdanie · *dodatek:* 🎤 90 s o własnym dniu | `Adjektivendungen` | Trzy grupy powiedziane na głos + jedno niezrozumiane zdanie |
 
 ---

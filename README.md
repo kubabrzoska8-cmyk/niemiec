@@ -1,6 +1,7 @@
 # Niemiec
 
-Kurs niemieckiego dla Jakuba — **30 sesji, B1 → B2**, z wątkiem medycznym.
+Kurs niemieckiego dla Jakuba — **B1 → Goethe-Zertifikat B2 (do końca 2026) → Fachsprachprüfung**,
+z wątkiem medycznym. Plan: [`PLAN.md`](PLAN.md) · egzamin B2: [`plan/goethe-b2.md`](plan/goethe-b2.md).
 Claude prowadzi lekcję jako korepetytor, śledzi luki w `GAPS.md` i zapisuje postęp w `PROGRESS.md`.
 
 > 🗣️ **Kontekst:** Jakub rozmawia po niemiecku codziennie z mamą swojej dziewczyny — to daje

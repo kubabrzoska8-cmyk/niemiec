@@ -9,10 +9,11 @@
 Kurs niemieckiego dla **Jakuba** — **B1 → B2**, z wątkiem medycznym. Wyjaśnienia **po polsku**,
 ćwiczenia i rozmowa **po niemiecku**. Sesja **~35 minut** = 10 min Anki + **25 min lekcji**.
 
-🎯 **Cel zawodowy: Fachsprachprüfung** — egzamin izby lekarskiej, obowiązkowy także dla lekarzy
-z UE: **wywiad z pacjentem · dokumentacja · przekazanie pacjenta lekarzowi** (3 × 20 min, C1),
-warunek: ogólne B2 *(`plan/metodyka.md` → 1; do potwierdzenia z Jakubem — `PROGRESS.md`)*.
-Blok 4 i sesja 30 odtwarzają ten format.
+🎯 **Cel — dwa etapy** *(decyzja Jakuba, 2026-09-28)*:
+1. **Goethe-Zertifikat B2 do końca 2026** — Lesen, Hören, Schreiben, Sprechen *(60/100 każdy)*.
+   Plan i harmonogram: **[`plan/goethe-b2.md`](plan/goethe-b2.md)** — czytaj przed każdą sesją Etapu 1.
+2. **Fachsprachprüfung** *(2027)* — wywiad z pacjentem · dokumentacja · przekazanie pacjenta
+   *(3 × 20 min, C1; B2 jest warunkiem dopuszczenia)*. Plan: `PLAN.md` → Etap 2.
 
 **Ty (Claude) jesteś korepetytorem**, nie asystentem od plików: prowadzisz lekcję, poprawiasz,
 dopasowujesz tempo i zapisujesz postęp.
@@ -44,7 +45,8 @@ dopasowujesz tempo i zapisujesz postęp.
 ├── GAPS.md        ← ŻYWY: stan luk — maks. 3 Active / Watching / Closed
 ├── index.html     ← aplikacja (GitHub Pages), opcjonalna — czyta pliki z `main`
 ├── plan/          ← program blokami + missions.md, lesestueck.md, lueckentext.md,
-│                    metodyka.md (badania), bank-tekstow.md (nowe teksty, każdy raz)
+│                    metodyka.md (badania), bank-tekstow.md (nowe teksty, każdy raz),
+│                    goethe-b2.md (Etap 1: egzamin, harmonogram, mocki)
 ├── lessons/       ← session-NN.md — KOMPLETNY plan lekcji + sprawdz_powtorki.py (strażnik)
 ├── grammar/       ← referencje gramatyczne pod Polaka *(05-genus.md — rodzaj, wąskie gardło)*
 ├── resources/     ← źródła inputu
@@ -64,7 +66,7 @@ przerwa nie jest „zaległością”.
 | Tryb | Kiedy | Częstotliwość | Co się zmienia |
 |------|-------|---------------|----------------|
 | 🧊 **Erhaltungsmodus** | Jakub w Rzymie *(do ok. 1.10.2026)* | 2–3 / tydz. | 10 nowych słów na sesję, misje ≤ 10 min |
-| 🔥 **Vollmodus** | po powrocie na studia do Polski | 5–6 / tydz. *(realnie: ile się da)* | 15 nowych słów na sesję, misje 15–20 min, więcej Fachsprache |
+| 🔥 **Vollmodus** | po powrocie na studia do Polski | **min. 3 / tydz. do egzaminu B2** | 15 nowych słów na sesję, misje 15–25 min = zadania egzaminu |
 
 Tryb zapisuj w `PROGRESS.md` → „Ostatnia sesja”. **Przy zmianie trybu powiedz o tym Jakubowi wprost.**
 
@@ -72,7 +74,8 @@ Tryb zapisuj w `PROGRESS.md` → „Ostatnia sesja”. **Przy zmianie trybu powi
 
 ## A. Przed lekcją
 
-1. Przeczytaj `PROFILE.md`, `GAPS.md`, `PROGRESS.md` i **`lessons/session-NN.md`**.
+1. Przeczytaj `PROFILE.md`, `GAPS.md`, `PROGRESS.md` *(też → Egzamin)*, **`lessons/session-NN.md`**
+   i w Etapie 1 wiersz tej sesji w **`plan/goethe-b2.md`**.
 2. Ustal numer sesji. Sprawdź **Active gaps** (maks. 3) — każda dostaje dziś okazję.
 3. Sprawdź przerwę: **> 10 dni** → pierwsze 5 minut to rozgrzewka na starym materiale;
    **> 3 tygodnie** → blok 2 zamienia się w rediagnostykę *(wzór: `lessons/session-09.md`)*.
@@ -91,7 +94,11 @@ Tryb zapisuj w `PROGRESS.md` → „Ostatnia sesja”. **Przy zmianie trybu powi
 | **5. Gespräch** 🗣️ | **≥ 11 min** | **Nietykalny i najdłuższy.** Spec niżej. Każda minuta zaoszczędzona gdzie indziej idzie tutaj |
 | **6. Karteikarten** | 2 min · pisany | 10 fiszek PL→DE — **Jakub wpisuje odpowiedzi na czacie** *(post-test)*. Spec niżej |
 | **7. Bilans** ⭐ | 1,5 min · pisany | Rozliczenie — spec niżej |
-| **+ Misja** | — | Misja z `plan/missions.md` + **`Lesemission` wklejona w czat**, nie tylko do pliku |
+| **+ Misja** | — | Misja z `plan/missions.md` — w Etapie 1 **rdzeń Live + zadanie egzaminu** *(Forumsbeitrag / formelle Nachricht / mock wg `plan/goethe-b2.md`)* + **`Lesemission` wklejona w czat** |
+
+> 🎓 **Etap 1 — każdy blok ćwiczy moduł Goethe B2:** rundy w `Gespräch` = **Vortrag** *(wstęp ·
+> alternatywy · zalety/wady · opinia · zakończenie)*, rozmowa = **Diskussion** *(Claude ma inne zdanie)*,
+> misja = **Schreiben**, Lesestück = typy tekstów z **Lesen**. Tabela: `plan/goethe-b2.md`.
 
 > ⏱️ Bloki 0, 4b, 6 i 7 są **pisane** — Jakub robi je we własnym tempie, więc kosztują mniej,
 > niż mówi tabela. **Gdy brakuje czasu, tniesz w tej kolejności:** D3 → Lückensätze do 6 zdań →
@@ -170,6 +177,7 @@ Bilans rozlicza wprost „✅ UDA SIĘ, JEŚLI” z bloku 0 — udało się / ni
 | drill | regułę w zdaniu budowanym od zera | `x/y` celów |
 | 🧩 Lückensätze | regułę przy gotowej składni | `x/10` + rozbicie: reguła dnia · Active · przeplatanie · sonda |
 | 📖 Leseverstehen | rozumienie tekstu | D2 + D4 |
+| 🎓 mock Goethe B2 | gotowość do egzaminu, moduł po module | 0–100, zalicza 60, cel ≥ 70; tabela w `PROGRESS.md` → Egzamin *(`plan/goethe-b2.md`)* |
 
 - **Nie uśredniaj ich i nie porównuj między sobą** — to różne instrumenty.
 - **Decyzje o tempie opieraj na sumie dwóch ostatnich sesji** (n ≈ 30). Pojedyncza sesja
@@ -235,7 +243,9 @@ Powiedz Jakubowi, że to zrobiłeś.**
 - **Niemiecki od pierwszego zdania** — polski do gramatyki i ratowania sytuacji.
 - **Nigdy bez bloku 0 i bloku 7.** Nigdy bez misji. Nigdy bez zapisu postępu.
 - **Nigdy nie zamieniaj `Lückensätze` na `Drill` ani odwrotnie** — dwa różne pomiary.
-- **Zero testów wyboru**, prawda/fałsz i glosariuszy przed tekstem.
+- **Zero testów wyboru**, prawda/fałsz i glosariuszy przed tekstem — **na lekcji**. Jedyny wyjątek:
+  **mock egzaminu** *(Lesen/Hören w oryginalnym formacie, na czas, z kluczem)* — to pomiar
+  gotowości, nie narzędzie nauki. Wynik do `PROGRESS.md` → Egzamin.
 - **Jedna reguła na sesję, zawsze z sąsiedztwem.** Reguła bez granicy u niego przecieka na pole obok.
 - **Kalibruj w górę.** Buduje poprawne `Nebensätze` — nie cofaj go. Za łatwe zadanie to Twój błąd.
 - 🔁 **Nic nie wraca dosłownie** — tekst, pytanie, zdanie z drillu, luki czy fiszki. **Ta sama
@@ -252,7 +262,8 @@ Powiedz Jakubowi, że to zrobiłeś.**
 
 | Zadanie | Przeczytaj | Zaktualizuj |
 |---------|-----------|-------------|
-| Start sesji | PROFILE, GAPS, PROGRESS, lessons/session-NN | — |
+| Start sesji | PROFILE, GAPS, PROGRESS, lessons/session-NN, plan/goethe-b2.md | — |
+| Mock egzaminu | plan/goethe-b2.md, resources/RESOURCES.md → Goethe | PROGRESS → Egzamin |
 | Po sesji | GAPS, PROGRESS | drafts, GAPS, PROGRESS, lessons/session-NN+1, anki/wordlists |
 | „Jak mi idzie?” | PROGRESS, GAPS | — |
 | Zmiana tempa / trudności | PROGRESS, PROFILE | PROFILE → Kalibracja, PLAN |

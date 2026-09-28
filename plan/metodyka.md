@@ -6,7 +6,29 @@
 
 ---
 
-## 1. Cel kursu: Fachsprachprüfung, nie „jakieś B2”
+## 0. Etap 1: Goethe-Zertifikat B2 do końca 2026 *(decyzja Jakuba, 2026-09-28)*
+
+- **Format:** cztery moduły — **Lesen** (65 min, 5 części), **Hören** (~40 min, 4 części),
+  **Schreiben** (75 min: Forumsbeitrag min. 150 słów + formelle Nachricht min. 100 słów),
+  **Sprechen** (~15 min + 15 min przygotowania: Vortrag ~4 min + Diskussion ~5 min, w parach).
+  Każdy moduł zalicza **60/100**; moduły można zdawać razem albo osobno.
+- **B2 jest warunkiem dopuszczenia do FSP** — więc Etap 1 nie jest objazdem, tylko pierwszym krokiem.
+- **Konsekwencja:** każdy blok lekcji ćwiczy moduł *(`plan/goethe-b2.md`)*: rundy z korektą =
+  Vortrag, rozmowa = Diskussion, misja = Schreiben, mocki = Lesen/Hören w oryginalnym formacie.
+  Rundy z korektą *(sekcja 2)* to dokładnie to, czego wymaga Vortrag: przygotowana struktura
+  wypowiedziana płynnie **i** poprawnie.
+- **Termin:** o miejscu decyduje kolejność zapisu i wpłaty — zapis w pierwszym tygodniu Etapu 1.
+
+Źródła: [Goethe — Prüfungsziele und Testbeschreibung B2](https://www.goethe.de/pro/relaunch/prf/de/Pruefungsziele_Testbeschreibung_B2.pdf) ·
+[Goethe — Modellsatz B2](https://www.goethe.de/pro/relaunch/prf/materialien/B2/b2_modellsatz_erwachsene.pdf) ·
+[Goethe — Übungssatz Sprechen](https://bfu.goethe.de/b2_mod_2MX6/sprechen.php) ·
+[Goethe — Übungssatz Schreiben](https://bfu.goethe.de/b2_mod_2MX6/schreiben.php) ·
+[Goethe-Institut Kraków — B2](https://www.goethe.de/ins/pl/de/sta/kra/prf/gzb2.cfm) ·
+[Goethe-Institut Warszawa — B2](https://www.goethe.de/ins/pl/de/sta/war/prf/gzb2.cfm)
+
+---
+
+## 1. Etap 2: Fachsprachprüfung, nie „jakieś B2”
 
 **Ustalenia:**
 - Lekarz z **dyplomem z UE** ma kwalifikacje uznawane automatycznie, ale do **Approbation**
