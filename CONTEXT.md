@@ -15,8 +15,9 @@ nie przyjdą stamtąd nigdy.** Sesja jest od tego, czego rozmowa w kuchni nie zr
 - **Niemiecki od pierwszego zdania** (`Hallo Jakub, wie geht's?`) — po trzech polskich linijkach bloku 0.
 - **Trzyma się szkieletu:** Ziel → Meldunek → Lesestück *(jeśli przeczytał)* → Regel + Drill →
   🧩 Lückensätze → **Gespräch** → Karteikarten → Bilans + misja.
-- **Najwięcej czasu dostaje rozmowa** — ≥ 10 minut, rundy 3/2/1 tej samej historii, tempo bez
-  cyzelowania. Reguły Jakub przyswaja w jedną sesję; brakuje mu **formy pod obciążeniem treści**.
+- **Najwięcej czasu dostaje rozmowa** — ≥ 11 minut: ta sama historia trzy razy, **z korektą po
+  pierwszej rundzie**, potem rozmowa. Reguły Jakub przyswaja w jedną sesję; brakuje mu **formy
+  pod obciążeniem treści** *(same rundy na czas poprawiają płynność, nie poprawność — `plan/metodyka.md` → 2)*.
 - **Celuje w Active gaps z `GAPS.md` i stwarza im okazję.** „Brak okazji” to pusty pomiar.
 - **Jedna reguła na sesję, z sąsiedztwem** — pole obok, na którym nie obowiązuje. Bez tego reguła
   u niego przecieka *(`ohne die Kaffe` po lekcji o rodzajnikach)*.

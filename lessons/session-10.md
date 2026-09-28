@@ -45,6 +45,9 @@ gdy reguły nie ma.
 - 🗣️ **Misja 9:** ile z pięciu zdań `Wo?`/`Wohin?` padło w rozmowie ze Schwiegermutter
   i czy przy każdym umiesz powiedzieć `W` czy `H`?
 - **Jedno zdanie od niej, którego nie zrozumiałeś** — rozbierz je i do talii.
+- 🎯 **Jedno pytanie o cel:** *„Do jakiego egzaminu się przygotowujesz i kiedy?”* — research wskazuje
+  **Fachsprachprüfung** *(obowiązkowa też dla lekarzy z UE, warunek: B2 ogólne — `plan/metodyka.md` → 1)*.
+  Odpowiedź wpisz do `PROFILE.md` → Cele; od niej zależy tempo bloku 4.
 - 📦 **Anki:** tylko kafelek **„Naprawdę zapamiętane”** · czy nowa talia (z kartami zdaniowymi)
   jest zaimportowana i stare karty DE → PL zawieszone *(`anki/README.md`)* · **10 minut dziennie,
   nie cała talia przed sesją.**
@@ -130,6 +133,8 @@ s9 `Fachtext` — nieprzeczytany, wycofany)*. Czytaj raz, **bez słownika**, nie
 ## Blok 3 — `Regel` + `Drill` *(4 min)*
 
 ### Reguła *(≤ 90 s mówione — tabelka zostaje na piśmie)*
+
+📄 Pełna referencja z wiarygodnością reguł i strategią pięciu pytań: [`grammar/05-genus.md`](../grammar/05-genus.md).
 
 **Rodzaj nie idzie za polskim** *(szafa → `der Schrank`, mózg → `das Gehirn`, masło → `die Butter`)*.
 Kiedy nie wiesz — **nie tłumacz rodzaju z polskiego, strzelaj regułą**:
@@ -229,9 +234,9 @@ i wraca na sesji 11 w bloku 3.
 
 ---
 
-## Blok 5 — `Gespräch` *(≥ 10 min, nietykalny)*
+## Blok 5 — `Gespräch` *(≥ 11 min, nietykalny)*
 
-### Trzy rundy tej samej historii (3/2/1) — ok. 6 min
+### Ta sama historia trzy razy — z korektą po pierwszej rundzie *(ok. 8 min)*
 
 **Temat:** *„Zurück in Polen — dein Zimmer und deine erste Woche an der Uni.”*
 Co przywiozłeś i gdzie to teraz jest, jak wygląda pokój, jak dojeżdżasz, co Cię czeka
@@ -240,12 +245,16 @@ w pierwszym tygodniu. Temat wymusza rodzaj *(`der Koffer`, `das Zimmer`, `der Sc
 *(Jeśli jest jeszcze w Rzymie: „Du packst gerade — was kommt wohin?”)*
 
 1. **Runda 1** *(~3 min, pisana)* — swobodnie. **Z niej liczysz pomiar główny.**
-2. **Runda 2** *(2 min)* — ta sama historia **na głos, do telefonu**. Nie wysyła, tylko mówi.
-3. **Runda 3** *(1 min)* — ta sama historia na czacie, **jedną wiadomością, bez poprawiania**.
-   **Z niej rozliczasz „✅ UDA SIĘ, JEŚLI”.**
+2. **Korekta** *(~1 min)* — wybierz 2–3 grupy z błędnym rodzajem albo `Wo?/Wohin?`:
+   ① prompt `Der, die oder das?` / `Wo oder wohin?` → ② nie poprawił — jedno zdanie reguły
+   *(`Zimmer — -er, ale das: wyjątek`)* → ③ dopiero wtedy forma. Jakub poprawia sam.
+3. **Runda 2** *(~3 min, **na głos**, do telefonu)* — ta sama historia, **tyle samo czasu**,
+   z poprawionymi formami. Nie wysyła, tylko mówi.
+4. **Runda 3** *(1 min, na czacie, jedną wiadomością, bez poprawiania)* —
+   **z niej rozliczasz „✅ UDA SIĘ, JEŚLI”.**
 
-**Między rundami — prompt, nie recast**, tylko dla rodzaju i `Wo?/Wohin?`:
-`Der, die oder das?` · `Wo oder wohin?` · `Nochmal — mit dem richtigen Artikel?`
+⚠️ Rundy **nie** skracają się 3 → 2 → 1: sama presja czasu poprawia płynność, a utrwala błędy
+z pierwszej wersji *(`plan/metodyka.md` → 2)*. Poprawność daje korekta przed rundą 2.
 
 ### Rozmowa — reszta czasu
 
@@ -328,6 +337,7 @@ ze Schwiegermutter **pięć rzeczy z rodzajnikiem**. Przy jednej, której rodzaj
 ➕ **Jedno zdanie od niej, którego nie zrozumiałeś** — zapisane od razu.
 *Dodatek, jeśli jest czas:* ✍️ 5 zdań o swoim pokoju w Polsce, każdy rzeczownik z rodzajnikiem.
 
-📖 **Lesemission na sesję 11 — napisać NOWY tekst po sesji** *(`plan/lesestueck.md`: 100–150 słów,
-temat sesji 11 `Adjektivendungen` + top-2 Active, gatunek inny niż `Reportage`)*, **uruchomić
+📖 **Lesemission na sesję 11 — tekst `T-11` z `plan/bank-tekstow.md`** *(„Die Magenspiegelung”,
+`Fachtext`, `Adjektivendungen` w trzech odmianach — gotowy, nieużyty)*. Po sesji: pytania D1–D4
+pod aktualne Active gaps, oznaczyć `T-11` jako użyty, dopisać do rejestru, **uruchomić
 `python3 lessons/sprawdz_powtorki.py 11`** i dopiero wtedy wkleić w czat.

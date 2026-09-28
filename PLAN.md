@@ -1,7 +1,9 @@
 # PLAN — 30 sesji, B1 → B2
 
 **Cel:** wyjść z poziomu „buduję złożone zdania z błędami we fleksji" na poziom
-„mówię swobodnie i poprawnie o swoim życiu, studiach i medycynie".
+„mówię swobodnie i poprawnie o swoim życiu, studiach i medycynie" — i przygotować grunt pod
+**Fachsprachprüfung** *(egzamin izby lekarskiej: wywiad, dokumentacja, przekazanie pacjenta —
+`plan/metodyka.md` → 1)*.
 
 **Format sesji:** 10 min Anki + 25 min lekcji — Ziel → Meldunek → Lesestück → Regel + Drill →
 🧩 Lückensätze → **Gespräch (≥ 10 min)** → Karteikarten → Bilans + misja z tekstem na następną
@@ -67,10 +69,10 @@ Misje: [`plan/missions.md`](plan/missions.md) · Źródła inputu: [`resources/R
 | 24 | 🎯 **Checkpoint** — opowiadanie w przeszłości | powtórka bloku 3 | wszystkie Active | 🎤 Sprachnachricht |
 | **25** | Anamnese — pełny wywiad z pacjentem *(druga część, po s20)* | cały wywiad, od skargi do wywiadu rodzinnego | Fachsprache | 🩺 Fachtext |
 | 26 | Symptome beschreiben | słownictwo objawów, `seit` + Dativ | Fachsprache + Kasus | 🩺 Fachtext |
-| 27 | Arztbrief lesen | Passiv, Nominalstil, skróty | Fachsprache + Passiv | 🩺 Fachtext |
-| 28 | Fallvorstellung — prezentacja przypadku | struktura, spójniki tekstowe | Fachsprache | 🎤 Sprachnachricht |
+| 27 | Arztbrief — czytać i pisać *(FSP: Dokumentation)* | Passiv, Nominalstil, **Konjunktiv I w relacji pacjenta** (`er habe`, `sie sei`) | Fachsprache + Passiv | 🩺 Fachtext |
+| 28 | Fallvorstellung *(FSP: Arzt-Arzt-Gespräch)* | struktura, spójniki tekstowe, pytania kolegi | Fachsprache | 🎤 Sprachnachricht |
 | 29 | Diskutieren und begründen | `Redemittel`: argumentacja, zgoda, sprzeciw | płynność | ✍️ Schreibauftrag |
-| 30 | 🏁 **Test B2** — rozmowa 15 minut bez podpowiedzi | wszystko | — | — |
+| 30 | 🏁 **Mini-FSP** — wywiad z pacjentem, krótka dokumentacja, przekazanie pacjenta | wszystko | — | — |
 
 ---
 
@@ -81,7 +83,7 @@ Misje: [`plan/missions.md`](plan/missions.md) · Źródła inputu: [`resources/R
 | **11** | Opisz swój pokój i drogę na uczelnię — 10 zdań, wszystkie przyimki poprawnie odmienione |
 | **17** | 3-minutowy monolog o studiach, minimum 5 zdań podrzędnych z różnymi spójnikami |
 | **24** | Opowiedz historię z przeszłości (5 min): Perfekt + Präteritum + jedno Plusquamperfekt |
-| **30** | 15 minut rozmowy o medycynie i studiach — bez przechodzenia na polski, bez podpowiedzi |
+| **30** | **Mini-FSP:** wywiad z pacjentem (Claude gra pacjenta), 10 zdań dokumentacji z Konjunktivem I, 3-minutowe przekazanie pacjenta — bez polskiego, bez podpowiedzi |
 
 ---
 
@@ -93,7 +95,9 @@ Misje: [`plan/missions.md`](plan/missions.md) · Źródła inputu: [`resources/R
   i w tekstach medycznych jako ekspozycja.
 - **Futur I.** Niemiecki wyraża przyszłość teraźniejszym (`morgen fahre ich`). Wystarczy jedna
   uwaga w sesji 20.
-- **Konjunktiv I.** Mowa zależna w prasie — poziom C1 i zerowy zwrot przy celu „płynność".
+- **Konjunktiv I poza dokumentacją medyczną.** W prasie i literaturze — pomijamy. **Ale w relacji
+  pacjenta w Arztbrief jest wymagany na FSP** *(`plan/metodyka.md` → 1)*, więc wchodzi w sesji 27
+  w kilku formach: `habe, sei, könne, müsse, nehme, gebe`.
 - **Systematyczny kurs słownictwa medycznego.** Ono jest jego mocną stroną (interna, radiologia,
   ortopedia). Blok 4 uczy **jak o tym mówić po niemiecku**, a nie czego.
 

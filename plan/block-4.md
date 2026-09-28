@@ -33,22 +33,26 @@ uczymy **niemieckiego opakowania** wiedzy, którą już masz.
   niedobrze"), więc to akurat **prezent**, nie pułapka
 - **Output:** 3 przypadki z praktyk, po 4 zdania
 
-## Sesja 27 — Arztbrief lesen
+## Sesja 27 — Arztbrief: czytać i pisać *(FSP, część 2: Dokumentation)*
 - **Gramatyka:** Passiv *(sesja 23)* + **Nominalstil** — rzeczownikowy styl pisma urzędowego
+- **Konjunktiv I w relacji pacjenta** — wymagany na FSP: `Der Patient berichtet, er **habe** seit
+  drei Tagen Schmerzen und **könne** nicht schlafen.` Tylko formy `habe, sei, könne, müsse, nehme, gebe`
+  *(3. os. l.poj. = bezokolicznik bez `-n`, `sein` → `sei`)*. Wzór: `resources/RESOURCES.md` → Arztbrief
 - **Zamiana:** `Der Patient wurde untersucht` → `nach erfolgter Untersuchung des Patienten`
 - **Skróty:** `Z.n.` *(Zustand nach)*, `V.a.` *(Verdacht auf)*, `a.e.` *(am ehesten)*,
   `DD` *(Differenzialdiagnose)*, `i.v.`, `p.o.`
 - **Struktura pisma:** `Diagnosen → Anamnese → Befunde → Therapie → Procedere`
 - **⚠️ Genitiv wraca tutaj** — i tylko tutaj. W mowie go pomijamy (`von + Dativ`),
   ale Nominalstil bez niego nie działa: `die Untersuchung **des Patienten**`
-- **Output:** rozbiór jednego akapitu prawdziwego `Arztbrief`
+- **Output:** rozbiór jednego akapitu prawdziwego `Arztbrief` + **własny krótki Arztbrief z wywiadu z sesji 25**
 
-## Sesja 28 — Fallvorstellung
+## Sesja 28 — Fallvorstellung *(FSP, część 3: Arzt-Arzt-Gespräch)*
 - **Struktura:** `Ich stelle Ihnen vor… → Anamnese → körperliche Untersuchung → Befunde →
   Verdachtsdiagnose → Procedere`
 - **Spójniki tekstowe:** `zunächst, anschließend, daraufhin, schließlich, außerdem, allerdings`
 - **Gramatyka:** wszystko z bloku 3 naraz — Perfekt do przebiegu, Präteritum do badań,
   Konjunktiv II do przypuszczeń (`es könnte sich um… handeln`)
+- **Na FSP kolega-lekarz dopytuje** — ćwiczyć odpowiedzi na pytania o diagnozę różnicową i dalsze postępowanie
 - **Output:** nagranie 2 minuty
 - **To jest najtrudniejsze zadanie kursu.** Monolog, struktura, rejestr zawodowy i cała
   gramatyka jednocześnie
@@ -63,13 +67,13 @@ uczymy **niemieckiego opakowania** wiedzy, którą już masz.
   na drugim miejscu. `Trotzdem **gehe** ich…`, nie `trotzdem ich gehe`
 - **Output:** teza „Medizinstudium sollte kürzer sein", 10 zdań za i przeciw
 
-## Sesja 30 — 🏁 Test B2
-- **Bez nowego materiału i bez misji.**
-- **Format:** 15 minut rozmowy, bez podpowiedzi, bez przechodzenia na polski
-- **Trzy części:**
-  1. Rozmowa swobodna o studiach i planach *(5 min)*
-  2. `Fallvorstellung` — prezentacja przypadku *(5 min)*
-  3. Obrona zdania w dyskusji *(5 min)*
+## Sesja 30 — 🏁 Mini-FSP *(odtworzenie Fachsprachprüfung w skali sesji)*
+- **Bez nowego materiału i bez misji.** Bez podpowiedzi, bez polskiego.
+- **Trzy części — jak na prawdziwej FSP** *(`plan/metodyka.md` → 1)*:
+  1. **Anamnesegespräch** — Claude gra pacjenta *(dane, skargi, choroby, leki, alergie,
+     wywiad socjalny i rodzinny)* *(8 min)*
+  2. **Dokumentation** — 10 zdań zapisu wywiadu, relacja pacjenta w **Konjunktiv I** *(5 min)*
+  3. **Arzt-Arzt-Gespräch** — przekazanie pacjenta Claude'owi w roli lekarza, z dopytaniem *(5 min)*
 - **Mierzone:** trafność w wolnej produkcji, liczba przerwań, liczba luk z `GAPS.md`,
   które nadal się odzywają
 - **Po teście:** pełne podsumowanie kursu w `PROGRESS.md` + decyzja, co dalej

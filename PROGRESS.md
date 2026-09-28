@@ -90,6 +90,7 @@ Stąd sesja 10.
 | 2 | **Czy misja na żywym rozmówcy wstawia strukturę do jego mowy?** | meldunek z misji 9 + liczba `im`/`ins` w rozmowie | s10 |
 | 3 | **Czy 🇮🇹 strukturalna interferencja zniknie po powrocie do Polski?** Jeśli nie — to obciążenie, nie interferencja | obserwacja w `Gespräch`, bez zapowiedzi | s12–13 |
 | 4 | **Czy wnioskowanie w tekście pada na kategoriach?** *(s7 ✅ osoba, s8 ❌ kategoria)* | D2 w s10 wymaga podstawienia pod kategorię | s10 |
+| 5 | **Który egzamin i kiedy?** Research wskazuje Fachsprachprüfung *(też dla lekarzy z UE; B2 ogólne jako warunek)* — ale to trzeba potwierdzić z Jakubem | jedno pytanie w bloku 1 | s10 |
 
 ---
 
@@ -131,7 +132,7 @@ Stąd sesja 10.
 - [ ] Pełny warunek: „*Wenn ich mehr Zeit hätte, würde ich…*” — oba człony
 - [ ] Zdanie w stronie biernej o badaniu/zabiegu
 
-### Po sesji 30 — test B2
-- [ ] 15 minut rozmowy bez przejścia na polski i bez podpowiedzi
-- [ ] Krótka `Fallvorstellung` — prezentacja przypadku
-- [ ] Obrona zdania w dyskusji: argument, kontrargument, wniosek
+### Po sesji 30 — mini-Fachsprachprüfung
+- [ ] Wywiad z pacjentem (Claude gra pacjenta) — wszystkie części Anamnese, bez polskiego
+- [ ] 10 zdań dokumentacji, relacja pacjenta w Konjunktiv I (`er habe`, `sie sei`)
+- [ ] Przekazanie pacjenta koledze-lekarzowi z odpowiedzią na dopytanie

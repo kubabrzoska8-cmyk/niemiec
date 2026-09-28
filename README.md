@@ -22,7 +22,9 @@ z `main`, więc oba sposoby można mieszać. Nie zapisuje planu następnej lekcj
 ## Co robi kurs
 
 - **Stały szkielet lekcji (~25 min):** Ziel → Meldunek → Lesestück → Regel + Drill →
-  🧩 Lückensätze → **Gespräch (≥ 10 min, rundy 3/2/1)** → Karteikarten → Bilans + misja.
+  🧩 Lückensätze → **Gespräch (≥ 11 min: ta sama historia 3×, z korektą po pierwszej rundzie)** →
+  Karteikarten → Bilans + misja. Cel zawodowy: **Fachsprachprüfung**. Podstawa badawcza:
+  [`plan/metodyka.md`](plan/metodyka.md).
   Protokół: [`CLAUDE.md`](CLAUDE.md).
 - **Jedna liczba główna** — trafność grupy rzeczownikowej w wolnej rozmowie (pierwsze 15 grup).
   Reszta pomiarów to diagnostyka. Stan: [`PROGRESS.md`](PROGRESS.md).

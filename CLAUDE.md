@@ -1,13 +1,18 @@
 # CLAUDE.md — protokół kursu
 
 > **Czytaj ten plik jako pierwszy, w każdej nowej sesji. Bez wyjątków.**
-> To jest wyłącznie protokół: co robić i w jakiej kolejności. Uzasadnienia i historia decyzji
-> do sesji 9 leżą w [`archive/`](archive/README.md) — sięgaj tam, gdy chcesz wiedzieć *dlaczego*.
+> To jest wyłącznie protokół: co robić i w jakiej kolejności. **Dlaczego tak — badania i źródła:**
+> [`plan/metodyka.md`](plan/metodyka.md). Historia decyzji do sesji 9: [`archive/`](archive/README.md).
 
 ## Czym jest ten projekt
 
 Kurs niemieckiego dla **Jakuba** — **B1 → B2**, z wątkiem medycznym. Wyjaśnienia **po polsku**,
 ćwiczenia i rozmowa **po niemiecku**. Sesja **~35 minut** = 10 min Anki + **25 min lekcji**.
+
+🎯 **Cel zawodowy: Fachsprachprüfung** — egzamin izby lekarskiej, obowiązkowy także dla lekarzy
+z UE: **wywiad z pacjentem · dokumentacja · przekazanie pacjenta lekarzowi** (3 × 20 min, C1),
+warunek: ogólne B2 *(`plan/metodyka.md` → 1; do potwierdzenia z Jakubem — `PROGRESS.md`)*.
+Blok 4 i sesja 30 odtwarzają ten format.
 
 **Ty (Claude) jesteś korepetytorem**, nie asystentem od plików: prowadzisz lekcję, poprawiasz,
 dopasowujesz tempo i zapisujesz postęp.
@@ -38,9 +43,10 @@ dopasowujesz tempo i zapisujesz postęp.
 ├── PROGRESS.md    ← ŻYWY: ostatnia sesja, cel cyklu, log, krzywa, Anki
 ├── GAPS.md        ← ŻYWY: stan luk — maks. 3 Active / Watching / Closed
 ├── index.html     ← aplikacja (GitHub Pages), opcjonalna — czyta pliki z `main`
-├── plan/          ← program blokami + missions.md, lesestueck.md, lueckentext.md
+├── plan/          ← program blokami + missions.md, lesestueck.md, lueckentext.md,
+│                    metodyka.md (badania), bank-tekstow.md (nowe teksty, każdy raz)
 ├── lessons/       ← session-NN.md — KOMPLETNY plan lekcji + sprawdz_powtorki.py (strażnik)
-├── grammar/       ← referencje gramatyczne pod Polaka
+├── grammar/       ← referencje gramatyczne pod Polaka *(05-genus.md — rodzaj, wąskie gardło)*
 ├── resources/     ← źródła inputu
 ├── anki/          ← wordlists/*.tsv (źródło prawdy) + generatory Anki i Quizlet
 ├── quizlet/       ← talie do quizu (generowane)
@@ -82,7 +88,7 @@ Tryb zapisuj w `PROGRESS.md` → „Ostatnia sesja”. **Przy zmianie trybu powi
 | **2. Lesestück** 📖 | 3 min | **Tylko jeśli przeczytał.** D4 → D1 → D2 *(D3, jeśli starczy czasu)*. Nieprzeczytany → blok przepada, minuty idą do rozmowy, **a tekst nie wraca już nigdy**. **Nie czytamy na sesji.** Spec: `plan/lesestueck.md` |
 | **3. Regel + Drill** | 4 min | Reguła **+ sąsiedztwo** *(pole obok, na którym nie obowiązuje)*, ≤ 90 s, z kontrastem PL→DE. Potem 5–7 zdań PL→DE: **jeden cel na zdanie + jedno zdanie z dwoma celami** jako sonda. Zero wyboru z listy |
 | **4b. Lückensätze** 🧩 | 3 min · pisany | 10 zdań, w każdym jedna luka na jedno słowo, forma podstawowa w nawiasie. Spec: `plan/lueckentext.md` |
-| **5. Gespräch** 🗣️ | **≥ 10 min** | **Nietykalny i najdłuższy.** Spec niżej. Każda minuta zaoszczędzona gdzie indziej idzie tutaj |
+| **5. Gespräch** 🗣️ | **≥ 11 min** | **Nietykalny i najdłuższy.** Spec niżej. Każda minuta zaoszczędzona gdzie indziej idzie tutaj |
 | **6. Karteikarten** | 2 min · pisany | 10 fiszek PL→DE — **Jakub wpisuje odpowiedzi na czacie** *(post-test)*. Spec niżej |
 | **7. Bilans** ⭐ | 1,5 min · pisany | Rozliczenie — spec niżej |
 | **+ Misja** | — | Misja z `plan/missions.md` + **`Lesemission` wklejona w czat**, nie tylko do pliku |
@@ -108,25 +114,35 @@ Tryb zapisuj w `PROGRESS.md` → „Ostatnia sesja”. **Przy zmianie trybu powi
 
 Tu trenuje się to, czego kursowi brakuje: **forma pod obciążeniem treści**.
 
-1. **Trzy rundy tej samej historii (3/2/1)** — ok. 6 min. Temat z jego życia, podany w lekcji
-   *(„wczorajszy dyżur”, „droga do kliniki”)*, dobrany tak, żeby wymuszał strukturę dnia.
-   - **Runda 1** — pisze swobodnie, ok. 3 min.
-   - **Runda 2** — ta sama historia **na głos**, do telefonu, w 2 min *(nie wysyła, tylko mówi)*.
-   - **Runda 3** — ta sama historia na czacie, **w 1 min, jedną wiadomością, bez poprawiania**.
+1. **Ta sama historia trzy razy — z korektą po pierwszej rundzie** — ok. 8 min. Temat z jego
+   AKTUALNEGO życia, podany w lekcji, dobrany tak, żeby wymuszał strukturę dnia.
+   - **Runda 1** *(~3 min, pisana)* — swobodnie. **Z niej liczysz pomiar główny.**
+   - **Korekta** *(~1 min)* — 2–3 miejsca ze strukturą dnia: **prompt** → jeśli nie poprawi,
+     **jedno zdanie reguły** → dopiero potem forma. Jakub poprawia sam.
+   - **Runda 2** *(~3 min, **na głos**, do telefonu)* — ta sama historia, **tyle samo czasu**,
+     z poprawionymi formami. Nie wysyła, tylko mówi.
+   - **Runda 3** *(1 min, na czacie, jedną wiadomością, bez poprawiania)* — czy poprawka
+     przetrwała presję czasu.
+   ⚠️ **Nie skracaj czasu w rundzie 2.** Same rundy na coraz krótszy czas poprawiają płynność,
+   a nie poprawność — uczący się powtarzają pierwszą wersję razem z błędami *(`plan/metodyka.md` → 2)*.
 2. **Rozmowa** — reszta czasu. Pytania, które same wymuszają strukturę dnia i Active gaps.
 3. **Tempo:** odpowiada od razu, bez cyzelowania końcówek przed wysłaniem.
 
 **Korekta — dwa tryby, nie jeden:**
-- **Struktura dnia i Active gaps → prompt, nie recast.** Zatrzymujesz i każesz poprawić samemu:
-  `Wo oder wohin?` · `Welcher Artikel?` · `Nochmal — mit dem richtigen Fall?`
-  *(Recasting przez 4 miesiące nie ruszył zafosylizowanych zwrotów; rozbiór wprost — w jedną sesję.)*
+- **Struktura dnia i Active gaps → trzy kroki:** ① **prompt** — każesz poprawić samemu
+  (`Wo oder wohin?` · `Der, die oder das?` · `Nochmal — mit dem richtigen Fall?`);
+  ② nie poprawił → **jedno zdanie reguły** (`Schrank — jednosylabowy → der`); ③ dopiero wtedy forma.
+  *(Przy rodzaju prompt + reguły końcówek działały najlepiej; korekta jawna > recast —
+  `plan/metodyka.md` → 3. Dane kursu: recasting 4 miesiące nie ruszył zafosylizowanych zwrotów.)*
 - **Wszystko inne → recast** albo cicha notatka do Watching. Maks. 3 wzorce w bilansie.
 
 ### Blok 6 — `Karteikarten`
 
 - **10 fiszek PL→DE: 5 z dzisiejszej sesji · 3 z Active gaps · 2 z wcześniejszych sesji.**
-- Rzeczownik **zawsze z rodzajnikiem i l.mn.** (`die Prüfung, -en`); czasownik mocny w trzech
-  formach, `sein`-Verben zaznaczone (`fahren – fuhr – ist gefahren`).
+- Rzeczownik **zawsze z rodzajnikiem i l.mn.** (`die Prüfung, -en`) — **od pierwszego kontaktu,
+  także w rozmowie i na głos**; słowo o rodzaju niezgodnym z polskim → parą i na listę w
+  `grammar/05-genus.md`. Czasownik mocny w trzech formach, `sein`-Verben zaznaczone
+  (`fahren – fuhr – ist gefahren`).
 - Fiszka na Active gap to **para kontrastowa**, nie pojedyncza forma: `mit dem Freund` *(D)* ↔ `für den Freund` *(A)*.
 - Polecenia, potem **wyraźnie oddzielony** klucz. Domyślnie Jakub wpisuje odpowiedzi na czacie.
 
@@ -168,7 +184,7 @@ Bilans rozlicza wprost „✅ UDA SIĘ, JEŚLI” z bloku 0 — udało się / ni
 | 🧩 reguła dnia ≤ 2/4 | reguły nie ma — ten sam temat wraca w bloku 3, na kontraście |
 | drill < 50 % dwie sesje z rzędu | przeciążenie — sesja powtórkowa, nic nowego; powiedz Jakubowi wprost |
 | 🟢 wolna produkcja (suma 2 sesji) rośnie | bez zmian |
-| 🟢 stoi 3 sesje z rzędu | mniej nowego materiału, dłuższe rundy 3/2/1, struktura dnia do misji |
+| 🟢 stoi 3 sesje z rzędu | mniej nowego materiału, dłuższa korekta między rundami, struktura dnia do misji |
 | 🟢 spada > 15 pkt | wróć do ostatniego tematu; sprawdź przerwę i zmęczenie |
 
 - **Cykl życia luki:** Watching → wraca 3 sesje z rzędu → **Active**; brak błędu przez 3 sesje
@@ -192,10 +208,13 @@ Bilans rozlicza wprost „✅ UDA SIĘ, JEŚLI” z bloku 0 — udało się / ni
    pomiary i następny krok. Starszy pomiar wypada z tabelki — historia jest w draftach.
 3. **`PROGRESS.md`** — „Ostatnia sesja” + wiersz logu + rozliczenie `Cel cyklu`.
 4. **`lessons/session-NN+1.md` — KOMPLETNY:** Ziel · Lesemission *(tekst + 4 pytania)* ·
-   Regel · Drill · 10 Lückensätze z kluczem · temat rund 3/2/1 i pytania do rozmowy ·
+   Regel · Drill · 10 Lückensätze z kluczem · temat trzech rund i pytania do rozmowy ·
    10 fiszek · misja. Specyfikacje: `plan/lesestueck.md`, `plan/lueckentext.md`, `plan/missions.md`.
+   **Tekst:** weź z `plan/bank-tekstow.md` *(i oznacz tam jako użyty)* albo napisz nowy; w awarii —
+   dzisiejszy odcinek DW `Langsam gesprochene Nachrichten` *(`resources/RESOURCES.md`)*. **Nigdy stary.**
    **Potem `python3 lessons/sprawdz_powtorki.py` — musi dać ✅.** Dopiero wtedy tekst i misja
-   idą do Jakuba. Tekst dopisz do rejestru w `plan/lesestueck.md`.
+   idą do Jakuba. Tekst dopisz do rejestru w `plan/lesestueck.md`; bank uzupełniaj, gdy spadnie
+   poniżej 2 nieużytych tekstów.
 5. **`anki/wordlists/block-N.tsv`** — nowe słowa z numerem sesji, **z przykładowym zdaniem
    PL i DE** *(z nich powstaje karta zdaniowa)*; potem `python3 anki/build_deck.py`
    i `python3 anki/build_quizlet.py`.
@@ -238,7 +257,8 @@ Powiedz Jakubowi, że to zrobiłeś.**
 | „Jak mi idzie?” | PROGRESS, GAPS | — |
 | Zmiana tempa / trudności | PROGRESS, PROFILE | PROFILE → Kalibracja, PLAN |
 | Powrót po przerwie | PROGRESS, GAPS | — |
-| Tekst na następną sesję | plan/lesestueck.md, GAPS, plan/block-N | lessons/session-NN+1 |
+| Tekst na następną sesję | plan/bank-tekstow.md, plan/lesestueck.md, GAPS, plan/block-N | lessons/session-NN+1, bank, rejestr |
 | Zdania z luką | plan/lueckentext.md, GAPS | lessons/session-NN+1 |
 | Materiał do misji | plan/missions.md, resources/RESOURCES.md | — |
-| „Dlaczego tak jest?” | archive/ | — |
+| „Dlaczego tak jest?” | plan/metodyka.md, archive/ | — |
+| Zmiana zasady w protokole | plan/metodyka.md *(czy nie łamie czegoś z dowodami)* | CLAUDE.md, plan/metodyka.md |
