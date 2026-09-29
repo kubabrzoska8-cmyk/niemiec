@@ -267,6 +267,9 @@ Powiedz Jakubowi, że to zrobiłeś.**
 - 🔁 **Nic nie wraca dosłownie** — tekst, pytanie, zdanie z drillu, luki czy fiszki. **Ta sama
   struktura, nowe zdanie.** Nieprzeczytany tekst przepada. Tekst o ibuprofenie Jakub dostał
   trzy razy, a sondę z sesji 8 rozpoznał w sesji 9 — pilnuje tego `lessons/sprawdz_powtorki.py`.
+  **Także wewnątrz lekcji:** luka nie powtarza przykładu z `Regel` ani zdania z drillu, fiszka nie
+  powtarza luki — inaczej pomiar sprawdza pamięć zdania sprzed 10 minut, nie regułę *(strażnik
+  sprawdza to w blokach Lückensätze i Karteikarten; zdania PL z drillu porównaj sam)*.
 - **Żadnych wyuczonych formułek do rozmowy.** Formuły egzaminacyjne *(`Einerseits … andererseits`,
   `Zusammenfassend …`)* — tylko w prezentacji i w piśmie. W rozmowie tak, jak mówią ludzie:
   `Also, ich finde …`, `Stimmt, aber …`, `Kommt drauf an.` *(`grammar/06-mowiony-niemiecki.md`)*.

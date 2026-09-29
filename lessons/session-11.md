@@ -45,7 +45,11 @@
 3. 🔴 **Jedno zdanie od Schwiegermutter, którego nie zrozumiał.**
    ⚠️ **Brak drugą sesję z rzędu.** Jeśli i dziś nie będzie — **zmień format misji**
    *(np. „nagraj 30 s jej odpowiedzi i wklej, co usłyszałeś")*, nie powtarzaj prośby trzeci raz.
-4. 📦 **Anki: NIE PYTAJ.** Zasada z sesji 10 — najbliższe pytanie na sesji 12.
+4. 🎓 **Zapis na Goethe B2 — czy jest?** ⚠️ Wg nowego planu to była misja 10, ale **sesja 10 poszła
+   ze starych plików i Jakub tej misji nigdy nie dostał** *(dostał `Ein Zimmer, zwei Länder`)*.
+   Zapisany → termin i miejsce do `PROGRESS.md` → Egzamin. Nie → **punkt ① misji 11**, powiedz
+   wprost, że o miejscu decyduje kolejność zapisu *(`plan/goethe-b2.md` → Termin)*.
+5. 📦 **Anki: NIE PYTAJ.** Zasada z sesji 10 — najbliższe pytanie na sesji 12.
 
 ---
 
@@ -183,7 +187,10 @@ mit  gutem Kaffee   ← brak rodzajnika                   →  -em   (przejmuje)
 na rodzajnik *(`nach **den** langen Dienst`)*: **`-en` dotyczy PRZYMIOTNIKA. Rodzajnik
 w Dativie ma własne formy: `dem / der / dem / den`.**
 
-### ③ Dokładka 30 s — `an` ↔ `auf` ↔ `in` ↔ `durch`
+### ③ `an` ↔ `auf` ↔ `in` ↔ `durch` — **NIE wykładaj.** To jest krok ② korekty *(jedno zdanie reguły)*
+
+**Jedna reguła na sesję** — dwie są już wyżej. Pokaż tę tabelkę **dopiero wtedy, gdy drill 7 albo
+luka 6 padnie po prompcie** *(`Durch, an oder auf?`)*. Wchodzi → 30 s zostaje w `Gespräch`.
 
 Sesja 10 rozłupała lukę: **rekcja się domyka** *(`sich freuen auf` 2/2, pierwszy raz w kursie)*,
 ale `an` zostało domyślne **w przestrzeni** — `am Flur`, `am meine uni Stadt`, `an meinem Tisch`, **0/3**.
@@ -204,19 +211,35 @@ Z `grammar/06-mowiony-niemiecki.md`. **Musi paść w bloku 5:**
 ### Drill — PL → DE, jeden cel na zdanie *(zdanie 8: dwa cele — sonda)*
 
 ```
-1.  Dostałem nowy fartuch.                         (cel: ein + neu + der Kittel, Akk.)
-2.  Po długim dyżurze nigdy nie jem.               (cel: nach + ein + lang, Dativ)
+1.  Mam nowego współlokatora.                      (cel: ein + neu + der Mitbewohner, Akk.)
+2.  Po ciężkim tygodniu śpię do południa.          (cel: nach + ein + schwer, Dativ — ŻEŃSKI)
 3.  To był bardzo trudny egzamin.                  (cel: ein + schwer, Nominativ)
 4.  Piję kawę bez zimnego mleka.                   (cel: deklinacja MOCNA — bez rodzajnika)
-5.  Kładę książki na biurko.                       (cel: legen + Akk.)
-6.  Książki leżą już na biurku.                    (cel: liegen + Dativ)
-7.  Idę korytarzem do sekretariatu.                (cel: durch — NIE „an")
-8.  Wieszam swój nowy fartuch w szafie.            (SONDA: dwa cele — hängen+Akk ORAZ mein+neu)
+5.  Kładę klucze na parapet.                       (cel: legen + Akk. · die Fensterbank)
+6.  Klucze leżą już na parapecie.                  (cel: liegen + Dativ)
+7.  Codziennie jadę przez całe miasto na uczelnię. (cel: durch — NIE „an"; s10: `am meine uni Stadt`)
+8.  Wieszam swoją nową lampę nad łóżkiem.          (SONDA: dwa cele — hängen+Akk ORAZ mein+neu)
 ```
 
-**Czego szukam:** zdania 5 ↔ 6 to ta sama para co luki 5 ↔ 9 — **jeśli drill ✅ a luki ❌,
-to problem jest w obciążeniu, nie w regule.** Zdanie 8 to sonda dwucelowa: `GAPS.md` #3
-przewiduje, że **przy dwóch celach padnie jeden z nich, nie oba.**
+<details>
+<summary><strong>🔒 Klucz drillu</strong></summary>
+
+```
+1.  Ich habe einen neuen Mitbewohner.
+2.  Nach einer schweren Woche schlafe ich bis mittags.
+3.  Das war eine sehr schwere Prüfung.
+4.  Ich trinke Kaffee ohne kalte Milch.
+5.  Ich lege die Schlüssel auf die Fensterbank.
+6.  Die Schlüssel liegen schon auf der Fensterbank.
+7.  Ich fahre jeden Tag durch die ganze Stadt zur Uni.
+8.  Ich hänge meine neue Lampe über das Bett.      ← 🇵🇱 „nad łóżkiem" to narzędnik, a to RUCH → Akk.
+```
+</details>
+
+**Czego szukam:** zdania 5 ↔ 6 to ta sama logika co luki 5 ↔ 9 *(czasownik wybiera przypadek)*,
+**na innej parze i innych słowach** — **jeśli drill ✅ a luki ❌, to problem jest w obciążeniu,
+nie w regule.** Zdanie 8 to sonda dwucelowa: `GAPS.md` #3 przewiduje, że **przy dwóch celach
+padnie jeden z nich, nie oba.** 🇵🇱 Pułapka w 8: polski mówi „nad łóżkiem” także przy ruchu.
 
 ---
 
@@ -234,15 +257,15 @@ Watching: grupa dopełniaczowa)* · 2 × przeplatanie *(s8, s10)* · 1 × sonda 
 > 🔑 **Luki 1–4 PODAJĄ rodzaj** — mierzę końcówkę, nie rodzaj. `GAPS.md` #3.
 
 ```
-1.  Nach ________ Dienst esse ich nie etwas.              (ein + lang · DER Dienst — Dativ)
+1.  Nach ________ Dienst habe ich keinen Hunger mehr.     (ein + lang · DER Dienst — Dativ)
 2.  Der Famulant hat ________ Kittel bekommen.            (ein + weiß · DER Kittel — Akk.)
 3.  Ich wohne jetzt bei ________ Freundin.                (mein + deutsch · DIE Freundin — Dativ)
 4.  ________ Studenten halten die Regel für unnötig.      (viel + polnisch — l.mn., Nom.)
-5.  Meine Klamotten liegen schon ________ Koffer.         (in + DER Koffer — jedno słowo!)
+5.  Mein Schreibtisch steht schon ________ Zimmer.        (in + DAS Zimmer — jedno słowo!)
 6.  Ich gehe jeden Morgen ________ den Flur zur Station.  (przyimek sam dobierz)
 7.  Wegen ________ Wortes habe ich den Satz nicht verstanden.  (ein unbekanntes Wort)
 8.  Ohne ________ Namensschild darf ich nicht rein.       (mein · DAS Namensschild)
-9.  Morgen ________ ich alle Klamotten in den Koffer.     (czasownik: legen czy liegen?)
+9.  Heute Abend ________ ich den Schreibtisch ans Fenster.  (czasownik: stellen czy stehen?)
 10. Am Freitag halte ich ________ Referat über die Leber. (Referat — rodzaj sam ustal, Akk., nieokreślony)
 ```
 
@@ -255,11 +278,11 @@ Watching: grupa dopełniaczowa)* · 2 × przeplatanie *(s8, s10)* · 1 × sonda 
 | 2 | **einen weißen** | 🎯 reguła dnia | Rodzaj **podany**, więc mierzę wyłącznie deklinację mieszaną w Akk. męskim. 🔴 s10: ten determinant **1/3** *(`meine Bericht` ❌ → `meinen Bericht` ✅)* |
 | 3 | **meiner deutschen** | 🎯 reguła dnia | „W Dativie zawsze `-en`" **przy determinancie, który też się odmienia**. ✅ `bei meiner Freundin` padło poprawnie w rozmowie s10 — determinant jest **kontrolą**, nie pomiarem |
 | 4 | **Viele polnische** | 🎯 reguła dnia | Deklinacja **mocna** w l.mn.: `viele` nie jest rodzajnikiem, więc przymiotnik przejmuje robotę → `-e`. ⚠️ s10: ❌ `alle **andere** Geräte`. **Uwaga: po `alle` idzie `-en`, po `viele` idzie `-e`.** `polnischen` = przeciek z `alle` |
-| 5 | **im** | 🔴 #3 alokacja uwagi | `liegen` *(nieprzechodni)* → `Wo?` → Dativ → `im`. 🔬 **Dokładnie zdanie, które s10 dała odwrotnie.** Tu `liegen` STOI w zdaniu, więc `im` jest poprawne. **Para z luką 9** |
+| 5 | **im** | 🔴 #3 alokacja uwagi | `stehen` *(nieprzechodni)* → `Wo?` → Dativ → `im`. Czasownik **stoi w zdaniu**, decyzja zostaje tylko w przypadku. `das Zimmer` podane — s10 dała `der Zimmer` *(przeciek `-er`)*. **Para z luką 9** |
 | 6 | **durch** | 🔴 #2 `an` w przestrzeni | `durch den Flur` — przez, na wylot. 🔴 s10: `am Flur`, `am meine uni Stadt`, `an meinem Tisch` — **0/3, zawsze `an`**. Jedyna luka z przyimkiem, bo **tam jest luka**, nie w odmianie |
 | 7 | **eines unbekannten** | Watching: grupa dopełniaczowa | Genitiv nijaki → `ein**es** unbekannt**en** Wort**es**`. ✅ **Nawias podaje Nominativ `ein unbekanntes Wort` — formę INNĄ niż odpowiedź.** To jest naprawiony błąd z sesji 10 |
 | 8 | **mein** | przeplatanie *(s8 + s10)* | `ohne` + Akk., **nijaki → BEZ zmiany**. 🔑 **Pułapka odwrotna do s10**, gdzie poprawne było `meinen` *(męski)* i padło `meiner`. **Padnie `meinen` → reguła z s10 wyciekła za szeroko** *(#1)*, a nie „nie umie" |
-| 9 | **lege** | 🔴 #3 + 🇵🇱 `legen/liegen` | Ruch → przechodni → `legen`. 🔬 **Para z luką 5: ten sam koffer, przeciwna odpowiedź** |
+| 9 | **stelle** | 🔴 #3 + 🇵🇱 para czasowników | `ans Fenster` = ruch, Akk. → ja to robię → przechodni → `stellen`. 🔬 **Para z luką 5: ten sam `Schreibtisch`, przeciwna odpowiedź.** Regułę pokazałem na `legen/liegen` — tu mierzę **transfer na drugą parę**, nie pamięć przykładu. Przy okazji `ans` = poprawne `an` w przestrzeni *(przy oknie)* |
 | 10 | **ein** | 🔬 sonda *(s10)* | `-at` → **das** `Referat` → Akk. nieokreślony = **`ein`**, nie `einen`. 🔴 s10: w luce padło `den`, **mimo że `ins Sekretariat` w drillu tej samej sesji było ✅**. Reguła zadziałała na słowie, nie na klasie — **to jest ten pomiar** |
 
 **Co z tego czytam:**
@@ -267,8 +290,8 @@ Watching: grupa dopełniaczowa)* · 2 × przeplatanie *(s8, s10)* · 1 × sonda 
 - 🔑 **Para 5 ↔ 9 jest najważniejsza i jest nowym narzędziem kursu.** Ten sam rzeczownik,
   przeciwne odpowiedzi, różnica **wyłącznie w czasowniku**:
   ```
-  5 ✅ i 9 ✅  →  para legen/liegen weszła; błąd kierunku z s10 był w niej
-  5 ✅ i 9 ❌  →  rozumie bierne „leży", nie rozumie czynnego „kładę"
+  5 ✅ i 9 ✅  →  pary czasowników weszły — i przeniosły się z legen na stellen
+  5 ✅ i 9 ❌  →  rozumie bierne „stoi", nie wybiera czynnego „stawiam"
   oba ❌       →  problem jest w przypadku, nie w czasowniku — wracamy do Wo?/Wohin?
   ```
 - 🔑 **Luki 1–4 mierzą KOŃCÓWKĘ, bo rodzaj jest podany.** Warunek brzegowy z `GAPS.md` #3.
@@ -348,12 +371,12 @@ Dzisiejsza sesja
 5.  Zdał egzamin bez jednego błędu.
 
 Luki (Active + Watching)
-6.  Dostałem nowy biały fartuch.
-7.  Idę korytarzem, a nie przez oddział.
-8.  Z powodu jednego nieznanego słowa nie zrozumiałem zdania.
+6.  Kupiłem sobie nowy plecak na semestr.
+7.  Przejdź przez park — apteka jest przy przystanku.
+8.  Z powodu nowego planu zajęć muszę wstawać o szóstej.
 
 Przeplatanie
-9.  Bez identyfikatora nie wolno mi wejść na oddział.        (sesja 10)
+9.  Bez legitymacji studenckiej nie dostanę zniżki.          (sesja 10)
 10. Po dyżurze dzwonię do dziewczyny.                        (sesja 9)
 ```
 
@@ -368,12 +391,14 @@ Przeplatanie
 3.  das Hindernis, -se
 4.  das Missverständnis, -se
 5.  Er hat die Prüfung ohne einen einzigen Fehler bestanden.
-6.  Ich habe einen neuen weißen Kittel bekommen.
-    ↳ kontrast: einEN neuEN Kittel (Akk. męski) ↔ ein neuES Namensschild (Akk. nijaki — bez zmiany)
-7.  Ich gehe durch den Flur, nicht durch die Station.
-    ↳ kontrast: durch den Flur (przez) ↔ am Fenster (przy) ↔ auf der Station (na)
-8.  Wegen eines unbekannten Wortes habe ich den Satz nicht verstanden.
-9.  Ohne mein Namensschild darf ich die Station nicht betreten.
+6.  Ich habe mir einen neuen Rucksack für das Semester gekauft.
+    ↳ kontrast: einEN neuEN Rucksack (Akk. męski) ↔ ein neuES Handy (Akk. nijaki — bez zmiany)
+7.  Geh durch den Park — die Apotheke ist an der Haltestelle.
+    ↳ kontrast: durch den Park (przez) ↔ an der Haltestelle (przy) ↔ auf dem Tisch (na)
+8.  Wegen des neuen Stundenplans muss ich um sechs aufstehen.
+    ↳ kontrast: des neuEN Stundenplans (Gen. męski, określony) ↔ eines unbekanntEN Wortes (Gen. nijaki — luka 7)
+9.  Ohne meinen Studentenausweis bekomme ich keine Ermäßigung.
+    ↳ kontrast: ohne meinEN Ausweis (męski) ↔ ohne mein Namensschild (nijaki — bez zmiany, luka 8)
 10. Nach dem Dienst rufe ich meine Freundin an.
 ```
 </details>
@@ -383,7 +408,7 @@ Przeplatanie
 ## Blok 7 — `Bilans` *(1,5 min, pisany)*
 
 1. **Co sprawdzałem** — 🟢 x/15 · 🧩 x/10 z rozbiciem · drill x/8 · 📖 x/3 ·
-   para `legen/liegen` *(drill 5–6 ↔ luki 5/9 ↔ rozmowa)* · zaimek zwrotny · **i czego nie zdążyłem**
+   pary czasowników *(drill 5–6 `legen/liegen` ↔ luki 5/9 `stellen/stehen` ↔ rozmowa)* · zaimek zwrotny · **i czego nie zdążyłem**
 2. **Co dobrze — i dlaczego to się liczy** — z cytatami
 3. **Co źle — i DLACZEGO** — maks. 3 wzorce, każdy **z mechanizmem**
 4. **Jedna rzecz na następny raz**
@@ -392,16 +417,39 @@ Przeplatanie
 
 ---
 
-## Misja 11 *(wklej w czat razem z NOWYM tekstem na sesję 12)*
+## Misja 11 *(wklej w czat na koniec sesji)*
 
-**Rdzeń Live** — `plan/missions.md`: 🎤 **90 s o własnym dniu, min. 6 przymiotników
+> **Kolejność = priorytet** *(`plan/goethe-b2.md` → wiersz s11)*. Jeśli przeprowadzka zje tydzień —
+> ① i ② zrobione, ③ przesunięte. Sesja 12 i tak robi mock Sprechen, a omówienie Lesen/Hören poczeka.
+
+**① 🎓 Zapis na Goethe B2 — jeśli nie jest załatwiony** *(Meldunek, punkt 4)*.
+✍️ **formelle Nachricht #1 — naprawdę wysłana:** mail do Goethe-Institut *(Kraków:
+egzaminy-krakow@goethe.de · Warszawa: pruefungen-warschau@goethe.de albo centrum w Twoim mieście)*,
+**ok. 100 słów, 25 minut na zegarze**, cztery punkty: ① który termin B2 w listopadzie/grudniu ·
+② do kiedy zapisy · ③ cena za cztery moduły · ④ co przynieść na egzamin.
+Wklej go też w czat — sesja 12 poprawia go wg kryteriów Goethe *(Schreiben T2)*.
+**To jest prawdziwa wiadomość, nie ćwiczenie** — i o miejscu decyduje kolejność zapisu.
+
+**② 🗣️ Rdzeń Live** — `plan/missions.md`: 🎤 **90 s o własnym dniu, min. 6 przymiotników
 w odmienionych grupach**, nagranie bez przerwy dłuższej niż 3 sekundy.
+➕ **Jedno zdanie od Schwiegermutter, którego nie zrozumiałeś** — zapisane od razu.
 
 ⚠️ **Jeśli misja 10 nie weszła** *(trzecia z rzędu)* — **nie powtarzaj formatu**. Zamiast tego:
 *„Wyślij mi jedną wiadomość głosową do mnie, 30 sekund, o tym, jak wyglądał dzień."*
 Próg musi spaść poniżej tego, co Jakub realnie robi, zanim znowu urośnie.
 
-**+ zadanie egzaminu** *(Schreiben)* — wg `plan/goethe-b2.md`.
-**+ `Lesemission` na sesję 12** — weź z `plan/bank-tekstow.md` **T-12** *(`Offizieller Text`,
-siedem spójników podrzędnych)*, oznacz tam jako użyty, dopisz do rejestru w `plan/lesestueck.md`.
-**Potem `python3 lessons/sprawdz_powtorki.py 12` — musi dać ✅.**
+**③ 🎯 Mock #1 — Lesen + Hören** *(praca domowa, na czas, z kluczem — jedyny wyjątek od „zero testów
+wyboru")*: [Modellsatz B2 (PDF)](https://www.goethe.de/pro/relaunch/prf/materialien/B2/b2_modellsatz_erwachsene.pdf)
+*(`resources/RESOURCES.md` → Goethe)*. **Lesen 65 min, Hören ok. 40 min** — jednym ciągiem albo
+w dwa dni, **bez słownika, bez pauzy nagrania**. Sprawdź z kluczem i przyślij: **dwie liczby
+0–100 + która część poszła najgorzej.** ⚠️ Nagrania do Hören są osobno od PDF-a, na stronie Goethe
+przy Modellsatz — nie znajdziesz ich → zrób sam Lesen, Hören przechodzi na później.
+➡️ Wynik do `PROGRESS.md` → Egzamin, wiersz „#1 diagnostyczny".
+
+**📖 Lesemission na sesję 12 — NIE MA osobnego tekstu.** Tekstem na s12 jest **mock Lesen**
+*(`plan/goethe-b2.md`: s12 = diagnoza, kolumna „tekst” = „—”)*. **`T-12` zostaje w banku na s13.**
+
+**Po sesji — `lessons/session-12.md`** wg wiersza s12 w `plan/goethe-b2.md`: 🎯 mock Sprechen
+*(Vortrag 4 min + Diskussion 5 min — to jest `Gespräch`)* · omówienie Lesen/Hören · korekta maila
+z ① · checkpoint Kasus *(`PLAN.md` → Checkpointy)* · 📦 pytanie o Anki *(co trzecią sesję)* ·
+rozliczenie **celu cyklu 10–12**. **Potem `python3 lessons/sprawdz_powtorki.py 12` — musi dać ✅.**

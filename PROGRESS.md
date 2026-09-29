@@ -34,7 +34,7 @@
 
 | Pole | Wartość |
 |---|---|
-| Termin | ⏳ **do ustalenia — zapis w tym tygodniu** *(o miejscu decyduje kolejność zapisu i wpłaty; kontakty: `plan/goethe-b2.md`)* |
+| Termin | ⏳ **do ustalenia — zapis w tym tygodniu** *(o miejscu decyduje kolejność zapisu i wpłaty; kontakty: `plan/goethe-b2.md`)*. ⚠️ **Misja z zapisem nie dotarła do Jakuba** — sesja 10 poszła ze starych plików i dała inną misję. Wraca w s11: Meldunek pkt 4 + misja 11 ① |
 | Miejsce | ⏳ |
 | Moduły | wszystkie cztery: Lesen · Hören · Schreiben · Sprechen *(zalicza 60/100 każdy; cel ≥ 70)* |
 | Sesje do egzaminu | wg harmonogramu `plan/goethe-b2.md` *(s10–29 przy 3 sesjach / tydz.)* |

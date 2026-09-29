@@ -126,6 +126,11 @@ Jakub odpowiada **samą formą**, jedną linijką na zdanie:
 6. **Klucz odpowiedzi w osobnym, wyraźnie oddzielonym bloku** — Jakub próbuje najpierw sam.
 7. **Każde zdanie nowe.** Sonda i przeplatanie wracają do **struktury**, nie do zdania —
    `python3 lessons/sprawdz_powtorki.py` wyłapie zdanie podobne do tego z wcześniejszej lekcji.
+   **Nowe także względem tej samej lekcji:** luka nie może być przykładem z `Regel` ani zdaniem
+   z drillu przetłumaczonym na niemiecki *(sesja 11 w pierwszej wersji: luka 9 = przykład
+   `alle Klamotten in den Koffer legen` z `Regel`, luka 1 = drill 2)*. Luka mierzy wtedy
+   pamięć zdania sprzed trzech minut. Strażnik łapie niemieckie zdania w obrębie lekcji;
+   polski drill ↔ niemiecka luka — sprawdź sam.
 
 ### Skład dziesiątki
 

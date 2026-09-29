@@ -12,6 +12,11 @@ Porównuje każde niemieckie zdanie z lekcji (tekst Lesemission, pytania, drill,
 luki, fiszki, pytania do rozmowy) ze zdaniami ze WSZYSTKICH wcześniejszych
 lekcji i draftów sesji. Zwraca kod 1, jeśli znajdzie powtórkę — lekcji wtedy nie wysyłamy.
 
+Drugi test — WEWNĄTRZ lekcji: zdania z bloków pomiarowych (Lückensätze, Karteikarten)
+nie mogą powtarzać zdania z innego bloku tej samej lekcji. Luka z przykładem z `Regel`
+albo fiszka z luką sprzed dziesięciu minut mierzą pamięć zdania, nie regułę
+(sesja 11: fiszka 8 = luka 7, luka 9 = przykład z `Regel`).
+
 Dlaczego to istnieje
 --------------------
 Tekst o ibuprofenie Jakub dostał trzy razy (misja 8, misja 9, „reset” 27.09),
@@ -75,6 +80,31 @@ def zdania(tekst):
     return wynik
 
 
+BLOKI_POMIAROWE = re.compile(r"Lückensätze|Karteikarten")
+
+
+def wewnatrz_lekcji(tekst):
+    """Zdania z bloków pomiarowych, które powtarzają zdanie z innego bloku tej samej lekcji."""
+    sekcje = [s for s in re.split(r"(?m)^(?=## )", tekst) if s.strip()]
+    sekcje = [(s.splitlines()[0].strip("# ").strip(), zdania(s)) for s in sekcje]
+    wynik, widziane = [], set()
+    for i, (naglowek, lista) in enumerate(sekcje):
+        if not BLOKI_POMIAROWE.search(naglowek):
+            continue
+        for zd, zbior, norm in lista:
+            wsp, naglowek2, zd2, n2 = max(
+                ((jaccard(zbior, z2), naglowek2, zd2, n2)
+                 for j, (naglowek2, lista2) in enumerate(sekcje) if j != i
+                 for zd2, z2, n2 in lista2),
+                default=(0, "", "", ""),
+            )
+            para = frozenset((norm, n2))          # para luka↔fiszka tylko raz
+            if wsp >= PROG_OSTRZEZENIE and para not in widziane:
+                widziane.add(para)
+                wynik.append((zd, wsp, naglowek2, zd2))
+    return wynik
+
+
 def jaccard(a, b):
     return len(a & b) / len(a | b)
 
@@ -123,7 +153,13 @@ def main():
         elif najlepsze[0] >= PROG_OSTRZEZENIE:
             ostrzezenia.append((zd, *najlepsze))
 
-    print(f"Sprawdzam {cel.name} względem wcześniejszych lekcji i draftów sesji.")
+    wewn = wewnatrz_lekcji(cel.read_text(encoding="utf-8")) if numer(cel) else []
+    for zd, wsp, blok, zd2 in wewn:
+        (powtorki if wsp >= PROG_POWTORKA else ostrzezenia).append(
+            (zd, wsp, f"ta sama lekcja, blok „{blok[:40]}”", zd2))
+
+    print(f"Sprawdzam {cel.name} względem wcześniejszych lekcji, draftów sesji "
+          f"i — w blokach pomiarowych — względem samej siebie.")
     for tytul, lista in (("❌ POWTÓRKI", powtorki), ("⚠️  podobne", ostrzezenia)):
         if lista:
             print(f"\n{tytul}:")
