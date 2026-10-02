@@ -48,7 +48,9 @@ dopasowujesz tempo i zapisujesz postęp.
 ├── PLAN.md        ← przegląd 30 sesji
 ├── PROGRESS.md    ← ŻYWY: ostatnia sesja, cel cyklu, log, krzywa, Anki
 ├── GAPS.md        ← ŻYWY: stan luk — maks. 3 Active / Watching / Closed
-├── index.html     ← aplikacja (GitHub Pages), opcjonalna — czyta pliki z `main`
+├── index.html     ← stara aplikacja na klucz API (GitHub Pages) — poza protokołem; stan kursu pokazuje `app/`
+├── app/           ← pulpit kursu (Vite + React, `cd app && npm run dev`) — tylko pokazuje stan, bez API i modelu
+├── data/          ← kurs.json — JEDYNE źródło liczb dla pulpitu + schemat i strażnik sprawdz_dane.py
 ├── plan/          ← program blokami + missions.md, lesestueck.md, lueckentext.md,
 │                    metodyka.md (badania), bank-tekstow.md (nowe teksty, każdy raz),
 │                    goethe-b2.md (Etap 1: egzamin, harmonogram, mocki)
@@ -231,7 +233,12 @@ Bilans rozlicza wprost „✅ UDA SIĘ, JEŚLI” z bloku 0 — udało się / ni
 2. **`GAPS.md`** — **stan, nie kronika:** maks. 3 Active, przy każdej reguła, 3 ostatnie
    pomiary i następny krok. Starszy pomiar wypada z tabelki — historia jest w draftach.
 3. **`PROGRESS.md`** — „Ostatnia sesja” + wiersz logu + rozliczenie `Cel cyklu`.
-4. **`lessons/session-NN+1.md` — KOMPLETNY:** Ziel · Lesemission *(tekst + 4 pytania)* ·
+4. **`data/kurs.json`** — to samo, co weszło do `PROGRESS.md` i `GAPS.md`: nowa sesja w `sesje`
+   *(liczby jak w logu; brak pomiaru = `null`, nigdy zgadywana liczba)*, `stan_na`, `nastepna_sesja`,
+   `cel_cyklu`, `luki`, `anki`, po mocku `egzamin.mocki`, przy zmianie trybu `kurs.tryb`.
+   Pulpit w `app/` czyta tylko ten plik.
+   **`python3 data/sprawdz_dane.py` musi dać ✅ przed commitem** *(krok 7 — liczy też słowa w TSV)*.
+5. **`lessons/session-NN+1.md` — KOMPLETNY:** Ziel · Lesemission *(tekst + 4 pytania)* ·
    Regel · Drill · 10 Lückensätze z kluczem · temat trzech rund i pytania do rozmowy ·
    10 fiszek · misja. Specyfikacje: `plan/lesestueck.md`, `plan/lueckentext.md`, `plan/missions.md`.
    **Tekst:** weź z `plan/bank-tekstow.md` *(i oznacz tam jako użyty)* albo napisz nowy; w awarii —
@@ -239,16 +246,18 @@ Bilans rozlicza wprost „✅ UDA SIĘ, JEŚLI” z bloku 0 — udało się / ni
    **Potem `python3 lessons/sprawdz_powtorki.py` — musi dać ✅.** Dopiero wtedy tekst i misja
    idą do Jakuba. Tekst dopisz do rejestru w `plan/lesestueck.md`; bank uzupełniaj, gdy spadnie
    poniżej 2 nieużytych tekstów.
-5. **`anki/wordlists/block-N.tsv`** — nowe słowa z numerem sesji, **z przykładowym zdaniem
+6. **`anki/wordlists/block-N.tsv`** — nowe słowa z numerem sesji, **z przykładowym zdaniem
    PL i DE** *(z nich powstaje karta zdaniowa)*; potem `python3 anki/build_deck.py`
    i `python3 anki/build_quizlet.py`.
-6. **Commit i push na `main`** — jeden commit na sesję: `Sesja NN: <temat>`.
+7. **`python3 data/sprawdz_dane.py` — musi dać ✅.** Potem **commit i push na `main`** — jeden commit
+   na sesję: `Sesja NN: <temat>`.
 
 > Jeśli pominiesz krok C, następna sesja startuje na ślepo.
 
 ### ⚠️ Gałąź: zawsze `main`
 
-Aplikacja czyta pliki z **domyślnej gałęzi** — postęp na gałęzi bocznej jest dla niej niewidoczny.
+Pulpit (`app/`) czyta lokalny checkout po `git pull` na `main`, a stara aplikacja — **domyślną gałąź**
+na GitHubie. Postęp na gałęzi bocznej jest dla obu niewidoczny.
 **Jeśli harness narzuci gałąź zadaniową, na koniec zmerguj ją do `main` i wypchnij `main`.
 Powiedz Jakubowi, że to zrobiłeś.**
 
@@ -285,8 +294,8 @@ Powiedz Jakubowi, że to zrobiłeś.**
 | Zadanie | Przeczytaj | Zaktualizuj |
 |---------|-----------|-------------|
 | Start sesji | PROFILE, GAPS, PROGRESS, lessons/session-NN, plan/goethe-b2.md | — |
-| Mock egzaminu | plan/goethe-b2.md, resources/RESOURCES.md → Goethe | PROGRESS → Egzamin |
-| Po sesji | GAPS, PROGRESS | drafts, GAPS, PROGRESS, lessons/session-NN+1, anki/wordlists |
+| Mock egzaminu | plan/goethe-b2.md, resources/RESOURCES.md → Goethe | PROGRESS → Egzamin, data/kurs.json → egzamin |
+| Po sesji | GAPS, PROGRESS | drafts, GAPS, PROGRESS, data/kurs.json, lessons/session-NN+1, anki/wordlists |
 | „Jak mi idzie?” | PROGRESS, GAPS | — |
 | Zmiana tempa / trudności | PROGRESS, PROFILE | PROFILE → Kalibracja, PLAN |
 | Powrót po przerwie | PROGRESS, GAPS | — |

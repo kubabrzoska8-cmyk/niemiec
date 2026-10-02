@@ -1,0 +1,2047 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "wersja": {
+      "type": "number",
+      "const": 1
+    },
+    "stan_na": {
+      "type": "object",
+      "properties": {
+        "data": {
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+        },
+        "po_sesji": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 9007199254740991
+        }
+      },
+      "required": [
+        "data",
+        "po_sesji"
+      ],
+      "additionalProperties": false
+    },
+    "kurs": {
+      "type": "object",
+      "properties": {
+        "uczen": {
+          "type": "string",
+          "minLength": 1
+        },
+        "start": {
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$",
+          "description": "data sesji 1 — dzień 1 nauki"
+        },
+        "os_kursu": {
+          "type": "string",
+          "minLength": 1
+        },
+        "etapy": {
+          "minItems": 1,
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "nr": {
+                "type": "integer",
+                "minimum": 1,
+                "maximum": 9007199254740991
+              },
+              "nazwa": {
+                "type": "string",
+                "minLength": 1
+              },
+              "cel": {
+                "type": "string",
+                "minLength": 1
+              },
+              "termin": {
+                "type": "string",
+                "minLength": 1
+              },
+              "koniec": {
+                "anyOf": [
+                  {
+                    "type": "string",
+                    "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "description": "data graniczna, od której liczymy dni (np. koniec 2026)"
+              },
+              "sesje": {
+                "anyOf": [
+                  {
+                    "type": "object",
+                    "properties": {
+                      "od": {
+                        "type": "integer",
+                        "minimum": 1,
+                        "maximum": 9007199254740991
+                      },
+                      "do": {
+                        "type": "integer",
+                        "minimum": 1,
+                        "maximum": 9007199254740991
+                      }
+                    },
+                    "required": [
+                      "od",
+                      "do"
+                    ],
+                    "additionalProperties": false
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "plan": {
+                "type": "string",
+                "pattern": "^[A-Za-z0-9_.\\-/]+$"
+              },
+              "status": {
+                "type": "string",
+                "enum": [
+                  "w-toku",
+                  "planowany",
+                  "zakonczony"
+                ]
+              }
+            },
+            "required": [
+              "nr",
+              "nazwa",
+              "cel",
+              "termin",
+              "koniec",
+              "sesje",
+              "plan",
+              "status"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "tryb": {
+          "type": "object",
+          "properties": {
+            "aktualny": {
+              "type": "string",
+              "enum": [
+                "erhaltungsmodus",
+                "vollmodus"
+              ]
+            },
+            "nastepny": {
+              "anyOf": [
+                {
+                  "type": "string",
+                  "enum": [
+                    "erhaltungsmodus",
+                    "vollmodus"
+                  ]
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "zmiana": {
+              "anyOf": [
+                {
+                  "type": "string",
+                  "minLength": 1
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "opisy": {
+              "type": "object",
+              "properties": {
+                "erhaltungsmodus": {
+                  "type": "object",
+                  "properties": {
+                    "nazwa": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "kiedy": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "sesje_tydzien": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "min_sesji_tydzien": {
+                      "anyOf": [
+                        {
+                          "type": "integer",
+                          "minimum": 1,
+                          "maximum": 9007199254740991
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "nowe_slowa_na_sesje": {
+                      "type": "integer",
+                      "minimum": 0,
+                      "maximum": 9007199254740991
+                    }
+                  },
+                  "required": [
+                    "nazwa",
+                    "kiedy",
+                    "sesje_tydzien",
+                    "min_sesji_tydzien",
+                    "nowe_slowa_na_sesje"
+                  ],
+                  "additionalProperties": false
+                },
+                "vollmodus": {
+                  "type": "object",
+                  "properties": {
+                    "nazwa": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "kiedy": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "sesje_tydzien": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "min_sesji_tydzien": {
+                      "anyOf": [
+                        {
+                          "type": "integer",
+                          "minimum": 1,
+                          "maximum": 9007199254740991
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "nowe_slowa_na_sesje": {
+                      "type": "integer",
+                      "minimum": 0,
+                      "maximum": 9007199254740991
+                    }
+                  },
+                  "required": [
+                    "nazwa",
+                    "kiedy",
+                    "sesje_tydzien",
+                    "min_sesji_tydzien",
+                    "nowe_slowa_na_sesje"
+                  ],
+                  "additionalProperties": false
+                }
+              },
+              "required": [
+                "erhaltungsmodus",
+                "vollmodus"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "aktualny",
+            "nastepny",
+            "zmiana",
+            "opisy"
+          ],
+          "additionalProperties": false
+        },
+        "miejsce": {
+          "type": "object",
+          "properties": {
+            "aktualne": {
+              "type": "string",
+              "minLength": 1
+            },
+            "uwaga": {
+              "anyOf": [
+                {
+                  "type": "string",
+                  "minLength": 1
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            }
+          },
+          "required": [
+            "aktualne",
+            "uwaga"
+          ],
+          "additionalProperties": false
+        },
+        "sesja_minut": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 9007199254740991
+        }
+      },
+      "required": [
+        "uczen",
+        "start",
+        "os_kursu",
+        "etapy",
+        "tryb",
+        "miejsce",
+        "sesja_minut"
+      ],
+      "additionalProperties": false
+    },
+    "sesje": {
+      "minItems": 1,
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "nr": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 9007199254740991
+          },
+          "data": {
+            "type": "string",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+          },
+          "temat": {
+            "type": "string",
+            "minLength": 1
+          },
+          "tryb": {
+            "type": "string",
+            "enum": [
+              "przed-struktura",
+              "erhaltungsmodus",
+              "vollmodus"
+            ]
+          },
+          "tematy_gramatyczne": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "id z `tematy`"
+          },
+          "wolna_produkcja": {
+            "anyOf": [
+              {
+                "type": "object",
+                "properties": {
+                  "poprawne": {
+                    "type": "integer",
+                    "minimum": 0,
+                    "maximum": 9007199254740991
+                  },
+                  "n": {
+                    "type": "integer",
+                    "minimum": 1,
+                    "maximum": 9007199254740991
+                  },
+                  "porownywalne": {
+                    "type": "boolean",
+                    "description": "false = sesja nie nadaje się do porównań (np. inny protokół)"
+                  },
+                  "metoda": {
+                    "type": "string",
+                    "enum": [
+                      "wszystkie-grupy",
+                      "pierwsze-15"
+                    ],
+                    "description": "do s9: wszystkie grupy z Gespräch; od s10: pierwsze 15"
+                  },
+                  "uwaga": {
+                    "anyOf": [
+                      {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  }
+                },
+                "required": [
+                  "poprawne",
+                  "n",
+                  "porownywalne",
+                  "metoda",
+                  "uwaga"
+                ],
+                "additionalProperties": false
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "pomocnicze": {
+            "type": "object",
+            "properties": {
+              "drill": {
+                "anyOf": [
+                  {
+                    "type": "object",
+                    "properties": {
+                      "poprawne": {
+                        "type": "number",
+                        "minimum": 0
+                      },
+                      "n": {
+                        "type": "integer",
+                        "minimum": 1,
+                        "maximum": 9007199254740991
+                      },
+                      "format": {
+                        "anyOf": [
+                          {
+                            "type": "string",
+                            "minLength": 1
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ],
+                        "description": "co mierzył instrument — format zmieniał się między sesjami"
+                      },
+                      "uwaga": {
+                        "anyOf": [
+                          {
+                            "type": "string",
+                            "minLength": 1
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ]
+                      }
+                    },
+                    "required": [
+                      "poprawne",
+                      "n",
+                      "format",
+                      "uwaga"
+                    ],
+                    "additionalProperties": false
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "luki": {
+                "anyOf": [
+                  {
+                    "type": "object",
+                    "properties": {
+                      "poprawne": {
+                        "type": "integer",
+                        "minimum": 0,
+                        "maximum": 9007199254740991
+                      },
+                      "n": {
+                        "type": "integer",
+                        "minimum": 1,
+                        "maximum": 9007199254740991
+                      },
+                      "rozbicie": {
+                        "anyOf": [
+                          {
+                            "type": "object",
+                            "properties": {
+                              "regula_dnia": {
+                                "anyOf": [
+                                  {
+                                    "type": "object",
+                                    "properties": {
+                                      "poprawne": {
+                                        "type": "number",
+                                        "minimum": 0
+                                      },
+                                      "n": {
+                                        "type": "integer",
+                                        "minimum": 1,
+                                        "maximum": 9007199254740991
+                                      }
+                                    },
+                                    "required": [
+                                      "poprawne",
+                                      "n"
+                                    ],
+                                    "additionalProperties": false
+                                  },
+                                  {
+                                    "type": "null"
+                                  }
+                                ]
+                              },
+                              "active": {
+                                "anyOf": [
+                                  {
+                                    "type": "object",
+                                    "properties": {
+                                      "poprawne": {
+                                        "type": "number",
+                                        "minimum": 0
+                                      },
+                                      "n": {
+                                        "type": "integer",
+                                        "minimum": 1,
+                                        "maximum": 9007199254740991
+                                      }
+                                    },
+                                    "required": [
+                                      "poprawne",
+                                      "n"
+                                    ],
+                                    "additionalProperties": false
+                                  },
+                                  {
+                                    "type": "null"
+                                  }
+                                ]
+                              },
+                              "przeplatanie": {
+                                "anyOf": [
+                                  {
+                                    "type": "object",
+                                    "properties": {
+                                      "poprawne": {
+                                        "type": "number",
+                                        "minimum": 0
+                                      },
+                                      "n": {
+                                        "type": "integer",
+                                        "minimum": 1,
+                                        "maximum": 9007199254740991
+                                      }
+                                    },
+                                    "required": [
+                                      "poprawne",
+                                      "n"
+                                    ],
+                                    "additionalProperties": false
+                                  },
+                                  {
+                                    "type": "null"
+                                  }
+                                ]
+                              },
+                              "sonda": {
+                                "anyOf": [
+                                  {
+                                    "type": "object",
+                                    "properties": {
+                                      "poprawne": {
+                                        "type": "number",
+                                        "minimum": 0
+                                      },
+                                      "n": {
+                                        "type": "integer",
+                                        "minimum": 1,
+                                        "maximum": 9007199254740991
+                                      }
+                                    },
+                                    "required": [
+                                      "poprawne",
+                                      "n"
+                                    ],
+                                    "additionalProperties": false
+                                  },
+                                  {
+                                    "type": "null"
+                                  }
+                                ]
+                              }
+                            },
+                            "required": [
+                              "regula_dnia",
+                              "active",
+                              "przeplatanie",
+                              "sonda"
+                            ],
+                            "additionalProperties": false
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ]
+                      },
+                      "uwaga": {
+                        "anyOf": [
+                          {
+                            "type": "string",
+                            "minLength": 1
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ]
+                      }
+                    },
+                    "required": [
+                      "poprawne",
+                      "n",
+                      "rozbicie",
+                      "uwaga"
+                    ],
+                    "additionalProperties": false
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "lesen": {
+                "anyOf": [
+                  {
+                    "type": "object",
+                    "properties": {
+                      "poprawne": {
+                        "type": "number",
+                        "minimum": 0
+                      },
+                      "n": {
+                        "type": "integer",
+                        "minimum": 1,
+                        "maximum": 9007199254740991
+                      },
+                      "format": {
+                        "anyOf": [
+                          {
+                            "type": "string",
+                            "minLength": 1
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ],
+                        "description": "co mierzył instrument — format zmieniał się między sesjami"
+                      },
+                      "uwaga": {
+                        "anyOf": [
+                          {
+                            "type": "string",
+                            "minLength": 1
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ]
+                      }
+                    },
+                    "required": [
+                      "poprawne",
+                      "n",
+                      "format",
+                      "uwaga"
+                    ],
+                    "additionalProperties": false
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "inne": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "nazwa": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "poprawne": {
+                      "type": "number",
+                      "minimum": 0
+                    },
+                    "n": {
+                      "type": "integer",
+                      "minimum": 1,
+                      "maximum": 9007199254740991
+                    },
+                    "uwaga": {
+                      "anyOf": [
+                        {
+                          "type": "string",
+                          "minLength": 1
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    }
+                  },
+                  "required": [
+                    "nazwa",
+                    "poprawne",
+                    "n",
+                    "uwaga"
+                  ],
+                  "additionalProperties": false
+                }
+              }
+            },
+            "required": [
+              "drill",
+              "luki",
+              "lesen",
+              "inne"
+            ],
+            "additionalProperties": false
+          },
+          "decyzja": {
+            "anyOf": [
+              {
+                "type": "string",
+                "minLength": 1
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "anki": {
+            "anyOf": [
+              {
+                "type": "object",
+                "properties": {
+                  "slowa": {
+                    "type": "integer",
+                    "minimum": 0,
+                    "maximum": 9007199254740991
+                  },
+                  "karty": {
+                    "anyOf": [
+                      {
+                        "type": "integer",
+                        "minimum": 0,
+                        "maximum": 9007199254740991
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "nowe_slowa": {
+                    "anyOf": [
+                      {
+                        "type": "integer",
+                        "minimum": 0,
+                        "maximum": 9007199254740991
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "uwaga": {
+                    "anyOf": [
+                      {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  }
+                },
+                "required": [
+                  "slowa",
+                  "karty",
+                  "nowe_slowa",
+                  "uwaga"
+                ],
+                "additionalProperties": false
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "draft": {
+            "anyOf": [
+              {
+                "type": "string",
+                "pattern": "^[A-Za-z0-9_.\\-/]+$"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "lekcja": {
+            "anyOf": [
+              {
+                "type": "string",
+                "pattern": "^[A-Za-z0-9_.\\-/]+$"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "uwaga": {
+            "anyOf": [
+              {
+                "type": "string",
+                "minLength": 1
+              },
+              {
+                "type": "null"
+              }
+            ]
+          }
+        },
+        "required": [
+          "nr",
+          "data",
+          "temat",
+          "tryb",
+          "tematy_gramatyczne",
+          "wolna_produkcja",
+          "pomocnicze",
+          "decyzja",
+          "anki",
+          "draft",
+          "lekcja",
+          "uwaga"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "przerwy": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "po_sesji": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 9007199254740991
+          },
+          "opis": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "required": [
+          "po_sesji",
+          "opis"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "nastepna_sesja": {
+      "type": "object",
+      "properties": {
+        "nr": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 9007199254740991
+        },
+        "temat": {
+          "type": "string",
+          "minLength": 1
+        },
+        "lekcja": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "^[A-Za-z0-9_.\\-/]+$"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "uwaga": {
+          "anyOf": [
+            {
+              "type": "string",
+              "minLength": 1
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "nr",
+        "temat",
+        "lekcja",
+        "uwaga"
+      ],
+      "additionalProperties": false
+    },
+    "cel_cyklu": {
+      "type": "object",
+      "properties": {
+        "aktualny": {
+          "type": "object",
+          "properties": {
+            "sesje": {
+              "minItems": 3,
+              "maxItems": 3,
+              "type": "array",
+              "items": {
+                "type": "integer",
+                "minimum": 1,
+                "maximum": 9007199254740991
+              }
+            },
+            "cel": {
+              "type": "string",
+              "minLength": 1
+            },
+            "warunek": {
+              "type": "string",
+              "minLength": 1
+            },
+            "kryteria": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "opis": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "stan": {
+                    "type": "string",
+                    "enum": [
+                      "otwarte",
+                      "spelnione",
+                      "niespelnione",
+                      "brak-pomiaru"
+                    ]
+                  },
+                  "uwaga": {
+                    "anyOf": [
+                      {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  }
+                },
+                "required": [
+                  "opis",
+                  "stan",
+                  "uwaga"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "stan": {
+              "type": "string",
+              "enum": [
+                "w-toku",
+                "zaliczony",
+                "niezaliczony",
+                "nierozliczony"
+              ]
+            },
+            "postep": {
+              "anyOf": [
+                {
+                  "type": "string",
+                  "minLength": 1
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "description": "odczyt po ostatniej sesji cyklu"
+            }
+          },
+          "required": [
+            "sesje",
+            "cel",
+            "warunek",
+            "kryteria",
+            "stan",
+            "postep"
+          ],
+          "additionalProperties": false
+        },
+        "historia": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "okres": {
+                "type": "string",
+                "minLength": 1
+              },
+              "rodzaj": {
+                "type": "string",
+                "enum": [
+                  "tydzien",
+                  "cykl"
+                ]
+              },
+              "sesje": {
+                "type": "array",
+                "items": {
+                  "type": "integer",
+                  "minimum": 1,
+                  "maximum": 9007199254740991
+                }
+              },
+              "cel": {
+                "type": "string",
+                "minLength": 1
+              },
+              "warunek": {
+                "type": "string",
+                "minLength": 1
+              },
+              "wynik": {
+                "type": "string",
+                "enum": [
+                  "zaliczony",
+                  "niezaliczony",
+                  "nierozliczony"
+                ]
+              },
+              "uwaga": {
+                "anyOf": [
+                  {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              }
+            },
+            "required": [
+              "okres",
+              "rodzaj",
+              "sesje",
+              "cel",
+              "warunek",
+              "wynik",
+              "uwaga"
+            ],
+            "additionalProperties": false
+          }
+        }
+      },
+      "required": [
+        "aktualny",
+        "historia"
+      ],
+      "additionalProperties": false
+    },
+    "luki": {
+      "type": "object",
+      "properties": {
+        "active": {
+          "maxItems": 3,
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "nr": {
+                "type": "integer",
+                "minimum": 1,
+                "maximum": 9007199254740991
+              },
+              "nazwa": {
+                "type": "string",
+                "minLength": 1
+              },
+              "regula": {
+                "type": "string",
+                "minLength": 1
+              },
+              "pomiary": {
+                "maxItems": 3,
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "sesja": {
+                      "type": "integer",
+                      "minimum": 1,
+                      "maximum": 9007199254740991
+                    },
+                    "pomiar": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "wynik": {
+                      "type": "string",
+                      "minLength": 1
+                    }
+                  },
+                  "required": [
+                    "sesja",
+                    "pomiar",
+                    "wynik"
+                  ],
+                  "additionalProperties": false
+                },
+                "description": "3 ostatnie — starsze są w drafts/"
+              },
+              "nastepny_krok": {
+                "type": "string",
+                "minLength": 1
+              },
+              "uwaga": {
+                "anyOf": [
+                  {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              }
+            },
+            "required": [
+              "nr",
+              "nazwa",
+              "regula",
+              "pomiary",
+              "nastepny_krok",
+              "uwaga"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "watching": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "nazwa": {
+                "type": "string",
+                "minLength": 1
+              },
+              "rodzaj": {
+                "type": "string",
+                "enum": [
+                  "produkcja",
+                  "rozumienie",
+                  "interferencja"
+                ]
+              },
+              "stan": {
+                "type": "string",
+                "minLength": 1
+              },
+              "nastepny_krok": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "required": [
+              "nazwa",
+              "rodzaj",
+              "stan",
+              "nastepny_krok"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "closed": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "nazwa": {
+                "type": "string",
+                "minLength": 1
+              },
+              "dowod": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "required": [
+              "nazwa",
+              "dowod"
+            ],
+            "additionalProperties": false
+          }
+        }
+      },
+      "required": [
+        "active",
+        "watching",
+        "closed"
+      ],
+      "additionalProperties": false
+    },
+    "egzamin": {
+      "type": "object",
+      "properties": {
+        "nazwa": {
+          "type": "string",
+          "minLength": 1
+        },
+        "termin": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "termin_uwaga": {
+          "anyOf": [
+            {
+              "type": "string",
+              "minLength": 1
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "miejsce": {
+          "anyOf": [
+            {
+              "type": "string",
+              "minLength": 1
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "zapisy_do": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "kandydat": {
+          "anyOf": [
+            {
+              "type": "object",
+              "properties": {
+                "data": {
+                  "type": "string",
+                  "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                },
+                "zapisy_do": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "uwaga": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "required": [
+                "data",
+                "zapisy_do",
+                "uwaga"
+              ],
+              "additionalProperties": false
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "termin znaleziony, ale NIEPOTWIERDZONY — nie liczy się jako termin"
+        },
+        "prog": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "cel": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "moduly": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string",
+                "enum": [
+                  "lesen",
+                  "hoeren",
+                  "schreiben",
+                  "sprechen"
+                ]
+              },
+              "nazwa": {
+                "type": "string",
+                "minLength": 1
+              },
+              "czas": {
+                "type": "string",
+                "minLength": 1
+              },
+              "opis": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "required": [
+              "id",
+              "nazwa",
+              "czas",
+              "opis"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "mocki": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "nr": {
+                "type": "integer",
+                "minimum": 1,
+                "maximum": 9007199254740991
+              },
+              "nazwa": {
+                "type": "string",
+                "minLength": 1
+              },
+              "planowana_sesja": {
+                "type": "string",
+                "minLength": 1
+              },
+              "data": {
+                "anyOf": [
+                  {
+                    "type": "string",
+                    "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "wyniki": {
+                "type": "object",
+                "properties": {
+                  "lesen": {
+                    "anyOf": [
+                      {
+                        "type": "number",
+                        "minimum": 0,
+                        "maximum": 100
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "hoeren": {
+                    "anyOf": [
+                      {
+                        "type": "number",
+                        "minimum": 0,
+                        "maximum": 100
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "schreiben": {
+                    "anyOf": [
+                      {
+                        "type": "number",
+                        "minimum": 0,
+                        "maximum": 100
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "sprechen": {
+                    "anyOf": [
+                      {
+                        "type": "number",
+                        "minimum": 0,
+                        "maximum": 100
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  }
+                },
+                "required": [
+                  "lesen",
+                  "hoeren",
+                  "schreiben",
+                  "sprechen"
+                ],
+                "additionalProperties": false
+              },
+              "decyzja": {
+                "anyOf": [
+                  {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              }
+            },
+            "required": [
+              "nr",
+              "nazwa",
+              "planowana_sesja",
+              "data",
+              "wyniki",
+              "decyzja"
+            ],
+            "additionalProperties": false
+          }
+        }
+      },
+      "required": [
+        "nazwa",
+        "termin",
+        "termin_uwaga",
+        "miejsce",
+        "zapisy_do",
+        "kandydat",
+        "prog",
+        "cel",
+        "moduly",
+        "mocki"
+      ],
+      "additionalProperties": false
+    },
+    "poziom": {
+      "type": "object",
+      "properties": {
+        "rozumienie": {
+          "type": "object",
+          "properties": {
+            "poziom": {
+              "type": "string",
+              "minLength": 1
+            },
+            "opis": {
+              "type": "string",
+              "minLength": 1
+            },
+            "zrodlo": {
+              "type": "string",
+              "enum": [
+                "decyzja-profile",
+                "mock"
+              ]
+            },
+            "plik": {
+              "type": "string",
+              "pattern": "^[A-Za-z0-9_.\\-/]+$"
+            },
+            "data": {
+              "type": "string",
+              "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+            },
+            "podstawa": {
+              "minItems": 1,
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1
+              }
+            }
+          },
+          "required": [
+            "poziom",
+            "opis",
+            "zrodlo",
+            "plik",
+            "data",
+            "podstawa"
+          ],
+          "additionalProperties": false
+        },
+        "produkcja": {
+          "type": "object",
+          "properties": {
+            "poziom": {
+              "type": "string",
+              "minLength": 1
+            },
+            "opis": {
+              "type": "string",
+              "minLength": 1
+            },
+            "zrodlo": {
+              "type": "string",
+              "enum": [
+                "decyzja-profile",
+                "mock"
+              ]
+            },
+            "plik": {
+              "type": "string",
+              "pattern": "^[A-Za-z0-9_.\\-/]+$"
+            },
+            "data": {
+              "type": "string",
+              "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+            },
+            "podstawa": {
+              "minItems": 1,
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1
+              }
+            }
+          },
+          "required": [
+            "poziom",
+            "opis",
+            "zrodlo",
+            "plik",
+            "data",
+            "podstawa"
+          ],
+          "additionalProperties": false
+        },
+        "docelowy": {
+          "type": "string",
+          "minLength": 1
+        },
+        "zasada": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "rozumienie",
+        "produkcja",
+        "docelowy",
+        "zasada"
+      ],
+      "additionalProperties": false
+    },
+    "harmonogram": {
+      "type": "object",
+      "properties": {
+        "zrodlo": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9_.\\-/]+$"
+        },
+        "warunek": {
+          "type": "string",
+          "minLength": 1
+        },
+        "fazy": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string",
+                "enum": [
+                  "A",
+                  "B",
+                  "C",
+                  "D"
+                ]
+              },
+              "nazwa": {
+                "type": "string",
+                "minLength": 1
+              },
+              "od": {
+                "type": "integer",
+                "minimum": 1,
+                "maximum": 9007199254740991
+              },
+              "do": {
+                "type": "integer",
+                "minimum": 1,
+                "maximum": 9007199254740991
+              }
+            },
+            "required": [
+              "id",
+              "nazwa",
+              "od",
+              "do"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "sesje": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "nr": {
+                "type": "integer",
+                "minimum": 1,
+                "maximum": 9007199254740991
+              },
+              "faza": {
+                "type": "string",
+                "enum": [
+                  "A",
+                  "B",
+                  "C",
+                  "D"
+                ]
+              },
+              "gramatyka": {
+                "anyOf": [
+                  {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "w_sesji": {
+                "type": "string",
+                "minLength": 1
+              },
+              "misja": {
+                "anyOf": [
+                  {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "mock": {
+                "type": "boolean"
+              },
+              "tekst": {
+                "anyOf": [
+                  {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              }
+            },
+            "required": [
+              "nr",
+              "faza",
+              "gramatyka",
+              "w_sesji",
+              "misja",
+              "mock",
+              "tekst"
+            ],
+            "additionalProperties": false
+          }
+        }
+      },
+      "required": [
+        "zrodlo",
+        "warunek",
+        "fazy",
+        "sesje"
+      ],
+      "additionalProperties": false
+    },
+    "checkpointy": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "po_sesji": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 9007199254740991
+          },
+          "nazwa": {
+            "type": "string",
+            "minLength": 1
+          },
+          "punkty": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "opis": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "zaliczone": {
+                  "type": [
+                    "boolean",
+                    "null"
+                  ]
+                }
+              },
+              "required": [
+                "opis",
+                "zaliczone"
+              ],
+              "additionalProperties": false
+            }
+          }
+        },
+        "required": [
+          "po_sesji",
+          "nazwa",
+          "punkty"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "anki": {
+      "type": "object",
+      "properties": {
+        "limit_nowych_dziennie": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 9007199254740991
+        },
+        "limit_uwaga": {
+          "anyOf": [
+            {
+              "type": "string",
+              "minLength": 1
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "progi": {
+          "type": "object",
+          "properties": {
+            "obnizka_ponizej": {
+              "type": "number"
+            },
+            "podwyzka_powyzej": {
+              "type": "number"
+            }
+          },
+          "required": [
+            "obnizka_ponizej",
+            "podwyzka_powyzej"
+          ],
+          "additionalProperties": false
+        },
+        "pytanie_co_sesji": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 9007199254740991
+        },
+        "nastepne_pytanie_sesja": {
+          "anyOf": [
+            {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 9007199254740991
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "historia_limitu": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "od_sesji": {
+                "type": "integer",
+                "minimum": 1,
+                "maximum": 9007199254740991
+              },
+              "limit": {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 9007199254740991
+              },
+              "powod": {
+                "anyOf": [
+                  {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              }
+            },
+            "required": [
+              "od_sesji",
+              "limit",
+              "powod"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "pomiary": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "sesja": {
+                "type": "integer",
+                "minimum": 1,
+                "maximum": 9007199254740991
+              },
+              "naprawde_zapamietane": {
+                "anyOf": [
+                  {
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 100
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "okno": {
+                "anyOf": [
+                  {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "uwaga": {
+                "anyOf": [
+                  {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              }
+            },
+            "required": [
+              "sesja",
+              "naprawde_zapamietane",
+              "okno",
+              "uwaga"
+            ],
+            "additionalProperties": false
+          }
+        }
+      },
+      "required": [
+        "limit_nowych_dziennie",
+        "limit_uwaga",
+        "progi",
+        "pytanie_co_sesji",
+        "nastepne_pytanie_sesja",
+        "historia_limitu",
+        "pomiary"
+      ],
+      "additionalProperties": false
+    },
+    "tematy": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z0-9-]+$"
+          },
+          "nazwa": {
+            "type": "string",
+            "minLength": 1
+          },
+          "sesje": {
+            "type": "array",
+            "items": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 9007199254740991
+            },
+            "description": "sesje, w których temat był przerabiany"
+          },
+          "planowane": {
+            "type": "array",
+            "items": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 9007199254740991
+            },
+            "description": "sesje z harmonogramu, w których temat dopiero będzie"
+          },
+          "plik": {
+            "anyOf": [
+              {
+                "type": "string",
+                "pattern": "^[A-Za-z0-9_.\\-/]+$"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          }
+        },
+        "required": [
+          "id",
+          "nazwa",
+          "sesje",
+          "planowane",
+          "plik"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "teksty": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "sesja": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 9007199254740991
+          },
+          "tytul": {
+            "type": "string",
+            "minLength": 1
+          },
+          "gatunek": {
+            "type": "string",
+            "minLength": 1
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "przeczytany",
+              "czytany-na-sesji",
+              "wyslany",
+              "nieprzeczytany",
+              "wycofany"
+            ]
+          },
+          "plik": {
+            "type": "string",
+            "pattern": "^[A-Za-z0-9_.\\-/]+$"
+          },
+          "naglowek": {
+            "type": "string",
+            "minLength": 1,
+            "description": "fragment linii, po której w pliku zaczyna się cytat z tekstem"
+          },
+          "uwaga": {
+            "anyOf": [
+              {
+                "type": "string",
+                "minLength": 1
+              },
+              {
+                "type": "null"
+              }
+            ]
+          }
+        },
+        "required": [
+          "sesja",
+          "tytul",
+          "gatunek",
+          "status",
+          "plik",
+          "naglowek",
+          "uwaga"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "wersja",
+    "stan_na",
+    "kurs",
+    "sesje",
+    "przerwy",
+    "nastepna_sesja",
+    "cel_cyklu",
+    "luki",
+    "egzamin",
+    "poziom",
+    "harmonogram",
+    "checkpointy",
+    "anki",
+    "tematy",
+    "teksty"
+  ],
+  "additionalProperties": false,
+  "title": "kurs.json — stan kursu niemieckiego (dane dla pulpitu w app/)",
+  "description": "Generowany z app/src/lib/schema.ts (npm run schemat). Nie edytuj ręcznie. Walidacja: python3 data/sprawdz_dane.py"
+}

@@ -1,0 +1,184 @@
+@import "tailwindcss";
+
+/*
+ * Tokeny jak w Kurs-Yale (paleta referencyjna dataviz): jedna niebieska rampa do wielkości,
+ * zarezerwowane kolory stanu (zawsze z ikoną i podpisem), trzy kolory rodzaju der/die/das
+ * = pierwsze trzy sloty palety kategorycznej (sprawdzone pod daltonizm jako trójka).
+ */
+:root {
+  color-scheme: light;
+  --page: #f9f9f7;
+  --surface: #fcfcfb;
+  --surface-2: #f3f2ee;
+  --ink: #0b0b0b;
+  --ink-2: #52514e;
+  --muted: #6f6d67;
+  --hairline: #e1e0d9;
+  --baseline: #c3c2b7;
+  --accent: #2a78d6;
+  --accent-ink: #1c5cab;
+  --accent-wash: #cde2fb;
+  --good: #0ca30c;
+  --good-ink: #006300;
+  --critical: #d03b3b;
+  --critical-ink: #b12a2a;
+  --warning: #fab219;
+  --warning-ink: #8a5a00;
+  --seria-2: #eb6834;
+  --der: #2a78d6;
+  --die: #eb6834;
+  --das: #1baf7a;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:where(:not([data-theme="light"])) {
+    color-scheme: dark;
+    --page: #0d0d0d;
+    --surface: #1a1a19;
+    --surface-2: #232321;
+    --ink: #ffffff;
+    --ink-2: #c3c2b7;
+    --muted: #9a988f;
+    --hairline: #2c2c2a;
+    --baseline: #383835;
+    --accent: #3987e5;
+    --accent-ink: #86b6ef;
+    --accent-wash: #1c2f47;
+    --good-ink: #0ca30c;
+    --critical-ink: #e66767;
+    --warning-ink: #fab219;
+    --seria-2: #d95926;
+    --der: #3987e5;
+    --die: #d95926;
+    --das: #199e70;
+  }
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --page: #0d0d0d;
+  --surface: #1a1a19;
+  --surface-2: #232321;
+  --ink: #ffffff;
+  --ink-2: #c3c2b7;
+  --muted: #9a988f;
+  --hairline: #2c2c2a;
+  --baseline: #383835;
+  --accent: #3987e5;
+  --accent-ink: #86b6ef;
+  --accent-wash: #1c2f47;
+  --good-ink: #0ca30c;
+  --critical-ink: #e66767;
+  --warning-ink: #fab219;
+  --seria-2: #d95926;
+  --der: #3987e5;
+  --die: #d95926;
+  --das: #199e70;
+}
+
+@theme inline {
+  --color-page: var(--page);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-ink: var(--ink);
+  --color-ink-2: var(--ink-2);
+  --color-muted: var(--muted);
+  --color-hairline: var(--hairline);
+  --color-baseline: var(--baseline);
+  --color-accent: var(--accent);
+  --color-accent-ink: var(--accent-ink);
+  --color-accent-wash: var(--accent-wash);
+  --color-good: var(--good);
+  --color-good-ink: var(--good-ink);
+  --color-critical: var(--critical);
+  --color-critical-ink: var(--critical-ink);
+  --color-warning: var(--warning);
+  --color-warning-ink: var(--warning-ink);
+  --font-sans: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background: var(--page);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+}
+
+.tabular {
+  font-variant-numeric: tabular-nums;
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.88em;
+  background: var(--surface-2);
+  border-radius: 4px;
+  padding: 0.05em 0.3em;
+  overflow-wrap: anywhere;
+}
+
+/* Pasek zakładek przewijany poziomo na telefonie. */
+.zakladki {
+  scrollbar-width: none;
+}
+.zakladki::-webkit-scrollbar {
+  display: none;
+}
+
+/* Rodzaj rzeczownika: kolor jest kanałem dodatkowym — rodzajnik zawsze stoi tekstem. */
+.rodzaj-der { --rodzaj: var(--der); }
+.rodzaj-die { --rodzaj: var(--die); }
+.rodzaj-das { --rodzaj: var(--das); }
+.rodzaj-pl { --rodzaj: var(--baseline); }
+.rodzaj-brak { --rodzaj: transparent; }
+.pastylka-rodzaju {
+  background: color-mix(in oklab, var(--rodzaj) 16%, var(--surface));
+  box-shadow: inset 3px 0 0 var(--rodzaj);
+}
+
+/* Markdown z plików kursu. */
+.md {
+  line-height: 1.65;
+  overflow-wrap: break-word;
+}
+.md > * + * { margin-top: 0.75em; }
+.md h1 { font-size: 1.5rem; font-weight: 650; line-height: 1.25; }
+.md h2 { font-size: 1.2rem; font-weight: 650; margin-top: 1.6em; padding-top: 0.6em; border-top: 1px solid var(--hairline); }
+.md h3 { font-size: 1.05rem; font-weight: 650; margin-top: 1.3em; }
+.md h4 { font-weight: 600; margin-top: 1.1em; }
+.md a { color: var(--accent-ink); text-decoration: underline; text-underline-offset: 2px; }
+.md ul { list-style: disc; padding-left: 1.4em; }
+.md ol { list-style: decimal; padding-left: 1.6em; }
+.md li + li { margin-top: 0.25em; }
+.md blockquote { border-left: 3px solid var(--accent); background: var(--surface-2); padding: 0.6em 1em; border-radius: 0 8px 8px 0; color: var(--ink-2); }
+.md blockquote > * + * { margin-top: 0.6em; }
+.md pre { background: var(--surface-2); border: 1px solid var(--hairline); border-radius: 8px; padding: 0.75em 1em; overflow-x: auto; font-size: 0.85rem; line-height: 1.5; }
+.md pre code { background: none; padding: 0; font-size: inherit; }
+.md hr { border: 0; border-top: 1px solid var(--hairline); }
+.md details { border: 1px solid var(--hairline); border-radius: 8px; padding: 0.5em 0.9em; background: var(--surface); }
+.md summary { cursor: pointer; font-weight: 600; }
+.md details[open] > summary { margin-bottom: 0.6em; }
+.md .tabela-przewijana { overflow-x: auto; }
+.md table { border-collapse: collapse; font-size: 0.9rem; min-width: 100%; }
+.md th, .md td { border-bottom: 1px solid var(--hairline); padding: 0.4em 0.6em; text-align: left; vertical-align: top; }
+.md th { font-weight: 600; color: var(--ink-2); }
+
+/* Tekst do czytania — większy, węższy. */
+.lektura {
+  font-size: 1.08rem;
+  line-height: 1.75;
+  max-width: 68ch;
+}
+
+@media print {
+  header, .bez-druku { display: none !important; }
+}

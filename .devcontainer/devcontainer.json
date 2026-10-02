@@ -1,0 +1,11 @@
+{
+  "name": "Kurs niemieckiego — pulpit",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:22",
+  "hostRequirements": { "cpus": 2 },
+  "postCreateCommand": "cd app && npm ci",
+  "postAttachCommand": "cd app && npm run siec",
+  "forwardPorts": [3200],
+  "portsAttributes": {
+    "3200": { "label": "Pulpit kursu", "onAutoForward": "openBrowser" }
+  }
+}

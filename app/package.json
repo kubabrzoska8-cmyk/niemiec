@@ -1,0 +1,39 @@
+{
+  "name": "niemiec-pulpit",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Lokalny pulpit kursu niemieckiego — pokazuje stan kursu z plików repo. Bez backendu, bez API.",
+  "scripts": {
+    "dev": "vite",
+    "siec": "vite --host 0.0.0.0",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "schemat": "node scripts/generuj-schemat.ts",
+    "sprawdz": "python3 ../data/sprawdz_dane.py"
+  },
+  "dependencies": {
+    "dompurify": "^3.4.16",
+    "marked": "^18.0.14",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "@types/node": "^22.20.4",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.1",
+    "tailwindcss": "^4.3.3",
+    "typescript": "~5.9.3",
+    "vite": "^8.3.2",
+    "vitest": "^5.0.3"
+  },
+  "engines": {
+    "node": ">=22.12"
+  }
+}

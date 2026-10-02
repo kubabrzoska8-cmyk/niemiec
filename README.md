@@ -15,7 +15,9 @@ Claude prowadzi lekcję jako korepetytor, śledzi luki w `GAPS.md` i zapisuje po
 `CLAUDE.md`, prowadzi lekcję na czacie i po sesji sam zapisuje draft, `GAPS.md`, `PROGRESS.md`,
 plan następnej lekcji i słówka, a potem pushuje na `main`.
 
-**Aplikacja `index.html` (GitHub Pages) jest opcjonalna** — przydaje się, gdy chcesz mówić
+**Stan kursu pokazuje pulpit [`app/`](#pulpit-kursu-app)** — lokalna strona bez API i bez modelu.
+
+**Stara aplikacja `index.html` (GitHub Pages, klucz API) jest opcjonalna** — przydaje się, gdy chcesz mówić
 przez mikrofon (rozpoznawanie mowy de-DE, czytanie odpowiedzi na głos). Czyta te same pliki
 z `main`, więc oba sposoby można mieszać. Nie zapisuje planu następnej lekcji
 (`lessons/session-NN.md`) — to robi Claude Code.
@@ -36,7 +38,70 @@ z `main`, więc oba sposoby można mieszać. Nie zapisuje planu następnej lekcj
 - **Fiszki do dwóch narzędzi** — Quizlet do wbicia słowa, Anki do utrzymania (z kartami zdaniowymi).
 - **Historia** — pełne wersje plików sprzed resetu (2026-09-27) w [`archive/`](archive/README.md).
 
-## Aplikacja — pierwsze uruchomienie
+## Pulpit kursu (`app/`)
+
+Lokalna strona, która **pokazuje stan kursu**: pulpit z tempem i celem cyklu, krzywą wolnej produkcji
+(z przedziałem niepewności), luki, poziom i mocki, harmonogram Etapu 1, fiszki z TSV, archiwum lekcji
+i teksty Lesestück. **Nie używa API Anthropic ani żadnego modelu** — lekcje nadal idą w czacie
+Claude Code. Strona czyta pliki z lokalnego checkoutu, tylko do odczytu (`data/`, `anki/wordlists/`,
+`lessons/`, `grammar/`, `drafts/`), więc **po `git pull` wystarczy odświeżyć przeglądarkę**.
+
+Liczby pochodzą wyłącznie z [`data/kurs.json`](data/kurs.json), który Claude uzupełnia po każdej
+sesji (`CLAUDE.md` → C). Strona nie parsuje tabel z `PROGRESS.md` ani `GAPS.md`.
+
+Wymagania: Node.js ≥ 22.12.
+
+### Na komputerze
+
+```bash
+git pull               # najnowszy stan kursu z main
+cd app
+npm install            # tylko za pierwszym razem
+npm run dev            # → http://localhost:3200
+```
+
+Porty 3000 i 3100 zajmuje Kurs-Yale, więc pulpit stoi na **3200**.
+
+### Na telefonie i iPadzie — w sieci domowej
+
+Serwer działa na komputerze, a telefon łączy się z nim przez domowe Wi-Fi.
+
+```bash
+cd app
+npm run siec           # to samo co dev, ale widoczne w sieci lokalnej
+```
+
+1. Telefon i komputer muszą być w tej samej sieci Wi-Fi.
+2. W telefonie otwórz adres z linii `Network:`, np. `http://192.168.1.23:3200`.
+3. Jeśli strona się nie otwiera, zapora blokuje połączenia przychodzące: na macOS zezwól programowi
+   `node` (Ustawienia → Sieć → Zapora), na Windows zaakceptuj okno zapory przy pierwszym
+   uruchomieniu (sieć prywatna).
+
+Strona nie ma logowania: w trybie `siec` każdy w tej samej sieci może ją czytać (bez zapisu i bez
+kluczy — tylko pliki kursu z listy wyżej). Uruchamiaj to w domu, nie w publicznym Wi-Fi.
+
+### W Codespaces — z iPada, bez komputera
+
+1. Repo na GitHubie → **Code → Codespaces → Create codespace on main**.
+2. Konfiguracja z [`.devcontainer/`](.devcontainer/devcontainer.json) instaluje zależności
+   i uruchamia pulpit na porcie 3200; podgląd otwiera się sam (albo: zakładka **Ports** → 3200 → 🌐).
+3. Nowy stan kursu po sesji: w terminalu Codespace `git pull`, potem odśwież stronę.
+
+Codespace usypia się po bezczynności i liczy się do miesięcznego limitu godzin na GitHubie.
+
+### Sprawdzanie
+
+```bash
+python3 data/sprawdz_dane.py   # kurs.json ↔ schemat, PROGRESS.md, GAPS.md, TSV — musi dać ✅
+cd app
+npm test                       # vitest: dzień/tydzień/sesja i tempo, kurs.json, parser TSV, markdown
+npm run typecheck
+npm run schemat                # po zmianie app/src/lib/schema.ts → data/kurs.schema.json
+```
+
+`?dzis=2026-10-02` w adresie strony podstawia dzisiejszą datę — do sprawdzania liczb.
+
+## Stara aplikacja `index.html` — pierwsze uruchomienie
 
 ### 1. Włącz GitHub Pages dla repo
 Repo → Settings → Pages → Source: **Deploy from a branch** → Branch: **main** → Folder: **/ (root)** → Save.
@@ -56,7 +121,10 @@ Tokeny są zapisywane TYLKO w `localStorage` Twojej przeglądarki — nigdy nie 
 
 ```
 /
-├── index.html        ← aplikacja (GitHub Pages serwuje to)
+├── index.html        ← stara aplikacja na klucz API (GitHub Pages serwuje to)
+├── app/              ← pulpit kursu (Vite + React) — tylko pokazuje stan, bez API
+├── data/             ← kurs.json (liczby dla pulpitu) + schemat + sprawdz_dane.py
+├── .devcontainer/    ← Codespaces: pulpit na porcie 3200
 ├── .nojekyll         ← wyłącza Jekyll na Pages
 ├── README.md         ← ten plik
 ├── CLAUDE.md         ← plan pięter + protokół sesji (czytany przez aplikację)
@@ -106,7 +174,7 @@ python3 anki/build_quizlet.py  # → quizlet/talia-*.txt        (Quizlet: wbicie
 
 Szczegóły: [`anki/README.md`](anki/README.md).
 
-## Jak działa aplikacja
+## Jak działa stara aplikacja (`index.html`)
 
 1. Otwierasz appkę → fetchuje `CLAUDE.md`, `CONTEXT.md`, `PROFILE.md`, `GAPS.md`,
    `PROGRESS.md`, `plan/missions.md` + 3 ostatnie drafty.
@@ -129,7 +197,7 @@ Szczegóły: [`anki/README.md`](anki/README.md).
 - `index.html` używa nagłówka `anthropic-dangerous-direct-browser-access: true` — to oficjalny sposób Anthropic na bezpośrednie wołanie API z przeglądarki. Świadomie akceptujesz, że klucz jest w przeglądarce.
 - Nie commituj tokenu/klucza do repo. Aplikacja tego nie robi, ale uważaj.
 
-## Lokalny dev
+## Lokalny dev (stara aplikacja)
 
 ```bash
 cd <katalog repo>
