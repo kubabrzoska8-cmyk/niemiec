@@ -2,8 +2,9 @@
 
 /*
  * Tokeny jak w Kurs-Yale (paleta referencyjna dataviz): jedna niebieska rampa do wielkości,
- * zarezerwowane kolory stanu (zawsze z ikoną i podpisem), trzy kolory rodzaju der/die/das
- * = pierwsze trzy sloty palety kategorycznej (sprawdzone pod daltonizm jako trójka).
+ * zarezerwowane kolory stanu (zawsze z ikoną i podpisem). Rodzaj: der niebieski, die krwista
+ * czerwień (wybór Jakuba), das zielony — trójka sprawdzona walidatorem palety pod daltonizm,
+ * osobno dla jasnego i ciemnego tła. Rodzajnik zawsze stoi też tekstem.
  */
 :root {
   color-scheme: light;
@@ -26,7 +27,7 @@
   --warning-ink: #8a5a00;
   --seria-2: #eb6834;
   --der: #2a78d6;
-  --die: #eb6834;
+  --die: #b3001b;
   --das: #1baf7a;
 }
 
@@ -49,7 +50,7 @@
     --warning-ink: #fab219;
     --seria-2: #d95926;
     --der: #3987e5;
-    --die: #d95926;
+    --die: #d4202f;
     --das: #199e70;
   }
 }
@@ -72,7 +73,7 @@
   --warning-ink: #fab219;
   --seria-2: #d95926;
   --der: #3987e5;
-  --die: #d95926;
+  --die: #d4202f;
   --das: #199e70;
 }
 

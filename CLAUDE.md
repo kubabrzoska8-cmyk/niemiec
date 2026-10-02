@@ -48,7 +48,6 @@ dopasowujesz tempo i zapisujesz postęp.
 ├── PLAN.md        ← przegląd 30 sesji
 ├── PROGRESS.md    ← ŻYWY: ostatnia sesja, cel cyklu, log, krzywa, Anki
 ├── GAPS.md        ← ŻYWY: stan luk — maks. 3 Active / Watching / Closed
-├── index.html     ← stara aplikacja na klucz API (GitHub Pages) — poza protokołem; stan kursu pokazuje `app/`
 ├── app/           ← pulpit kursu (Vite + React, `cd app && npm run dev`) — tylko pokazuje stan, bez API i modelu
 ├── data/          ← kurs.json — JEDYNE źródło liczb dla pulpitu + schemat i strażnik sprawdz_dane.py
 ├── plan/          ← program blokami + missions.md, lesestueck.md, lueckentext.md,
@@ -256,8 +255,8 @@ Bilans rozlicza wprost „✅ UDA SIĘ, JEŚLI” z bloku 0 — udało się / ni
 
 ### ⚠️ Gałąź: zawsze `main`
 
-Pulpit (`app/`) czyta lokalny checkout po `git pull` na `main`, a stara aplikacja — **domyślną gałąź**
-na GitHubie. Postęp na gałęzi bocznej jest dla obu niewidoczny.
+Pulpit (`app/`) czyta lokalny checkout po `git pull` na `main` — postęp na gałęzi bocznej
+jest dla niego niewidoczny.
 **Jeśli harness narzuci gałąź zadaniową, na koniec zmerguj ją do `main` i wypchnij `main`.
 Powiedz Jakubowi, że to zrobiłeś.**
 

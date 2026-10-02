@@ -241,7 +241,7 @@ export function Fiszki(_: WidokProps) {
             { id: "sprawdzian", nazwa: "Sprawdzian PL → DE" },
           ]}
         />
-        <input type="search" value={q} onChange={(e) => setQ(e.target.value)} placeholder="Szukaj (DE lub PL)…" aria-label="Szukaj" className={`${wybierz} min-w-0 flex-1 sm:max-w-xs`} />
+        <input type="search" value={q} onChange={(e) => setQ(e.target.value)} placeholder="Szukaj (DE lub PL)…" aria-label="Szukaj" className={`${wybierz} w-full min-w-0 sm:w-auto sm:max-w-xs sm:flex-1`} />
         <select value={sesja} onChange={(e) => setSesja(e.target.value)} aria-label="Sesja" className={wybierz}>
           <option value="">Wszystkie sesje</option>
           {opcje.sesje.map((s) => (
