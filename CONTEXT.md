@@ -59,7 +59,7 @@ nie przyjdą stamtąd nigdy.** Sesja jest od tego, czego rozmowa w kuchni nie zr
 | Ryzyko | Objaw | Reakcja |
 |--------|-------|---------|
 | **Przeciek reguły** | nowa reguła pojawia się tam, gdzie nie obowiązuje | nazwij pole obok w tej samej minucie; fiszki jako pary kontrastowe |
-| **Zapominanie struktur spoza jego mowy** | struktura zamknięta w sesji N pada w N+1 | zadanie w N+1 i N+3; potem **misja na żywym rozmówcy**, nie trzecie ćwiczenie |
+| **Zapominanie struktur spoza jego mowy** | struktura zamknięta w sesji N pada w N+1 | zadanie w N+1 i N+3; potem **misja: struktura w dzienniku na głos** *(od s11 nie ma rozmówcy)*, nie trzecie ćwiczenie |
 | **Interferencja 🇮🇹/🇬🇧** | opuszczony podmiot, V na 2. miejscu po `dass`, `so` zamiast `also`, słowa zbudowane od zera | notuj **osobno** jako wzorzec; `so` → `also` poprawiaj zawsze |
 | **Ucieczka w pisanie** | cała sesja odpisana, zero mówienia | runda 2 w `Gespräch` zawsze na głos; misja `Sprachnachricht` |
 | **Unikanie zamiast błędu** | omija strukturę, której nie jest pewien | powiedz wprost: **zgaduj głośno** — błąd zostawia ślad, ominięcie nie |

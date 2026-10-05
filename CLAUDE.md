@@ -15,7 +15,8 @@ na uczelni, a potem w szpitalu. *„Nie chcę się uczyć sztucznego niemieckieg
 Jeśli zadanie ma sens tylko na egzaminie, przerób je na coś, co ma sens w życiu.
 
 🎯 **Kamienie milowe** *(decyzja Jakuba, 2026-09-28)*:
-1. **Goethe-Zertifikat B2 do końca 2026** — Lesen, Hören, Schreiben, Sprechen *(60/100 każdy)*.
+1. **Goethe-Zertifikat B2** — **Kraków 13.11.2026** *(zapisy 26–28.10)* albo **Warszawa 02.02.2027**
+   *(zapisy 7–8.01)*; **decyzja przed 26.10** po mocku #1 *(Jakub, s11)* — Lesen, Hören, Schreiben, Sprechen *(60/100 każdy)*.
    Plan i harmonogram: **[`plan/goethe-b2.md`](plan/goethe-b2.md)** — czytaj przed każdą sesją Etapu 1.
 2. **Fachsprachprüfung** *(2027)* — wywiad z pacjentem · dokumentacja · przekazanie pacjenta
    *(3 × 20 min, C1; B2 jest warunkiem dopuszczenia)*. Plan: `PLAN.md` → Etap 2.
@@ -25,12 +26,13 @@ dopasowujesz tempo i zapisujesz postęp.
 
 ### Kontekst, który rządzi resztą *(pełny opis: `PROFILE.md`)*
 
-- 🗣️ **Częściowa immersja.** Mama dziewczyny Jakuba jest Niemką — rozmawia z nią po niemiecku
-  **codziennie**. To daje płynność i słownictwo codzienne, ale **nie naprawia fleksji**
-  (native rozumie mimo złej końcówki i nie poprawia). Pracą kursu jest to, czego rozmowa nie zrobi.
+- 🚫 **Bez immersji od 1.10.2026.** Do końca września Jakub rozmawiał codziennie z mamą dziewczyny
+  *(Niemką)* — w Rzymie. **Od powrotu do Gdańska niemiecki ma tylko na sesjach** *(„niemiecki mam tylko
+  tutaj”, s11)*. Rozmowa dawała płynność, nie fleksję — teraz **sesja musi dać też ilość mówienia**.
 - 🔑 **Przetrwa to, co wchodzi do jego codziennej mowy.** Klamra i Perfekt przetrwały 3–4 tygodnie
-  bez ćwiczeń, grupa dopełniaczowa padła w dwie doby mimo ćwiczeń *(sesja 9)*. Dlatego misje
-  wstawiają struktury **do rozmów ze Schwiegermutter**, a nie dokładają kolejnych ćwiczeń.
+  bez ćwiczeń, grupa dopełniaczowa padła w dwie doby mimo ćwiczeń *(sesja 9)*. Bez rozmówcy
+  „codzienna mowa” to **dziennik dyktowany na głos** *(60 s dziennie — rdzeń misji)* + codzienny input
+  z pulpitu *(Materiały → „Na dziś”; research: `resources/immersja.md`)*.
 - 🎯 **Wąskie gardło: automatyzacja, nie wiedza.** Regułę przyswaja w jedną sesję; gubi ją,
   gdy uwaga idzie na treść. Pod przypadkami leży **rodzaj rzeczownika** *(sesja 9)*.
 - 🇮🇹🇬🇧 **Interferencja** z włoskiego i angielskiego to **wzorzec**, nie pomyłka — notuj osobno
@@ -48,14 +50,15 @@ dopasowujesz tempo i zapisujesz postęp.
 ├── PLAN.md        ← przegląd 30 sesji
 ├── PROGRESS.md    ← ŻYWY: ostatnia sesja, cel cyklu, log, krzywa, Anki
 ├── GAPS.md        ← ŻYWY: stan luk — maks. 3 Active / Watching / Closed
-├── app/           ← pulpit kursu (Vite + React, `cd app && npm run dev`) — tylko pokazuje stan, bez API i modelu
+├── app/           ← pulpit kursu (Vite + React, `cd app && npm run dev`) — pokazuje stan, bez API i modelu;
+│                    lokalny serwer przekazuje tylko publiczne RSS z listy (DW, tagesschau) do zakładki Materiały
 ├── data/          ← kurs.json — JEDYNE źródło liczb dla pulpitu + schemat i strażnik sprawdz_dane.py
 ├── plan/          ← program blokami + missions.md, lesestueck.md, lueckentext.md,
 │                    metodyka.md (badania), bank-tekstow.md (nowe teksty, każdy raz),
 │                    goethe-b2.md (Etap 1: egzamin, harmonogram, mocki)
 ├── lessons/       ← session-NN.md — KOMPLETNY plan lekcji + sprawdz_powtorki.py (strażnik)
 ├── grammar/       ← referencje pod Polaka *(05-genus — rodzaj · 06-mowiony-niemiecki — jak prowadzić rozmowę)*
-├── resources/     ← źródła inputu
+├── resources/     ← źródła inputu · immersja.md (research: nauka bez rozmówcy, plan tygodnia)
 ├── anki/          ← wordlists/*.tsv (źródło prawdy) + generatory Anki i Quizlet
 ├── quizlet/       ← talie do quizu (generowane)
 ├── drafts/        ← zapis sesji: YYYY-MM-DD_sesja-NN_temat.md
@@ -97,14 +100,14 @@ Tryb zapisuj w `PROGRESS.md` → „Ostatnia sesja”. **Przy zmianie trybu powi
 | Blok | Czas | Co robisz |
 |------|------|-----------|
 | **0. Ziel** ⭐ | 30 s · pisany | Trzy linijki po polsku — spec niżej |
-| **1. Meldunek** | 2 min | Misja na żywym rozmówcy: ile razy struktura padła w rozmowie + **jedno zdanie od Schwiegermutter, którego nie zrozumiał** *(warunek zaliczenia misji)* |
+| **1. Meldunek** | 2 min | Misja: **dziennik na głos** *(ile dni + wpisy wklejone — to dane o transferze do mowy)* + prawdziwe wiadomości z misji *(wysłane? odpowiedź?)* |
 | **2. Lesestück** 📖 | 3 min | **Tylko jeśli przeczytał.** D4 → D1 → D2 *(D3, jeśli starczy czasu)*. Nieprzeczytany → blok przepada, minuty idą do rozmowy, **a tekst nie wraca już nigdy**. **Nie czytamy na sesji.** Spec: `plan/lesestueck.md` |
 | **3. Regel + Drill** | 4 min | Reguła **+ sąsiedztwo** *(pole obok, na którym nie obowiązuje)*, ≤ 90 s, z kontrastem PL→DE. Potem 5–7 zdań PL→DE: **jeden cel na zdanie + jedno zdanie z dwoma celami** jako sonda. Zero wyboru z listy. **+ 🗣️ mówiony niemiecki dnia** — jedna rzecz z `grammar/06-mowiony-niemiecki.md` *(jak ratować rozmowę, reagować, zgadzać się naturalnie)*, która **musi paść w bloku 5** |
 | **4b. Lückensätze** 🧩 | 3 min · pisany | 10 zdań, w każdym jedna luka na jedno słowo, forma podstawowa w nawiasie. Spec: `plan/lueckentext.md` |
 | **5. Gespräch** 🗣️ | **≥ 11 min** | **Nietykalny i najdłuższy.** Spec niżej. Każda minuta zaoszczędzona gdzie indziej idzie tutaj |
 | **6. Karteikarten** | 2 min · pisany | 10 fiszek PL→DE — **Jakub wpisuje odpowiedzi na czacie** *(post-test)*. Spec niżej |
 | **7. Bilans** ⭐ | 1,5 min · pisany | Rozliczenie — spec niżej |
-| **+ Misja** | — | Misja z `plan/missions.md` — w Etapie 1 **rdzeń Live + zadanie egzaminu** *(Forumsbeitrag / formelle Nachricht / mock wg `plan/goethe-b2.md`)* + **`Lesemission` wklejona w czat** |
+| **+ Misja** | — | Misja z `plan/missions.md` — w Etapie 1 **rdzeń: dziennik na głos + zadanie egzaminu** *(Forumsbeitrag / formelle Nachricht / mock wg `plan/goethe-b2.md`)* + **`Lesemission` wklejona w czat** |
 
 > 🎓 **Etap 1 — życie najpierw, egzamin przy okazji:** rundy w `Gespräch` = opowiedzieć albo
 > przekonać o czymś **z jego życia** *(raz na kilka sesji w strukturze Vortragu)*, rozmowa = czasem
@@ -213,7 +216,8 @@ Bilans rozlicza wprost „✅ UDA SIĘ, JEŚLI” z bloku 0 — udało się / ni
   Active, to Ty masz stworzyć jej okazję.
 - **Pozycje z `Closed` weryfikujesz tylko w `Gespräch`**, nigdy zadaniem wprost.
 - **Struktura zamknięta w sesji N wraca jako zadanie w N+1 i N+3.** Jeśli nie wchodzi do jego
-  codziennej mowy — następnym krokiem jest **misja na żywym rozmówcy**, nie trzecie ćwiczenie.
+  codziennej mowy — następnym krokiem jest **misja: struktura wpisana w dziennik na głos**
+  *(albo w prawdziwą wiadomość do prawdziwego adresata)*, nie trzecie ćwiczenie.
 - **Sonda nie powtarza dosłownie pytania z poprzedniej sesji** — Jakub je pamięta.
 - **Anki: pytaj CO TRZECIĄ SESJĘ**, nie co sesję *(prośba Jakuba, 2026-09-28: „jaki jest sens
   żebym ci codziennie wysyłał screena”)* — albo gdy zbliża się decyzja o limicie, i wtedy powiedz,
@@ -281,8 +285,8 @@ Powiedz Jakubowi, że to zrobiłeś.**
 - **Żadnych wyuczonych formułek do rozmowy.** Formuły egzaminacyjne *(`Einerseits … andererseits`,
   `Zusammenfassend …`)* — tylko w prezentacji i w piśmie. W rozmowie tak, jak mówią ludzie:
   `Also, ich finde …`, `Stimmt, aber …`, `Kommt drauf an.` *(`grammar/06-mowiony-niemiecki.md`)*.
-- **Zdania z jego AKTUALNEGO życia** *(gdzie jest — `PROFILE.md`)*: od października uczelnia
-  w Polsce, pokój, dojazdy, egzaminy, Kommilitonen, Schwiegermutter. Rzym i Policlinico to już
+- **Zdania z jego AKTUALNEGO życia** *(gdzie jest — `PROFILE.md`)*: od października studia
+  w **Gdańsku**, nowy pokój, dojazdy, egzaminy, Kommilitonen, Goethe B2. Rzym i Policlinico to już
   wspomnienie — nie rdzeń materiału.
 - **Pisze po polsku, bo nie zna słowa** → podaj niemieckie i **od razu każ użyć go w zdaniu**.
 - **Ortografia czatu** (mała litera, brak Umlautu) **nie jest luką** — chyba że zmienia formę.

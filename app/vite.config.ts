@@ -3,6 +3,7 @@ import { fileURLToPath } from "node:url";
 import tailwindcss from "@tailwindcss/vite";
 import react from "@vitejs/plugin-react";
 import { defineConfig } from "vite";
+import { kanalyPlugin } from "./serwer-kanaly.ts";
 import { repoPlugin } from "./serwer-repo.ts";
 
 /** Katalog główny repo kursu — strona czyta z niego pliki w czasie działania. */
@@ -14,7 +15,7 @@ const PORT = 3200;
 const HOSTY = [".app.github.dev", ".local"];
 
 export default defineConfig({
-  plugins: [react(), tailwindcss(), repoPlugin(KORZEN_REPO)],
+  plugins: [react(), tailwindcss(), repoPlugin(KORZEN_REPO), kanalyPlugin()],
   server: { port: PORT, strictPort: true, allowedHosts: HOSTY },
   preview: { port: PORT, strictPort: true, allowedHosts: HOSTY },
   test: { include: ["tests/**/*.test.ts"], environment: "node" },

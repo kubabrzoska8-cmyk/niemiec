@@ -31,7 +31,9 @@ export function Pulpit(_: WidokProps) {
   const wymagane = vollmodus.min_sesji_tydzien ?? 3;
   const ostatnie7 = sesjeWOknie(k.sesje, dzis, 7);
   const termin = egz.termin ?? e1.koniec;
-  const terminOpis = egz.termin ? `przed egzaminem (${dataDluga(egz.termin)})` : `przed końcem 2026 — termin egzaminu nieustalony`;
+  const terminOpis = egz.termin
+    ? `przed egzaminem (${dataDluga(egz.termin)})`
+    : `przed ${e1.koniec ? dataDluga(e1.koniec) : "końcem etapu"} — termin egzaminu nieustalony`;
   const prognozy = [
     { opis: `przy tempie z ostatnich 7 dni (${ostatnie7.length}/tydz.)`, naTydzien: ostatnie7.length },
     { opis: `przy wymaganym min. ${wymagane}/tydz.`, naTydzien: wymagane },
@@ -72,9 +74,9 @@ export function Pulpit(_: WidokProps) {
           przypis={`Od sesji 1 (${dataDluga(k.kurs.start)}). Tylko podpis — przerwa nie jest zaległością.`}
         />
         <Kafelek
-          etykieta="Do końca 2026"
+          etykieta={e1.koniec ? `Do ${dataDluga(e1.koniec)}` : "Do końca etapu"}
           wartosc={doKonca === null ? "—" : `${doKonca} ${odmien(doKonca, "dzień", "dni", "dni")}`}
-          przypis={`Cel Etapu ${e1.nr}: ${e1.nazwa} ${e1.termin}.`}
+          przypis={<Md>{`Cel Etapu ${e1.nr}: ${e1.nazwa} — ${e1.termin}.`}</Md>}
         />
         <Kafelek
           etykieta={`Egzamin — ${egz.nazwa}`}
@@ -86,7 +88,7 @@ export function Pulpit(_: WidokProps) {
               <>
                 Możliwy termin {dataDluga(egz.kandydat.data)}
                 {egz.kandydat.zapisy_do && `, zapisy do ${dataDluga(egz.kandydat.zapisy_do)} (za ${dniMiedzy(dzis, egz.kandydat.zapisy_do)} dni)`} —{" "}
-                <strong>niepotwierdzony</strong>, nie wiadomo, czy dotyczy Polski.
+                <strong>jeszcze nie wybrany</strong>.{egz.kandydat.uwaga && <> <Md>{egz.kandydat.uwaga}</Md></>}
               </>
             ) : (
               "Do ustalenia."

@@ -162,6 +162,34 @@ pary kontrastowe w zdaniach.
 
 ---
 
+## 6. Bez immersji: rdzeń misji to mówienie, input jest dodatkiem *(research 2026-10-05, sesja 11)*
+
+**Sytuacja:** od 1.10.2026 Jakub nie ma rozmówcy poza sesjami. **Pytanie:** czym zastąpić codzienną rozmowę?
+Pełny research i plan tygodnia: [`resources/immersja.md`](../resources/immersja.md).
+
+- **Sam input nie naprawi fleksji** — kanadyjska immersja: rozumienie jak native, błędy w produkcji
+  po latach *(Swain, „output hypothesis”)*. Zgodne z danymi kursu: s5, 32 % po dwóch tygodniach rozmów.
+  ➡️ **Rdzeń misji = dziennik dyktowany 60 s dziennie** *(produkcja)*; input z pulpitu to dodatek.
+- **Input, który ma dowody:** czytanie dużo i łatwo *(Jeon i Day 2016, dorośli d = 0,70)*, czytanie
+  ze słuchaniem *(Webb i Chang 2015)*, wideo z napisami w języku nagrania *(Montero Perez i in. 2013,
+  g = 0,87)*. ➡️ DW *Langsam gesprochene Nachrichten* rano, Easy German z niemieckimi napisami.
+- **Zastępstwo rozmówcy:** tandem online *(poprawa mówienia i gotowości do rozmowy)*, shadowing
+  *(płynność, prozodia)*.
+- **Co zmienia w protokole:** `CLAUDE.md` → Meldunek i Misja · `plan/missions.md` → rdzeń ·
+  `PROFILE.md` → Kontekst. **Nie łamie niczego z dowodami powyżej** — rundy z korektą, prompt → reguła
+  → forma i fiszki zdaniowe zostają bez zmian.
+
+### 6a. Lekcje z sesji 11 o projektowaniu bloku `Regel` *(dane kursu, nie literatura)*
+
+- **Jedna reguła na sesję naprawdę znaczy jedną.** Plan s11 miał `legen/liegen` + końcówki przymiotnika
+  + mówiony niemiecki — końcówki nie weszły *(luki 1/4, „nie rozumiem”)*.
+- **Wyróżniony przykład staje się formą domyślną.** Reguła `-es` pokazana na jego własnym zdaniu
+  `ein neues Zimmer` → `-es` pięć razy tam, gdzie go nie ma. Przy **wprowadzaniu** reguły: trzy formy
+  równej wagi. Własne zdanie ucznia — jako haczyk przy regule, którą już ma.
+- **Kryterium formalne bije skrót semantyczny.** „W Dativie zawsze `-en`” nie dotarło; „rodzajnik zmienił
+  formę → `-en`” obejmuje Dativ, Akk. męski i Genitiv jednym pytaniem, na które odpowiada się patrząc
+  na słowo, nie na zdanie.
+
 ## Czego ten research NIE rozstrzyga
 
 - Jak duże efekty dadzą te zmiany **u Jakuba** — badania dotyczą grup; kurs ma własny pomiar

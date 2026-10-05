@@ -22,10 +22,10 @@ describe("parser TSV", () => {
   it("sam nagłówek → pusta lista", () => {
     expect(parsujTsv(NAGLOWEK + "\n", "block-3.tsv")).toEqual([]);
   });
-  it("prawdziwe pliki: 121 słów, jak w PROGRESS.md po sesji 10", () => {
+  it("prawdziwe pliki: 136 słów, jak w PROGRESS.md po sesji 11", () => {
     const katalog = KORZEN + "anki/wordlists/";
     const slowa = fs.readdirSync(katalog).flatMap((p) => parsujTsv(fs.readFileSync(katalog + p, "utf8"), p));
-    expect(slowa).toHaveLength(121);
+    expect(slowa).toHaveLength(136);
     expect(slowa.every((s) => s.sesja !== null && s.blok === 1)).toBe(true);
   });
 });

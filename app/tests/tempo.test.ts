@@ -5,8 +5,8 @@ import { kursSurowy } from "./pomoc";
 const sesje = kursSurowy().sesje as { nr: number; data: string }[];
 
 describe("numer sesji", () => {
-  it("aktualna = najwyższy numer w logu + 1 (po sesji 10 → 11)", () => {
-    expect(aktualnaSesja(sesje)).toBe(11);
+  it("aktualna = najwyższy numer w logu + 1 (po sesji 11 → 12)", () => {
+    expect(aktualnaSesja(sesje)).toBe(12);
   });
   it("pusty log → sesja 1", () => {
     expect(aktualnaSesja([])).toBe(1);
@@ -14,12 +14,13 @@ describe("numer sesji", () => {
 });
 
 describe("sesje w ostatnich 7 dniach", () => {
-  it("2.10: tylko sesja 10 (28.09)", () => {
-    expect(sesjeWOknie(sesje, "2026-10-02").map((s) => s.nr)).toEqual([10]);
+  it("2.10: sesje 10 (28.09) i 11 (2.10)", () => {
+    expect(sesjeWOknie(sesje, "2026-10-02").map((s) => s.nr)).toEqual([10, 11]);
   });
   it("okno = dziś i 6 dni wstecz", () => {
-    expect(sesjeWOknie(sesje, "2026-10-04").map((s) => s.nr)).toEqual([10]);
-    expect(sesjeWOknie(sesje, "2026-10-05")).toEqual([]);
+    expect(sesjeWOknie(sesje, "2026-10-04").map((s) => s.nr)).toEqual([10, 11]);
+    expect(sesjeWOknie(sesje, "2026-10-05").map((s) => s.nr)).toEqual([11]);
+    expect(sesjeWOknie(sesje, "2026-10-09")).toEqual([]);
   });
   it("sesja z przyszłości się nie liczy", () => {
     expect(sesjeWOknie([{ nr: 1, data: "2026-10-03" }], "2026-10-02")).toEqual([]);

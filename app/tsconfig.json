@@ -17,5 +17,5 @@
     "noEmit": true,
     "types": ["node", "vite/client"]
   },
-  "include": ["src", "tests", "scripts", "vite.config.ts", "serwer-repo.ts"]
+  "include": ["src", "tests", "scripts", "vite.config.ts", "serwer-repo.ts", "serwer-kanaly.ts"]
 }

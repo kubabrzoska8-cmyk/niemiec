@@ -1,9 +1,10 @@
 # Źródła — input do misji i tekstów
 
-> **Główny kanał inputu to codzienna rozmowa z mamą dziewczyny** *(`PROFILE.md`)*. Ta lista
-> daje to, czego rozmowa nie da: **niemiecki poprawny, pisany i medyczny**. Podcasty są
-> dodatkiem do misji, nie jej rdzeniem — do sesji 8 nie zmieściły się w tygodniu Jakuba
-> *(`plan/missions.md`)*. Teksty medyczne — tak, zwłaszcza jako `Lesemission`.
+> 🚨 **Od 1.10.2026 nie ma codziennej rozmowy z mamą dziewczyny** *(`PROFILE.md` → Kontekst)* —
+> ta lista jest teraz **jedynym** niemieckim w tygodniu Jakuba poza sesjami. Plan tygodnia
+> i research *(co działa bez rozmówcy)*: **[`immersja.md`](immersja.md)**, w pulpicie: **Materiały → „Na dziś”**.
+> Podcasty do sesji 8 nie zmieściły się w tygodniu *(`plan/missions.md`)* — dlatego 10–15 min o stałej
+> porze, nie „kiedyś w tygodniu”. Teksty medyczne — tak, zwłaszcza jako `Lesemission`.
 
 ---
 

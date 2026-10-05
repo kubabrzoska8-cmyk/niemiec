@@ -27,6 +27,9 @@ szafa jest żeńska, więc `die Schrank`. Uczący się niemieckiego robią to sy
 | tramwaj | m | **die** Straßenbahn | ż |
 | masło | n | **die** Butter | ż |
 | skóra | ż | **die** Haut | ż ✅ |
+| mleko | n | **die** Milch | ż *(s11: `ohne kaltes Milch`)* |
+| kawa | ż | **der** Kaffee | m *(s11: `die Coffe`)* |
+| plecak | m | **der** Rucksack | m ✅ *(s11: `ein neues Rucksack` — to nie rodzaj z polskiego, tylko przeciek `-es`)* |
 
 ➡️ **Twoja osobista lista** — każde słowo, na którym rodzaj z polskiego Cię zmylił,
 dopisuj tutaj i do Anki **parą**. Zgodne rodzaje wchodzą same; niezgodne trzeba wbić.

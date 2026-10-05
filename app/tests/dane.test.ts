@@ -10,17 +10,17 @@ describe("data/kurs.json", () => {
     const w = await wczytajKurs(fetchZRepo);
     expect(w.ok).toBe(true);
     if (!w.ok) return;
-    expect(w.dane.sesje.at(-1)!.nr).toBe(10);
-    expect(w.dane.nastepna_sesja.nr).toBe(11);
+    expect(w.dane.sesje.at(-1)!.nr).toBe(11);
+    expect(w.dane.nastepna_sesja.nr).toBe(12);
   });
 
-  it("liczby po sesji 10 są jak w PROGRESS.md", async () => {
+  it("liczby po sesji 11 są jak w PROGRESS.md", async () => {
     const w = await wczytajKurs(fetchZRepo);
     if (!w.ok) throw new Error(w.bledy.join("\n"));
-    const s10 = w.dane.sesje.at(-1)!;
-    expect(s10.wolna_produkcja).toMatchObject({ poprawne: 5, n: 13, porownywalne: false });
-    expect(s10.pomocnicze.luki).toMatchObject({ poprawne: 5, n: 10 });
-    expect(s10.anki).toMatchObject({ slowa: 121, karty: 230 });
+    const s11 = w.dane.sesje.at(-1)!;
+    expect(s11.wolna_produkcja).toMatchObject({ poprawne: 7, n: 15, porownywalne: true });
+    expect(s11.pomocnicze.luki).toMatchObject({ poprawne: 3, n: 10 });
+    expect(s11.anki).toMatchObject({ slowa: 136, karty: 260 });
     expect(w.dane.cel_cyklu.aktualny.sesje).toEqual([10, 11, 12]);
     expect(w.dane.luki.active).toHaveLength(3);
   });
@@ -52,10 +52,10 @@ describe("data/kurs.json", () => {
 
   it("reguły spoza JSON Schema: następna sesja = ostatnia + 1", () => {
     const k = kursSurowy();
-    k.nastepna_sesja.nr = 13;
+    k.nastepna_sesja.nr = 14;
     const w = walidujKurs(k);
     expect(w.ok).toBe(false);
-    if (!w.ok) expect(w.bledy.join()).toContain("następna sesja to 11");
+    if (!w.ok) expect(w.bledy.join()).toContain("następna sesja to 12");
   });
 
   it("data/kurs.schema.json jest aktualny względem schematu zod (npm run schemat)", () => {
@@ -65,7 +65,7 @@ describe("data/kurs.json", () => {
 
 describe("słowa z anki/wordlists przez middleware", () => {
   it("wczytuje wszystkie pliki TSV", async () => {
-    expect(await wczytajSlowa(fetchZRepo)).toHaveLength(121);
+    expect(await wczytajSlowa(fetchZRepo)).toHaveLength(136);
   });
 });
 

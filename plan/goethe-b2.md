@@ -21,22 +21,26 @@
    krótka sesja przed terminem, nie wcześniej.
 3. **Mówiony niemiecki ma stałe miejsce** — co sesja jedna rzecz z `grammar/06-mowiony-niemiecki.md`
    *(jak ratować rozmowę, reagować, zgadzać się i nie zgadzać naturalnie)*, użyta w rozmowie.
-   Egzaminator B2 też to nagradza — ale robimy to dla rozmowy ze Schwiegermutter.
+   Egzaminator B2 też to nagradza — ale robimy to dla prawdziwych rozmów *(uczelnia, tandem, szpital)*.
 4. **Żadnych wyuczonych formułek do rozmowy.** Zwroty strukturyzujące *(„Einerseits …
    andererseits …”)* tylko tam, gdzie ludzie ich naprawdę używają — w prezentacji i w piśmie.
    W rozmowie: `Also, ich finde …`, `Stimmt, aber …`, `Kommt drauf an.`
 5. **Liczba główna kursu się nie zmienia** — wolna produkcja w rozmowie *(`CLAUDE.md` → Pomiar)*.
    Wynik mocka to kontrolka, nie cel lekcji.
 6. **Rozumienie prawdziwej mowy, nie tylko spikerów:** obok DW „langsam gesprochen” — nagrania
-   ludzi mówiących normalnie *(Easy German, rozmowy)*; misja z żywym rozmówcą zostaje rdzeniem.
+   ludzi mówiących normalnie *(Easy German, rozmowy)*. Od s11 nie ma żywego rozmówcy — rdzeniem misji
+   jest **dziennik dyktowany na głos** *(`plan/missions.md`, `resources/immersja.md`)*.
 
 ---
 
-## 🗓️ Termin — do załatwienia w tym tygodniu
+## 🗓️ Termin — decyzja przed 26.10 *(sesja 11)*
 
 - **Zapis decyduje:** o miejscu na egzaminie decyduje kolejność zapisu i wpłaty.
-- Znaleziona lista dat B2 na 2026 z jednego z instytutów Goethe: **20.11.2026, zapisy do 30.10.2026**.
-  ⚠️ **Nie wiadomo, czy dotyczy Polski** — sprawdź u siebie:
+- ✅ **Terminy z goethe.de *(zrzuty od Jakuba, 2.10)*:** **Kraków 13.11.2026** — zapisy online **26–28.10.2026**
+  *(trzy dni!)* · **Warszawa 02.02.2027** — zapisy **7–8.01.2027** · 830 zł *(800 po kursie w GI)*, moduł 260 zł.
+  **Jakub: „zobaczymy, jak pójdą przygotowania”** — decyzja po mocku #1, przed 26.10.
+- ➕ **Gdańsk:** Centrum Herdera UG jest centrum egzaminacyjnym Goethe — termin nieznany *(misja 11: mail)*.
+- ~~Lista dat z innego instytutu: 20.11.2026, zapisy do 30.10~~ — nie dotyczyła Polski. Kontakty:
   **Goethe-Institut Kraków** — egzaminy-krakow@goethe.de · +48 12 202 19 34 ·
   **Goethe-Institut Warszawa** — pruefungen-warschau@goethe.de · +48 22 505 9042 ·
   albo centrum egzaminacyjne Goethe w Twoim mieście.

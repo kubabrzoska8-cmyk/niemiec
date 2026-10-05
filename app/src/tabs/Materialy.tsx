@@ -1,4 +1,5 @@
 import { useCallback } from "react";
+import { Codziennie } from "../components/Codziennie";
 import { PlikMarkdown } from "../components/Markdown";
 import { Karta, Link, Md, Notka, Plakietka, Tytul } from "../components/ui";
 import { dataDluga } from "../lib/daty";
@@ -123,8 +124,13 @@ export function Materialy({ argumenty }: WidokProps) {
     <div className="space-y-5">
       <div>
         <h1 className="text-2xl font-semibold">Materiały</h1>
-        <p className="mt-1 max-w-3xl text-sm text-ink-2">Archiwum planów lekcji i teksty Lesestück do ponownego przeczytania.</p>
+        <p className="mt-1 max-w-3xl text-sm text-ink-2">
+          Niemiecki na co dzień — plan na dziś i źródła, które same się odświeżają. Niżej archiwum planów lekcji i teksty Lesestück.
+        </p>
       </div>
+      <Codziennie />
+
+      <h2 className="pt-3 text-xl font-semibold">📚 Archiwum kursu</h2>
       <NieJestPomiarem />
 
       <Karta>

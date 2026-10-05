@@ -2,8 +2,8 @@
   "$schema": "./kurs.schema.json",
   "wersja": 1,
   "stan_na": {
-    "data": "2026-09-28",
-    "po_sesji": 10
+    "data": "2026-10-05",
+    "po_sesji": 11
   },
   "kurs": {
     "uczen": "Jakub",
@@ -14,8 +14,8 @@
         "nr": 1,
         "nazwa": "Goethe-Zertifikat B2",
         "cel": "wszystkie cztery moduły — Lesen, Hören, Schreiben, Sprechen *(60/100 każdy, cel ≥ 70)*",
-        "termin": "do końca 2026",
-        "koniec": "2026-12-31",
+        "termin": "Kraków 13.11.2026 *(zapisy 26–28.10)* albo Warszawa 02.02.2027 *(zapisy 7–8.01)* — decyzja przed 26.10 po mocku #1",
+        "koniec": "2026-11-13",
         "sesje": {
           "od": 10,
           "do": 29
@@ -35,9 +35,9 @@
       }
     ],
     "tryb": {
-      "aktualny": "erhaltungsmodus",
-      "nastepny": "vollmodus",
-      "zmiana": "🔥 Vollmodus od pierwszej sesji po powrocie do Polski — **min. 3 sesje / tydz. do egzaminu**",
+      "aktualny": "vollmodus",
+      "nastepny": null,
+      "zmiana": "🔥 **Vollmodus od sesji 11** *(powrót do Gdańska 1.10)* — **min. 3 sesje / tydz. do egzaminu**",
       "opisy": {
         "erhaltungsmodus": {
           "nazwa": "🧊 Erhaltungsmodus",
@@ -56,8 +56,8 @@
       }
     },
     "miejsce": {
-      "aktualne": "Rzym",
-      "uwaga": "powrót do Polski ~3.10 — na starcie s11 sprawdzić, czy przenosiny ruszyły"
+      "aktualne": "Gdańsk",
+      "uwaga": "od 1.10.2026, po roku w Rzymie · 🚨 immersja skończona — niemiecki tylko na sesjach (rozmowy z mamą dziewczyny zostały we Włoszech)"
     },
     "sesja_minut": 35
   },
@@ -509,6 +509,97 @@
       "draft": "drafts/2026-09-28_sesja-10_rodzaj-i-rodzajnik.md",
       "lekcja": "lessons/session-10.md",
       "uwaga": "🚨 Sesja poszła ze STARYCH plików (kontener sklonował repo sprzed resetu) — `Gespräch` ~7 min bez rund z korektą. Dlatego 🟢 i 📖 są nieporównywalne."
+    },
+    {
+      "nr": 11,
+      "data": "2026-10-02",
+      "temat": "`Adjektivendungen` + `legen ↔ liegen`",
+      "tryb": "vollmodus",
+      "tematy_gramatyczne": [
+        "adjektivendungen",
+        "kasus-praepositionen",
+        "mowiony"
+      ],
+      "wolna_produkcja": {
+        "poprawne": 7,
+        "n": 15,
+        "porownywalne": true,
+        "metoda": "pierwsze-15",
+        "uwaga": "runda 1 *(pisana, ~45 słów)* **1/9** · dyskusja *(mówiona — dyktowana, pierwsza w kursie)* **6/6** na prostszych grupach"
+      },
+      "pomocnicze": {
+        "drill": {
+          "poprawne": 2,
+          "n": 8,
+          "format": "1 cel na zdanie + zdanie 8 z dwoma celami *(sonda)*",
+          "uwaga": "z połówkami 3,5/8 *(3, 4, 5 częściowo)* · sonda 0/2 · pierwszy raz < 50 %"
+        },
+        "luki": {
+          "poprawne": 3,
+          "n": 10,
+          "rozbicie": {
+            "regula_dnia": {
+              "poprawne": 1,
+              "n": 4
+            },
+            "active": {
+              "poprawne": 1,
+              "n": 3
+            },
+            "przeplatanie": {
+              "poprawne": 1,
+              "n": 2
+            },
+            "sonda": {
+              "poprawne": 0,
+              "n": 1
+            }
+          },
+          "uwaga": "luki 1–3 *(rodzaj podany)*: rodzajnik 3/3, przymiotnik 0/3 — bez końcówki · sonda `das Referat` → `den` jak w s10"
+        },
+        "lesen": {
+          "poprawne": 2,
+          "n": 4,
+          "format": "D4 — znaczenie słów z kontekstu *(Nachrichtenmeldung)*",
+          "uwaga": "D2 niemierzalne — tekst czytany kilka dni przed sesją · D1b rodzaj 3/3"
+        },
+        "inne": [
+          {
+            "nazwa": "🏆 rodzajnik przy podanym rodzaju *(luki 1–3)*",
+            "poprawne": 3,
+            "n": 3,
+            "uwaga": "s10: 1/3"
+          },
+          {
+            "nazwa": "🗣️ strategie w rozmowie *(przełączenia na PL: 0)*",
+            "poprawne": 3,
+            "n": 3,
+            "uwaga": "`Das kommt darauf an`, `Ja, aber …`, `Das stimmt nicht` + autonaprawy"
+          },
+          {
+            "nazwa": "🃏 fiszki *(post-test)*",
+            "poprawne": 4,
+            "n": 10,
+            "uwaga": "8–10 bez odpowiedzi — zmęczenie"
+          },
+          {
+            "nazwa": "zaimek zwrotny",
+            "poprawne": 0,
+            "n": 1,
+            "uwaga": "fiszka 6 bez `mir`; pytanie w rozmowie bez odpowiedzi ×2"
+          }
+        ]
+      },
+      "decyzja": "🔥 **Vollmodus** · 🚨 **immersja skończona** → misje bez rozmówcy *(dziennik dyktowany)* + zakładka „Materiały” · 🆕 **Active #3: szyk** *(alokacja uwagi → PROFILE)* · Klamra → Closed · Perfekt → Watching · reguła dnia ≤ 2/4 → końcówki przymiotnika wracają w s12 · drill < 50 % pierwszy raz",
+      "anki": {
+        "slowa": 136,
+        "karty": 260,
+        "nowe_slowa": 15,
+        "uwaga": "nie pytałem — pytanie w s12 *(co trzecią sesję)*"
+      },
+      "draft": "drafts/2026-10-02_sesja-11_koncowki-przymiotnika.md",
+      "lekcja": "lessons/session-11.md",
+      "uwaga": "Sesja rozciągnięta na 4 dni *(2.10–5.10)* — przeprowadzka. Pierwsza sesja w Vollmodus i pierwsza mówiona produkcja *(dyktowanie)*."
     }
   ],
   "przerwy": [
@@ -522,10 +613,10 @@
     }
   ],
   "nastepna_sesja": {
-    "nr": 11,
-    "temat": "`Adjektivendungen` — i para czasowników, która rozstrzyga przypadek (`legen ↔ liegen`)",
-    "lekcja": "lessons/session-11.md",
-    "uwaga": "`Regel` zaczyna się od `legen/liegen · stellen/stehen`, nie od przymiotnika · luki 1–4 **podają** rodzaj *(GAPS #3)*"
+    "nr": 12,
+    "temat": "🎯 Mock Sprechen *(Vortrag + Diskussion)* · końcówki przymiotnika jeszcze raz · checkpoint Kasus · rozliczenie cyklu 10–12",
+    "lekcja": "lessons/session-12.md",
+    "uwaga": "reguła dnia s11 = 1/4 → końcówki wracają, **jedna reguła** · okazja na zaimek zwrotny **na początku** `Gespräch` · 📦 pytanie o Anki · drill znowu < 50 % → sesja powtórkowa"
   },
   "cel_cyklu": {
     "aktualny": {
@@ -540,21 +631,21 @@
         {
           "opis": "wolna produkcja ≥ 11/15 w sesji 12",
           "stan": "otwarte",
-          "uwaga": "po s10: 5/13 = 38 % *(nieporównywalne — stary protokół)*"
+          "uwaga": "po s10: 5/13 = 38 % *(nieporównywalne)* · **po s11: 7/15 = 47 %** — ≥ 11/15 w s12 realnie poza zasięgiem"
         },
         {
           "opis": "zero błędów rodzaju przy rzeczownikach z lekcji, które padną",
           "stan": "otwarte",
-          "uwaga": "po s10: ✅ `Koffer` *(rodzaj ✅, przypadek ❌)*, ❌ `Termin`, ❌ `Zimmer` w D1b *(✅ w drillu)*. Na s11 i s12 liczą się rzeczowniki z tekstów faktycznie wysłanych"
+          "uwaga": "s10: ✅ `Koffer`, ❌ `Termin`, ❌ `Zimmer` *(D1b)* · s11: ✅ `die Prüfung`, `der Patient` *(D1b)*, ❌ `die Patient` w dyskusji"
         },
         {
           "opis": "min. 2 poprawne `im`/`ins`/`in der`/`in die` bez podpowiedzi",
           "stan": "otwarte",
-          "uwaga": "po s10: 2 wystąpienia, oba błędne — pierwsze w kursie w wolnej rozmowie"
+          "uwaga": "s10: 2 wystąpienia, oba błędne · s11: **0 poprawnych bez podpowiedzi** *(`ins Zimmer` przy `steht`, `in der Schrank gelegt`)*; po `Wo oder wohin?` 2/2"
         }
       ],
       "stan": "w-toku",
-      "postep": "po s10: 5/13 = 38 %. Rozliczenie w bilansie sesji 12."
+      "postep": "po s10: 5/13 = 38 % · po s11: 7/15 = 47 %. Rozliczenie w bilansie sesji 12."
     },
     "historia": [
       {
@@ -585,14 +676,9 @@
     "active": [
       {
         "nr": 1,
-        "nazwa": "Rodzaj → determinant: rodzaj jest ZNANY, ginie w przeniesieniu",
+        "nazwa": "Rodzaj → determinant: przeniesienie działa, gdy rodzaj jest podany",
         "regula": "Przypadek niesie **determinant**, a determinant zależy od **rodzaju** — i musi go **przejąć**. W Akkusativie zmienia się **tylko męski**: `der → den/einen/meinen`; nijaki i żeński zostają bez zmiany.",
         "pomiary": [
-          {
-            "sesja": 8,
-            "pomiar": "reguła końcówkowa `-ung/-heit/-keit/-schaft/-ion`",
-            "wynik": "✅ 5/6 celowane · ❌ 0/2 w produkcji: `die Sekretariat`, `das Termin` *(słowa bez tych końcówek)*"
-          },
           {
             "sesja": 9,
             "pomiar": "`Wo?/Wohin?` z rodzajem podanym ↔ do znalezienia",
@@ -602,21 +688,21 @@
             "sesja": 10,
             "pomiar": "rodzaj **nazwany** ↔ rodzaj **przeniesiony na determinant**",
             "wynik": "⚠️ **4/8 nazwany** *(✅ Kittel, Schrank, Dienst, Bericht · ❌ Flur, Zimmer, Termin, Hand)* · 🔴 **1/3 przeniesiony** *(❌ `ein neu Termin`, ❌ `meine Bericht` → ✅ `meinen Bericht`)* · 🏆 **sonda `der Schrank` 4/4**"
+          },
+          {
+            "sesja": 11,
+            "pomiar": "rodzaj **podany** → determinant *(luki 1–3)* ↔ przeniesiony **sam, w mowie**",
+            "wynik": "🏆 **3/3 podany** *(`einem`, `einen`, `meiner`)* · samokorekta 2/2 · ❌ w mowie: `in der Schrank gelegt`, `ein neuer Mitbewohner`, `mein neuer Lamp` · 🔬 sonda `das Referat` → `den` jak w s10"
           }
         ],
-        "nastepny_krok": "**Sesja 11:** rodzaj przestaje być tematem i staje się warunkiem brzegowym — w blokach o `Adjektivendungen` rodzaj jest **podany**, żeby mierzyć końcówki *(patrz #3)*. Determinant mierzony osobno: luki 2 i 8 sesji 11. Pytanie **„wiesz czy zgadujesz?”** jako osobna linijka.",
-        "uwaga": "Zawężona w sesji 10: **pytany o rodzaj — wie. Odmieniający — gubi.**"
+        "nastepny_krok": "**Sesja 12 (mock Sprechen):** pomiar przeniesienia **w mowie** — rzeczowniki męskie w Akk. osobno `x/y` · checkpoint Kasus *(opis pokoju z `legen/stellen`)* · `das Referat` nie wprost trzeci raz — inne słowo na `-at` w rozmowie",
+        "uwaga": "Ruszyła w s11: **1/3 → 3/3 przy rodzaju podanym.** W mowie — gdy uwagę zajmuje treść — dalej nie. 🆕 chunk `ein neuer` / `mein neuer` jako forma domyślna."
       },
       {
         "nr": 2,
-        "nazwa": "`Wo?`/`Wohin?` w mowie — i drugie źródło błędu: `legen` ↔ `liegen`",
-        "regula": "Ruch → Akkusativ (`ins`, `in die`) · położenie → Dativ (`im`, `in der`). Do budynku **`in`**, nie `nach`. Wybór czasownika z pary `legen/liegen · stellen/stehen · hängen/hängen · setzen/sitzen` **wymusza przypadek, zanim dojdzie do przyimka**.",
+        "nazwa": "`Wo?`/`Wohin?` — kierunek → czasownik działa, czasownik → przypadek nie",
+        "regula": "Ruch → Akkusativ (`ins`, `in die`) · położenie → Dativ (`im`, `in der`). Do budynku **`in`**, nie `nach`. Para `legen/liegen · stellen/stehen · hängen/hängen` **wymusza przypadek**: czynność → Akk., stan → Dat.",
         "pomiary": [
-          {
-            "sesja": 8,
-            "pomiar": "rozmowa + drill",
-            "wynik": "❌ ×4: `in Krankenhaus`, `in der/die Sekretariat`, `nach Urlaub` · ✅ `ins Sekretariat`"
-          },
           {
             "sesja": 9,
             "pomiar": "🧩 / drill / rozmowa",
@@ -626,120 +712,119 @@
             "sesja": 10,
             "pomiar": "🧩 *(rodzaj do ustalenia LUB podany)* / rozmowa",
             "wynik": "🔴 **0/2 w lukach** — `dem Schrank` *(trzeba `den`)* i `ins Sekretariat` tam, gdzie rodzaj stał w nawiasie *(trzeba `im`)* · 🔴 w rozmowie `im Koffer`, `im Rucksack` w miejscu `in den` · ✅ `ins Sekretariat` w drillu"
+          },
+          {
+            "sesja": 11,
+            "pomiar": "drill 5–6 · 🔬 luki 5 ↔ 9 · runda 3 · rozmowa",
+            "wynik": "**czasownik ✅** *(luka 9 `stelle`, runda 3 `gelegt`)* · **przypadek po czasowniku ❌** *(luka 5 `ins Zimmer` przy `steht`, `in der Schrank gelegt`)* · drill 8: reguła odwrócona · po `Wo oder wohin?` **2/2** ✅"
           }
         ],
-        "nastepny_krok": "**Sesja 11:** blok `Regel` zaczyna się od **czterech par czasowników**, dopiero potem końcówki przymiotnika. Para luk **5 ↔ 9** rozdziela błąd przypadka od błędu czasownika.",
-        "uwaga": "📈 `im` **po raz pierwszy w kursie padło w wolnej rozmowie samo** (s10, dwa razy — oba w złym miejscu). Forma ściągnięta jest już odruchem; zostaje wybór."
+        "nastepny_krok": "**Sesja 12:** w checkpoincie Kasus zdania z **podanym czasownikiem** — Jakub dobiera przypadek *(odwrotny kierunek niż luka 9)*. Korekta w mowie: zawsze najpierw `Wo oder wohin?`",
+        "uwaga": "Para luk 5 ↔ 9 dała 5 ❌ / 9 ✅: połączenie działa w jedną stronę. `durch` ✅ ×2 *(s10: 0/3)*, ale `an` dalej domyślne w mowie *(`am Gdańsk`, `an der Tisch`)*."
       },
       {
         "nr": 3,
-        "nazwa": "Alokacja uwagi — dwie reguły naraz się nie mieszczą",
-        "regula": "Reguła operacyjna dla prowadzącego: **nie dokładaj drugiej niezautomatyzowanej decyzji do tej samej grupy rzeczownikowej.** Jeśli mierzysz X, **podaj Y**.",
+        "nazwa": "Szyk: czasownik na swoim miejscu — V2 i czasownik na końcu",
+        "regula": "W zdaniu głównym czasownik odmieniony na **2. miejscu** — także po `jetzt`, `dann`, `also`, `manchmal` i po całym zdaniu podrzędnym. W zdaniu podrzędnym *(`dass`, `wenn`, `weil`, `ob`)* — **na końcu**. ⚠️ `weil` + szyk główny w mowie potocznej nie liczy się jako błąd; `dass`/`wenn` + V2 — zawsze.",
         "pomiary": [
           {
             "sesja": 9,
-            "pomiar": "🧩 Lückensätze — rodzaj **podany w nawiasie**",
-            "wynik": "🏆 kierunek **4/4**"
-          },
-          {
-            "sesja": 9,
-            "pomiar": "Drill — rodzaj trzeba znać",
-            "wynik": "⚠️ kierunek 2/4"
+            "pomiar": "rozmowa *(pisana)*",
+            "wynik": "❌ `dass du hast … gestellt`"
           },
           {
             "sesja": 10,
-            "pomiar": "🧩 Lückensätze — rodzaj trzeba ustalić *(lub podany w luce 10)*",
-            "wynik": "🔴 kierunek **0/2**"
+            "pomiar": "rozmowa / drill *(pisane)*",
+            "wynik": "❌ `Weil die … kann Mann … bekommen nicht` · ❌ `Ohne Kittel wir dürfen` · ✅ V2 ×3 w rozmowie"
+          },
+          {
+            "sesja": 11,
+            "pomiar": "runda 1 *(pisana)* · dyskusja *(mówiona)*",
+            "wynik": "❌ V2 ×8 *(`jetzt es ist`, `dann du bist`, `Wenn …, sie können`)* · ❌ `wenn die Sprache ist A2`, `dass … du bist` · ✅ `Also, fangen wir` po jednej uwadze · ✅ samonaprawa `wenn du hast … hast`"
           }
         ],
-        "nastepny_krok": "**Sesja 11:** ① luki 1–4 **podają rodzaj**, mierzą wyłącznie końcówkę ② para luk 5 ↔ 9 izoluje czasownik od przypadku ③ obowiązkowa okazja na zaimek zwrotny ④ **automatyzujemy kierunek, nie rodzaj** — objętością w `Gespräch`, nie kolejnym wyjaśnieniem.",
-        "uwaga": "To nie luka gramatyczna, tylko **mechanizm** (nowa w s10). Trzeci odczyt tego samego dnia: zaimek zwrotny **0/2** w zdaniach, których cel był gdzie indziej."
+        "nastepny_krok": "**Sesja 12:** w mocku Sprechen liczyć osobno pozycje V2 i V-końcowe → `x/y` *(diagnostyka)*. Korekta: `Wo steht das Verb?` → reguła → forma. `so` → `also` zawsze. **Sesja 13 *(Nebensatz + łączniki)* robi z tego temat dnia.**",
+        "uwaga": "Z Watching *(🇮🇹 strukturalna + V2)* — trzecia sesja z rzędu. Zastąpiła „alokację uwagi”, która jest mechanizmem → `PROFILE.md` → „Jak się uczy” 6. To szyk SVO wspólny dla PL/EN/IT pod presją mówienia, nie brak wiedzy."
       }
     ],
     "watching": [
       {
-        "nazwa": "**Przyimek rekcyjny — DOBÓR** ⬇️ *(zeszła z Active po sesji 10)*",
+        "nazwa": "🆕 **Końcówki przymiotnika** *(temat s11)*",
         "rodzaj": "produkcja",
-        "stan": "🏆 **s10: 2/2 — `sich freuen auf` w luce i w drillu, pierwsze trafienie w kursie** *(s9: `warte an`, `freue mich an`)*. **Fiszka „czasownik + przyimek jako jedna jednostka” zadziałała**",
-        "nastepny_krok": "⚠️ **Luka rozpadła się na dwie i tylko REKCJA się zamyka.** `an` zostaje wartością domyślną **w przestrzeni**: s10 ❌ 0/3 — `am Flur`, `am meine uni Stadt`, `an meinem Tisch`. ➡️ To inne zadanie: nie lista czasowników, tylko kontrast `an` *(przy)* ↔ `auf` *(na)* ↔ `in` *(w)* ↔ `durch` *(przez)*, 60 s w sesji 11 + luka 6. **Rekcja: dwie czyste sesje → Closed**"
+        "stan": "🔴 **s11:** luki 1/4 — rodzajnik ✅, przymiotnik **bez końcówki** *(`einem lang`, `einen weiss`, `meiner deutsch`)* · w mowie `nach der schwere Woche`, `von meiner letzte Wohnung`, `in einer grosse Gruppe` · ✅ deklinacja **mocna** wchodzi: `mit vollem Kurs`, `viele polnische`, `ohne kalte Milch` · 🔴 **przeciek `-es`** ×5 *(`meines Bett`, `ganzes Unterricht`, `erstes Woche`, `ein neues Rucksack`)* — po tym, jak regułę pokazałem na jego zdaniu `ein neues Zimmer`",
+        "nastepny_krok": "Reguła „w Dativie zawsze `-en`” **nie dotarła** *(„nie rozumiem”)*. Zastąpiona: **„rodzajnik zmienił formę → `-en`”**. Wraca w s12 w bloku 3 *(reguła dnia ≤ 2/4)*, **jedna reguła, trzy formy równej wagi**. Nie na Active — lista pełna, a pod nią leży #1"
       },
       {
-        "nazwa": "**Grupa dopełniaczowa — forma** *(zeszła z Active przy resecie)*",
+        "nazwa": "**Przyimek rekcyjny — DOBÓR**",
         "rodzaj": "produkcja",
-        "stan": "szyk ✅ *(s9)* · forma ❌ *(s7: 1/5, s9: 0/1)* · ⚪ **s10: POMIAR NIEWAŻNY** — luka 6 podawała odpowiedź w nawiasie *(Gen. nijaki = forma z nawiasu)*, Jakub to zauważył",
-        "nastepny_krok": "Ekspozycja w tekstach + **luka 7 sesji 11** *(`wegen eines unbekannten Wortes` — nawias podaje Nominativ, czyli formę INNĄ niż odpowiedź)*. Wraca 3× → Active"
+        "stan": "🏆 s10: 2/2 `sich freuen auf` · ⚪ s11 bez okazji",
+        "nastepny_krok": "**Rekcja: jeszcze jedna czysta sesja → Closed.** `an` w przestrzeni → Active #2"
+      },
+      {
+        "nazwa": "**Grupa dopełniaczowa — forma**",
+        "rodzaj": "produkcja",
+        "stan": "szyk ✅ *(s9)* · forma ❌ *(s7: 1/5, s9: 0/1)* · ⚪ s10 pomiar nieważny · **s11: luka 7 ❌** — wpisał `fremd` zamiast formy, ale **sam zapytał**: *„dlaczego końcówka es w Wortes”*",
+        "nastepny_krok": "Wyjaśnione na sesji jako ta sama reguła *(„`ein` → `eines` zmieniło formę → `-en`”)*. Ekspozycja + fiszka 8 s11 *(`wegen des neuen Stundenplans` — nieodpowiedziana)*. Wraca 3× → Active"
       },
       {
         "nazwa": "**Liczebnik + l.mn.**",
         "rodzaj": "produkcja",
-        "stan": "✅ `drei Wochen` *(s9)* · ✅ s10 `zwei Stunden`, `vierzig Minuten` w tekście — bez własnego użycia *(pusty pomiar)*",
-        "nastepny_krok": "jedna czysta sesja więcej → Closed. Uwaga: `… Wochen lang` wszedł w miejsce `seit` *(przeciek z fiszki)*"
-      },
-      {
-        "nazwa": "**Klamra zdaniowa**",
-        "rodzaj": "produkcja",
-        "stan": "✅ s8 4/4 · ✅ s9 po 21 dniach bez ćwiczeń · ⚪ s10 bez okazji *(pusty pomiar, nie liczy się)*",
-        "nastepny_krok": "jedna **czysta** sesja więcej → Closed. Stworzyć okazję w s11"
+        "stan": "✅ s9 `drei Wochen` · ⚪ s10 · ✅ **s11 `zwei Möglichkeiten`**",
+        "nastepny_krok": "**jeszcze jedna czysta sesja z okazją → Closed**"
       },
       {
         "nazwa": "**`ohne` bez rodzajnika**",
         "rodzaj": "produkcja",
-        "stan": "s8: drill ✅ / rozmowa 0/3 · s9 ✅ · **s10: ❌ `ohne meiner Kittel`** *(trzeba `meinen`)* — ale to pudło **determinanta**, nie zasady „bez rodzajnika”; `Ohne Kittel` w drillu ✅",
-        "nastepny_krok": "Granica działa. **Luka 8 sesji 11 testuje ją z drugiej strony:** `ohne mein Namensschild` *(nijaki — BEZ zmiany)*. Padnie `meinen` → reguła z s10 wyciekła za szeroko"
+        "stan": "s9 ✅ · s10 ❌ `ohne meiner Kittel` *(determinant)* · **s11: luka 8 `meines` ❌** — nie `meinen` *(przeciek z s10, którego szukałem)*, tylko przeciek `-es` z dzisiejszej reguły · ✅ `ohne kalte Milch` po prompcie",
+        "nastepny_krok": "Zasada „bez rodzajnika” trzyma; pudła są w determinancie *(#1)*. Sonda `ohne` w `Gespräch` — **niezrobiona w s11**"
       },
       {
-        "nazwa": "**V2 po wysuniętym elemencie**",
+        "nazwa": "**Perfekt `haben`/`sein`** ⬆️ *(wraca z Closed, s11)*",
         "rodzaj": "produkcja",
-        "stan": "s8, s9 ✅ · **s10 mieszane:** ✅ ×3 w rozmowie *(`die Sachen habe ich`, `da schlafe ich`, `dann fahre ich`)* · ❌ `Ohne Kittel **wir dürfen**` w drillu",
-        "nastepny_krok": "**NIE do Closed** — wraca do obserwacji. Pudło padło w zadaniu, trafienia w rozmowie: odwrotnie niż wszystko inne w tym kursie. Sprawdzić w s11"
+        "stan": "🔴 **s11 ×2 na tym samym czasowniku:** `ich habe … nach Polen gekomen`, `Ich habe am Gdańsk … zurückgekommen` *(w rundzie 3 znowu)* · wcześniej s5 4/4, s9 ✅ `bin … gefahren`",
+        "nastepny_krok": "Tylko w `Gespräch`. **Jeśli wróci w s12 → wzorzec**, rozbiór wprost *(`kommen` = ruch → `sein`)*"
       },
       {
-        "nazwa": "**Szyk podrzędny w długim zdaniu**",
+        "nazwa": "**Zaimek zwrotny** 🔻",
         "rodzaj": "produkcja",
-        "stan": "s7 4/4 do 18 słów · s9 `dass du hast … gestellt` *(liczone jako 🇮🇹)*",
-        "nastepny_krok": "tylko w `Gespräch`. Nie cofać do `Nebensatz` od zera"
-      },
-      {
-        "nazwa": "🇮🇹 **Interferencja strukturalna** ⬆️",
-        "rodzaj": "interferencja",
-        "stan": "s9: opuszczony podmiot + V na 2. miejscu po `dass` · 🔴 **s10 DRUGIE wystąpienie:** `Weil die … **kann Mann** … bekommen nicht` — czasownik nie na końcu. **Dwie sesje z rzędu = wzorzec**",
-        "nastepny_krok": "✅ Kontrola: V2 ✅ ×3 w tej samej rozmowie — **szyk nie jest w regresie**, sypie się przy zajętej uwadze *(#3)*. Pomiar s12–13 po powrocie do Polski, bez zapowiedzi. **Trzecie wystąpienie → Active**"
+        "stan": "s7 ✅ 2/2 · s10 0/2 · **s11: 0/1** *(fiszka 6 bez `mir`)* · pytanie w rozmowie *(`sich vorbereiten`)* **dwa razy bez odpowiedzi** — postawione za późno",
+        "nastepny_krok": "**Okazja w s12 na POCZĄTKU `Gespräch`**, nie na końcu"
       },
       {
         "nazwa": "🇬🇧 **Interferencja angielska**",
         "rodzaj": "interferencja",
-        "stan": "`so` zamiast `also` *(ciągnie brak V2)* · słowa od zera: `beantwortlich`, `Zükunftliche`, `Decizion` · `lunch`",
-        "nastepny_krok": "`so` → `also` poprawiać zawsze. Słowa od zera: podać właściwe bez komentarza, do talii tego dnia"
+        "stan": "`so` ×5 *(s11 — ciągnie SVO, #3)* · `Das was` *(was/war)* · `Lamp`, `Coffe` · starsze: `beantwortlich`, `Decizion`, `lunch`",
+        "nastepny_krok": "`so` → `also` poprawiać zawsze. Słowa od zera: podać właściwe bez komentarza"
       },
       {
-        "nazwa": "🇵🇱 **Kalki** ⬆️",
+        "nazwa": "🇵🇱 **Kalki**",
         "rodzaj": "interferencja",
-        "stan": "🔴 **s10, trzy nowe:** ① **`legen` ↔ `liegen`** — jeden polski czasownik na dwa niemieckie, **i to ON pociąga zły przypadek** *(→ Active #2)* · ② zdanie bezpodmiotowe `**Auf dem Dienst war** heute schrecklich` *(„na dyżurze było strasznie”)* · ③ `einen Termin **stellen**` *(→ `machen`/`vereinbaren`)*. Starsze: `ganze Zeit … gegeben`, `Mein Tag geht's langsam`",
-        "nastepny_krok": "① idzie do bloku `Regel` sesji 11, cztery pary czasowników. ② ⚠️ **zbiega się z objawem 🇮🇹 „opuszczony podmiot” — dwa języki pchają w tę samą stronę.** Notować osobno, reagować raz. ③ do fiszek"
-      },
-      {
-        "nazwa": "**Zaimek zwrotny** 🔻 *(spadł z mocnych stron)*",
-        "rodzaj": "produkcja",
-        "stan": "s7 ✅ 2/2 w wolnej produkcji · 🔴 **s10: 0/2** — `Ich freue **sich** auf…`, brak `mir` w `die Hände gewaschen`",
-        "nastepny_krok": "**Oba pudła w zdaniach, których cel był gdzie indziej** ⇒ to odczyt #3, nie osobna luka. **Obowiązkowa okazja w s11.** Jeśli znowu 0/2 przy zajętej uwadze — potwierdza #3"
+        "stan": "s10: `legen` ↔ `liegen` *(→ #2)*, `Auf dem Dienst war …`, `Termin stellen` · **s11:** `genug Niveau auf die Sprache`, **rodzaj z polskiego** `kaltes Milch` *(mleko)*, `die Coffe` *(kawa)*",
+        "nastepny_krok": "rodzaj z PL → `grammar/05-genus.md` *(dopisane)*"
       },
       {
         "nazwa": "**Zafosylizowane zwroty**",
         "rodzaj": "produkcja",
-        "stan": "dwa rozbite *(s6, s8)* metodą „rozbiór wprost + draft sprzed miesięcy”",
-        "nastepny_krok": "do rozbioru: `am meistens`, `die Besuch` *(→ `die Visite`)*, `in das Haus` *(#2)*, 🆕 **`an` jako domyślny przyimek przestrzenny** *(s10: 0/3)*. **Recasting ich nie rusza**"
+        "stan": "dwa rozbite *(s6, s8)*",
+        "nastepny_krok": "do rozbioru: **`am meisten` = „przeważnie”** *(s11 ×2 — to fosylia `am meistens`)*, `die Besuch` *(→ `die Visite`)*, 🆕 **`ein neuer` / `mein neuer`** jako klocek *(#1)*. **Recasting ich nie rusza**"
       },
       {
         "nazwa": "**Zgodność podmiotu z orzeczeniem**",
         "rodzaj": "produkcja",
-        "stan": "mowa ✅ · pismo w pośpiechu ❌ ×6 · s10: `Mein Kittel **hängt ich**`",
-        "nastepny_krok": "artefakt klawiatury — notować, nie drążyć"
+        "stan": "mowa ✅ · pismo w pośpiechu ❌ · s11: `Die Schlüssel liegt` *(l.mn. = l.poj.)*",
+        "nastepny_krok": "artefakt — notować, nie drążyć"
+      },
+      {
+        "nazwa": "**Negacja `kein` ↔ `nicht ein`** 🆕",
+        "rodzaj": "produkcja",
+        "stan": "s11: `Das ist nicht ein nötiges Hindernis`",
+        "nastepny_krok": "jedno wystąpienie"
       },
       {
         "nazwa": "**`zu` przed bezokolicznikiem**",
         "rodzaj": "produkcja",
-        "stan": "s8: `es ist wichtig die Optionen … haben`",
-        "nastepny_krok": "materiał sesji 15 — nie wyprzedzać"
+        "stan": "s8 · s11: `Es ist besser mit vollem Kurs … machen`",
+        "nastepny_krok": "materiał sesji 16 — nie wyprzedzać"
       },
       {
         "nazwa": "**`es gibt` jako przechodni**",
@@ -750,8 +835,8 @@
       {
         "nazwa": "**`als`/`wenn`/`wann` · `als`/`wie`**",
         "rodzaj": "produkcja",
-        "stan": "s6 ❌ `Wann bin ich angekommen` · s7 ✅ `nicht mehr als`",
-        "nastepny_krok": "materiał sesji 12"
+        "stan": "s6 ❌ `Wann bin ich angekommen` · s7 ✅ `nicht mehr als` · ✅ **s11 `mehr Platz als`**",
+        "nastepny_krok": "materiał sesji 18 *(`nachdem`)*"
       },
       {
         "nazwa": "**`obwohl` użyte jak `weil`**",
@@ -774,26 +859,32 @@
       {
         "nazwa": "**Partizip II rzadkich mocnych**",
         "rodzaj": "produkcja",
-        "stan": "częste ✅ *(s5 7/7)*, rzadkie niesprawdzone",
-        "nastepny_krok": "materiał sesji 19"
+        "stan": "częste ✅ *(s5 7/7)* · s11 fiszki: Präteritum `stand`, `hing` ❌ *(podał Präsens)*",
+        "nastepny_krok": "materiał sesji 18"
       },
       {
         "nazwa": "**Leksyka „prawie właściwa”**",
         "rodzaj": "produkcja",
-        "stan": "`gerade` ↔ `direkt` *(s10 znowu: `bin ich **gerade** nach Haus gefahren`)*, `bequem` ↔ `entspannt`, `die Älteren` ↔ `Eltern` · 🆕 s10 `nicht schon` → `noch nicht`, `auf dem Dienst` → `auf der Station`",
+        "stan": "`gerade` ↔ `direkt`, `bequem` ↔ `entspannt`, `die Älteren` ↔ `Eltern`, `nicht schon` → `noch nicht` · s11: `ein Doktor` → `ein Arzt`, `Worte` ↔ `Wörter`",
         "nastepny_krok": "trafne słowo od razu do fiszek"
       },
       {
         "nazwa": "Rozdzielny przedrostek ↔ przyimek rekcyjny w czytaniu",
         "rodzaj": "rozumienie",
-        "stan": "s8: czytał `sich an … wenden` jako `anwenden` · ⚪ **s10 bez pomiaru** — tekst wymieniony na sesji, D4 zgłosił `betreten, raten, beurteilen, vereinbaren` *(żadne nie jest rekcyjne)*",
-        "nastepny_krok": "Tekst s11 *(`Neue Regeln…`)* ma `bestehen aus` obok `bestehen` *(zdać)* — ten sam czasownik, dwa znaczenia, jedno z przyimkiem"
+        "stan": "s8: czytał `sich an … wenden` jako `anwenden` · ⚪ s10, ⚪ **s11 bez pomiaru** *(D3 niezrobione; `bestehen aus` nie padło)*",
+        "nastepny_krok": "następny tekst z czasownikiem rekcyjnym obok nierekcyjnego"
       },
       {
         "nazwa": "Wnioskowanie „kategoria → ja”",
         "rodzaj": "rozumienie",
-        "stan": "s7 ✅ *(osoba)* · s8 ❌ *(kategoria)* · 🏆 **s10 ✅** — D2 wymagało rozwiązania anafory `dort ebenfalls` → `Sekretariat` i Jakub to zrobił",
-        "nastepny_krok": "**Hipoteza rozstrzygnięta na korzyść:** wnioskowanie działa, gdy krok jest jeden. D2 w s11 wymaga **dwóch** *(„co będzie inaczej przez pierwsze tygodnie”)*"
+        "stan": "s7 ✅ · s8 ❌ · 🏆 s10 ✅ *(anafora)* · ⚪ **s11 niemierzalne** — tekst czytany kilka dni przed sesją, nie pamiętał treści",
+        "nastepny_krok": "D2 z dwoma krokami — przy następnym tekście. **Lesemission czytać dzień przed sesją** *(powiedziane Jakubowi)*"
+      },
+      {
+        "nazwa": "🆕 Znaczenie słowa z kontekstu *(D4)*",
+        "rodzaj": "rozumienie",
+        "stan": "s11: `Folge` = „powód” ❌ → po wskazaniu kolejności w zdaniu „skutki” ✅ · `ablegen` dosłownie ✅, w kolokacji `Prüfung ablegen` ❌",
+        "nastepny_krok": "kolokacje: słowo + jego typowy partner na fiszce"
       },
       {
         "nazwa": "`Passiv` w tekście",
@@ -804,16 +895,16 @@
     ],
     "closed": [
       {
-        "nazwa": "**Perfekt `haben`/`sein`**",
-        "dowod": "s5 4/4 · s9 ✅ `bin … gefahren` po 31 dniach bez ćwiczeń"
+        "nazwa": "**Klamra zdaniowa** *(zamknięta w s11)*",
+        "dowod": "s8 4/4 · s9 ✅ po 21 dniach bez ćwiczeń · s11 ✅ `fangen … an`, `ziehe … um`, `habe … gelegt` — trzy sesje z okazją, bez błędu"
       },
       {
         "nazwa": "**Budowa Perfekt, formy częste**",
         "dowod": "s5 7/7"
       },
       {
-        "nazwa": "**Podstawowy szyk V2, pytania**",
-        "dowod": "s5 ✅"
+        "nazwa": "**Pytania (szyk pytający)**",
+        "dowod": "s5 ✅ · *(V2 po wysuniętym elemencie → Active #3 w s11)*"
       },
       {
         "nazwa": "**Słownictwo medyczne podstawowe**",
@@ -824,13 +915,13 @@
   "egzamin": {
     "nazwa": "Goethe-Zertifikat B2",
     "termin": null,
-    "termin_uwaga": "⏳ do ustalenia — zapis w tym tygodniu *(o miejscu decyduje kolejność zapisu i wpłaty)*. Misja z zapisem nie dotarła do Jakuba w s10 — wraca w s11 (Meldunek pkt 4 + misja 11 ①)",
+    "termin_uwaga": "⏳ **decyzja przed 26.10** po mocku #1 — Kraków 13.11.2026 *(zapisy 26–28.10)* albo Warszawa 02.02.2027 *(zapisy 7–8.01)*. ➕ Gdańsk *(Centrum Herdera UG)* — termin nieznany, misja 11 ②",
     "miejsce": null,
     "zapisy_do": null,
     "kandydat": {
-      "data": "2026-11-20",
-      "zapisy_do": "2026-10-30",
-      "uwaga": "Lista dat B2 znaleziona u jednego z instytutów Goethe — **nie wiadomo, czy dotyczy Polski** *(plan/goethe-b2.md)*"
+      "data": "2026-11-13",
+      "zapisy_do": "2026-10-28",
+      "uwaga": "Wariant A: **Kraków**, zapisy online tylko 26–28.10 · wariant B: **Warszawa 02.02.2027** *(zapisy 7–8.01)* · decyzja po mocku #1"
     },
     "prog": 60,
     "cel": 70,
@@ -864,7 +955,7 @@
       {
         "nr": 1,
         "nazwa": "#1 diagnostyczny",
-        "planowana_sesja": "s11–12",
+        "planowana_sesja": "misja 11 *(przed s12–13)*",
         "data": null,
         "wyniki": {
           "lesen": null,
@@ -1253,6 +1344,12 @@
         "naprawde_zapamietane": null,
         "okno": null,
         "uwaga": "nie pytałem — od s10 pytanie co trzecią sesję *(prośba Jakuba)*"
+      },
+      {
+        "sesja": 11,
+        "naprawde_zapamietane": null,
+        "okno": null,
+        "uwaga": "nie pytałem — pytanie w s12 *(co trzecią sesję)*"
       }
     ]
   },
@@ -1264,7 +1361,8 @@
         3,
         6,
         8,
-        9
+        9,
+        11
       ],
       "planowane": [],
       "plik": "grammar/01-kasus-praepositionen.md"
@@ -1317,25 +1415,29 @@
       "sesje": [
         6
       ],
-      "planowane": [],
+      "planowane": [
+        13
+      ],
       "plik": null
     },
     {
       "id": "adjektivendungen",
       "nazwa": "Końcówki przymiotnika — `Adjektivendungen`",
-      "sesje": [],
-      "planowane": [
+      "sesje": [
         11
+      ],
+      "planowane": [
+        12
       ],
       "plik": "grammar/02-adjektivendungen.md"
     },
     {
       "id": "mowiony",
       "nazwa": "Mówiony niemiecki — jak prowadzić prawdziwą rozmowę",
-      "sesje": [],
-      "planowane": [
+      "sesje": [
         11
       ],
+      "planowane": [],
       "plik": "grammar/06-mowiony-niemiecki.md"
     }
   ],
@@ -1380,10 +1482,10 @@
       "sesja": 11,
       "tytul": "Neue Regeln für ausländische Medizinstudenten",
       "gatunek": "Nachrichtenmeldung",
-      "status": "wyslany",
+      "status": "przeczytany",
       "plik": "lessons/session-11.md",
       "naglowek": "### Neue Regeln für ausländische Medizinstudenten",
-      "uwaga": "wysłany 2026-09-28 razem z misją 10 — do przeczytania przed sesją 11"
+      "uwaga": "przeczytany kilka dni przed sesją — D2 niemierzalne *(„już go nie pamiętam tak dobrze”)*"
     }
   ]
 }

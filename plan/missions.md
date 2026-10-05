@@ -1,10 +1,14 @@
 # MISJE — między sesjami
 
-> **Zasada nadrzędna:** misja ma się zmieścić w tym, co Jakub i tak robi. Codziennie rozmawia
-> po niemiecku z mamą swojej dziewczyny — **to jest główny kanał misji**. Sesja 9 pokazała,
-> dlaczego: przetrwa struktura, która weszła do jego codziennej mowy *(klamra, Perfekt:
-> 3–4 tygodnie bez ćwiczeń)*, a wyparowuje ta, która została w ćwiczeniach *(grupa
-> dopełniaczowa: dwie doby)*. Kontekst: `PROFILE.md`.
+> **Zasada nadrzędna:** misja ma się zmieścić w tym, co Jakub i tak robi — i **musi być mówieniem,
+> nie tylko słuchaniem**. Sesja 9 pokazała, dlaczego: przetrwa struktura, która weszła do jego
+> codziennej mowy *(klamra, Perfekt: 3–4 tygodnie bez ćwiczeń)*, a wyparowuje ta, która została
+> w ćwiczeniach *(grupa dopełniaczowa: dwie doby)*.
+>
+> 🚨 **Od 1.10.2026 (sesja 11) nie ma rozmówcy** — rozmowy z mamą dziewczyny zostały we Włoszech
+> *(`PROFILE.md` → Kontekst)*. Do sesji 10 rdzeniem była „Live-Mission” w tych rozmowach; trzy misje
+> z rzędu nie weszły, a Jakub sam poprosił o zmianę: *„nie da się zapamiętać, czego nie rozumiesz,
+> a poza tym już nie jestem we Włoszech”*. **Nowy rdzeń niżej.** Research: `resources/immersja.md`.
 
 ---
 
@@ -13,17 +17,25 @@
 1. **Na koniec sesji** Jakub dostaje misję i **NOWY tekst `Lesemission` wklejony w czat**
    *(nie tylko zapisany w pliku — sesja 8 pokazała, że tekst w pliku nie dociera;
    i nigdy ten sam drugi raz — `lessons/sprawdz_powtorki.py`)*.
-2. **Między sesjami:** rdzeń misji to **2–3 minuty uwagi w rozmowie, którą i tak prowadzi**.
+2. **Między sesjami:** rdzeń misji to **60 sekund mówienia dziennie** — dziennik dyktowany do telefonu.
 3. **Na początku następnej sesji** — meldunek w bloku 1.
 
-### Rdzeń każdej misji — 🗣️ Live-Mission *(obowiązkowy)*
+### Rdzeń każdej misji — 🗣️ dziennik na głos *(obowiązkowy, od s11)*
 
-- **Jedna struktura dnia wstawiona świadomie w rozmowę ze Schwiegermutter** — np. „pięć razy
-  powiedz, gdzie coś leży i dokąd to kładziesz”. Na meldunku: ile razy padło i czy poprawnie.
-- **Jedno zdanie OD NIEJ, którego nie zrozumiał** — zapisane w chwili niezrozumienia, choćby
-  fonetycznie. **Warunek zaliczenia misji.** Z jednego takiego zdania *(`die Dinge gegen Mücken
-  … mit Feuerzeug`, s6)* wypadła reguła i cztery słowa — więcej niż z całej reszty misji.
-- 📖 **`Lesemission`** — tekst na następną sesję, **100–150 słów**, czytany raz, bez słownika.
+- **60 sekund dziennie, dyktowane** do notatek w telefonie: co robił w ciągu dnia. **Bez poprawiania.**
+  Dyktowanie działa — w s11 sam wymyślił ten kanał i mówił bez jednego przejścia na polski.
+- **Jedna struktura dnia jako warunek** — np. „min. 3 grupy: zmieniony rodzajnik + przymiotnik”.
+- **Na meldunku:** ile dni + wszystkie wpisy wklejone. Liczę strukturę dnia `x/y` — **to jedyny pomiar
+  transferu do mowy poza lekcją**.
+- **Próg spada, zanim urośnie:** 0 wpisów → 30 s trzy razy w tygodniu, powiedzieć wprost.
+- 📖 **`Lesemission`** — tekst na następną sesję, **100–150 słów**, czytany raz, bez słownika,
+  **dzień przed sesją** *(s11: czytany kilka dni wcześniej → pytanie o treść niemierzalne)*.
+- ➕ **Input codzienny** *(pulpit → Materiały → „Na dziś”)* — 10–15 min, **nie jest misją i nie jest
+  pomiarem**; nie pytam o niego na meldunku.
+
+> 🗄️ **Do sesji 10:** rdzeń „Live-Mission” — struktura wstawiona w rozmowę ze Schwiegermutter + jedno
+> niezrozumiane zdanie od niej jako warunek. Działał, póki był rozmówca *(s6: z jednego zdania reguła
+> i cztery słowa)*. Wiersze 7–11 tabeli niżej to historia.
 
 ### Dodatek — tylko jeśli jest czas *(tabele niżej, kolumna „Misja”)*
 
@@ -51,7 +63,7 @@
 
 ## 🎓 Etap 1 — misje pod Goethe B2 *(od sesji 10)*
 
-**Misja = rdzeń Live + prawdziwe zadanie, które przy okazji trenuje egzamin.** Kolejność: `plan/goethe-b2.md`.
+**Misja = dziennik na głos + prawdziwe zadanie, które przy okazji trenuje egzamin.** Kolejność: `plan/goethe-b2.md`.
 ⭐ **Najpierw życie:** każda wiadomość ma prawdziwego adresata albo prawdziwą sprawę.
 Format egzaminu *(liczba słów, czas)* to rama — nie temat.
 
@@ -141,5 +153,4 @@ Cel: mówić po niemiecku o tym, co i tak robisz po polsku.
 ## Awaryjne 2 minuty
 
 Zdarzy się tydzień, w którym misja nie wejdzie. **Minimum, które nadal się liczy:**
-jedno zdanie od Schwiegermutter, którego nie zrozumiałeś — zapisane w telefonie.
-Rozmowy i tak się odbywają; brakuje tylko uwagi i zapisu.
+**jeden** wpis dziennika — 30 sekund, podyktowane w drodze na uczelnię.

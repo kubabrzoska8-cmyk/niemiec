@@ -20,16 +20,16 @@ describe("przedział Wilsona", () => {
 });
 
 describe("suma dwóch ostatnich sesji — główny odczyt", () => {
-  it("po sesji 10: s9 + s10 = 16/30, z sesją nieporównywalną", () => {
+  it("po sesji 11: s10 + s11 = 12/28, z sesją nieporównywalną", () => {
     const s = sumaDwochOstatnich(sesje)!;
-    expect(s.sesje).toEqual([9, 10]);
-    expect([s.poprawne, s.n]).toEqual([16, 30]);
+    expect(s.sesje).toEqual([10, 11]);
+    expect([s.poprawne, s.n]).toEqual([12, 28]);
     expect(s.zNieporownywalna).toBe(true);
   });
-  it("dwie ostatnie porównywalne: s8 + s9 = 18/30 = 60 % (jak w PROGRESS.md)", () => {
+  it("dwie ostatnie porównywalne: s9 + s11 = 18/32 = 56 % (s10 pominięta)", () => {
     const s = sumaDwochOstatnichPorownywalnych(sesje)!;
-    expect(s.sesje).toEqual([8, 9]);
-    expect(procent(s.poprawne / s.n)).toBe("60 %");
+    expect(s.sesje).toEqual([9, 11]);
+    expect(procent(s.poprawne / s.n)).toBe("56 %");
   });
   it("jedna sesja z pomiarem to za mało na sumę", () => {
     expect(sumaDwochOstatnich(sesje.slice(0, 5))).toBeNull();
